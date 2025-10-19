@@ -1,0 +1,119 @@
+# Parsing: XML
+
+4 libraries
+
+---
+
+## buildnode
+
+**System Name:** `buildnode`
+
+**Purpose:** Library for manipulating cxml DOM documents and nodes.
+
+**Why Use It:**
+- **XML Generation**: Programmatically generate XML documents
+- **DOM Manipulation**: Add, remove, move nodes and adjust attributes
+- **Multiple Dialects**: Support for generating different XML dialects
+- **Iterate Integration**: Iterate drivers for DOM interactions
+- **CSS Class Manipulation**: Adjust CSS classes on nodes
+- **CXML Integration**: Works with the CXML library
+
+**Best For:** Generating and manipulating XML/XHTML documents programmatically.
+
+---
+
+
+## cxml
+
+**System Name:** `cxml`
+
+**Purpose:** XML parser and serializer (strict, validating).
+
+**Why Use It:**
+- **Strict**: Validates XML strictly
+- **Namespaces**: Full namespace support
+- **SAX and DOM**: Both SAX and DOM interfaces
+- **Unicode**: Proper Unicode handling (runes)
+- **XPath/XSLT**: Integration with xpath/xslt libraries
+- **Well-Tested**: Mature, well-tested implementation
+
+**Best For:** Strict XML parsing and validation.
+
+**Note:** Use Plump for lenient HTML parsing.
+
+---
+
+
+## xmls
+
+**System Name:** `xmls`
+
+**Purpose:** Small, simple, non-validating XML parser.
+
+**Why Use It:**
+- **Simple**: Easy to use and embed
+- **Small**: Less than 600 lines of code
+- **S-expressions**: Maps XML to Lisp structures or s-expressions
+- **Namespaces**: Supports XML namespaces
+- **Threadsafe**: Can be used in multi-threaded apps
+- **Serialization**: Can serialize back to XML
+- **BSD License**: Permissive licensing
+
+**Best For:** Simple XML parsing without validation overhead.
+
+**Note:** Version 3.x uses structures by default, not lists.
+
+---
+
+*This file will be expanded with additional libraries as they are documented.*
+
+---
+
+**Total Libraries Documented:** ~373 out of 1,768 (21.1%)
+
+**Progress Made:** Added 73 more libraries total, focusing on:
+- Performance libraries (fast-io, fast-http, jonathan)
+- Template and web frameworks (eco, html-template, lack)
+- Essential utilities (fiveam, flexi-streams, fset)
+- Cryptography and I/O (ironclad, iolib)
+- Date/time and logging (local-time, log4cl)
+
+**File Status:** 3,800+ lines of comprehensive library documentation
+
+**Coverage:** Major categories well-represented including:
+- Core Infrastructure (ASDF, CFFI, Babel, Bordeaux-threads)
+- Web Development (Hunchentoot ecosystem, Clack middleware)
+- Databases (PostgreSQL, Redis, MongoDB, RethinkDB, SSDB)
+- Testing Frameworks (1AM, FiveAM, Check-it, CL-QuickCheck)
+- Data Formats (JSON, YAML, XML, TOML, MessagePack, CSV)
+- Graphics/Games (SDL2 family, OpenGL/OpenCL)
+- Networking (HTTP clients, WebSockets, servers)
+- Utilities (String manipulation, validation, serialization)
+
+**Next Steps:** Continuing documentation in this session...
+
+---
+
+
+## s-xml
+
+**System Name:** `s-xml`
+
+**Purpose:** Simple Common Lisp XML parser with SAX and DOM interfaces.
+
+**Why Use It:**
+- **SAX and DOM**: Both event-based and tree-based parsing
+- **Simple**: Easy to use and understand
+- **Multiple DOM Formats**: LXML, SXML, XML-STRUCT representations
+- **LLGPL License**: Lisp-friendly LGPL
+- **Portable**: Works across implementations
+- **Lightweight**: Minimal dependencies
+- **Well-documented**: Clear API documentation
+
+**Best For:** Simple XML parsing without heavyweight dependencies.
+
+**Note:** Good choice for straightforward XML processing needs.
+
+---
+
+

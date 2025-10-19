@@ -1,0 +1,64 @@
+# Database: Query-Builder
+
+3 libraries
+
+---
+
+## cl-opensearch-query-builder
+
+**System Name:** `cl-opensearch-query-builder`
+
+**Purpose:** Builder for the OpenSearch query DSL.
+
+**Why Use It:**
+- **OpenSearch**: Build OpenSearch/Elasticsearch queries
+- **Query DSL**: Programmatic query construction
+- **Documentation**: See docs directory
+
+**Best For:** Applications using OpenSearch or Elasticsearch.
+
+---
+
+
+## cl-yesql
+
+**System Name:** `cl-yesql`
+
+**Purpose:** Use SQL by writing SQL (inspired by Clojure's Yesql).
+
+**Why Use It:**
+- **SQL in SQL Files**: Write actual SQL, not DSLs
+- **Editor Support**: Use SQL editor features
+- **Function Import**: SQL statements become Lisp functions
+- **Multiple Backends**: Postgres (via postmodern) and SQLite
+- **Vernacular-Based**: Built on Vernacular language framework
+- **SQL Tools**: Use any SQL tools with your queries
+
+**Best For:** Projects preferring SQL over query DSLs.
+
+---
+
+
+## sxql
+
+**System Name:** `sxql`
+
+**Purpose:** SQL generator with DSL syntax for Common Lisp.
+
+**Why Use It:**
+- **Lispy SQL**: Write SQL using s-expressions
+- **Type Safety**: Compile-time SQL validation
+- **Composable**: Build queries incrementally with threading macro
+- **Immutable Composition**: Functional query building (v2 composer)
+- **Multiple Statements**: Support for complex queries
+- **Readable**: More Lisp-like than raw SQL strings
+- **Integration**: Works well with cl-dbi
+- **Well-Tested**: Comprehensive test suite
+
+**Best For:** Programmatic SQL generation, query builders, type-safe SQL.
+
+**Note:** Popular SQL DSL for Common Lisp database applications.
+
+---
+
+
