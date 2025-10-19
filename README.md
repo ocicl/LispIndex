@@ -1,4 +1,4 @@
-# Lisp Index
+# LispIndex
 > A structured index of Common Lisp systems, packages, and code examples — organized for semantic search and LLM-assisted discovery.
 
 **Status:** 547 libraries documented (out of 1,768 total)
