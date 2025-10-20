@@ -1,6 +1,6 @@
 # Parsing: Configuration
 
-4 libraries
+5 libraries
 
 ---
 
@@ -72,6 +72,26 @@
 **Best For:** Application configuration, project settings management, simple config file handling.
 
 **Note:** GPLv3 licensed. Depends on cl-fad.
+
+---
+
+
+## parser.ini
+
+**System Name:** `parser.ini`
+
+**Purpose:** Parser for INI configuration files.
+
+**Why Use It:**
+- **INI Parsing**: Parse INI/config files
+- **Esrap**: PEG-based parsing with Esrap
+- **Builder Protocol**: Uses architecture.builder-protocol
+- **Error Handling**: more-conditions for informative errors
+- **Common Rules**: parser.common-rules integration
+- **Flexible**: Handle various INI dialects
+- **Let-Plus**: Destructuring with let-plus
+
+**Best For:** Reading and parsing INI configuration files in Common Lisp applications.
 
 ---
 

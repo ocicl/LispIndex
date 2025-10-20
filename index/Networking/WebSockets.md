@@ -1,6 +1,6 @@
 # Networking: WebSockets
 
-3 libraries
+4 libraries
 
 ---
 
@@ -60,6 +60,25 @@
 **Best For:** Real-time web applications, chat servers, live data feeds, browser-server communication.
 
 **Note:** Requires SBCL or CCL. Uses IOlib. TLS support via proxy (stud/stunnel). Configuration via special variables.
+
+---
+
+
+## trivial-ws
+
+**System Name:** `trivial-ws`
+
+**Purpose:** Trivial WebSockets implementation.
+
+**Why Use It:**
+- **WebSocket Server**: Simple WebSocket server interface
+- **Hunchensocket**: Built on Hunchensocket
+- **Easy API**: Straightforward WebSocket handling
+- **Real-Time Communication**: Bidirectional client-server communication
+- **Web Applications**: Modern web app support
+- **MIT License**: Permissive licensing
+
+**Best For:** Web applications requiring WebSocket support with a simple, minimal API.
 
 ---
 

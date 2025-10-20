@@ -22,21 +22,23 @@
 ---
 
 
-## cl-environments
+## introspect-environment
 
-**System Name:** `cl-environments`
+**System Name:** `introspect-environment`
 
-**Purpose:** CLTL2 environment access compatibility layer.
+**Purpose:** Small interface to portable but nonstandard introspection of CL environments.
 
 **Why Use It:**
-- **Portable**: Uniform API across implementations
-- **CLTL2 API**: Standard environment introspection
-- **Environment Info**: Query variable, function, declaration information
-- **Code Walking**: Extract environment info by code-walking
+- **Environment Introspection**: Query lexical environment
+- **Portable**: Works on SBCL, CCL, CMUCL, Clasp
+- **Compiler Info**: Access compiler environment data
+- **Macro Expanders**: Get macro expander functions
+- **Variable Info**: Query variable bindings
+- **Function Info**: Query function definitions
 
-**Best For:** Macro development, code analysis, portable environment queries.
+**Best For:** Code walkers, advanced macros, development tools, compiler utilities.
 
-**Note:** Works on implementations without native CLTL2 support.
+**Note:** Licensed under WTFPL. Author: Bike. Based on CLtL2 extensions.
 
 ---
 

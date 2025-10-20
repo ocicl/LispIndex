@@ -1,6 +1,6 @@
 # Concurrency: Parallelism
 
-4 libraries
+3 libraries
 
 ---
 
@@ -46,25 +46,6 @@
 **Best For:** CPU-bound computations, data processing, concurrent operations.
 
 **Note:** Standard license. Based on bordeaux-threads, tested on SBCL.
-
----
-
-
-## lparallel
-
-**System Name:** `lparallel`
-
-**Purpose:** Parallelism for Common Lisp.
-
-**Why Use It:**
-- **Parallel Programming**: Comprehensive parallelism library
-- **Task Queue**: Simple task submission with receiving queue
-- **Parallel Constructs**: Parallel map, reduce, sort, and more
-- **Futures and Promises**: Asynchronous computation primitives
-
-**Best For:** Parallel computing, multi-core utilization, concurrent programming, performance optimization.
-
-**Note:** BSD license.
 
 ---
 

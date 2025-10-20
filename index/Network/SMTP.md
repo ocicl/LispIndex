@@ -1,6 +1,6 @@
 # Network: SMTP
 
-2 libraries
+1 libraries
 
 ---
 
@@ -22,29 +22,6 @@
 **Best For:** Sending email notifications, alerts, and reports from applications.
 
 **Note:** De facto standard SMTP client for Common Lisp.
-
----
-
-
-## cl-smtp
-
-**System Name:** `cl-smtp`
-
-**Purpose:** Simple SMTP client implementing RFC 5321, 5322, 2045, and 2231.
-
-**Why Use It:**
-- **RFC Compliant**: RFC 5321 (SMTP), 5322 (Message Format), 2045 (MIME), 2231 (MIME extensions)
-- **Attachments**: Send file attachments
-- **Authentication**: PLAIN and LOGIN methods supported
-- **SSL/TLS**: STARTTLS and direct TLS via cl+ssl
-- **Portable**: Works on ACL, CCL, SBCL, CMUCL, OPENMCL, LispWorks, CLISP, ECL
-- **Auto Headers**: Automatic date, x-mailer headers (configurable)
-- **HTML Email**: html-message parameter for HTML formatted emails
-- **RFC 2231 Encoding**: Proper MIME parameter encoding
-
-**Best For:** Sending emails, SMTP communication, notification systems, mail automation.
-
-**Note:** Non-conforming behavior is a bug. Uses cl-base64 and usocket.
 
 ---
 

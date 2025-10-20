@@ -1,6 +1,6 @@
 # Numeric: Linear-Algebra
 
-5 libraries
+7 libraries
 
 ---
 
@@ -97,6 +97,47 @@
 **Best For:** GPU-accelerated linear algebra, high-performance numerical computing, machine learning operations requiring BLAS, scientific computing with GPU resources, and OpenCL-based applications.
 
 **Note:** Apache License 2.0. Requires libclblas-dev (clBLAS 2.10). Tested on SBCL 1.3.16+ with NVIDIA CUDA 8.0.0 and Driver 378.13. Test suite available with prove:run.
+
+---
+
+
+## linear-algebra-20230818-8c919bc
+
+**System Name:** `linear-algebra`
+
+**Purpose:** Linear Algebra for Common Lisp.
+
+**Why Use It:**
+- **Matrix Operations**: Comprehensive matrix algebra
+- **Vector Operations**: Vector mathematics
+- **Linear Solvers**: Gaussian elimination, Cholesky, conjugate gradient
+- **Norms**: Vector and matrix norms
+- **Data Structures**: Dense, sparse, symmetric, hermitian matrices
+
+**Best For:** Scientific computing, numerical analysis, machine learning, data science.
+
+**Note:** Licensed under MS-PL. Authors: Thomas M. Hermann, Steve Nunez, Brian Eberman. Version 0.3.0.
+
+---
+
+
+## lla
+
+**System Name:** `lla`
+
+**Purpose:** Lisp Linear Algebra.
+
+**Why Use It:**
+- **Linear Algebra**: Comprehensive linear algebra operations
+- **BLAS/LAPACK**: Bindings to optimized BLAS and LAPACK libraries
+- **Matrices**: Matrix operations, factorizations, decompositions
+- **Performance**: Native code performance via CFFI
+- **Pinned Arrays**: Efficient memory management for foreign calls
+- **Factorizations**: LU, QR, Cholesky, SVD factorizations
+- **Array Interface**: Clean array-based interface
+- **Numerical Computing**: Foundation for scientific computing
+
+**Best For:** Scientific computing, numerical analysis, machine learning, data science, or any application requiring high-performance linear algebra operations.
 
 ---
 

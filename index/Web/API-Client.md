@@ -1,6 +1,6 @@
 # Web: API-Client
 
-31 libraries
+40 libraries
 
 ---
 
@@ -71,6 +71,24 @@
 **Best For:** GitHub integration and automation.
 
 **Note:** Incomplete - only covers listing/creating repositories currently.
+
+---
+
+
+## cl-kraken
+
+**System Name:** `cl-kraken`
+
+**Purpose:** API wrapper for the Kraken cryptocurrency exchange.
+
+**Why Use It:**
+- **Kraken Exchange**: Access Kraken's cryptocurrency exchange API
+- **Public Market Data**: Full public market data API
+- **Private User Data**: Some private user data API endpoints
+- **Portable**: Tested on SBCL, ABCL, CLISP, CCL, ECL
+- **Active Development**: Ongoing development and testing
+
+**Best For:** Cryptocurrency trading applications using Kraken.
 
 ---
 
@@ -601,6 +619,165 @@
 **Best For:** SMS notifications, alerts, two-factor auth, messaging integrations.
 
 **Note:** MIT License. Simple wrapper for TextMagic SMS service.
+
+---
+
+
+## Github-API-CL
+
+**System Name:** `github-api-cl`
+
+**Purpose:** Lightweight GitHub REST v3 API client SDK.
+
+**Why Use It:**
+- **GitHub Integration**: Access GitHub's REST API from Common Lisp
+- **HTTP Support**: Built on Dexador for reliable HTTP requests
+- **JSON Handling**: Automatic JSON parsing with Yason
+- **OAuth Support**: Built-in authentication support
+
+**Best For:** Automating GitHub operations and integrating GitHub with Lisp applications.
+
+**Note:** Licensed under Apache. Author: ccQpein.
+
+---
+
+
+## datamuse
+
+**System Name:** `datamuse`
+
+**Purpose:** Common Lisp library for accessing the Datamuse word-finding API.
+
+**Why Use It:**
+- **Word Finding**: Query for words by meaning, sound, spelling
+- **Rhyme Detection**: Find rhyming words
+- **API Access**: Access to comprehensive word relationship database
+- **JSON Results**: Parse API responses automatically
+
+**Best For:** Natural language processing, word games, and poetry applications.
+
+**Note:** Licensed under MIT. Author: modula t.
+
+---
+
+
+## latter-day-paypal-20240503-3c23545
+
+**System Name:** `latter-day-paypal`
+
+**Purpose:** Paypal API wrapper.
+
+**Why Use It:**
+- **PayPal Integration**: Complete PayPal API access
+- **Webhook Verification**: Webhook support and verification
+- **OAuth**: Token-based authentication
+- **Modern**: Uses Dexador and Jonathan JSON
+
+**Best For:** E-commerce, payment processing, PayPal integration.
+
+**Note:** Licensed under MIT. Author: K1D77A. Version 0.0.3.
+
+---
+
+
+## jenkins
+
+**System Name:** `jenkins.api`
+
+**Purpose:** Bindings for Jenkins REST API.
+
+**Why Use It:**
+- **Jenkins Integration**: Control Jenkins CI from Lisp
+- **REST API**: Complete Jenkins API bindings
+- **Job Management**: Create, trigger, query jobs
+- **Build Info**: Get build status and results
+- **CI/CD**: Integrate with Jenkins pipelines
+- **DSL**: High-level DSL for Jenkins operations
+
+**Best For:** CI/CD automation, build tools, DevOps integration.
+
+**Note:** Licensed under LLGPLv3. Author: Jan Moringen. Note: Actual system name is jenkins.api.
+
+---
+
+
+## lispcord
+
+**System Name:** `lispcord`
+
+**Purpose:** A client library for the Discord bot API.
+
+**Why Use It:**
+- **Discord Bots**: Create Discord bots in Common Lisp
+- **REST API**: Complete Discord REST API implementation
+- **WebSockets**: Real-time event handling via WebSocket gateway
+- **Rate Limiting**: Built-in rate limit handling
+- **Cache System**: Efficient caching of Discord objects
+- **Rich Types**: Classes for users, channels, guilds, messages, embeds
+- **Permissions**: Discord permission system support
+- **Emoji Support**: Custom and standard emoji handling
+- **Event System**: Comprehensive event handling system
+
+**Best For:** Building Discord bots, chat automation, server management tools, or integrating Discord with Common Lisp applications.
+
+---
+
+
+## lunamech-matrix-api
+
+**System Name:** `lunamech-matrix-api`
+
+**Purpose:** An implementation of the Matrix API taken from LunaMech.
+
+**Why Use It:**
+- **Matrix Protocol**: Complete Matrix chat protocol implementation
+- **REST API**: Full Matrix REST API coverage
+- **User API**: Client-side Matrix operations
+- **Admin API**: Server administration functionality
+- **Spaces**: Matrix Spaces support
+- **Sync**: Real-time synchronization
+- **Events**: Matrix event handling
+- **Multiple Versions**: Supports multiple Matrix API versions (v2-v13)
+- **MOP Protocol**: Metaobject protocol for API calls
+
+**Best For:** Building Matrix chat clients, bots, bridges, or integrating Matrix protocol into Common Lisp applications.
+
+---
+
+
+## translate-client
+
+**System Name:** `translate-client`
+
+**Purpose:** A client to online web-server translators, currently only google translate.
+
+**Why Use It:**
+- **Translation API**: Google Translate access
+- **HTTP Client**: Dexador-based
+- **JSON**: Yason parsing
+- **URI Handling**: QURI support
+- **MIT License**: Permissive license
+
+**Best For:** Applications needing automated text translation via Google Translate API.
+
+---
+
+
+## studio-client
+
+**System Name:** `studio-client`
+
+**Purpose:** Client library for the Studio image hosting service.
+
+**Why Use It:**
+- **Image Hosting**: Upload and manage images on Studio
+- **HTTP Client**: North-core integration for HTTP
+- **JSON Support**: Com.inuoe.jzon for JSON parsing
+- **Documentation**: Documentation-utils integration
+- **API Client**: Programmatic Studio service access
+- **zlib License**: Permissive licensing
+
+**Best For:** Applications that need to integrate with the Studio image hosting service for image uploads and management.
 
 ---
 

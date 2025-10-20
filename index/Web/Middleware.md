@@ -1,6 +1,6 @@
 # Web: Middleware
 
-8 libraries
+10 libraries
 
 ---
 
@@ -150,6 +150,46 @@
 **Best For:** Multi-tenant applications, URL routing, Lack middleware stacks.
 
 **Note:** MIT license.
+
+---
+
+
+## lack-rerouter-20241012-4a802bf
+
+**System Name:** `lack-rerouter`
+
+**Purpose:** Lack middleware component for request rerouting.
+
+**Why Use It:**
+- **Request Routing**: Advanced routing capabilities
+- **Lack Integration**: Works with Lack middleware stack
+- **File Serving**: Integrates lack-app-file
+- **Time Utilities**: Local-time support
+
+**Best For:** Web application routing, middleware development, static file serving.
+
+**Note:** Licensed under MIT. Author: Daniel Nussenbaum. Version 0.1.0.
+
+---
+
+
+## hunchentoot-errors
+
+**System Name:** `hunchentoot-errors`
+
+**Purpose:** Augments Hunchentoot error pages and logs with request and session information.
+
+**Why Use It:**
+- **Enhanced Error Pages**: Detailed error information in browser
+- **Request Context**: Includes request parameters in error logs
+- **Session Data**: Shows session info during errors
+- **Error Tracing**: Trace acceptor for detailed debugging
+- **HTTP Error Handling**: Custom error page generation
+- **Production Debugging**: Better error visibility
+
+**Best For:** Web application debugging, production error tracking, development.
+
+**Note:** Licensed under MIT. Author: Mariano Montone. Depends on Hunchentoot, string-case, parse-number, cl-mimeparse.
 
 ---
 

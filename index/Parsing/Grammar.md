@@ -1,6 +1,6 @@
 # Parsing: Grammar
 
-7 libraries
+8 libraries
 
 ---
 
@@ -135,6 +135,25 @@
 **Best For:** Building parsers, DSL implementation, configuration file parsers, language tooling.
 
 **Note:** MIT by Jan Moringen. Depends on alexandria, split-sequence, let-plus, esrap 0.16+.
+
+---
+
+
+## meta
+
+**System Name:** `meta`
+
+**Purpose:** META syntax to easily write parsers.
+
+**Why Use It:**
+- **Parser Generation**: DSL for writing parsers
+- **Baker's META**: Based on Henry Baker's Prag-Parse article
+- **Readtable**: Custom readtable for META syntax
+- **Pattern Matching**: Pattern-based parsing
+- **Recursive Descent**: Recursive descent parser generator
+- **DSL**: Domain-specific language for parsing
+
+**Best For:** Writing parsers, DSL implementation, text processing, or projects requiring custom language parsing.
 
 ---
 

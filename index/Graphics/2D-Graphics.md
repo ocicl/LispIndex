@@ -1,6 +1,6 @@
 # Graphics: 2D-Graphics
 
-3 libraries
+4 libraries
 
 ---
 
@@ -64,6 +64,27 @@
 **Best For:** Modern Common Lisp graphics applications, PDF/SVG generation, cross-platform 2D graphics, integration with GTK3/GTK4 applications, and projects requiring tested, maintained Cairo bindings.
 
 **Note:** MIT licensed. Runs on SBCL and CCL (Ubuntu, Windows). Examples available via cairo-example system. API documentation included in cl-cffi-gtk4 docs at crategus.com. Requires Cairo 1.18.4+.
+
+---
+
+
+## image
+
+**System Name:** `image`
+
+**Purpose:** Image drawing library with drawing primitives.
+
+**Why Use It:**
+- **Image Creation**: Create images programmatically
+- **Drawing Primitives**: Lines, shapes, text
+- **Format Support**: PNG (zpng), GIF (skippy)
+- **Text Rendering**: PCF font support
+- **Optional X11**: CLX support if available
+- **Pure Lisp**: Works without native libraries
+
+**Best For:** Image generation, charts, diagrams, procedural graphics.
+
+**Note:** Licensed under MIT. Author: Ingvar Mattsson. Maintainer: Kevin Lynx.
 
 ---
 

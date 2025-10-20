@@ -1,6 +1,6 @@
 # Networking: Message-Queue
 
-4 libraries
+5 libraries
 
 ---
 
@@ -77,6 +77,26 @@
 **Best For:** Distributed systems, message queues, inter-process communication, microservices.
 
 **Note:** Unlicense (public domain).
+
+---
+
+
+## pzmq
+
+**System Name:** `pzmq`
+
+**Purpose:** ZeroMQ 3.2+ bindings.
+
+**Why Use It:**
+- **ZeroMQ**: High-performance asynchronous messaging library bindings
+- **Multiple Patterns**: Support for pub-sub, req-rep, push-pull, and more
+- **CFFI-based**: Direct bindings to ZeroMQ C library
+- **Thread-Safe**: Works with bordeaux-threads
+- **Examples**: Includes usage examples
+- **Compatible**: ZeroMQ 3.2 and later versions
+- **Unlicense**: Public domain dedication
+
+**Best For:** Distributed systems, microservices, message queues, or any application requiring high-performance asynchronous messaging.
 
 ---
 

@@ -1,6 +1,6 @@
 # Meta-Programming: Syntax
 
-4 libraries
+5 libraries
 
 ---
 
@@ -87,6 +87,25 @@
 **Best For:** Mathematical code, scientific computing, formula-heavy code, porting math algorithms.
 
 **Note:** Uses #I reader macro. Stewardship by Rigetti Computing. Includes comprehensive examples and tests.
+
+---
+
+
+## mexpr
+
+**System Name:** `mexpr`
+
+**Purpose:** Macro for infix math expressions.
+
+**Why Use It:**
+- **Infix Notation**: Write mathematical expressions in infix notation
+- **Math Syntax**: Traditional mathematical syntax
+- **Reader Macro**: Custom reader for math expressions
+- **Extensible**: Define custom operators
+- **CL-Syntax**: Integration with cl-syntax
+- **Natural Math**: More natural mathematical notation
+
+**Best For:** Mathematical computations, scientific applications, educational code, or improving readability of complex mathematical expressions.
 
 ---
 

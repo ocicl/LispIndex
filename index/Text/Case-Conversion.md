@@ -1,6 +1,6 @@
 # Text: Case-Conversion
 
-5 libraries
+3 libraries
 
 ---
 
@@ -24,67 +24,6 @@
 ---
 
 
-## cl-change-case
-
-**System Name:** `cl-change-case`
-
-**Purpose:** Convert strings between camelCase, param-case, PascalCase, and more.
-
-**Why Use It:**
-- **Many Cases**: camelCase, PascalCase, snake_case, param-case, CONSTANT_CASE, etc.
-- **Unicode Support**: Uses cl-ppcre-unicode
-- **Simple Functions**: One function per case type
-- **Well-Tested**: Comprehensive test coverage with FiveAM
-- **MPL 2.0 License**: Mozilla Public License
-- **Clean API**: Straightforward case conversion
-
-**Best For:** String case conversions in APIs, code generators, data transformations.
-
-**Note:** Port of JavaScript's change-case library.
-
----
-
-
-## cl-change-case
-
-**System Name:** `cl-change-case`
-
-**Purpose:** Convert strings between various naming conventions including camelCase, PascalCase, snake_case, and param-case.
-
-**Why Use It:**
-- **Multiple Formats**: Support for camelCase, PascalCase, snake_case, param-case, dot.case, path/case, CONSTANT_CASE, and more
-- **Bidirectional**: Convert between any supported case format
-- **Case Detection**: Predicates for testing string case (string-upper-case-p, string-lower-case-p)
-- **Character Operations**: Individual character case operations (char-invertcase, upper-case-first)
-- **Configurable**: Optional replacement character for no-case transformation
-- **Comprehensive**: Includes sentence-case, title-case, header-case, swap-case functions
-
-**Best For:** Code generators, API adapters requiring naming convention conversion, database-to-object mapping, configuration file processing, and any application interfacing between different naming conventions.
-
-**Note:** MPL-2.0 licensed. Port of JavaScript's blakeembrey/change-case. Author: Sebastian Christ. Version 0.2.0. Clean functional API with intuitive naming.
-
----
-
-
-## cl-change-case
-
-**System Name:** `cl-change-case`
-
-**Purpose:** Convert strings between various naming conventions.
-
-**Why Use It:**
-- **Case Conversion**: camelCase, PascalCase, snake_case, param-case, CONSTANT_CASE
-- **Multiple Formats**: Support for 11+ different case styles
-- **Utilities**: lower-case, upper-case, title-case, sentence-case
-- **Flexible**: Customizable separators and transformations
-
-**Best For:** API development, code generation, string formatting.
-
-**Note:** Port of JavaScript change-case library. MPL-2.0 license.
-
----
-
-
 ## cl-slugify
 
 **System Name:** `cl-slugify`
@@ -100,6 +39,24 @@
 **Best For:** Web applications, URL generation, permalink creation, SEO.
 
 **Note:** Unlicense (Public Domain). Uses cl-unac for character normalization.
+
+---
+
+
+## string-case
+
+**System Name:** `string-case`
+
+**Purpose:** Macro that generates specialized decision trees to dispatch on string equality.
+
+**Why Use It:**
+- **Optimized Dispatch**: Efficient string-based dispatch
+- **Decision Trees**: Generates optimal decision trees
+- **Performance**: Faster than naive string comparison chains
+- **Compile-Time**: Optimization happens at compile time
+- **3-clause BSD**: Permissive licensing
+
+**Best For:** Applications with many string-based dispatch cases (parsers, command processors) where performance matters.
 
 ---
 

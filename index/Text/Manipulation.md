@@ -1,6 +1,6 @@
 # Text: Manipulation
 
-4 libraries
+2 libraries
 
 ---
 
@@ -17,6 +17,7 @@
 - **Fixes Surprises**: `(str:downcase nil)` => `nil` (not `"nil"`)
 - **One Dependency**: Only depends on cl-ppcre
 - **Well Documented**: Extensive documentation and examples
+- **Ultralisp**: Available on Ultralisp
 
 **Best For:** Any project doing string manipulation - this is a modern, ergonomic alternative to built-in functions.
 
@@ -40,47 +41,6 @@
 - **Simple**: Focused utility set
 
 **Best For:** Projects needing basic string utilities without dependencies.
-
----
-
-
-## cl-str
-
-**System Name:** `str`
-
-**Purpose:** Modern and consistent string manipulation library.
-
-**Why Use It:**
-- **Modern API**: Clean, discoverable function names (trim, concat, split)
-- **Consistent**: String always as last argument for easy composition
-- **Comprehensive**: Trim, case conversion, splitting, joining, predicates
-- **Regex Support**: Pattern matching with cl-ppcre integration
-- **File I/O**: Read from and write to files
-- **Case Conversion**: Snake-case, camel-case, kebab-case transformations
-- **Fixes Surprises**: Better nil handling than built-in functions
-
-**Best For:** String processing, text manipulation, data parsing, web development.
-
-**Note:** Only dependency is cl-ppcre. Very popular library.
-
----
-
-
-## cl-strings
-
-**System Name:** `cl-strings`
-
-**Purpose:** Set of utilities for manipulating strings in Common Lisp.
-
-**Why Use It:**
-- **String Utilities**: Collection of string manipulation functions
-- **Complementary**: Additional string operations beyond standard library
-- **Simple API**: Easy-to-use helper functions
-- **Lightweight**: Minimal dependencies
-
-**Best For:** String processing, text manipulation, utility functions.
-
-**Note:** MIT License. By Diogo Franco.
 
 ---
 

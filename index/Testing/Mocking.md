@@ -1,6 +1,6 @@
 # Testing: Mocking
 
-5 libraries
+4 libraries
 
 ---
 
@@ -79,27 +79,6 @@
 **Best For:** Unit testing, mocking, test doubles, test isolation.
 
 **Note:** Performance overhead via generic functions. See example.lisp for usage.
-
----
-
-
-## mockingbird
-
-**System Name:** `mockingbird`
-
-**Purpose:** Stubbing and mocking library for unit testing.
-
-**Why Use It:**
-- **Function Stubbing**: Replace functions with constant return values
-- **Dynamic Stubs**: Support both lexical and dynamic stubbing
-- **Mock Functions**: Create mock functions that accept any arguments
-- **Call Tracking**: Record and verify function call arguments
-- **Method Mocking**: Mock individual methods with specific signatures
-- **Verification**: Verify call counts and argument values
-
-**Best For:** Unit testing, test-driven development, isolating dependencies in tests.
-
-**Note:** MIT License. Provides macros like with-stubs, with-dynamic-stubs, with-mocks for different testing scenarios.
 
 ---
 

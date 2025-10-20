@@ -1,6 +1,6 @@
 # Data-Structures: Lists
 
-3 libraries
+5 libraries
 
 ---
 
@@ -60,6 +60,41 @@
 **Best For:** Data structures, linked lists, algorithms, collections.
 
 **Note:** MIT License. By Michael Fiano. Clean doubly-linked list implementation.
+
+---
+
+
+## multival-plist
+
+**System Name:** `multival-plist`
+
+**Purpose:** Property List stores multiple values per one key.
+
+**Why Use It:**
+- **Multi-Value PLists**: Store multiple values for each key
+- **Annotations**: Uses cl-annot for syntax
+- **Type Checking**: Uses trivial-types
+- **Utilities**: Built on Alexandria
+
+**Best For:** Applications needing property lists that can store multiple values per key instead of single values.
+
+---
+
+
+## trestrul
+
+**System Name:** `trestrul`
+
+**Purpose:** Tiny utilities for TREe-STRUctured-List.
+
+**Why Use It:**
+- **Tree Utilities**: Tree structure manipulation
+- **List Processing**: Tree-structured lists
+- **Lightweight**: Minimal dependencies
+- **Jingoh**: Test framework integration
+- **Public Domain**: Maximum freedom
+
+**Best For:** Applications working with tree-structured lists needing simple utility functions for traversal and manipulation.
 
 ---
 

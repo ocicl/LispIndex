@@ -1,6 +1,6 @@
 # Networking: Protocols
 
-5 libraries
+8 libraries
 
 ---
 
@@ -17,6 +17,28 @@
 - **Multiple Implementations**: Works on SBCL, CCL, ECL
 
 **Best For:** Gopher protocol applications (retro internet, simple content serving).
+
+---
+
+
+## fast-http
+
+**System Name:** `fast-http`
+
+**Purpose:** Fast HTTP request/response protocol parser.
+
+**Why Use It:**
+- **Fast**: High-performance HTTP parsing
+- **Both Directions**: Parses requests and responses
+- **Keep-Alive**: Handles persistent streams
+- **Chunked Encoding**: Decodes chunked transfer encoding
+- **Low-Level APIs**: Zero-allocation parsing APIs
+- **Streaming**: Always streaming, no buffering option
+- **Structure Classes**: Fast structure-based design
+
+**Best For:** High-performance HTTP parsing for servers and clients.
+
+**Note:** Similar to http-parse but faster with some API differences.
 
 ---
 
@@ -96,6 +118,43 @@
 **Best For:** Chat clients, instant messaging, XMPP bots, presence systems, real-time communication.
 
 **Note:** Supports standard XMPP servers and Google Talk. Handle method for custom message processing.
+
+---
+
+
+## lichat-protocol-20250821-4863bc6
+
+**System Name:** `lichat-protocol`
+
+**Purpose:** The independent protocol part of Lichat.
+
+**Why Use It:**
+- **Chat Protocol**: Chat protocol implementation
+- **Wire Format**: Serialization and deserialization
+- **Typed Slots**: CLOS typed-slot-class
+- **Documented**: Documentation-utils integration
+
+**Best For:** Chat applications, network protocols, real-time communication.
+
+**Note:** Licensed under zlib. Author: Yukari Hafner (Shinmera). Version 1.5.
+
+---
+
+
+## nbd
+
+**System Name:** `nbd`
+
+**Purpose:** Network Block Device server library.
+
+**Why Use It:**
+- **NBD Server**: Implement NBD servers
+- **Block Device Export**: Export block devices over network
+- **Package Inference**: Uses wild-package-inferred-system
+- **In-Memory Example**: Includes simple in-memory implementation
+- **Network Storage**: Network-attached storage implementation
+
+**Best For:** Creating network block device servers for distributed storage systems.
 
 ---
 

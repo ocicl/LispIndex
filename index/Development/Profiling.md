@@ -1,6 +1,6 @@
 # Development: Profiling
 
-2 libraries
+3 libraries
 
 ---
 
@@ -39,6 +39,26 @@
 **Best For:** Performance optimization, benchmarking, profiling, debugging.
 
 **Note:** MIT License. Simple but effective tuning utilities.
+
+---
+
+
+## metering
+
+**System Name:** `metering`
+
+**Purpose:** Portable Code Profiling Tool.
+
+**Why Use It:**
+- **Profiling**: Profile function execution time
+- **Performance**: Measure code performance
+- **Portable**: Works across implementations
+- **Function Metering**: Monitor specific functions
+- **Time Measurement**: Accurate timing measurements
+- **Call Counting**: Count function invocations
+- **No Dependencies**: Pure Common Lisp
+
+**Best For:** Performance profiling, identifying bottlenecks, optimization work, or understanding code execution patterns.
 
 ---
 

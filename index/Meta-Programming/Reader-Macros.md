@@ -1,6 +1,6 @@
 # Meta-Programming: Reader-Macros
 
-9 libraries
+22 libraries
 
 ---
 
@@ -101,27 +101,6 @@
 ---
 
 
-## named-readtables
-
-**System Name:** `named-readtables`
-
-**Purpose:** Namespace for readtables akin to package namespace.
-
-**Why Use It:**
-- **defreadtable**: Define named readtables
-- **in-readtable**: Set current readtable by name
-- **:merge/:fuse**: Combine readtables with inheritance
-- **Modular**: Multiple inheritance between readtables
-- **Package-like API**: Familiar interface (find-readtable, rename-readtable)
-- **Symbol Names**: Named by symbols, not strings
-
-**Best For:** Reader macros, custom syntax, DSLs, readtable management.
-
-**Note:** By Tobias Rittweiler. Static inheritance, compile-time definition.
-
----
-
-
 ## cl-extended-comma
 
 **System Name:** `cl-extended-comma`
@@ -141,27 +120,6 @@
 ---
 
 
-## cl-syntax
-
-**System Name:** `cl-syntax`
-
-**Purpose:** Reader Syntax Conventions for Common Lisp and SLIME.
-
-**Why Use It:**
-- **Reader Macros**: Declarative syntax definition
-- **SLIME Compatible**: Properly handle reader macros in SLIME
-- **Syntax Extension**: Extend Common Lisp syntax cleanly
-- **Composable**: Combine multiple syntax extensions
-- **Declarative**: Define syntax with defsyntax macro
-- **Portable**: Works across implementations
-
-**Best For:** DSL creation, syntax extensions, metaprogramming, improving code readability.
-
-**Note:** Solves reader macro compatibility issues with SLIME.
-
----
-
-
 ## lambda-reader
 
 **System Name:** `lambda-reader`, `lambda-reader-8bit`
@@ -177,6 +135,293 @@
 **Best For:** Concise code, Unicode-enabled editors, functional programming aesthetics.
 
 **Note:** MIT license. Requires named-readtables.
+
+---
+
+
+## datum-comments
+
+**System Name:** `datum-comments`
+
+**Purpose:** datum #;(comments) for common lisp.
+
+**Why Use It:**
+- **Datum Comments**: Scheme-style #; comment syntax for commenting out s-expressions
+- **Reader Extension**: Extends the Lisp reader with datum comment syntax
+- **Convenient**: Comment out entire forms without removing delimiters
+- **Portable**: Works across Common Lisp implementations
+
+**Best For:** Temporarily disabling s-expressions during development.
+
+**Note:** Licensed under Public Domain (Unlicense). Author: Tom Gillespie.
+
+---
+
+
+## external-symbol-not-found
+
+**System Name:** `external-symbol-not-found`
+
+**Purpose:** Portability library for detecting reader errors from reading non-existing or non-external symbols.
+
+**Why Use It:**
+- **Error Detection**: Catch symbol reading errors portably
+- **Package Safety**: Detect invalid package references
+- **Cross-Implementation**: Works across different Lisp implementations
+- **Simple Interface**: Easy to use condition detection
+
+**Best For:** Package system tools, symbol validation, error handling.
+
+**Note:** Licensed under Unlicense. Author: Michał "phoe" Herda. Version 0.0.2.
+
+---
+
+
+## illusion
+
+**System Name:** `illusion`
+
+**Purpose:** Customize and manage Lisp parentheses reader.
+
+**Why Use It:**
+- **Reader Customization**: Customize paren behavior
+- **Named Readtables**: Integration with named-readtables
+- **Syntax Control**: Fine-grained reader control
+- **Paren Management**: Alternative paren handling
+- **Custom Syntax**: Create custom Lisp syntax
+
+**Best For:** DSLs, custom syntax, reader macros, syntax experiments.
+
+**Note:** Licensed under MIT. Author: Bo Yao. Depends on named-readtables, alexandria, let-over-lambda.
+
+---
+
+
+## infix-dollar-reader
+
+**System Name:** `infix-dollar-reader`
+
+**Purpose:** Infix $ operator for reducing redundant parentheses.
+
+**Why Use It:**
+- **Infix Syntax**: Use $ for infix operations
+- **Less Parens**: Reduce parenthesis clutter
+- **Math Expressions**: More readable math
+- **Reader Macro**: Integrates with cl-syntax
+- **Optional Syntax**: Enable when desired
+
+**Best For:** Mathematical code, reducing parentheses, DSLs with infix notation.
+
+**Note:** Licensed under MIT. Author: SUZUKI Shingo. Depends on cl-syntax.
+
+---
+
+
+## infix-reader
+
+**System Name:** `infix-reader`
+
+**Purpose:** Reader macro for infix syntax with { ... }.
+
+**Why Use It:**
+- **Infix in Braces**: {a + b * c} syntax
+- **Math Notation**: Familiar infix for math
+- **Reader Macro**: Simple infix support
+- **Optional**: Use where it helps readability
+
+**Best For:** Mathematical expressions, readable arithmetic, DSLs.
+
+**Note:** Licensed under Unlicense (public domain). Author: Allan Wei.
+
+---
+
+
+## external-symbol-not-found
+
+**System Name:** `external-symbol-not-found`
+
+**Purpose:** Portability library for detecting reader errors coming from reading non-existing or non-external symbols in packages.
+
+**Why Use It:**
+- **Portable Error Detection**: Handle reader errors for non-existent symbols portably across implementations
+- **Package Safety**: Detect attempts to read symbols that don't exist or aren't exported
+- **Public Domain**: Unlicense - completely free to use
+- **Testing**: Includes Parachute test suite
+- **Error Recovery**: Build robust code that handles package/symbol errors gracefully
+
+**Best For:** Applications that read and evaluate user input, implement DSLs, or need portable handling of symbol resolution errors.
+
+---
+
+
+## hu.dwim.syntax-sugar
+
+**System Name:** `hu.dwim.syntax-sugar`
+
+**Purpose:** Various syntax extensions.
+
+**Why Use It:**
+- **Reader Extensions**: Multiple reader syntax extensions
+- **Quasi-Quoting**: Enhanced quasi-quote support
+- **String Quotes**: Custom string quote syntax
+- **Number Literals**: Enhanced number literal syntax
+- **Case Preservation**: Case-preserving readtable support
+- **Feature Conditionals**: Enhanced feature conditional syntax
+- **Unicode Support**: Optional unicode syntax extensions
+- **Readtime Wrappers**: Readtime evaluation wrappers
+
+**Best For:** Projects wanting enhanced Lisp syntax for better ergonomics and expressiveness.
+
+---
+
+
+## named-read-macros
+
+**System Name:** `named-read-macros`
+
+**Purpose:** Make read macros more Lispy by attaching them to symbols.
+
+**Why Use It:**
+- **Symbol-Based Read Macros**: Attach read macros to symbols
+- **Collision Avoidance**: Prevent readtable character conflicts
+- **Named Readtables**: Built on named-readtables
+- **Clean Interface**: Lispy read macro definition
+- **Namespace Safety**: Avoid character conflicts
+
+**Best For:** Projects with complex reader macros that need better organization and namespace management than character-based dispatch.
+
+---
+
+
+## nrdl
+
+**System Name:** `com.djhaskin.nrdl`
+
+**Purpose:** Nestable Readable Document Language.
+
+**Why Use It:**
+- **Document Format**: Nestable document structure
+- **Readable Syntax**: Human-readable format
+- **Minimal Dependencies**: Uses only Alexandria
+- **Parsing**: Parse NRDL documents
+- **Generation**: Generate NRDL documents
+
+**Best For:** Applications needing a simple, nestable document format as an alternative to JSON, XML, or S-expressions.
+
+---
+
+
+## thorn
+
+**System Name:** `thorn`
+
+**Purpose:** A CommonDoc extension for entering special characters.
+
+**Why Use It:**
+- **Special Characters**: Easy special character entry
+- **CommonDoc**: Extends CommonDoc format
+- **Character Entities**: Named character references
+- **Documentation**: Enhanced documentation support
+- **MIT License**: Permissive license
+
+**Best For:** CommonDoc-based documentation systems needing convenient special character and entity support.
+
+---
+
+
+## pounds
+
+**System Name:** `pounds`
+
+**Purpose:** Provides portable file mappings and related utilities.
+
+**Why Use It:**
+- **Memory Mapping**: Portable file memory mapping across platforms
+- **Database Support**: Includes simple database utilities
+- **Logging**: Built-in logging facilities
+- **Binary Streams**: Gray streams support for custom I/O
+- **Cross-Platform**: CFFI-based for portability
+- **Thread-Safe**: Uses bordeaux-threads for concurrent access
+- **MIT License**: Permissive licensing
+
+**Best For:** Applications requiring memory-mapped files, building custom databases, or projects needing portable low-level file I/O.
+
+---
+
+
+## pythonic-string-reader
+
+**System Name:** `pythonic-string-reader`
+
+**Purpose:** Simple string literal definition that doesn't require escaping characters.
+
+**Why Use It:**
+- **Triple-Quoted Strings**: Python-style string literals
+- **No Escaping**: Include quotes without backslashes
+- **Named Readtables**: Uses named-readtables for clean integration
+- **Multi-line Strings**: Natural multi-line string support
+- **Code Clarity**: More readable string literals in source code
+- **Non-invasive**: Only active when readtable is enabled
+- **Simple**: Minimal, focused functionality
+
+**Best For:** Projects with many string literals containing quotes, SQL queries, JSON templates, or any code where escaping becomes cumbersome.
+
+---
+
+
+## reader
+
+**System Name:** `reader`
+
+**Purpose:** Configurable reader macros for common tasks.
+
+**Why Use It:**
+- **Accessor Shortcuts**: Simplified syntax for hash tables, arrays, and nested accessors
+- **Shell Commands**: Easy syntax for uiop:run-program
+- **Set Literals**: Reader macro for set creation
+- **Hash Table Syntax**: Concise hash table literals
+- **Array Notation**: Convenient array syntax
+- **Configurable**: Choose which reader macros to enable
+- **MIT License**: Permissive licensing (beta version 0.11.0)
+
+**Best For:** Interactive development, reducing boilerplate in REPL sessions, or projects wanting convenient syntactic sugar for common operations.
+
+---
+
+
+## vernacular
+
+**System Name:** `vernacular`
+
+**Purpose:** Module system for language embeddings.
+
+**Why Use It:**
+- **Embedded Languages**: Support for embedded DSLs
+- **Module System**: Modular language extensions
+- **Package-Inferred**: Uses package-inferred-system
+- **Language Extensions**: Build new language features
+- **Extensible**: Framework for language embedding
+- **MIT License**: Permissive licensing
+
+**Best For:** Creating embedded domain-specific languages or extending Common Lisp with new language features.
+
+---
+
+
+## with-cached-reader-conditionals
+
+**System Name:** `with-cached-reader-conditionals`
+
+**Purpose:** Read whilst collecting reader conditionals.
+
+**Why Use It:**
+- **Reader Conditionals**: Track reader conditional usage
+- **Code Analysis**: Analyze conditional compilation
+- **Reader Control**: Capture reader state
+- **Metaprogramming**: Tools for code introspection
+- **BSD 2 Clause License**: Permissive licensing
+
+**Best For:** Code analysis tools, linters, or metaprogramming utilities that need to track reader conditionals.
 
 ---
 

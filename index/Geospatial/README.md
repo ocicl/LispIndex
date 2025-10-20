@@ -1,10 +1,10 @@
 # Geospatial Libraries
 
-This category contains 4 subcategories with 5 total libraries.
+This category contains 4 subcategories with 7 total libraries.
 
 ## Subcategories
 
-- [Coordinates](Coordinates.md) (1 library)
+- [Coordinates](Coordinates.md) (4 libraries)
 - [Distance](Distance.md) (1 library)
-- [LiDAR](LiDAR.md) (2 libraries)
+- [LiDAR](LiDAR.md) (1 library)
 - [WKB](WKB.md) (1 library)

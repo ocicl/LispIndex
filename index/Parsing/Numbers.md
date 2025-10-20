@@ -1,6 +1,6 @@
 # Parsing: Numbers
 
-3 libraries
+2 libraries
 
 ---
 
@@ -42,27 +42,6 @@
 **Best For:** Parsing numeric data, reading configuration files, data import.
 
 **Note:** Mimics parse-integer API. Portable across implementations.
-
----
-
-
-## parse-number
-
-**System Name:** `parse-number`
-
-**Purpose:** Parse strings into Common Lisp numbers without using the reader.
-
-**Why Use It:**
-- **parse-number**: Parse any CL number type
-- **parse-real-number**: Parse real numbers only
-- **parse-positive-real-number**: Parse positive reals
-- **Radix Support**: Optional radix parameter
-- **Error Handling**: Signals invalid-number on failure
-- **No Reader**: Safe parsing without reader security concerns
-
-**Best For:** Safe number parsing, user input validation, data import.
-
-**Note:** Safer than using READ for untrusted input.
 
 ---
 

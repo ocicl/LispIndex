@@ -1,6 +1,6 @@
 # Utilities: Comparison
 
-1 libraries
+2 libraries
 
 ---
 
@@ -22,6 +22,23 @@
 **Best For:** Portable comparison operations, standard interfaces.
 
 **Note:** Implements the CDR-8 standard for equality and comparison.
+
+---
+
+
+## mw-equiv
+
+**System Name:** `mw-equiv`
+
+**Purpose:** Extensible object equivalence protocol.
+
+**Why Use It:**
+- **Equivalence Protocol**: Generic object equality testing
+- **Extensible**: Define equivalence for custom types
+- **Protocol-Based**: Based on Baker's object identity paper
+- **Structured Equality**: Beyond simple EQL/EQUAL
+
+**Best For:** Applications needing sophisticated, extensible object comparison beyond Common Lisp's standard equality predicates.
 
 ---
 

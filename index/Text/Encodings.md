@@ -1,8 +1,29 @@
 # Text: Encodings
 
-7 libraries
+13 libraries
 
 ---
+
+## babel
+
+**System Name:** `babel`
+
+**Purpose:** Character encoding/decoding library (charset conversion).
+
+**Why Use It:**
+- **Encoding Conversion**: Convert between character encodings (UTF-8, Latin-1, etc.)
+- **Pure Lisp**: No external dependencies like libiconv
+- **Performance**: Optimized for good performance
+- **Reusable**: Interface for conversions between different data types
+- **String/Octets**: Built-in converters for strings and byte vectors
+- **Extensible**: Easy to add converters for other data types
+
+**Best For:** Any application dealing with text encoding/decoding, especially internationalization.
+
+**Note:** One of the fundamental libraries in the CL ecosystem for encoding handling.
+
+---
+
 
 ## base64
 
@@ -130,6 +151,102 @@
 **Best For:** Email processing, MIME handling, email clients, mail servers.
 
 **Note:** Originally by Christian Haselbach. API documentation available.
+
+---
+
+
+## inquisitor
+
+**System Name:** `inquisitor`
+
+**Purpose:** Encoding/end-of-line detection and external-format abstraction for Common Lisp.
+
+**Why Use It:**
+- **Encoding Detection**: Automatically detect file encoding
+- **EOL Detection**: Detect line ending style
+- **External Format**: Abstract external-format across implementations
+- **Charset Detection**: UTF-8, Shift-JIS, EUC-JP, ISO-8859-1, etc.
+- **Portable**: Works across CL implementations
+- **File Reading**: Smart file opening with correct encoding
+
+**Best For:** Text file processing, internationalization, encoding conversion, portable text I/O.
+
+**Note:** Licensed under MIT. Author: Shinichi Tanaka. DFA-based encoding detection.
+
+---
+
+
+## oe-encode
+
+**System Name:** `oe-encode`
+
+**Purpose:** Implementation of the ENCODE() hash function from Progress OpenEdge.
+
+**Why Use It:**
+- **OpenEdge Compatibility**: Compatible with Progress OpenEdge hashing
+- **Hash Function**: Implement ENCODE() algorithm
+- **Babel Integration**: Character encoding with babel
+- **Simple API**: Straightforward encoding interface
+- **Testing**: Includes clunit test suite
+- **Public Domain**: CC0 1.0 Public Domain license
+
+**Best For:** Interfacing with Progress OpenEdge databases or systems requiring ENCODE() hash compatibility.
+
+---
+
+
+## qbase64
+
+**System Name:** `qbase64`
+
+**Purpose:** Fast and flexible base64 encoder and decoder.
+
+**Why Use It:**
+- **Performance**: Optimized for speed
+- **Streaming**: Gray streams support for efficient large data handling
+- **Flexible**: Multiple encoding/decoding options
+- **URL-Safe**: Support for URL-safe base64 variants
+- **Line Breaking**: Configurable line breaking for MIME compatibility
+- **No C Dependencies**: Pure Lisp implementation
+- **BSD License**: 3-Clause BSD license
+
+**Best For:** Web applications, email systems, data encoding/decoding, or any project requiring fast base64 operations.
+
+---
+
+
+## s-base64
+
+**System Name:** `s-base64`
+
+**Purpose:** Common Lisp Base64 encoding and decoding implementation.
+
+**Why Use It:**
+- **Base64 Support**: Encode and decode Base64 data
+- **Standard Compliance**: Implements standard Base64 encoding
+- **Simple API**: Straightforward encoding/decoding functions
+- **LLGPL License**: Lisp Lesser General Public License
+- **Mature Library**: Part of the S-* family of libraries
+
+**Best For:** Applications requiring Base64 encoding/decoding for data transmission, storage, or API communication.
+
+---
+
+
+## trivial-utf-8
+
+**System Name:** `trivial-utf-8`
+
+**Purpose:** Simple UTF-8 encoding and decoding utilities.
+
+**Why Use It:**
+- **UTF-8 Handling**: Basic UTF-8 encoding/decoding
+- **Lightweight**: Minimal dependencies
+- **Simple API**: Straightforward interface
+- **Portable**: Works across implementations
+- **Text Processing**: Essential UTF-8 operations
+
+**Best For:** Applications requiring basic UTF-8 text handling without heavyweight dependencies.
 
 ---
 

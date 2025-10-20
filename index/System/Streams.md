@@ -1,30 +1,8 @@
 # System: Streams
 
-9 libraries
+11 libraries
 
 ---
-
-## flexi-streams
-
-**System Name:** `flexi-streams`
-
-**Purpose:** Flexible bivalent streams with on-the-fly encoding changes.
-
-**Why Use It:**
-- **Virtual Streams**: Layer atop real binary/bivalent streams
-- **Multiple Encodings**: Various single/multi-octet encodings
-- **Dynamic Encoding**: Change encoding on the fly
-- **In-Memory Streams**: Binary string-like streams
-- **Character I/O**: Read/write character data
-- **Well-Documented**: Comprehensive documentation
-- **Standard Library**: Very widely used
-
-**Best For:** Character I/O with encoding flexibility and in-memory binary streams.
-
-**Note:** Essential library for text encoding handling.
-
----
-
 
 ## trivial-gray-streams
 
@@ -44,47 +22,6 @@
 **Best For:** Implementing custom stream types portably.
 
 **Note:** Essential for libraries that define new stream classes.
-
----
-
-
-## flexi-streams
-
-**System Name:** `flexi-streams`
-
-**Purpose:** Flexible bivalent streams with on-the-fly encoding changes.
-
-**Why Use It:**
-- **Bivalent Streams**: Read/write as binary or character
-- **Multiple Encodings**: Single- and multi-octet encodings
-- **Dynamic Encoding**: Change encoding on the fly
-- **In-memory Streams**: Binary string-like streams
-- **Well-Documented**: Comprehensive documentation at edicl.github.io
-- **Edi Weitz**: By prolific CL library author
-- **Battle-tested**: Used widely in CL ecosystem
-
-**Best For:** Text encoding, international text, stream processing.
-
-**Note:** Essential for handling various text encodings in Common Lisp.
-
----
-
-
-## trivial-gray-streams
-
-**System Name:** `trivial-gray-streams`
-
-**Purpose:** Extremely thin compatibility layer for Gray streams proposal.
-
-**Why Use It:**
-- **Portable Gray Streams**: Uniform interface across implementations
-- **Standard Extensions**: stream-read-sequence, stream-write-sequence, stream-file-position
-- **Thin Layer**: Minimal abstraction, use native Gray streams where possible
-- **ANSI CL Extensions**: Covers functions added after Gray proposal (file-position, read/write-sequence)
-
-**Best For:** Custom stream implementations, stream-based I/O, cross-implementation stream code.
-
-**Note:** Gray streams not in ANSI CL but most popular implementations support it.
 
 ---
 
@@ -186,6 +123,99 @@
 **Best For:** Network I/O, custom stream types, non-blocking operations, protocol implementations.
 
 **Note:** Clean abstraction over Common Lisp streams with modern I/O patterns.
+
+---
+
+
+## everblocking-stream
+
+**System Name:** `everblocking-stream`
+
+**Purpose:** A stream that always blocks and never has data available.
+
+**Why Use It:**
+- **Testing Tool**: Useful for testing stream blocking behavior
+- **Gray Streams**: Implements trivial-gray-streams protocol
+- **Simple Implementation**: Minimal, focused functionality
+- **Debugging Aid**: Help identify stream handling issues
+
+**Best For:** Testing stream-based code, debugging I/O behavior.
+
+**Note:** Licensed under Public Domain. Author: Michał "phoe" Herda. Version 1.0.
+
+---
+
+
+## everblocking-stream
+
+**System Name:** `everblocking-stream`
+
+**Purpose:** A stream that always blocks and never has data available.
+
+**Why Use It:**
+- **Testing**: Useful for testing blocking stream behavior
+- **Gray Streams**: Implements trivial-gray-streams interface
+- **Stream Simulation**: Simulate blocking stream conditions
+- **Public Domain**: Completely free to use
+- **Minimal**: Single-file implementation
+- **Stream Abstraction**: Test code that handles blocking streams
+
+**Best For:** Testing and debugging code that handles blocking streams, or simulating special stream conditions.
+
+---
+
+
+## nibbles-streams
+
+**System Name:** `nibbles-streams`
+
+**Purpose:** Binary stream utilities using nibbles library.
+
+**Why Use It:**
+- **Binary I/O**: Convenient binary stream operations
+- **Nibbles Integration**: Uses nibbles for byte operations
+- **Gray Streams**: Custom stream implementation
+- **Signed Octets**: Handle signed byte values
+- **Serapeum Utilities**: Uses serapeum for helpers
+
+**Best For:** Applications needing convenient binary I/O operations on streams.
+
+---
+
+
+## nontrivial-gray-streams
+
+**System Name:** `nontrivial-gray-streams`
+
+**Purpose:** A compatibility layer for Gray streams including extensions.
+
+**Why Use It:**
+- **Gray Streams**: Unified Gray streams interface
+- **Extensions**: Additional stream operations
+- **Cross-Implementation**: Works on ABCL, Allegro, CCL, SBCL, etc.
+- **Compatibility Layer**: Smooth over implementation differences
+- **Modern Interface**: Enhanced beyond basic Gray streams
+
+**Best For:** Libraries implementing custom stream types that need maximum portability and enhanced Gray streams features.
+
+---
+
+
+## with-output-to-stream
+
+**System Name:** `with-output-to-stream`
+
+**Purpose:** Provides a simple way of directing output to a stream according to the concise and intuitive semantics of FORMAT's stream argument.
+
+**Why Use It:**
+- **Output Direction**: Flexible stream output control
+- **FORMAT Semantics**: Uses FORMAT's stream argument conventions
+- **Simple API**: Clean, intuitive interface
+- **T/NIL Support**: Standard stream designators
+- **No Dependencies**: Pure Common Lisp
+- **Public Domain**: Unlicensed
+
+**Best For:** Libraries needing flexible output redirection with FORMAT-like stream argument handling.
 
 ---
 

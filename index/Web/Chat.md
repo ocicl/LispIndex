@@ -1,6 +1,6 @@
 # Web: Chat
 
-4 libraries
+6 libraries
 
 ---
 
@@ -76,6 +76,45 @@
 **Best For:** Chat server deployment, TCP-based messaging servers, Lichat hosting.
 
 **Note:** zlib license.
+
+---
+
+
+## lichat-ws-server-20250821-ca5abb4
+
+**System Name:** `lichat-ws-server`
+
+**Purpose:** A simple WebSocket server implementation for lichat.
+
+**Why Use It:**
+- **WebSocket Server**: Real-time chat over WebSockets
+- **Lichat Integration**: Implements lichat protocol
+- **Hunchensocket**: Built on Hunchensocket
+- **Thread-Safe**: Bordeaux-threads integration
+
+**Best For:** Real-time chat servers, WebSocket applications, instant messaging.
+
+**Note:** Licensed under zlib. Author: Yukari Hafner (Shinmera). Version 1.0.0.
+
+---
+
+
+## lisp-chat-20250802-db1cc1c
+
+**System Name:** `lisp-chat`, `lisp-chat/server`, `lisp-chat/client`
+
+**Purpose:** An experimental chat IRC-like system.
+
+**Why Use It:**
+- **Chat System**: Complete client and server
+- **IRC-Like**: Familiar IRC-style interface
+- **Socket-Based**: Usocket networking
+- **Multi-Threaded**: Bordeaux-threads support
+- **CLI Client**: Readline integration
+
+**Best For:** Chat applications, networking examples, IRC-like communication.
+
+**Note:** Licensed under MIT. Author: Manoel Vilela. Version 0.2.0.
 
 ---
 

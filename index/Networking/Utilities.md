@@ -1,6 +1,6 @@
 # Networking: Utilities
 
-3 libraries
+6 libraries
 
 ---
 
@@ -61,6 +61,64 @@
 **Best For:** Remote system management, network administration, data center automation, home automation.
 
 **Note:** BSD License. CLI application supports host database with names and MAC addresses.
+
+---
+
+
+## ip-management
+
+**System Name:** `ip-management`
+
+**Purpose:** IP address and network interface management.
+
+**Why Use It:**
+- **IP Configuration**: Manage IP addresses
+- **Network Interfaces**: Query and configure interfaces
+- **System Integration**: Uses ip/ifconfig commands
+- **Process Execution**: IOLib-based process management
+- **Network Admin**: Automate network configuration
+
+**Best For:** Network tools, system administration, DevOps automation.
+
+**Note:** Maintainer: FMF. Depends on IOLib. Uses system ip/ifconfig commands.
+
+---
+
+
+## netaddr
+
+**System Name:** `netaddr`
+
+**Purpose:** A library for manipulating IP addresses, subnets, ranges, and sets.
+
+**Why Use It:**
+- **IP Address Handling**: IPv4 and IPv6 address manipulation
+- **Subnet Operations**: CIDR subnet calculations
+- **Range Operations**: IP address ranges
+- **Set Operations**: IP address sets
+- **Reserved Addresses**: Built-in reserved address knowledge
+- **Syntax Support**: Custom syntax for IP literals
+- **MOP Integration**: Uses closer-mop for extensibility
+
+**Best For:** Network applications needing sophisticated IP address manipulation, subnet calculations, and range operations.
+
+---
+
+
+## network-addresses
+
+**System Name:** `network-addresses`
+
+**Purpose:** A network addresses manipulation library.
+
+**Why Use It:**
+- **Network Addresses**: Manipulate network addresses
+- **IPv4 Support**: IPv4 address and network operations
+- **CIDR Notation**: Parse and generate CIDR notation
+- **Address Validation**: Validate network addresses
+- **Generic Interface**: Extensible address protocol
+
+**Best For:** Network applications needing IP address parsing, validation, and manipulation.
 
 ---
 

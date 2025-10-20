@@ -1,6 +1,6 @@
 # System: Memory
 
-5 libraries
+4 libraries
 
 ---
 
@@ -22,25 +22,6 @@
 **Best For:** Managing resources tied to Lisp objects, preventing memory leaks.
 
 **Note:** Critical for FFI code and resource management.
-
----
-
-
-## trivial-garbage
-
-**System Name:** `trivial-garbage`
-
-**Purpose:** Portable API to finalizers, weak hash-tables and weak pointers.
-
-**Why Use It:**
-- **Portable Finalizers**: Cross-implementation finalizer support
-- **Weak Hash-Tables**: Portable weak hash-table creation
-- **Weak Pointers**: Uniform weak pointer interface
-- **Major Implementations**: Works on all major Common Lisp implementations
-
-**Best For:** Memory management, weak references, object finalization, garbage collection hooks.
-
-**Note:** Public domain with absolutely no warranty.
 
 ---
 

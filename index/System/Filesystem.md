@@ -1,6 +1,6 @@
 # System: Filesystem
 
-7 libraries
+4 libraries
 
 ---
 
@@ -54,66 +54,11 @@
 - **Wildcards**: Portable wildcard support
 - **Testing**: Comes with test suite
 - **Documentation**: Well-documented
+- **ASDF**: Easy installation
 
 **Best For:** Portable file and directory manipulation.
 
 **Note:** Essential for cross-platform filesystem operations.
-
----
-
-
-## file-types
-
-**System Name:** `file-types`
-
-**Purpose:** Hierarchical file type classification with MIME type support.
-
-**Why Use It:**
-- **Type Classification**: Hierarchical file type system
-- **MIME Support**: Associate and query MIME types
-- **Well-Documented**: Comprehensive manual and API docs
-- **Simple Scheme**: Easy to use classification
-- **Extensible**: Hierarchical design
-
-**Best For:** File type detection, MIME handling, content negotiation.
-
-**Note:** See documentation at mr.gy/software/file-types/
-
----
-
-
-## cl-fad
-
-**System Name:** `cl-fad`
-
-**Purpose:** Portable pathname library abstracting implementation differences.
-
-**Why Use It:**
-- **Pathname Portability**: Handles pathname quirks across CL implementations
-- **Directory Operations**: Utilities for directory traversal and manipulation
-- **Test Suite**: Includes automated tests for reliability
-- **HYPERDOC Support**: Nikodemus Siivola's HYPERDOC documentation system
-
-**Best For:** Portable file/directory operations, cross-implementation filesystem code.
-
-**Note:** Complete documentation at https://edicl.github.io/cl-fad/.
-
----
-
-
-## cl-fuse
-
-**System Name:** `cl-fuse`
-
-**Purpose:** FUSE (Filesystem in Userspace) bindings for Common Lisp.
-
-**Why Use It:**
-- **Userspace Filesystems**: Implement filesystems in Lisp without kernel modules
-- **FUSE Integration**: Full bindings to FUSE library
-
-**Best For:** Custom filesystem implementations, virtual filesystems, FUSE-based projects.
-
-**Note:** Stable. Main repository in Monotone at mtn-host.prjek.net.
 
 ---
 

@@ -1,6 +1,6 @@
 # Development: CI-CD
 
-2 libraries
+3 libraries
 
 ---
 
@@ -41,6 +41,25 @@
 **Best For:** Open source projects using Coveralls, continuous integration pipelines, and code quality tracking.
 
 **Note:** BSD 2-Clause license. Version 0.1. By Eitaro Fukamachi. SBCL support via sb-cover.
+
+---
+
+
+## ci-utils
+
+**System Name:** `ci-utils`
+
+**Purpose:** Set of tools for using CI platforms.
+
+**Why Use It:**
+- **CI Integration**: Utilities for continuous integration environments
+- **Coveralls Support**: Optional code coverage reporting to Coveralls
+- **Platform Detection**: Detect and adapt to different CI platforms
+- **Test Automation**: Helper tools for automated testing
+
+**Best For:** Setting up Common Lisp projects in CI/CD pipelines.
+
+**Note:** Licensed under MIT. Author: Neil Lindquist.
 
 ---
 

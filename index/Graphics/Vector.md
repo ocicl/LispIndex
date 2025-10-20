@@ -1,6 +1,6 @@
 # Graphics: Vector
 
-7 libraries
+6 libraries
 
 ---
 
@@ -100,27 +100,6 @@
 **Best For:** Vector drawing, ink effects.
 
 **Note:** Repository moved to Codeberg in August 2025. Check Shinmera's projects page.
-
----
-
-
-## cl-svg
-
-**System Name:** `cl-svg`
-
-**Purpose:** Produce Scalable Vector Graphics files with Common Lisp.
-
-**Why Use It:**
-- **SVG Generation**: Create SVG graphics programmatically
-- **Simple API**: Makes basic SVG creation easy
-- **Declarative**: Describe graphics with Lisp expressions
-- **File Output**: Generate SVG files directly
-- **Vector Graphics**: Resolution-independent graphics
-- **Web-ready**: SVG files work in browsers and graphics software
-
-**Best For:** Data visualization, chart generation, diagram creation, graphics programming.
-
-**Note:** Makes simple things easy, not a full XML/SVG library.
 
 ---
 

@@ -1,6 +1,6 @@
 # Data-Formats: CSV
 
-4 libraries
+6 libraries
 
 ---
 
@@ -45,26 +45,6 @@
 ---
 
 
-## csv-validator
-
-**System Name:** `csv-validator`
-
-**Purpose:** Validates tabular CSV data using predefined validations similar to Python's Great Expectations.
-
-**Why Use It:**
-- **Data Validation**: Validate CSV data against schemas and rules
-- **Parallel Processing**: lparallel support for fast validation of large files
-- **Great Expectations Style**: Similar API to Python's data validation library
-- **Binary Generation**: Can build standalone validation tools
-- **Type Checking**: Validate data types, ranges, and constraints
-
-**Best For:** Data pipelines, ETL processes, data quality assurance, CSV data validation.
-
-**Note:** BSD-3 licensed. Depends on local-time, lparallel, parse-float. Version 1.0.0.
-
----
-
-
 ## dfio
 
 **System Name:** `dfio`
@@ -81,6 +61,62 @@
 **Best For:** Data science, statistical computing, CSV processing, data frames.
 
 **Note:** MS-PL License. By Steve Nunez. Part of Lisp-Stat project.
+
+---
+
+
+## CSV
+
+**System Name:** `csv`
+
+**Purpose:** Read and convert CSV (Comma Separated Values) data into Lisp lists.
+
+**Why Use It:**
+- **Simple CSV Reading**: Parse CSV files into native Lisp data structures
+- **Native Implementation**: Pure Lisp implementation without external dependencies
+- **Direct Conversion**: Convert CSV data directly into lists for easy manipulation
+
+**Best For:** Reading CSV files into Lisp data structures for processing and analysis.
+
+**Note:** Licensed under GNU GPL, version 3.
+
+---
+
+
+## csv-parser
+
+**System Name:** `csv-parser`
+
+**Purpose:** CSV parsing/writing utilities, a la Microsoft Excel.
+
+**Why Use It:**
+- **Excel Compatibility**: Handles CSV files the way Excel does
+- **Simple API**: Straightforward parsing and writing functions
+- **Lightweight**: Single-file implementation
+- **Proven**: Well-tested CSV handling
+
+**Best For:** Reading and writing CSV files with Excel-compatible behavior.
+
+**Note:** Licensed under LLGPL. Author: Alain Picard.
+
+---
+
+
+## read-csv
+
+**System Name:** `read-csv`
+
+**Purpose:** A library for reading CSV data from streams.
+
+**Why Use It:**
+- **CSV Parsing**: Read comma-separated value files
+- **Stream-based**: Efficient streaming CSV reader
+- **Simple API**: Easy to use CSV parsing
+- **No Dependencies**: Zero external dependencies
+- **Public Domain**: CC0 license, completely free to use
+- **Lightweight**: Minimal, focused implementation
+
+**Best For:** Data import, processing CSV files, reading spreadsheet exports, or any application requiring CSV parsing.
 
 ---
 

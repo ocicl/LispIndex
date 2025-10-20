@@ -1,6 +1,6 @@
 # Utilities: Logging
 
-5 libraries
+10 libraries
 
 ---
 
@@ -84,21 +84,121 @@
 ---
 
 
-## log4cl
+## cl-log
 
-**System Name:** `log4cl`
+**System Name:** `cl-log`
 
-**Purpose:** Logging framework modeled after Log4J.
+**Purpose:** General purpose logging utility.
 
 **Why Use It:**
-- **Hierarchical Logging**: Organized logger hierarchy for flexible control
-- **Multiple Appenders**: File, console, syslog, and custom appenders
-- **Pattern Layouts**: Configurable log message formatting
-- **Performance**: Efficient logging with minimal overhead
+- **Flexible Logging**: Configurable logging categories and levels
+- **Multiple Outputs**: Log to files, streams, or custom destinations
+- **Simple API**: Easy-to-use logging interface
+- **Lightweight**: Minimal overhead and dependencies
 
-**Best For:** Application logging, debugging, production monitoring, log management.
+**Best For:** Adding logging capabilities to applications and libraries.
 
-**Note:** Apache License 2.0.
+**Note:** Licensed under Public Domain. Author: Nick Levine.
+
+---
+
+
+## journal-20250530-dcada2a
+
+**System Name:** `journal`
+
+**Purpose:** Library built around explicit execution traces for logging, tracing, testing and persistence.
+
+**Why Use It:**
+- **Execution Traces**: Explicit execution trace tracking
+- **Multi-Purpose**: Logging, tracing, testing, and persistence
+- **Thread Support**: Bordeaux-threads integration
+- **Documentation**: MGL-PAX documented
+
+**Best For:** Advanced logging, execution tracing, test persistence, debugging workflows.
+
+**Note:** Licensed under MIT. Author: Gábor Melis. Version 0.1.0.
+
+---
+
+
+## lisp-sentry
+
+**System Name:** `lisp-sentry`
+
+**Purpose:** A full-featured Common Lisp client library for Sentry application monitoring software.
+
+**Why Use It:**
+- **Application Monitoring**: Integrate with Sentry error tracking service
+- **Exception Tracking**: Automatic exception capturing and reporting
+- **Breadcrumbs**: Track user actions leading to errors
+- **Context Information**: Send detailed context (device, OS, runtime, GPU)
+- **Stack Traces**: Detailed stack trace reporting
+- **Source Code**: Source code context in error reports
+- **Attachments**: Send file attachments with error reports
+- **Thread-Safe**: Uses bordeaux-threads for concurrent operation
+- **GPU Context**: Optional GPU state reporting via framebuffers
+
+**Best For:** Production Common Lisp applications requiring professional error monitoring, crash reporting, and application health tracking with Sentry.
+
+---
+
+
+## log5
+
+**System Name:** `log5`
+
+**Purpose:** Common Lisp logging library.
+
+**Why Use It:**
+- **Logging**: Comprehensive logging framework
+- **Categories**: Organize logs by category
+- **Senders**: Multiple output destinations (console, file, network)
+- **Filtering**: Flexible log filtering by category and level
+- **Configuration**: Runtime logging configuration
+- **Performance**: Minimal overhead when logging disabled
+- **Formatting**: Customizable log message formatting
+
+**Best For:** Application logging, debugging, production monitoring, or any project requiring flexible logging capabilities.
+
+---
+
+
+## logv
+
+**System Name:** `logv`
+
+**Purpose:** Simple logging for CL applications.
+
+**Why Use It:**
+- **Simple Logging**: Lightweight logging utility
+- **Thread-Safe**: Bordeaux-threads for concurrent logging
+- **UTF-8**: UTF-8 support via trivial-utf-8
+- **LispWorks Support**: Special support for LispWorks
+- **File Output**: Log to files with proper encoding
+- **Minimal Dependencies**: Lightweight with few dependencies
+
+**Best For:** Simple logging needs, lightweight applications, or projects wanting minimal logging overhead.
+
+---
+
+
+## verbose
+
+**System Name:** `verbose`
+
+**Purpose:** A logging framework using the piping library.
+
+**Why Use It:**
+- **Logging Framework**: Comprehensive logging system
+- **Piping Architecture**: Uses piping for message flow
+- **Multiple Outputs**: Log to multiple destinations
+- **Thread-Safe**: Bordeaux-threads integration
+- **Condition Integration**: Log conditions and stack traces with Dissect
+- **Muffling Support**: Control log verbosity
+- **zlib License**: Permissive licensing
+
+**Best For:** Applications requiring sophisticated logging with flexible output routing and thread safety.
 
 ---
 

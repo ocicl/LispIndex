@@ -1,6 +1,6 @@
 # Logging: Extensions
 
-4 libraries
+3 libraries
 
 ---
 
@@ -60,25 +60,6 @@
 **Best For:** Application logging, production systems, extensible logging.
 
 **Note:** Supports JSON formatting, batching, and custom formatters. Apache v2 license.
-
----
-
-
-## log4cl-extras
-
-**System Name:** `log4cl-extras`
-
-**Purpose:** Addons to LOG4CL: JSON appender, context fields, cross-finger appender.
-
-**Why Use It:**
-- **JSON Logging**: Log messages in JSON format for easy parsing
-- **Context Fields**: Attach contextual information to log messages
-- **Enhanced Appenders**: Additional appenders beyond standard log4cl
-- **Production Features**: Error handling to keep logging working
-
-**Best For:** Production logging, structured logging, log aggregation, cloud deployments.
-
-**Note:** BSD license.
 
 ---
 

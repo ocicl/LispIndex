@@ -1,6 +1,6 @@
 # Languages: Experimental
 
-1 libraries
+2 libraries
 
 ---
 
@@ -21,6 +21,25 @@
 **Best For:** Experimental projects, developers wanting more modern Lisp syntax, and applications benefiting from lazy evaluation or simpler hash table syntax.
 
 **Note:** Public Domain license. Highly experimental - API will change. Requires special ASDF configuration. Maintains backwards compatibility with standard CL. Works on SBCL, CCL, CLISP, and Allegro CL.
+
+---
+
+
+## lila-20240503-39c14d0
+
+**System Name:** `lila`
+
+**Purpose:** A cleaner language based on Common Lisp.
+
+**Why Use It:**
+- **Language Extension**: Alternative syntax/semantics
+- **Cleaner Syntax**: Simplified Common Lisp
+- **Compiler**: Compiles to Common Lisp
+- **REPL**: Interactive development environment
+
+**Best For:** Language experimentation, alternative syntax, educational purposes.
+
+**Note:** Licensed under MIT. Author: codr7. Version 28.
 
 ---
 

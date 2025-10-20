@@ -1,6 +1,6 @@
 # Database: Search
 
-1 libraries
+2 libraries
 
 ---
 
@@ -18,6 +18,24 @@
 **Best For:** Search integration, full-text search, analytics, log aggregation.
 
 **Note:** MIT License.
+
+---
+
+
+## cl-solr
+
+**System Name:** (Not found in ocicl)
+
+**Purpose:** Library appears to be missing from ocicl.
+
+**Why Use It:**
+- **Note**: This library was not found in the ocicl directory
+- **Possible Solr Client**: Likely Apache Solr search client
+- **Verification Needed**: Check alternative sources
+
+**Best For:** Unknown - library not documented.
+
+**Note:** Not found in ocicl distribution.
 
 ---
 

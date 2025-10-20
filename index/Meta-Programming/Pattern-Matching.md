@@ -85,27 +85,6 @@
 ---
 
 
-## optima
-
-**System Name:** `optima`
-
-**Purpose:** Optimized pattern matching library using ML-style match expressions.
-
-**Why Use It:**
-- **Pattern Compilation**: Optimizes patterns using decision trees
-- **Rich Pattern Language**: cons, vector, class, struct, guard, place patterns
-- **Extensible**: Define custom patterns with DEFPATTERN
-- **Derived Patterns**: Built-in list, satisfies, eq, eql, equal, type patterns
-- **Place Patterns**: Destructuring with setf-able bindings
-- **Fast Dispatch**: Generates efficient branching code
-
-**Best For:** Functional programming, data structure destructuring, parser implementations, complex conditionals.
-
-**Note:** LLGPL by Tomohiro Matsuyama. Version 1.0. Depends on alexandria, closer-mop.
-
----
-
-
 ## optima.ppcre
 
 **System Name:** `optima.ppcre`
@@ -120,6 +99,25 @@
 **Best For:** Text parsing with pattern matching, regex + destructuring, parsers.
 
 **Note:** LLGPL by Tomohiro Matsuyama. Version 1.0. Depends on optima, alexandria, cl-ppcre.
+
+---
+
+
+## mcase
+
+**System Name:** `mcase`
+
+**Purpose:** Control flow macros with case comprehensiveness checking.
+
+**Why Use It:**
+- **Case Checking**: Ensure all cases are handled
+- **Exhaustiveness**: Compile-time exhaustiveness checking
+- **Type Safety**: Catch missing cases at compile time
+- **Control Flow**: Enhanced case-like macros
+- **Millet**: Implementation-dependent utilities
+- **Jingoh**: Testing framework integration
+
+**Best For:** Projects requiring exhaustive pattern matching, type-safe case handling, or compile-time case coverage verification.
 
 ---
 

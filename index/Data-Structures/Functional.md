@@ -1,6 +1,6 @@
 # Data-Structures: Functional
 
-9 libraries
+12 libraries
 
 ---
 
@@ -189,6 +189,62 @@
 **Best For:** Tree manipulation, functional programming, AST traversal, data structure navigation.
 
 **Note:** MIT License. Implements classic zipper data structure for efficient tree operations.
+
+---
+
+
+## lil-20230808-52a9c13
+
+**System Name:** `lil`
+
+**Purpose:** LIL: Lisp Interface Library - Collection of pure and stateful data structures in Interface Passing Style.
+
+**Why Use It:**
+- **Interface Passing Style**: Novel abstraction approach
+- **Pure Data Structures**: Functional data structures
+- **Stateful Variants**: Mutable alternatives
+- **Transformations**: Data structure transformations
+- **Package Inferred**: Modern system design
+
+**Best For:** Functional programming, data structure abstraction, advanced Lisp patterns.
+
+**Note:** Licensed under MIT. Author: Francois-Rene Rideau. Requires ASDF 3.1+.
+
+---
+
+
+## immutable-struct
+
+**System Name:** `immutable-struct`
+
+**Purpose:** Library encouraging functional programming with immutable structures and pattern matching.
+
+**Why Use It:**
+- **Immutable Data**: Define immutable struct-like objects
+- **Pattern Matching**: Integration with Trivia
+- **Functional Style**: Encourage functional programming
+- **Copy-on-Modify**: Functional update operations
+- **Type Safety**: Compile-time structure guarantees
+
+**Best For:** Functional programming, immutable data structures, pattern matching.
+
+**Note:** Licensed under LLGPL. Author: Masataro Asai. Depends on Trivia, Alexandria, Closer-MOP.
+
+---
+
+
+## modf-fset
+
+**System Name:** `modf-fset`
+
+**Purpose:** FSet extensions for MODF.
+
+**Why Use It:**
+- **Functional Data Structures**: MODF support for FSet collections
+- **Immutable Updates**: Modify FSet structures with MODF syntax
+- **Integration**: Seamless MODF and FSet integration
+
+**Best For:** Projects using both MODF and FSet that need convenient modification syntax for functional data structures.
 
 ---
 

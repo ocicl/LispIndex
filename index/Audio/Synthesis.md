@@ -1,6 +1,6 @@
 # Audio: Synthesis
 
-3 libraries
+4 libraries
 
 ---
 
@@ -63,6 +63,31 @@
 **Best For:** Computer music synthesis, audio signal processing, sound generation, DSP research.
 
 **Note:** Sound output is experimental. Mathematical/signal functions are stable. Unix/Linux/MacOS support (M1 not fully supported).
+
+---
+
+
+## incudine
+
+**System Name:** `incudine`
+
+**Purpose:** Music/DSP programming environment for real-time and non-real-time sound synthesis.
+
+**Why Use It:**
+- **Real-time Audio**: Low-latency audio synthesis
+- **DSP Programming**: Virtual Unit Generators (VUGs)
+- **JACK/PortAudio**: Audio backend support
+- **MIDI Support**: JACK MIDI and PortMIDI
+- **OSC Protocol**: Open Sound Control
+- **Scheduling**: Precise timing with EDF scheduler
+- **Non-real-time**: Render to file
+- **Synthesis**: Oscillators, filters, envelopes, effects
+- **Analysis**: FFT, convolution
+- **Extensible**: Define custom VUGs
+
+**Best For:** Computer music, sound synthesis, live coding, audio DSP, real-time audio.
+
+**Note:** Licensed under GPL v2. Author: Tito Latini. Comprehensive music programming system.
 
 ---
 

@@ -1,6 +1,6 @@
 # Numeric: Statistics
 
-6 libraries
+9 libraries
 
 ---
 
@@ -111,6 +111,64 @@
 **Best For:** Statistical analysis, data science, scientific computing, research applications.
 
 **Note:** MS-PL license.
+
+---
+
+
+## lhstats-20240503-6d42dfe
+
+**System Name:** `lhstats`
+
+**Purpose:** Statistical functions by Larry Hunter and Jeff Shrager.
+
+**Why Use It:**
+- **Statistics**: Statistical analysis functions
+- **Classic Library**: Well-established statistical tools
+- **Research**: Used in computational research
+- **Simple**: Straightforward statistical operations
+
+**Best For:** Statistical analysis, data science, computational research.
+
+**Note:** Licensed under GPLv2. Authors: Larry Hunter, Jeff Shrager. Maintainer: Matt Curtis. Version 1.01.1.
+
+---
+
+
+## quantile-estimator.cl
+
+**System Name:** `quantile-estimator`
+
+**Purpose:** Implementation of Effective Computation of Biased Quantiles over Data Streams.
+
+**Why Use It:**
+- **Streaming Quantiles**: Compute quantiles without storing all data
+- **Memory Efficient**: Approximate quantiles with bounded memory
+- **Algorithm**: Based on Cormode & Muthukrishnan ICDE'05 paper
+- **Statistics**: Essential for streaming analytics
+- **Prometheus Support**: Used by prometheus.cl for summary metrics
+- **MIT License**: Permissive licensing
+
+**Best For:** Streaming data analysis, metrics collection, monitoring systems, or applications needing percentile calculations on large datasets.
+
+---
+
+
+## statistics
+
+**System Name:** `statistics`
+
+**Purpose:** Consolidated system of statistical functions for Common Lisp.
+
+**Why Use It:**
+- **Statistical Functions**: Comprehensive statistical operations
+- **Multiple Sources**: Consolidates statistics from multiple libraries
+- **Distributions**: Integration with distributions library
+- **Lisp-Stat Ecosystem**: Part of Lisp-Stat project
+- **Anaphoric Macros**: Convenient statistical computations
+- **Num-Utils**: Numerical utilities integration
+- **MS-PL License**: Microsoft Public License
+
+**Best For:** Data analysis, statistical computing, and scientific applications requiring a comprehensive statistics library.
 
 ---
 

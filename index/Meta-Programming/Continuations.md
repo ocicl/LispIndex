@@ -1,6 +1,6 @@
 # Meta-Programming: Continuations
 
-2 libraries
+3 libraries
 
 ---
 
@@ -39,6 +39,26 @@
 **Best For:** Web frameworks, coroutines, backtracking algorithms, and non-local control flow.
 
 **Note:** LLGPL license. Version 0.3.8. By Slava Akhmechet, Stephen Compall, John Fremlin, Leslie P. Polzer.
+
+---
+
+
+## hu.dwim.delico
+
+**System Name:** `hu.dwim.delico`
+
+**Purpose:** Delimited, interpreted shift-reset continuation.
+
+**Why Use It:**
+- **Continuations**: Delimited continuation support for Common Lisp
+- **Shift/Reset**: Implements shift-reset continuation operators
+- **Interpreter-Based**: Uses code walking and interpretation
+- **Walker Integration**: Uses hu.dwim.walker for code analysis
+- **ContextL**: Context-oriented programming support
+- **Control Flow**: Advanced control flow manipulation
+- **Coroutines**: Build coroutines and generators
+
+**Best For:** Advanced control flow programming, implementing coroutines, generators, or backtracking algorithms.
 
 ---
 

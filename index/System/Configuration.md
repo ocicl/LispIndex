@@ -1,6 +1,6 @@
 # System: Configuration
 
-6 libraries
+11 libraries
 
 ---
 
@@ -117,6 +117,99 @@
 **Best For:** Configuration management, environment variables, 12-factor apps.
 
 **Note:** Standard dotenv file support for Common Lisp applications.
+
+---
+
+
+## chameleon
+
+**System Name:** `chameleon`
+
+**Purpose:** Configuration management with multiple profile support.
+
+**Why Use It:**
+- **Profile Management**: Handle multiple configuration profiles
+- **Environment Switching**: Easy switching between dev, test, and production configs
+- **Simple API**: Straightforward configuration access and modification
+- **Minimal Dependencies**: Only requires Alexandria
+
+**Best For:** Managing application configurations across different environments.
+
+**Note:** Licensed under MIT. Author: YUE Daian.
+
+---
+
+
+## defconfig
+
+**System Name:** `defconfig`
+
+**Purpose:** A configuration system for user exposed variables.
+
+**Why Use It:**
+- **Configuration Management**: Define and manage user-configurable variables
+- **Type Checking**: Validate configuration values
+- **Database**: Centralized configuration variable registry
+- **Condition System**: Comprehensive error handling for configuration
+- **Setv Macro**: Convenient setting syntax with validation
+
+**Best For:** Applications with user-configurable settings and preferences.
+
+**Note:** Licensed under GPLv3. Author: szos.
+
+---
+
+
+## modest-config
+
+**System Name:** `modest-config`
+
+**Purpose:** A modest config file loader library.
+
+**Why Use It:**
+- **Configuration Files**: Simple config file loading
+- **Minimal Dependencies**: Lightweight implementation
+- **Easy to Use**: Straightforward API
+
+**Best For:** Applications needing simple configuration file loading without heavy dependencies.
+
+---
+
+
+## simple-config
+
+**System Name:** `simple-config`
+
+**Purpose:** Loads and parses KEY=VALUE style configuration files.
+
+**Why Use It:**
+- **Config Files**: Parse simple configuration files
+- **KEY=VALUE Format**: Standard configuration format
+- **Easy Integration**: Simple API for loading configs
+- **STR Library**: Uses STR for string operations
+- **UIOP**: Standard file operations
+- **BSD License**: 3-clause BSD
+
+**Best For:** Applications that need simple configuration file parsing without complex formats like YAML or JSON.
+
+---
+
+
+## ubiquitous
+
+**System Name:** `ubiquitous`
+
+**Purpose:** A library providing a universal application configuration mechanism.
+
+**Why Use It:**
+- **Configuration Management**: Unified config system
+- **Multiple Formats**: Support for various config file formats
+- **Persistent Storage**: Save and load configurations
+- **Accessor Interface**: Clean API for config access
+- **Metadata Support**: Store metadata alongside configuration
+- **No Dependencies**: Pure Common Lisp implementation
+
+**Best For:** Applications needing a flexible, format-agnostic configuration system with persistence.
 
 ---
 

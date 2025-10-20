@@ -1,6 +1,6 @@
 # Graphics: GUI
 
-17 libraries
+19 libraries
 
 ---
 
@@ -320,6 +320,48 @@
 **Best For:** Graphics-intensive applications, visual quality, rendering performance.
 
 **Note:** Part of McCLIM Extensions.
+
+---
+
+
+## McCLIM
+
+**System Name:** `mcclim`
+
+**Purpose:** Free implementation of the Common Lisp Interface Manager (CLIM) specification.
+
+**Why Use It:**
+- **CLIM Implementation**: Complete implementation of CLIM 2 specification
+- **Cross-Platform GUI**: Build portable graphical applications
+- **Rich Widgets**: Extensive set of UI components and gadgets
+- **Presentation System**: Powerful command and presentation framework
+- **Multiple Backends**: Support for various graphics backends
+
+**Best For:** Building sophisticated cross-platform GUI applications in Common Lisp.
+
+**Note:** Licensed under LGPL. Large collaborative project with many contributors.
+
+---
+
+
+## nodgui
+
+**System Name:** `nodgui`
+
+**Purpose:** Lisp bindings for the Tk toolkit.
+
+**Why Use It:**
+- **Tk Bindings**: Complete Tk GUI toolkit bindings
+- **Cross-Platform**: Works on Windows, macOS, Linux
+- **Rich Widgets**: Buttons, menus, canvas, text, treeview, etc.
+- **Unicode Support**: Full Unicode text handling
+- **Event Handling**: Comprehensive event system
+- **Image Support**: JPEG and other image formats
+- **Plotting**: TkLib plotting widgets
+- **Calendar Widgets**: Additional TkLib widgets
+- **Thread-Safe**: Uses bordeaux-threads
+
+**Best For:** Cross-platform GUI applications needing a mature, feature-rich toolkit with native look and feel.
 
 ---
 

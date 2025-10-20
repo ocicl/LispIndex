@@ -1,6 +1,6 @@
 # Numeric: Number-Theory
 
-2 libraries
+3 libraries
 
 ---
 
@@ -40,6 +40,25 @@
 **Best For:** Cryptography, RSA key generation, number theory, mathematics.
 
 **Note:** Standard license. Translated from Erlang. May produce pseudo-primes for n>65535.
+
+---
+
+
+## cf
+
+**System Name:** `cf`
+
+**Purpose:** Computations using continued fractions.
+
+**Why Use It:**
+- **Continued Fractions**: Mathematical computations with continued fraction representation
+- **Arbitrary Precision**: Handle high-precision numerical calculations
+- **Pure Lisp**: No external dependencies required
+- **Mathematical Tool**: Useful for number theory and analysis
+
+**Best For:** Mathematical computations requiring continued fraction arithmetic.
+
+**Note:** Licensed under GPL-3. Author: Guillaume LE VAILLANT.
 
 ---
 

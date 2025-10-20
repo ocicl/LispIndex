@@ -1,6 +1,6 @@
 # Game-Dev: Platform-Integration
 
-4 libraries
+3 libraries
 
 ---
 
@@ -57,28 +57,6 @@
 **Best For:** Game developers, mod distribution platforms, game mod management tools.
 
 **Note:** zlib License. Repository moved to Codeberg.
-
----
-
-
-## cl-steamworks
-
-**System Name:** `cl-steamworks`
-
-**Purpose:** Wrapper for the Valve SteamWorks API.
-
-**Why Use It:**
-- **Steam Integration**: Access Steam platform features from Common Lisp
-- **User Management**: Steam user authentication and profiles
-- **Achievements**: Implement Steam achievements
-- **Cloud Storage**: Steam cloud save support
-- **Multiplayer**: Matchmaking and networking features
-- **Workshop**: Steam Workshop integration
-- **Stats Tracking**: Player statistics and leaderboards
-
-**Best For:** Steam game development, game distribution, multiplayer games, achievement systems.
-
-**Note:** zlib License. By Yukari Hafner.
 
 ---
 

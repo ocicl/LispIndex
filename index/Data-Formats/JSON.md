@@ -1,6 +1,6 @@
 # Data-Formats: JSON
 
-12 libraries
+16 libraries
 
 ---
 
@@ -142,6 +142,25 @@
 ---
 
 
+## herodotus
+
+**System Name:** `herodotus`
+
+**Purpose:** Macro-based JSON serialization/deserialization that generates CLOS classes and JSON parsers simultaneously.
+
+**Why Use It:**
+- **Unified Definition**: Single define-json-model macro creates CLOS class, JSON parser, and JSON writer
+- **Type-Safe Parsing**: Automatic type checking for nested classes and lists
+- **Zero Boilerplate**: Automatic accessor generation and JSON mapping
+- **Nested Object Support**: Type specifiers for class members that reference other JSON models
+- **List Handling**: Supports lists of primitives and objects with proper type parsing
+- **Compact Syntax**: Minimal ceremony for defining data models
+
+**Best For:** REST API clients/servers, JSON configuration, data transfer objects, web services.
+
+---
+
+
 ## json-mop
 
 **System Name:** `json-mop`
@@ -237,6 +256,63 @@
 **Best For:** JSON parsing, web APIs, configuration files, data exchange.
 
 **Note:** BSD-3 Clause by Atlas Engineer LLC. Version 1.2.2. Provides njson/cl-json and njson/jzon subsystems for different backends.
+
+---
+
+
+## ST-JSON
+
+**System Name:** `st-json`
+
+**Purpose:** JSON input and output library.
+
+**Why Use It:**
+- **Simple JSON**: Straightforward JSON parsing and generation
+- **No Dependencies**: Pure Lisp implementation
+- **Lightweight**: Single-file implementation
+- **Fast**: Efficient parsing for common use cases
+
+**Best For:** Basic JSON parsing and generation without complex dependencies.
+
+**Note:** Licensed under BSD. Author: Marijn Haverbeke.
+
+---
+
+
+## json-lib-20240503-b3c9aaa
+
+**System Name:** `json-lib`
+
+**Purpose:** A simple and relatively fast JSON parser and encoder.
+
+**Why Use It:**
+- **Fast Parsing**: Optimized JSON processing
+- **Encoding/Decoding**: Bi-directional JSON support
+- **Simple API**: Easy to use interface
+- **Comprehensive**: File and stream support via cl-fad
+
+**Best For:** JSON API development, data serialization, configuration files.
+
+**Note:** Licensed under MIT. Author: Alex Nygren (Kina, LLC). Version 0.8.
+
+---
+
+
+## shasht
+
+**System Name:** `shasht`
+
+**Purpose:** JSON reading and writing for Common Lisp.
+
+**Why Use It:**
+- **JSON Support**: Fast JSON parsing and generation
+- **Configurable**: Flexible configuration options
+- **CLOS Integration**: Closer-MOP for object serialization
+- **Streaming**: Efficient stream-based reading and writing
+- **Standards Compliant**: Comprehensive JSON test suite included
+- **MIT License**: Permissive licensing
+
+**Best For:** Applications requiring fast, configurable JSON parsing and generation with good standards compliance.
 
 ---
 

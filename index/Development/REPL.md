@@ -1,6 +1,6 @@
 # Development: REPL
 
-5 libraries
+10 libraries
 
 ---
 
@@ -89,21 +89,119 @@
 ---
 
 
-## linedit
+## graven-image
 
-**System Name:** `linedit`
+**System Name:** `graven-image`
 
-**Purpose:** Readline-style library.
+**Purpose:** Portability library for enhanced REPL interaction and debugging of running Lisp images.
 
 **Why Use It:**
-- **Line Editing**: Full-featured line editing for REPL and CLI applications
-- **Smart Terminal**: Intelligent terminal handling with command completion
-- **Cross-Platform**: Works across multiple Common Lisp implementations
-- **Customizable**: Extensible command keys and editor functions
+- **Improved Standard Functions**: Enhanced versions of CL debugging utilities (apropos*, describe*, inspect*, time*)
+- **Better Inspection**: Portable inspector with pagination, field editing, and consistent formatting across implementations
+- **Enhanced Timing**: time* macro accepts multiple forms, benchmark* for statistical profiling with min/avg/max stats
+- **Lambda Expression Recovery**: function-lambda-expression* reconstructs source from compiled functions when possible
+- **Customizable via Generics**: All functions are generic methods allowing :around/:before/:after customization
+- **Unified Output**: Consistent behavior across SBCL, CCL, ECL, and other implementations
 
-**Best For:** REPL enhancements, command-line interfaces, interactive applications.
+**Best For:** Interactive development, REPL enhancement, debugging, profiling, cross-implementation portability.
 
-**Note:** MIT license.
+**Note:** Being refactored into focused libraries (trivial-time, trivial-inspect). MIT license.
+
+---
+
+
+## lime-20240503-fe97b95
+
+**System Name:** `lime`
+
+**Purpose:** A high-level Swank client, like Slime, but for Common Lisp applications.
+
+**Why Use It:**
+- **Swank Client**: Programmatic Swank interaction
+- **REPL Integration**: Connect to Swank servers
+- **Application Embedding**: Embed REPL in applications
+- **High-Level API**: Simplified Swank protocol
+
+**Best For:** IDE development, REPL integration, application debugging.
+
+**Note:** Licensed under MIT. Author: Fernando Borretti. Version 0.1.
+
+---
+
+
+## portal
+
+**System Name:** `portal`
+
+**Purpose:** Portable websockets.
+
+**Why Use It:**
+- **WebSocket Support**: Full WebSocket protocol implementation
+- **Portable**: Works across different CL implementations
+- **usocket-based**: Built on usocket-server for reliability
+- **Binary Support**: Handles both text and binary WebSocket frames
+- **Cryptography**: Uses ironclad for WebSocket handshake
+- **Base64 Encoding**: Includes cl-base64 for protocol encoding
+- **LLGPL License**: Liberal licensing
+
+**Best For:** Web applications requiring real-time bidirectional communication, live updates, chat applications, or any project needing WebSocket support.
+
+---
+
+
+## repl-utilities
+
+**System Name:** `repl-utilities`
+
+**Purpose:** Ease common tasks at the REPL.
+
+**Why Use It:**
+- **REPL Helpers**: Utilities for interactive development
+- **Common Tasks**: Shortcuts for frequent REPL operations
+- **Productivity**: Speed up interactive development workflow
+- **Simple API**: Easy to use utility functions
+- **BSD License**: 2-clause BSD license
+
+**Best For:** Interactive development, REPL-driven workflows, or developers wanting to enhance their REPL experience.
+
+---
+
+
+## slime
+
+**System Name:** `swank`
+
+**Purpose:** Swank server - the Common Lisp backend for SLIME (Superior Lisp Interaction Mode for Emacs).
+
+**Why Use It:**
+- **SLIME Backend**: Server component for SLIME Emacs integration
+- **Remote REPL**: Connect Emacs to running Lisp processes
+- **Debugging**: Full debugging support with SLIME
+- **Inspector**: Object inspection from Emacs
+- **Cross-Platform**: Support for many Lisp implementations
+- **Extensible**: Contrib system for additional features
+- **Public Domain**: Maximum freedom
+
+**Best For:** Essential for any Common Lisp developer using Emacs with SLIME for interactive development.
+
+---
+
+
+## swank-protocol
+
+**System Name:** `swank-protocol`
+
+**Purpose:** A low-level Swank client for programmatic interaction with Swank servers.
+
+**Why Use It:**
+- **Swank Client**: Connect to Swank servers programmatically
+- **Protocol Access**: Low-level protocol implementation
+- **Tool Building**: Build tools that interact with Lisp processes
+- **Remote Control**: Control Lisp processes remotely
+- **USOCKET**: Socket communication
+- **MIT License**: Permissive licensing
+
+**Best For:** Building development tools, IDEs, or automation that needs to interact with running Common Lisp processes via Swank.
 
 ---
 

@@ -1,6 +1,6 @@
 # Meta-Programming: Control-Flow
 
-2 libraries
+4 libraries
 
 ---
 
@@ -38,6 +38,43 @@
 **Best For:** Multi-way dispatch, complex case logic, pattern matching.
 
 **Note:** Public domain.
+
+---
+
+
+## enhanced-unwind-protect
+
+**System Name:** `enhanced-unwind-protect`
+
+**Purpose:** Enhanced UNWIND-PROTECT that detects non-local exits vs normal returns.
+
+**Why Use It:**
+- **Exit Detection**: Distinguish between normal returns and non-local exits
+- **Error Handling**: Better cleanup code organization in exception scenarios
+- **No Dependencies**: Pure Common Lisp with no external dependencies
+- **Simple API**: Easy to use enhanced version of standard UNWIND-PROTECT
+
+**Best For:** Advanced error handling, resource cleanup requiring exit type awareness.
+
+**Note:** Licensed under Unlicense (Public Domain). Author: Jean-Philippe Paradis.
+
+---
+
+
+## enhanced-unwind-protect
+
+**System Name:** `enhanced-unwind-protect`
+
+**Purpose:** Provides an enhanced UNWIND-PROTECT that makes it easy to detect whether the protected form performed a non-local exit or returned normally.
+
+**Why Use It:**
+- **Exit Detection**: Distinguish between normal returns and non-local exits (exceptions, throws, etc.)
+- **Zero Dependencies**: Pure Common Lisp with no external dependencies
+- **Resource Cleanup**: Write more intelligent cleanup code that behaves differently based on exit type
+- **Public Domain**: Unlicense - completely free to use
+- **Lightweight**: Simple, focused utility for improved error handling
+
+**Best For:** Applications requiring sophisticated resource cleanup that needs to distinguish between normal and exceptional execution paths.
 
 ---
 

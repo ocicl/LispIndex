@@ -1,6 +1,6 @@
 # AI: LLM
 
-2 libraries
+4 libraries
 
 ---
 
@@ -39,6 +39,46 @@
 **Best For:** Building AI-powered applications, chatbots, code generation, and function-calling LLM integrations.
 
 **Note:** MIT license. By Anthony Green. Includes advanced tool definition macro with hooks.
+
+---
+
+
+## openai
+
+**System Name:** `openai`
+
+**Purpose:** Library for using the OpenAI APIs.
+
+**Why Use It:**
+- **OpenAI Integration**: Access OpenAI's language models
+- **GPT Models**: Work with GPT models programmatically
+- **Groq Support**: Also includes Groq API support
+- **JSON Handling**: Uses cl-json for API communication
+- **HTTP Requests**: Drakma for API calls
+- **Simple API**: Straightforward interface to OpenAI services
+- **Utilities**: Helper functions for common operations
+
+**Best For:** Building applications that integrate OpenAI's language models and AI services into Common Lisp programs.
+
+---
+
+
+## openai-openapi-client
+
+**System Name:** `openai-openapi-client`
+
+**Purpose:** OpenAI API client generated from the official OpenAPI spec.
+
+**Why Use It:**
+- **Auto-Generated**: Generated from official OpenAPI specification
+- **Type-Safe**: Uses openapi-generator for client generation
+- **JSON Handling**: Uses com.inuoe.jzon for fast JSON processing
+- **HTTP Client**: Dexador for HTTP requests
+- **URI Handling**: Quri for URI manipulation
+- **Complete API**: Full OpenAI API coverage
+- **Up-to-Date**: Can be regenerated from latest spec
+
+**Best For:** Applications requiring comprehensive, spec-compliant access to the full OpenAI API.
 
 ---
 

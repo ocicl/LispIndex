@@ -1,6 +1,6 @@
 # Network: RPC
 
-1 libraries
+2 libraries
 
 ---
 
@@ -20,6 +20,26 @@
 **Best For:** RPC services, distributed systems, LSP implementations, remote procedure calls.
 
 **Note:** BSD 2-Clause license.
+
+---
+
+
+## cxml-rpc
+
+**System Name:** `cxml-rpc`
+
+**Purpose:** An XML-RPC interface for Common Lisp.
+
+**Why Use It:**
+- **XML-RPC Client**: Make remote procedure calls to XML-RPC servers
+- **XML-RPC Server**: Create XML-RPC service endpoints with Hunchentoot
+- **CXML-Based**: Uses CXML for robust XML processing
+- **Type Handling**: Proper XML-RPC type encoding and decoding
+- **HTTP Integration**: Drakma client and Hunchentoot server support
+
+**Best For:** Implementing XML-RPC clients and servers.
+
+**Note:** No explicit license in .asd file.
 
 ---
 

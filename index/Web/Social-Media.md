@@ -1,6 +1,6 @@
 # Web: Social-Media
 
-3 libraries
+5 libraries
 
 ---
 
@@ -59,6 +59,47 @@
 **Best For:** Unknown - library not documented.
 
 **Note:** Not found in ocicl distribution.
+
+---
+
+
+## toot
+
+**System Name:** `toot`
+
+**Purpose:** A minimal web server originally built by stripping down Edi Weitz's Hunchentoot.
+
+**Why Use It:**
+- **Web Server**: Minimal HTTP server
+- **Hunchentoot Based**: Proven codebase
+- **SSL Support**: HTTPS via CL+SSL
+- **Cookies**: Cookie handling
+- **Threading**: Bordeaux-threads support
+- **RFC 2388**: Multipart form data
+- **BSD License**: Permissive license
+
+**Best For:** Projects needing a minimal, lightweight HTTP server without the full feature set of Hunchentoot.
+
+---
+
+
+## tooter
+
+**System Name:** `tooter`
+
+**Purpose:** A client library for Mastodon instances.
+
+**Why Use It:**
+- **Mastodon API**: Full Mastodon client
+- **Social Media**: Interact with Mastodon
+- **REST API**: HTTP-based API client
+- **JSON Parsing**: Yason integration
+- **Drakma**: HTTP requests
+- **API v2 & v6**: Multiple API versions
+- **Zlib License**: Very permissive
+- **Well Documented**: Comprehensive documentation
+
+**Best For:** Applications needing to interact with Mastodon social network, post content, or build Mastodon bots.
 
 ---
 

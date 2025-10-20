@@ -1,6 +1,6 @@
 # Web: HTML-Generation
 
-12 libraries
+13 libraries
 
 ---
 
@@ -65,28 +65,6 @@
 **Best For:** Web development, HTML generation, server-side rendering.
 
 **Note:** Modern alternative to CL-WHO with composable components.
-
----
-
-
-## spinneret
-
-**System Name:** `spinneret`
-
-**Purpose:** Modern HTML5 generation with composable, pretty-printing output.
-
-**Why Use It:**
-- **Modern**: Targets HTML5, UTF-8, treats HTML as document format
-- **Composable**: Easy to refactor into functions/macros with with-html
-- **Pretty Output**: Idiomatic, readable HTML following HTML5 coding style
-- **Aggressive Interpretation**: Maximizes convenience over correctness (90/10 trade-off)
-- **Bilingual**: Same semantics in Lisp and Parenscript (after loading spinneret/ps)
-- **Markdown Support**: Can interpret markdown trees
-- **deftag**: Define custom HTML tag macros
-
-**Best For:** HTML generation, server-side rendering, composable web page construction.
-
-**Note:** Assumes UTF-8 serving. Use :disable-html for mixing Lisp forms with HTML syntax.
 
 ---
 
@@ -245,6 +223,42 @@
 **Best For:** Web applications, HTML templating, dynamic HTML generation.
 
 **Note:** BSD License by Peter Seibel. Part of monkeylib ecosystem.
+
+---
+
+
+## monkeylib-markup-html
+
+**System Name:** `monkeylib-markup-html`
+
+**Purpose:** Library for generating HTML from Markup formatted text.
+
+**Why Use It:**
+- **HTML Generation**: Convert Markup to HTML
+- **Footnotes**: Automatic footnote handling
+- **Tag Extensions**: Handy tag utilities
+- **HTML Integration**: Uses monkeylib-html for output
+- **Markup Parser**: Built on com.gigamonkeys.markup
+
+**Best For:** Converting Markup-formatted text documents to HTML for web publishing.
+
+---
+
+
+## semantic-spinneret
+
+**System Name:** `semantic-spinneret`
+
+**Purpose:** A set of Semantic UI components for use with Spinneret.
+
+**Why Use It:**
+- **Semantic UI**: Pre-built Semantic UI component library
+- **Spinneret Integration**: Works with Spinneret HTML generation
+- **Component Library**: Ready-to-use UI components
+- **HTML Generation**: Programmatic HTML with semantic structure
+- **MIT License**: Permissive licensing
+
+**Best For:** Web applications using Spinneret that want to leverage Semantic UI components for consistent, attractive interfaces.
 
 ---
 

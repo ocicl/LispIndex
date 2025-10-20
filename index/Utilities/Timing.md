@@ -1,6 +1,6 @@
 # Utilities: Timing
 
-1 libraries
+2 libraries
 
 ---
 
@@ -20,6 +20,24 @@
 **Best For:** Benchmarking, performance analysis, long-running tasks, user feedback.
 
 **Note:** Clean API for timing and progress indication. By Robert Smith.
+
+---
+
+
+## timer-wheel
+
+**System Name:** `timer-wheel`
+
+**Purpose:** A timer wheel implementation with BORDEAUX-THREADS backend.
+
+**Why Use It:**
+- **Timer Wheel**: Efficient timer scheduling
+- **Timeouts**: Schedule callbacks
+- **Bordeaux Threads**: Portable threading
+- **Performance**: Optimized for many timers
+- **MIT License**: Permissive license
+
+**Best For:** Applications needing efficient management of large numbers of timers or scheduled callbacks.
 
 ---
 

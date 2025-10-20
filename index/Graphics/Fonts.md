@@ -1,6 +1,6 @@
 # Graphics: Fonts
 
-8 libraries
+10 libraries
 
 ---
 
@@ -151,6 +151,45 @@
 **Best For:** TFM library setup, build configuration.
 
 **Note:** BSD licensed by Didier Verna. Required by the main net.didierverna.tfm system.
+
+---
+
+
+## tfm
+
+**System Name:** `net.didierverna.tfm`
+
+**Purpose:** A Common Lisp interface to the TeX Font Metric format, and similar.
+
+**Why Use It:**
+- **TFM Parsing**: Parse TeX Font Metric files
+- **OFM Support**: Omega Font Metric support
+- **Font Information**: Access font metrics
+- **Typesetting**: Font data for typesetting
+- **Abstract API**: Clean interface to font data
+- **BSD License**: Permissive license
+
+**Best For:** Typesetting systems, document generators, or any application needing to read and process TeX font metrics.
+
+---
+
+
+## sdf
+
+**System Name:** `sdf`
+
+**Purpose:** Signed distance field font glyph atlas generator.
+
+**Why Use It:**
+- **SDF Generation**: Create signed distance fields for text rendering
+- **Font Support**: TrueType font support via zpb-ttf
+- **MSDF**: Multi-channel signed distance fields for better quality
+- **Atlas Generation**: Pack multiple glyphs into texture atlases
+- **BMFont Export**: Convert to BMFont format
+- **Game Development**: High-quality text rendering for games and graphics
+- **MIT License**: Permissive licensing
+
+**Best For:** Game developers and graphics programmers who need high-quality scalable text rendering using distance field techniques.
 
 ---
 

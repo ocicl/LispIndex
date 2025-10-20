@@ -1,6 +1,6 @@
 # Text: Generation
 
-1 libraries
+2 libraries
 
 ---
 
@@ -21,6 +21,24 @@
 **Best For:** Text generation, creative writing tools, acronym games.
 
 **Note:** Novelty/creative tool for generating phrases from acronyms.
+
+---
+
+
+## lorem-ipsum
+
+**System Name:** `lorem-ipsum`
+
+**Purpose:** Lorem ipsum generator in portable Common Lisp.
+
+**Why Use It:**
+- **Text Generation**: Generate lorem ipsum placeholder text
+- **Portable**: Pure Common Lisp, no dependencies
+- **Testing**: Generate test data for UI and layout testing
+- **Flexible**: Various generation options
+- **Simple**: Single-file, straightforward implementation
+
+**Best For:** Testing user interfaces, generating placeholder text, mockups, or any application needing dummy text generation.
 
 ---
 

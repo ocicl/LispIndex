@@ -1,6 +1,6 @@
 # Cryptography: Authentication
 
-3 libraries
+4 libraries
 
 ---
 
@@ -62,6 +62,25 @@
 **Best For:** Email clients, XMPP clients, authentication protocols, network services.
 
 **Note:** Depends on Ironclad. Supports standard SASL mechanisms for client authentication.
+
+---
+
+
+## jose-20250217-345d8cf
+
+**System Name:** `jose`
+
+**Purpose:** JSON Object Signing and Encryption (JOSE) implementation.
+
+**Why Use It:**
+- **JWS Support**: JSON Web Signature implementation
+- **JWT Support**: JSON Web Token handling
+- **Security**: Cryptographic signing and encryption
+- **Package Inferred**: Modern package-inferred-system design
+
+**Best For:** Authentication, token-based security, API security, JSON Web Tokens.
+
+**Note:** Licensed under BSD 2-Clause. Author: Eitaro Fukamachi. Version 0.1.0.
 
 ---
 

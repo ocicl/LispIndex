@@ -138,27 +138,6 @@
 ---
 
 
-## cl-ssdb
-
-**System Name:** `cl-ssdb`
-
-**Purpose:** Fast and robust client for SSDB NoSQL database.
-
-**Why Use It:**
-- **SSDB Client**: Connect to SSDB high-performance NoSQL database
-- **Multiple Data Structures**: Support for strings, hashes, lists, sets, sorted sets
-- **Redis Alternative**: Compatible with Redis-like commands
-- **Network Protocol**: TCP socket-based communication
-- **Authentication**: Password authentication support
-- **Key-Value Store**: Fast key-value operations
-
-**Best For:** NoSQL data storage, Redis alternatives, high-performance caching, session storage.
-
-**Note:** MIT License.
-
----
-
-
 ## cqlcl
 
 **System Name:** `cqlcl`
@@ -194,6 +173,26 @@
 **Best For:** Caching, session storage, Redis integration, key-value data structures.
 
 **Note:** BSD license.
+
+---
+
+
+## cl-ohm
+
+**System Name:** `cl-ohm`
+
+**Purpose:** Object-hash mapping for Redis in Common Lisp.
+
+**Why Use It:**
+- **Redis ORM**: Object-oriented interface to Redis database
+- **CLOS Integration**: Map CLOS objects to Redis structures
+- **Collections Support**: Handle sets, lists, and sorted sets
+- **Counters**: Built-in counter support
+- **Indexing**: Automatic indexing and querying capabilities
+
+**Best For:** Using Redis as an object store with CLOS objects.
+
+**Note:** Licensed under MIT. Author: Sebastian Christ.
 
 ---
 

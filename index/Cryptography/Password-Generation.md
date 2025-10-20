@@ -1,6 +1,6 @@
 # Cryptography: Password-Generation
 
-1 libraries
+2 libraries
 
 ---
 
@@ -18,6 +18,25 @@
 **Best For:** Generating memorable yet secure passphrases for passwords, encryption keys, and authentication.
 
 **Note:** MIT License by Bill St. Clair.
+
+---
+
+
+## lesspass-cl-20251004-5ed06b1
+
+**System Name:** `lesspass`
+
+**Purpose:** Lesspass v2 implementation.
+
+**Why Use It:**
+- **Password Generation**: Stateless password manager
+- **Cryptographic**: Ironclad-based security
+- **Deterministic**: Generate passwords from master password
+- **No Storage**: Passwords computed on demand
+
+**Best For:** Password management, security applications, authentication.
+
+**Note:** Licensed under MIT. Author: Ethan Hawk. Version 1.0.0.
 
 ---
 

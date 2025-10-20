@@ -1,6 +1,6 @@
 # Audio: Protocols
 
-2 libraries
+3 libraries
 
 ---
 
@@ -41,6 +41,27 @@
 **Best For:** Music software, live coding, DAW integration, VJ software, interactive installations.
 
 **Note:** GPL v3 by nik gaffney. Version 0.7. Depends on usocket.
+
+---
+
+
+## osc-devices
+
+**System Name:** `osc`
+
+**Purpose:** The Open Sound Control protocol (OSC) implementation.
+
+**Why Use It:**
+- **OSC Protocol**: Implement Open Sound Control
+- **Network Communication**: UDP-based musical/media control
+- **Device Support**: OSC devices, clients, servers
+- **Dispatcher**: Event dispatching for OSC messages
+- **Time Tags**: OSC time tag support
+- **Socket Functions**: usocket-based networking
+- **Music Software**: Control music software and hardware
+- **Real-Time**: Suitable for real-time audio applications
+
+**Best For:** Music software, live coding, multimedia installations, and applications requiring OSC communication with audio/visual hardware and software.
 
 ---
 

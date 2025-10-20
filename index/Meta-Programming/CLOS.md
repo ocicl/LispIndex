@@ -1,6 +1,6 @@
 # Meta-Programming: CLOS
 
-15 libraries
+32 libraries
 
 ---
 
@@ -293,6 +293,335 @@
 - **Known Dispatchers**: Pre-defined dispatch strategies
 
 **Best For:** Plugin systems, extensible applications, event handling.
+
+---
+
+
+## Stealth-mixin
+
+**System Name:** `stealth-mixin`
+
+**Purpose:** Library for creating stealth mixin classes.
+
+**Why Use It:**
+- **Hidden Mixins**: Create mixins that don't appear in class precedence lists
+- **MOP-Based**: Uses the Metaobject Protocol for implementation
+- **Clean Inheritance**: Add functionality without cluttering class hierarchies
+- **Closer-MOP**: Portable across implementations with Closer-MOP
+
+**Best For:** Advanced CLOS programming with clean abstraction layers.
+
+**Note:** Licensed under FreeBSD. Author: Robert Strandh.
+
+---
+
+
+## hu.dwim.defclass-star
+
+**System Name:** `hu.dwim.defclass-star`
+
+**Purpose:** Simplify class-like definitions with defclass* and friends.
+
+**Why Use It:**
+- **Enhanced DEFCLASS**: Simplified class definition syntax
+- **Automatic Accessors**: Automatic generation of accessors
+- **Less Boilerplate**: Reduce repetitive class definition code
+- **Better Defaults**: Sensible defaults for common patterns
+
+**Best For:** Class-heavy applications, reducing CLOS boilerplate, cleaner code.
+
+**Note:** Part of the hu.dwim library collection.
+
+---
+
+
+## incongruent-methods
+
+**System Name:** `incongruent-methods`
+
+**Purpose:** Methods with incongruent lambda lists.
+
+**Why Use It:**
+- **Flexible Methods**: Methods with different parameter lists
+- **Shared Methods**: Share methods across classes
+- **Class Methods**: Methods that vary by class
+- **MOP Extension**: Extends CLOS via Closer-MOP
+- **Override Congruency**: Break lambda list congruence requirement
+
+**Best For:** Advanced CLOS usage, flexible method dispatch, MOP programming.
+
+**Note:** Licensed under LLGPL. Author: Peter von Etter.
+
+---
+
+
+## inlined-generic-function
+
+**System Name:** `inlined-generic-function`
+
+**Purpose:** Fast inlinable generic functions dispatched at compile-time.
+
+**Why Use It:**
+- **Compile-time Dispatch**: Generic functions inlined by compiler
+- **Performance**: Zero runtime dispatch overhead
+- **MOP Implementation**: Extends CLOS via MOP
+- **Type-based**: Dispatches on known types at compile time
+- **Optimization**: Combine generics with inline performance
+
+**Best For:** Performance-critical code, type-specialized algorithms, zero-cost abstraction.
+
+**Note:** Licensed under LLGPL. Author: Masataro Asai. MOP-based compile-time dispatch.
+
+---
+
+
+## instance-tracking
+
+**System Name:** `instance-tracking`
+
+**Purpose:** Defines a class that tracks its instances.
+
+**Why Use It:**
+- **Instance Registry**: Keep track of all instances
+- **Garbage Collection**: Weak reference tracking
+- **Object Enumeration**: Find all instances of a class
+- **Thread Safe**: Uses Bordeaux-threads
+- **Debugging**: Inspect live instances
+
+**Best For:** Debugging, resource management, instance enumeration, monitoring.
+
+**Note:** Licensed under MIT. Author: plkrueger. Depends on bordeaux-threads.
+
+---
+
+
+## interface
+
+**System Name:** `interface`
+
+**Purpose:** System for defining interfaces (abstract classes with required methods).
+
+**Why Use It:**
+- **Interfaces**: Define required method contracts
+- **Abstract Classes**: Classes that cannot be instantiated
+- **Method Requirements**: Specify required methods
+- **Validation**: Check implementations at definition time
+- **Documentation**: Self-documenting interfaces
+
+**Best For:** Large systems, API contracts, abstract base classes, design by contract.
+
+**Note:** Licensed under BSD 3-clause. Author: Robert Smith.
+
+---
+
+
+## hu.dwim.defclass-star
+
+**System Name:** `hu.dwim.defclass-star`
+
+**Purpose:** Simplify class like definitions with defclass* and friends.
+
+**Why Use It:**
+- **DEFCLASS***: Enhanced class definition with less boilerplate
+- **Slot Shortcuts**: Simplified slot specification syntax
+- **Accessor Generation**: Automatic accessor generation
+- **Initargs**: Automatic :initarg generation
+- **Reader/Writer**: Simplified reader and writer specification
+- **Less Verbose**: Significantly reduces class definition boilerplate
+
+**Best For:** Projects with many class definitions that want to reduce boilerplate and improve readability.
+
+---
+
+
+## mop-utils
+
+**System Name:** `mop-utils`
+
+**Purpose:** A set of Metaobject Protocol utilities.
+
+**Why Use It:**
+- **MOP Utilities**: Convenient MOP operations
+- **Cross-Implementation**: Uses closer-mop for portability
+- **SBCL Native**: Native MOP support on SBCL
+- **Metaprogramming**: Simplify MOP-based metaprogramming
+
+**Best For:** Projects using the Metaobject Protocol that need utility functions for common MOP operations.
+
+---
+
+
+## nclasses
+
+**System Name:** `nclasses`
+
+**Purpose:** Simplify class-like definitions with define-class and friends.
+
+**Why Use It:**
+- **Concise Classes**: Simpler class definition syntax
+- **Defclass Star**: Enhanced defclass with automatic accessors
+- **Duplicate Handling**: Manage duplicate definitions
+- **MOP Integration**: Uses moptilities
+- **Atlas Engineer**: Part of Atlas Engineer ecosystem
+- **Public Domain**: Unrestricted license
+
+**Best For:** Projects wanting more concise and convenient class definitions than standard DEFCLASS.
+
+---
+
+
+## list-named-class
+
+**System Name:** `list-named-class`
+
+**Purpose:** CLOS extension - name classes after lists of symbols.
+
+**Why Use It:**
+- **List Names**: Use lists as class names for multi-dimensional classification
+- **CLOS Extension**: Extends the MOP for enhanced class naming
+- **Swank Integration**: SLIME/Swank integration for development
+- **Closer-MOP**: Built on closer-mop for portability
+- **Protest Support**: Optional protest testing framework integration
+- **Metaprogramming**: Advanced class organization techniques
+- **Hierarchical Naming**: Organize classes with structured names
+
+**Best For:** Projects needing sophisticated class naming schemes, multi-dimensional type systems, or advanced CLOS metaprogramming.
+
+---
+
+
+## metap
+
+**System Name:** `metap`
+
+**Purpose:** Metaclass propagation along class inheritance structure.
+
+**Why Use It:**
+- **Metaclass Propagation**: Automatic metaclass inheritance
+- **MOP**: Metaobject protocol utilities
+- **Class Hierarchies**: Manage complex class hierarchies
+- **Closer-MOP**: Built on Closer-MOP
+- **Inheritance Control**: Control metaclass inheritance
+
+**Best For:** Complex class hierarchies, MOP programming, or frameworks requiring automatic metaclass propagation.
+
+---
+
+
+## method-combination-utilities
+
+**System Name:** `method-combination-utilities`
+
+**Purpose:** Various method combinations and utilities to make it easy to create new method combinations.
+
+**Why Use It:**
+- **Method Combinations**: Pre-defined useful method combinations
+- **DSL**: Utilities for defining new combinations
+- **CLOS Extension**: Extend CLOS method combination
+- **Generic Functions**: Enhanced generic function behavior
+- **Closer-MOP**: MOP-based utilities
+- **Reusable Patterns**: Common method combination patterns
+
+**Best For:** Advanced CLOS programming, framework development, or projects requiring custom method combination semantics.
+
+---
+
+
+## polymorphic-functions
+
+**System Name:** `polymorphic-functions`
+
+**Purpose:** Type based dispatch for Common Lisp.
+
+**Why Use It:**
+- **Type Dispatch**: Function dispatch based on argument types, not just classes
+- **Compile-Time Optimization**: SBCL transforms for zero runtime overhead
+- **Parametric Types**: Support for advanced type specifications
+- **Compiler Integration**: Works with compiler type inference
+- **Inline Friendly**: Can be inlined for maximum performance
+- **SWANK Integration**: Optional slime/swank integration for better IDE support
+- **MIT License**: Permissive licensing
+- **Beta Status**: Version 0.4.0, actively developed
+
+**Best For:** Performance-critical code requiring dispatch on types rather than classes, numeric computing, or generic programming patterns.
+
+---
+
+
+## sealable-metaobjects
+
+**System Name:** `sealable-metaobjects`
+
+**Purpose:** A CLOSsy way to trade genericity for performance through sealable classes and methods.
+
+**Why Use It:**
+- **Performance Optimization**: Seal classes and methods for better performance
+- **CLOS Integration**: Works within the CLOS metaobject protocol
+- **Static Analysis**: Enables compiler optimizations on sealed entities
+- **Generic Functions**: Sealable generic functions for dispatch optimization
+- **Closer-MOP**: Uses Closer-MOP for portability
+- **MIT License**: Permissive licensing
+
+**Best For:** Performance-critical CLOS code where you can trade some dynamism for execution speed through sealing.
+
+---
+
+
+## sheeple
+
+**System Name:** `sheeple`
+
+**Purpose:** Cheeky prototypes for Common Lisp - a prototype-based object system.
+
+**Why Use It:**
+- **Prototype-Based**: Prototype inheritance instead of class-based
+- **Alternative to CLOS**: Different object-oriented paradigm
+- **Messages and Replies**: Message passing with reply dispatch
+- **Property System**: Dynamic property management
+- **MOP**: Metaobject protocol for introspection
+- **Flexible**: Prototype-based programming in Common Lisp
+- **MIT License**: Permissive licensing
+
+**Best For:** Projects that prefer prototype-based programming or want to explore alternative object-oriented paradigms in Common Lisp.
+
+---
+
+
+## specialized-function
+
+**System Name:** `specialized-function`
+
+**Purpose:** Provides Julia-like type-specialized function compilation.
+
+**Why Use It:**
+- **Type Specialization**: Automatically compile type-specific function versions
+- **Performance**: Optimize functions for specific type signatures
+- **Julia-Like**: Similar to Julia's type specialization
+- **Automatic Compilation**: Transparent specialization from same code
+- **Trivia**: Pattern matching integration
+- **Type-R**: Type inference support
+- **LGPL License**: Lesser GPL
+
+**Best For:** Performance-critical code that benefits from type-specific compilation without manual code duplication.
+
+---
+
+
+## xml-mop
+
+**System Name:** `xml-mop`
+
+**Purpose:** Allows representing parts of XML documents as CLOS objects.
+
+**Why Use It:**
+- **XML to CLOS**: Map XML to CLOS objects
+- **MOP Integration**: CLOS metaobject protocol
+- **S-XML**: Uses S-XML parser
+- **Object Mapping**: Automatic XML/object conversion
+- **Closer-MOP**: Portable MOP access
+- **MIT License**: Permissive licensing
+
+**Best For:** Applications needing to work with XML as CLOS objects rather than tree structures.
 
 ---
 

@@ -1,6 +1,6 @@
 # Utilities: Diff
 
-3 libraries
+4 libraries
 
 ---
 
@@ -63,6 +63,25 @@
 **Best For:** Version control, file comparison, patch generation, delta compression.
 
 **Note:** By Nathan Froyd. Implements diff, patch, vdelta, and svndiff algorithms.
+
+---
+
+
+## vivid-diff
+
+**System Name:** `vivid-diff`
+
+**Purpose:** Colored object diff viewer.
+
+**Why Use It:**
+- **Visual Diff**: Show differences with colors
+- **Object Comparison**: Compare Lisp objects visually
+- **Vivid-Colors**: Built on vivid-colors framework
+- **REPL Tool**: Enhanced REPL experience
+- **Debugging**: Visual debugging aid
+- **MIT License**: Permissive licensing
+
+**Best For:** Testing frameworks, REPL tools, or debugging utilities that need to display object differences.
 
 ---
 

@@ -1,6 +1,6 @@
 # Graphics: Geometry
 
-1 libraries
+3 libraries
 
 ---
 
@@ -22,6 +22,45 @@
 **Best For:** Graphics applications, polygon rendering, computational geometry.
 
 **Note:** Requires GLU to be installed on the system.
+
+---
+
+
+## manifolds
+
+**System Name:** `manifolds`
+
+**Purpose:** Various manifold mesh algorithms.
+
+**Why Use It:**
+- **Mesh Algorithms**: Manifold mesh manipulation and analysis
+- **3D Math**: Integration with 3d-math and 3d-spaces
+- **Miniball**: Minimum bounding sphere computation
+- **Normalization**: Mesh normalization operations
+- **3D Graphics**: Foundation for 3D graphics operations
+- **Documentation**: Comprehensive documentation
+
+**Best For:** 3D graphics applications, mesh processing, computational geometry, or game development requiring mesh algorithms.
+
+---
+
+
+## quickhull
+
+**System Name:** `quickhull`
+
+**Purpose:** An implementation of the Quickhull convex hull construction algorithm.
+
+**Why Use It:**
+- **Convex Hull**: Efficient 3D convex hull computation
+- **3D Math**: Integration with 3d-math library
+- **Fast Algorithm**: O(n log n) average case performance
+- **Documented**: Comprehensive documentation
+- **Game Development**: Useful for collision detection and physics
+- **Graphics**: Essential for computational geometry tasks
+- **Zlib License**: Permissive licensing
+
+**Best For:** Game development, computational geometry, physics simulations, or 3D graphics applications requiring convex hull operations.
 
 ---
 

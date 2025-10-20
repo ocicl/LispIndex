@@ -1,6 +1,6 @@
 # System: Packages
 
-7 libraries
+10 libraries
 
 ---
 
@@ -136,6 +136,63 @@
 **Best For:** Large codebases, package naming conflicts, namespace management, code organization.
 
 **Note:** MIT license.
+
+---
+
+
+## lem-extension-manager-20250802-cb19321
+
+**System Name:** `lem-extension-manager`
+
+**Purpose:** Configuration library for managing Lem packages.
+
+**Why Use It:**
+- **Package Management**: Manage Lem extensions
+- **Configuration**: Extension configuration system
+- **Integration**: Works with Lem editor
+- **Modular**: Clean extension architecture
+
+**Best For:** Lem editor customization, extension development.
+
+**Note:** Licensed under MIT. Part of Lem ecosystem.
+
+---
+
+
+## null-package
+
+**System Name:** `null-package`
+
+**Purpose:** Safe and robust S-Expression reader for unfaithful streams/sockets.
+
+**Why Use It:**
+- **Safe Reading**: Read S-expressions from untrusted sources safely
+- **Stream Protection**: Handle unreliable streams and sockets robustly
+- **read-as-string**: Uses read-as-string for controlled reading
+- **Readtable Management**: Named-readtables integration
+- **Core Reader**: Stream-oriented reading utilities
+- **Alexandria Integration**: Public domain utilities included
+- **Error Handling**: Gracefully handle malformed input
+
+**Best For:** Reading S-expressions from network sockets, user input, or any unreliable data source where safety is paramount.
+
+---
+
+
+## trivial-package-locks
+
+**System Name:** `trivial-package-locks`
+
+**Purpose:** A standard interface to the various package lock implementations.
+
+**Why Use It:**
+- **Package Locks**: Lock package modifications
+- **Portable**: Cross-implementation
+- **Safety**: Prevent accidental changes
+- **Standard API**: Uniform interface
+- **MIT License**: Permissive license
+
+**Best For:** Libraries wanting to protect their symbols from modification in a portable way.
 
 ---
 

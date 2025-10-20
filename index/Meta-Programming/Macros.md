@@ -1,6 +1,6 @@
 # Meta-Programming: Macros
 
-20 libraries
+38 libraries
 
 ---
 
@@ -151,6 +151,25 @@
 **Best For:** Complex destructuring in let bindings.
 
 **Note:** Small implementation (<300 LOC). Inspired by metabang-bind.
+
+---
+
+
+## metabang-bind
+
+**System Name:** `metabang-bind`
+
+**Purpose:** Powerful destructuring bind macro (bind is let and more).
+
+**Why Use It:**
+- **Destructuring**: Advanced destructuring beyond let
+- **Many Forms**: Supports lists, arrays, structures, slots, etc.
+- **Classic**: Well-known in CL community
+- **Inspiration**: Inspired let-plus
+
+**Best For:** Complex destructuring patterns.
+
+**Note:** Unmaintained but still widely used. See let-plus for maintained alternative.
 
 ---
 
@@ -335,6 +354,25 @@
 ---
 
 
+## defrec
+
+**System Name:** `defrec`
+
+**Purpose:** Define mutually recursive functions at the top level.
+
+**Why Use It:**
+- **Recursive Functions**: Define mutually recursive functions cleanly
+- **Top-Level Definitions**: Works at the top level like defun
+- **Simple Syntax**: Clean macro for defining function groups
+- **Type Declarations**: Support for type declarations in recursive functions
+
+**Best For:** Mutually recursive algorithms, state machines, interpreters, parsers.
+
+**Note:** By Robert Smith. Enables clean definition of interdependent functions.
+
+---
+
+
 ## let-over-lambda
 
 **System Name:** `let-over-lambda`
@@ -355,28 +393,6 @@
 ---
 
 
-## let-plus
-
-**System Name:** `let-plus`, `let+`
-
-**Purpose:** Destructuring extension of let* with clean, consistent syntax.
-
-**Why Use It:**
-- **Extended Destructuring**: More powerful than standard destructuring-bind
-- **Slots/Accessors**: Bind to object slots and accessors with &slots, &accessors
-- **Arrays/Vectors**: Destructure arrays and vectors
-- **Multiple Values**: Bind multiple return values
-- **Read-Only Forms**: -r/o suffix for read-only bindings
-- **Placeholder Macros**: Editor hints and syntax highlighting
-- **Easy Extension**: Simple to add new destructuring forms
-
-**Best For:** Complex destructuring, working with CLOS objects, cleaner binding syntax.
-
-**Note:** Less than 300 LOC. Inspired by metabang-bind but cleaner syntax.
-
----
-
-
 ## monkeylib-macro-utilities
 
 **System Name:** `com.gigamonkeys.macro-utilities`
@@ -390,6 +406,325 @@
 **Best For:** Legacy code maintenance.
 
 **Note:** Deprecated. Peter Seibel recommends using Alexandria instead for new code.
+
+---
+
+
+## Easy-bind
+
+**System Name:** `easy-bind`
+
+**Purpose:** Easy local binding facilities for Common Lisp.
+
+**Why Use It:**
+- **Simplified Binding**: Easier syntax for local variable binding
+- **Pattern Matching**: Includes letmatch for pattern-based binding
+- **Cleaner Code**: Reduces boilerplate in binding forms
+- **Lightweight**: Minimal dependencies and simple implementation
+
+**Best For:** Simplifying local variable binding and pattern matching in code.
+
+**Note:** Licensed under MIT. Author: Marius Gaarde.
+
+---
+
+
+## curly
+
+**System Name:** `curly`
+
+**Purpose:** Reader macros for easy function currying and composition.
+
+**Why Use It:**
+- **Function Currying**: Convenient syntax for partial application
+- **Function Composition**: Easy-to-read function composition operators
+- **Reader Macros**: Extends Lisp syntax for functional programming
+- **Concise Code**: More compact functional code
+
+**Best For:** Functional programming with convenient currying and composition syntax.
+
+**Note:** Licensed under BSD sans advertising clause. Author: Maciej Pasternacki.
+
+---
+
+
+## definer
+
+**System Name:** `definer`
+
+**Purpose:** A DEF macro for Common Lisp.
+
+**Why Use It:**
+- **Unified DEF**: Single DEF macro replaces various def* forms
+- **Extensible**: Custom definition types can be added
+- **Cleaner Syntax**: More elegant than multiple def* macros
+- **Simple**: Lightweight implementation
+
+**Best For:** Projects preferring a unified definition macro over separate def* forms.
+
+**Note:** Licensed under BSD. Author: Marco Antoniotti.
+
+---
+
+
+## expanders
+
+**System Name:** `expanders`
+
+**Purpose:** Tool for defining expanders.
+
+**Why Use It:**
+- **Macro Utilities**: Framework for defining code expanders
+- **Composable**: Build complex expanders from simple components
+- **Minimal Dependencies**: Only depends on Alexandria
+- **Extensible**: Easy to define custom expansion rules
+
+**Best For:** Macro development, code transformation tools, DSL implementation.
+
+**Note:** Licensed under MIT. Author: Héctor Galbis Sanchis.
+
+---
+
+
+## f-underscore
+
+**System Name:** `f-underscore`
+
+**Purpose:** A tiny library of functional programming utils.
+
+**Why Use It:**
+- **Functional Utilities**: Collection of functional programming helpers
+- **Code Brevity**: Make functional programs shorter and easier to read
+- **No Syntax Extensions**: Avoid complex reader macros
+- **Public Domain**: Completely free to use and modify
+
+**Best For:** Functional programming, code composition, utility functions.
+
+**Note:** Public Domain. Author: Nick Allen. Version 0.1.
+
+---
+
+
+## hu.dwim.def
+
+**System Name:** `hu.dwim.def`
+
+**Purpose:** General purpose, homogenous, extensible definer macro.
+
+**Why Use It:**
+- **Unified Definers**: Single macro framework for all definitions
+- **Extensible**: Easy to add new definition types
+- **Namespace Support**: Built-in namespace management
+- **Iterator Support**: Advanced iteration definition support
+
+**Best For:** Building DSLs, unified definition syntax, macro frameworks.
+
+**Note:** Part of the hu.dwim library collection.
+
+---
+
+
+## letrec-20240503-da8643a
+
+**System Name:** `letrec`
+
+**Purpose:** A simple alternative to Scheme's LETREC.
+
+**Why Use It:**
+- **Recursive Bindings**: Scheme-like letrec for CL
+- **Mutual Recursion**: Support for mutually recursive functions
+- **Simple**: Minimal, focused implementation
+- **Utility**: Programming convenience
+
+**Best For:** Functional programming, recursive definitions, Scheme-style coding.
+
+**Note:** Public Domain. Author: Robert Smith. Uses alexandria.
+
+---
+
+
+## letv-20241231-d958810
+
+**System Name:** `letv`
+
+**Purpose:** Combine LET and MULTIPLE-VALUE-BIND with less verbosity.
+
+**Why Use It:**
+- **Concise Syntax**: Less verbose than nested bindings
+- **Multiple Values**: Handle multiple values elegantly
+- **LETV and LETV***: Both parallel and sequential versions
+- **Less Indentation**: Cleaner code structure
+
+**Best For:** Multiple value handling, cleaner code, reducing indentation.
+
+**Note:** Licensed under BSD. Author: Marco Antoniotti. Exports LETV and LETV* macros.
+
+---
+
+
+## lineva-20240503-156a759
+
+**System Name:** `lineva`
+
+**Purpose:** Linear evaluation macro system.
+
+**Why Use It:**
+- **Linear Evaluation**: Alternative evaluation order
+- **Macro System**: Custom evaluation semantics
+- **No Dependencies**: Standalone library
+- **Experimental**: Novel programming paradigm
+
+**Best For:** Macro experimentation, evaluation order control, language research.
+
+**Note:** Licensed under GPLv3. Author: Li Dzangfan. Version 0.0.1.
+
+---
+
+
+## expanders
+
+**System Name:** `expanders`
+
+**Purpose:** Tool for defining expanders.
+
+**Why Use It:**
+- **Code Generation**: Framework for defining code expanders
+- **Macro Utilities**: Build sophisticated macro systems with expander patterns
+- **Alexandria Integration**: Uses alexandria utilities
+- **Composable**: Create composable code transformation pipelines
+- **Extensible**: Easy to define new expander types
+
+**Best For:** Developers building sophisticated macro systems or code generation tools that need composable expanders.
+
+---
+
+
+## f-underscore
+
+**System Name:** `f-underscore`
+
+**Purpose:** A tiny library of functional programming utils placed into the public domain.
+
+**Why Use It:**
+- **Functional Utilities**: Collection of functional programming helper functions
+- **Concise Code**: Make functional programs shorter and easier to read
+- **Public Domain**: Completely free to use without restrictions
+- **No Syntax**: Achieves brevity without resorting to reader syntax
+- **Lightweight**: Single-file library with no dependencies
+
+**Best For:** Functional programming in Common Lisp with utilities for composition, partial application, and common functional patterns.
+
+---
+
+
+## hu.dwim.def
+
+**System Name:** `hu.dwim.def`
+
+**Purpose:** General purpose, homogenous, extensible definer macro.
+
+**Why Use It:**
+- **Unified Definitions**: Single DEF macro for defining various constructs
+- **Extensible**: Add new definition types easily
+- **Namespace Support**: Thread-safe namespace (global hashtable) management
+- **Iterator Definitions**: Define iterators with DEF
+- **WITH-MACRO Support**: Define WITH- style macros
+- **Extended Packages**: Enhanced package definition capabilities
+- **Metaprogramming**: Foundation for sophisticated code generation
+
+**Best For:** Projects wanting a unified, extensible definition system, or building domain-specific languages with custom definition types.
+
+---
+
+
+## macrodynamics
+
+**System Name:** `macrodynamics`
+
+**Purpose:** A language extension for creating bindings scoped to the entire expansion process of a region of code.
+
+**Why Use It:**
+- **Macro Scope**: Bindings spanning entire macro expansion
+- **Metaprogramming**: Advanced macro programming techniques
+- **Expansion Control**: Control variable scope during macroexpansion
+- **Code Generation**: Sophisticated code generation patterns
+- **Alexandria**: Built on Alexandria utilities
+
+**Best For:** Advanced macro systems, code generation frameworks, or projects requiring sophisticated control over macroexpansion environments.
+
+---
+
+
+## mbe
+
+**System Name:** `mbe`
+
+**Purpose:** Scheme Macros for Common Lisp (Unhygienic).
+
+**Why Use It:**
+- **Scheme Macros**: Scheme-style pattern matching macros
+- **Pattern Matching**: Pattern-based macro expansion
+- **Syntax Rules**: Scheme syntax-rules style
+- **Macro Programming**: Alternative macro definition style
+- **Cross-Language**: Bridge Scheme and Common Lisp idioms
+
+**Best For:** Scheme programmers using Common Lisp, learning different macro systems, or projects porting Scheme code to Common Lisp.
+
+---
+
+
+## trivial-macroexpand-all
+
+**System Name:** `trivial-macroexpand-all`
+
+**Purpose:** Call each implementation's macroexpand-all equivalent.
+
+**Why Use It:**
+- **Macroexpand All**: Full macro expansion
+- **Portable**: Cross-implementation
+- **Code Walking**: Full code expansion
+- **SBCL CLTL2**: SBCL support
+- **Unlicense**: Public domain
+
+**Best For:** Macro writers, code analysis tools, or any code needing complete macro expansion.
+
+---
+
+
+## structure-ext
+
+**System Name:** `structure-ext`
+
+**Purpose:** Tiny structure extensions for Common Lisp.
+
+**Why Use It:**
+- **Structure Enhancements**: Extensions to defstruct
+- **Left Arrow Accessors**: Special accessor syntax
+- **Make-Instance**: CLOS-like make-instance for structures
+- **As-Class**: Treat structures more like classes
+- **Modular**: Sub-systems for different extensions
+- **MIT License**: Permissive licensing
+
+**Best For:** Projects using structures that want some CLOS-like conveniences or enhanced accessor syntax.
+
+---
+
+
+## wu-sugar
+
+**System Name:** `wu-sugar`
+
+**Purpose:** A minimal utility library of string, file, and date functions.
+
+**Why Use It:**
+- **String Utilities**: String concatenation and manipulation
+- **File Operations**: File handling utilities
+- **Date Functions**: Date and time utilities
+- **Minimal**: Small, focused library
+- **STR Function**: Convenient string concatenation
+- **BSD License**: Permissive licensing
+
+**Best For:** Projects wanting a lightweight utility library with essential string, file, and date functions.
 
 ---
 

@@ -1,6 +1,6 @@
 # Data-Structures: Hash-Tables
 
-4 libraries
+5 libraries
 
 ---
 
@@ -67,21 +67,43 @@
 ---
 
 
-## make-hash
+## hash-table-ext
 
-**System Name:** `make-hash`
+**System Name:** `hash-table-ext`
 
-**Purpose:** Concise hash table constructor with flexible initialization.
+**Purpose:** Tiny extensions for Common Lisp hash tables providing iteration, binding, and set operations.
 
 **Why Use It:**
-- **Concise Syntax**: Less verbose hash table creation
-- **Flexible Init**: Multiple initialization formats
-- **Hash Factories**: Define custom hash table constructors
-- **Reader Syntax**: Optional reader macro for literals
+- **Enhanced Iteration**: Convenient looping constructs over hash table keys and values
+- **Binding Forms**: Destructuring-bind-like syntax for hash table access
+- **Set Operations**: Union, intersection, difference operations on hash tables
+- **Lightweight**: Minimal focused extensions without bloat
+- **Portable**: Tested on SBCL, CCL, CLISP, ECL, Allegro, CMUCL, ABCL
 
-**Best For:** Hash table creation, cleaner code, custom constructors.
+**Best For:** Hash table manipulation, functional hash table operations, convenient iteration patterns.
 
-**Note:** Simplifies Common Lisp hash table initialization.
+**Note:** MIT license.
+
+---
+
+
+## ia-hash-table
+
+**System Name:** `ia-hash-table`
+
+**Purpose:** Hash tables where strings and symbols are interchangeable as keys.
+
+**Why Use It:**
+- **Symbol/String Keys**: Use symbols or strings interchangeably
+- **No Intern Leaks**: Parse HTTP headers/JSON without intern problems
+- **Reader Syntax**: Nil-safe dot notation for access
+- **HTTP Headers**: Perfect for header parsing
+- **JSON APIs**: No string/symbol conversion needed
+- **Safe Parsing**: Avoid package pollution from external data
+
+**Best For:** HTTP parsing, JSON APIs, web services, external data handling.
+
+**Note:** Licensed under MIT. Author: Ilya Khaprov. Tested on SBCL, expected to work on Allegro, CCL, LW.
 
 ---
 

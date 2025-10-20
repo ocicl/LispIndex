@@ -1,6 +1,6 @@
 # Data-Structures: Graphs
 
-6 libraries
+8 libraries
 
 ---
 
@@ -115,6 +115,44 @@
 - **Hash Table Based**: Uses mnas-hash-table for storage
 
 **Best For:** Graph algorithms, network analysis, workflow visualization.
+
+---
+
+
+## epigraph
+
+**System Name:** `epigraph`
+
+**Purpose:** A library for representing and processing graphs (nodes and edges).
+
+**Why Use It:**
+- **Graph Structures**: Represent and manipulate graph data structures
+- **Simple API**: Straightforward interface for graph operations
+- **Edge Lists**: Support for simple edge list graph representation
+- **Extensible**: Modular design for custom graph types
+
+**Best For:** Graph algorithms, network analysis, data structure implementation.
+
+**Note:** Licensed under BSD. Author: Cyrus Harmon. Version 0.0.2.
+
+---
+
+
+## epigraph
+
+**System Name:** `epigraph`
+
+**Purpose:** A library for representing and processing graphs (nodes and edges).
+
+**Why Use It:**
+- **Graph Data Structures**: Core abstractions for representing graphs as nodes and edges
+- **Edge List Representation**: Includes simple-edge-list-graph implementation
+- **Graph Algorithms**: Foundation for implementing graph algorithms
+- **Testing**: Integrated with FiveAM for test coverage
+- **Utilities**: Includes graph manipulation utilities
+- **Extensible**: Designed for subclassing and extension
+
+**Best For:** Applications requiring graph data structures and algorithms, including network analysis, routing, dependency graphs, and social networks.
 
 ---
 

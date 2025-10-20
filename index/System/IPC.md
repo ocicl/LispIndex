@@ -1,6 +1,6 @@
 # System: IPC
 
-1 libraries
+2 libraries
 
 ---
 
@@ -18,6 +18,26 @@
 - **Pure CFFI**: Only requires CFFI
 
 **Best For:** Cross-platform applications requiring efficient inter-process communication.
+
+---
+
+
+## dbus
+
+**System Name:** `dbus`
+
+**Purpose:** A D-BUS client library for Common Lisp.
+
+**Why Use It:**
+- **D-BUS Integration**: Communicate with system and session D-BUS
+- **IPC**: Inter-process communication on Linux/Unix systems
+- **Package-Inferred**: Modern package-inferred system structure
+- **IOLib Integration**: Low-level I/O via IOLib
+- **XML Support**: D-BUS introspection via XML parsing
+
+**Best For:** Linux/Unix applications requiring D-BUS system integration.
+
+**Note:** Licensed under BSD. Author: death.
 
 ---
 

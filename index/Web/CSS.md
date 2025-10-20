@@ -1,6 +1,6 @@
 # Web: CSS
 
-4 libraries
+5 libraries
 
 ---
 
@@ -76,6 +76,25 @@
 **Best For:** Web development, CSS generation, style sheet programming.
 
 **Note:** zlib license. Repository moved to Codeberg.
+
+---
+
+
+## lass-flexbox-20240503-f83cc14
+
+**System Name:** `lass-flexbox`
+
+**Purpose:** Flexbox for Lass.
+
+**Why Use It:**
+- **Flexbox CSS**: Generate flexbox CSS via Lass
+- **Type-Safe CSS**: Lisp-based CSS generation
+- **Lass Extension**: Extends Lass CSS library
+- **Modern Layout**: CSS flexbox support
+
+**Best For:** CSS generation, web development, responsive layouts.
+
+**Note:** Licensed under MIT. Author: Fernando Borretti. Version 0.1.
 
 ---
 

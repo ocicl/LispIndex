@@ -1,6 +1,6 @@
 # Data-Formats: Binary
 
-9 libraries
+12 libraries
 
 ---
 
@@ -175,6 +175,66 @@
 **Best For:** Binary file parsing, network protocol implementation, binary data serialization.
 
 **Note:** Peter Seibel's library. Part of the monkeylib collection.
+
+---
+
+
+## intel-hex
+
+**System Name:** `intel-hex`
+
+**Purpose:** Library to handle Intel HEX format.
+
+**Why Use It:**
+- **Intel HEX**: Read and write Intel HEX files
+- **Embedded Systems**: Firmware file format
+- **Binary Data**: Convert to/from binary data
+- **No Dependencies**: Pure Common Lisp
+- **Microcontrollers**: Standard firmware format
+
+**Best For:** Embedded development, firmware tools, binary file conversion.
+
+**Note:** Licensed under MIT. Author: Masayuki Takagi.
+
+---
+
+
+## numpy-file-format
+
+**System Name:** `numpy-file-format`
+
+**Purpose:** Read and write Numpy .npy and .npz files.
+
+**Why Use It:**
+- **NumPy Interop**: Exchange array data with Python NumPy
+- **Binary Format**: Read/write .npy binary array files
+- **Archive Support**: Handle .npz compressed archives
+- **IEEE Floats**: Uses ieee-floats for proper float handling
+- **Portable**: Works across different platforms
+- **Array Loading**: Load NumPy arrays into Lisp arrays
+- **Array Storing**: Store Lisp arrays as NumPy files
+
+**Best For:** Exchanging numerical array data between Common Lisp and Python/NumPy applications.
+
+---
+
+
+## pack
+
+**System Name:** `pack`
+
+**Purpose:** Pack and unpack binary data via Python-like struct strings.
+
+**Why Use It:**
+- **Binary Packing**: Pack data to binary format
+- **Struct Strings**: Python struct module-like format strings
+- **Unpacking**: Parse binary data to Lisp values
+- **IEEE Floats**: Proper float encoding with ieee-floats
+- **Endianness**: Control byte order
+- **Simple API**: Easy binary serialization
+- **Public Domain**: No license restrictions
+
+**Best For:** Binary file format handling, network protocols, and interfacing with systems using packed binary data.
 
 ---
 

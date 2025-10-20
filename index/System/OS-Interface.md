@@ -1,6 +1,6 @@
 # System: OS-Interface
 
-4 libraries
+9 libraries
 
 ---
 
@@ -64,23 +64,117 @@
 ---
 
 
-## osicat
+## eventfd
 
-**System Name:** `osicat`
+**System Name:** `eventfd`
 
-**Purpose:** Lightweight operating system interface providing POSIX and Windows system calls.
+**Purpose:** IOLib based eventfd bindings.
 
 **Why Use It:**
-- **Cross-Platform**: Unix/Linux/macOS (POSIX) and Windows support
-- **File Descriptors**: Low-level fd-streams for fine-grained I/O
-- **POSIX Bindings**: Direct access to Unix system calls
-- **Windows Support**: Native Windows API bindings where available
-- **Darwin/Mach**: Special support for macOS-specific features
-- **CFFI-Based**: Uses CFFI grovel for portable system definitions
+- **Linux Integration**: Access to Linux eventfd system calls
+- **Event Notification**: Efficient event notification mechanism
+- **IOLib Compatible**: Integrates with IOLib's I/O framework
+- **Low-Level Access**: CFFI bindings to eventfd functionality
 
-**Best For:** System programming, file operations, process control, Unix utilities, portable system access.
+**Best For:** Linux system programming, event-driven I/O applications.
 
-**Note:** MIT by Nikodemus Siivola. Requires ASDF 3.1+. Depends on alexandria, cffi, trivial-features.
+**Note:** Licensed under MIT. Author: Ilya Khaprov. Version 0.3.
+
+---
+
+
+## input-event-codes
+
+**System Name:** `input-event-codes`
+
+**Purpose:** Port of input-event-codes.h constants from Linux and FreeBSD.
+
+**Why Use It:**
+- **Input Constants**: Keyboard, mouse, gamepad codes
+- **Linux/FreeBSD**: Platform-specific input codes
+- **Event Handling**: Low-level input event constants
+- **Device Support**: Complete input device coverage
+- **Wayland/X11**: Foundation for input handling
+
+**Best For:** Input handling, game development, Wayland/X11 clients, device drivers.
+
+**Note:** Licensed under MIT. Author: Samuel Hunter. Part of Wayflan project.
+
+---
+
+
+## eventfd
+
+**System Name:** `eventfd`
+
+**Purpose:** IOLib based eventfd bindings.
+
+**Why Use It:**
+- **Linux Integration**: Bindings to Linux eventfd system calls
+- **Asynchronous I/O**: Support for event notification in async I/O scenarios
+- **IOLib Integration**: Works with IOLib's event system
+- **Thread Communication**: Use eventfd for efficient thread-to-thread signaling
+- **C Integration**: CFFI-based bindings via cffi-grovel
+- **Low Overhead**: Minimal overhead for event notification
+
+**Best For:** Linux applications requiring efficient event notification mechanisms, especially for async I/O and thread synchronization.
+
+---
+
+
+## trivial-open-browser
+
+**System Name:** `trivial-open-browser`
+
+**Purpose:** Open the browser to a URL, on any system.
+
+**Why Use It:**
+- **Browser Opening**: Launch system browser
+- **Cross-Platform**: Works on all major OS
+- **UIOP**: Platform detection
+- **Simple API**: Single function
+- **MIT License**: Permissive license
+
+**Best For:** Applications needing to open URLs in the user's default web browser.
+
+---
+
+
+## system-locale
+
+**System Name:** `system-locale`
+
+**Purpose:** System locale and language discovery.
+
+**Why Use It:**
+- **Locale Detection**: Discover system locale settings
+- **Language Discovery**: Determine system language preferences
+- **Cross-Platform**: Windows, Linux, macOS support
+- **CFFI**: Windows API access when needed
+- **Internationalization**: Support i18n applications
+- **Documentation**: Comprehensive documentation
+- **zlib License**: Permissive licensing
+
+**Best For:** Internationalized applications that need to detect and respect system locale and language settings.
+
+---
+
+
+## which
+
+**System Name:** `which`
+
+**Purpose:** The which UNIX command in Common Lisp.
+
+**Why Use It:**
+- **Find Executables**: Locate executables in PATH
+- **UNIX Compatibility**: Implements UNIX which command
+- **Path Parsing**: PATH environment variable parsing
+- **Cross-Platform**: Works across operating systems
+- **CL-FAD**: File system utilities
+- **MIT License**: Permissive licensing
+
+**Best For:** Applications needing to locate system executables or verify command availability.
 
 ---
 

@@ -1,6 +1,6 @@
 # Networking: RPC
 
-3 libraries
+5 libraries
 
 ---
 
@@ -63,6 +63,45 @@
 **Best For:** Distributed systems, RPC clients, networked game backends.
 
 **Note:** MIT License.
+
+---
+
+
+## openrpc
+
+**System Name:** `openrpc-server`
+
+**Purpose:** OpenRPC server implementation for Common Lisp.
+
+**Why Use It:**
+- **OpenRPC Protocol**: Implement OpenRPC servers
+- **JSON-RPC**: Based on JSON-RPC 2.0
+- **Service Discovery**: Automatic OpenRPC discovery document
+- **API Documentation**: Self-documenting RPC APIs
+- **Logging**: Uses log4cl-extras for logging
+- **Class-Based**: CLOS-based API definition
+- **Testing Support**: Comprehensive test suite
+
+**Best For:** Building JSON-RPC APIs with OpenRPC discovery and documentation capabilities.
+
+---
+
+
+## s-xml-rpc
+
+**System Name:** `s-xml-rpc`
+
+**Purpose:** Common Lisp XML-RPC implementation for both client and server.
+
+**Why Use It:**
+- **XML-RPC Protocol**: Full XML-RPC client and server implementation
+- **Client and Server**: Both sides of the protocol supported
+- **S-XML Integration**: Uses S-XML for XML parsing
+- **Base64 Support**: Built-in Base64 encoding for binary data
+- **LLGPL License**: Permissive Lisp licensing
+- **Mature Implementation**: Well-tested XML-RPC library
+
+**Best For:** Applications that need to communicate using the XML-RPC protocol, either as client or server.
 
 ---
 

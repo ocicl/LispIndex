@@ -1,6 +1,6 @@
 # Numeric: Geospatial
 
-2 libraries
+3 libraries
 
 ---
 
@@ -42,6 +42,25 @@
 **Best For:** GIS applications, coordinate transformations, mapping software.
 
 **Note:** Eliminates network dependency for CRS lookups.
+
+---
+
+
+## mgrs
+
+**System Name:** `mgrs`
+
+**Purpose:** Convert coordinates between Latitude/Longitude and MGRS.
+
+**Why Use It:**
+- **MGRS Conversion**: Military Grid Reference System support
+- **Coordinate Conversion**: Convert between lat/lon and MGRS
+- **UTM-UPS**: Built on utm-ups library
+- **Geospatial**: Geospatial coordinate handling
+- **Military Standard**: Standard military coordinate system
+- **Mapping**: Support for mapping applications
+
+**Best For:** Military applications, mapping systems, geospatial analysis, or applications requiring MGRS coordinate support.
 
 ---
 

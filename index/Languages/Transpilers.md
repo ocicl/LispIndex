@@ -1,6 +1,6 @@
 # Languages: Transpilers
 
-3 libraries
+2 libraries
 
 ---
 
@@ -27,45 +27,21 @@
 ---
 
 
-## parenscript
+## js-20240701-f1ff112
 
-**System Name:** `parenscript`
+**System Name:** `cl-js`
 
-**Purpose:** Translator from Common Lisp to JavaScript with full macro support.
-
-**Why Use It:**
-- **CL to JS**: Translate Lisp code to JavaScript
-- **Macro Power**: Full Lisp macros available for JavaScript
-- **No Runtime Dependencies**: Generated JS runs standalone
-- **Native Types**: Uses JavaScript native types directly
-- **Readable Output**: Generated code is idiomatic JavaScript
-- **Efficient**: Minimal overhead, nearly as fast as hand-written JS
-- **Isomorphic**: Same code can run on server (CL) and browser (JS)
-
-**Best For:** Web development, full-stack Lisp applications, JavaScript generation.
-
-**Note:** Different from most language-to-JS translators. Zero runtime overhead.
-
----
-
-
-## parenscript
-
-**System Name:** `parenscript`
-
-**Purpose:** Lisp-to-JavaScript transpiler for writing client-side code in Common Lisp.
+**Purpose:** JavaScript-to-CL compiler and runtime.
 
 **Why Use It:**
-- **Lisp Syntax for JavaScript**: Write JS using Lisp s-expressions
-- **Macros**: Full macro system for JavaScript generation
-- **DOM Library**: Built-in ps-dom for DOM manipulation
-- **Loop Support**: Lisp-style loop macro for JavaScript
-- **PS-HTML**: Inline HTML generation within JavaScript
-- **Named Readtables**: Reader syntax customization
+- **JS to CL**: Compile JavaScript to Common Lisp
+- **Runtime**: JavaScript runtime in Common Lisp
+- **Parser Integration**: Uses parse-js for parsing
+- **Date Support**: Optional local-time integration
 
-**Best For:** Web development, full-stack Lisp apps, JavaScript generation, client-side scripting.
+**Best For:** JavaScript interop, web development, JavaScript execution in Lisp.
 
-**Note:** BSD-3-Clause by Manuel Odendahl, maintained by Vladimir Sedach. Depends on cl-ppcre, anaphora, named-readtables.
+**Note:** Licensed under MIT. Author: Marijn Haverbeke. Uses parse-js library.
 
 ---
 

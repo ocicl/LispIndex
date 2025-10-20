@@ -1,6 +1,6 @@
 # Meta-Programming: Quasiquote
 
-2 libraries
+3 libraries
 
 ---
 
@@ -42,6 +42,26 @@
 **Best For:** Metaprogramming, macro-writing macros, code generation.
 
 **Note:** Destroys shared structure (uses copy-tree). For code, not data.
+
+---
+
+
+## quasiquote
+
+**System Name:** `quasiquote-2.0`
+
+**Purpose:** Writing macros that write macros. Effortless.
+
+**Why Use It:**
+- **Nested Quasiquoting**: Simplified syntax for macros generating macros
+- **Version 2.0**: Enhanced quasiquote beyond standard CL
+- **Macro Writers**: Tools specifically for metaprogramming
+- **Reader Support**: Custom reader macros for enhanced syntax
+- **Iterate Integration**: Works well with iterate
+- **Educational**: Great for understanding advanced macro techniques
+- **MIT License**: Permissive licensing
+
+**Best For:** Advanced macro development, code generation, DSL implementation, or any metaprogramming that requires multiple levels of quasiquoting.
 
 ---
 

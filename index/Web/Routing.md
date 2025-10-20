@@ -1,6 +1,6 @@
 # Web: Routing
 
-5 libraries
+6 libraries
 
 ---
 
@@ -102,4 +102,24 @@
 
 ---
 
+
+## routes
+
+**System Name:** `40ants-routes`
+
+**Purpose:** Framework agnostic URL routing library.
+
+**Why Use It:**
+- **URL Routing**: Flexible URL pattern matching and generation
+- **Framework Agnostic**: Use with any web framework
+- **Breadcrumbs**: Built-in breadcrumb support
+- **URL Generation**: Generate URLs from route names
+- **Nested Routes**: Support for included/nested route definitions
+- **Pattern Matching**: Powerful URL patterns via cl-ppcre
+- **40ants Ecosystem**: Part of modern 40ants tooling
+- **Unlicense**: Public domain dedication
+
+**Best For:** Web applications requiring sophisticated URL routing, REST APIs, or projects wanting framework-independent routing.
+
+---
 

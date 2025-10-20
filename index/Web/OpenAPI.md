@@ -1,6 +1,6 @@
 # Web: OpenAPI
 
-3 libraries
+4 libraries
 
 ---
 
@@ -57,6 +57,27 @@
 **Best For:** Unknown - library not documented.
 
 **Note:** Not found in ocicl distribution.
+
+---
+
+
+## openapi-generator
+
+**System Name:** `openapi-generator`
+
+**Purpose:** Parse OpenAPI specifications and generate Common Lisp API clients.
+
+**Why Use It:**
+- **API Client Generation**: Automatic client code generation
+- **OpenAPI Parsing**: Parse OpenAPI 3.x specifications
+- **CLOS Objects**: Convert specs to CLOS objects
+- **Code Generation**: Generate functional API client code
+- **Project Scaffolding**: Uses cl-project for project generation
+- **JSON/YAML**: Parse both JSON and YAML specs
+- **JSON Pointer**: Navigate specs with cl-json-pointer
+- **MOP Integration**: Uses MOP for object manipulation
+
+**Best For:** Automatically generating Common Lisp API clients from OpenAPI specifications for REST APIs.
 
 ---
 

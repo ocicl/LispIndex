@@ -1,6 +1,6 @@
 # Parsing: Data-Formats
 
-1 libraries
+2 libraries
 
 ---
 
@@ -20,6 +20,25 @@
 **Best For:** Machine learning, data science, Weka integration.
 
 **Note:** ARFF is the standard format for Weka ML tool.
+
+---
+
+
+## cue-parser
+
+**System Name:** `cue-parser`
+
+**Purpose:** A library for parsing audio CUE files.
+
+**Why Use It:**
+- **CUE Sheet Parsing**: Parse CD/audio cue sheet files
+- **PEG Parser**: Built on ESRAP parser combinator library
+- **Helper Functions**: Utilities for working with parsed cue data
+- **Encoding Support**: Handles various text encodings via flexi-streams
+
+**Best For:** Audio applications that need to parse CD/audio cue sheets.
+
+**Note:** Licensed under 2-clause BSD. Author: Vasily Postnicov.
 
 ---
 

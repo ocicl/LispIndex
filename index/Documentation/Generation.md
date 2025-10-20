@@ -1,6 +1,6 @@
 # Documentation: Generation
 
-16 libraries
+23 libraries
 
 ---
 
@@ -313,6 +313,147 @@
 **Best For:** Declt library setup, build configuration.
 
 **Note:** BSD licensed by Didier Verna. Required by the main net.didierverna.declt system.
+
+---
+
+
+## declt
+
+**System Name:** `net.didierverna.declt`
+
+**Purpose:** A reference manual generator for Common Lisp libraries.
+
+**Why Use It:**
+- **Documentation Generation**: Automatic reference manual creation from code
+- **Texinfo Output**: Generate documentation in Texinfo format
+- **Multiple Formats**: Convert to info, HTML, DVI, PostScript, or PDF
+- **Full Indexing**: Comprehensive cross-references and indexing
+- **ASDF Integration**: Extract documentation from ASDF systems
+- **Extensive Coverage**: Documents variables, functions, classes, and more
+
+**Best For:** Generating comprehensive reference documentation for Common Lisp projects.
+
+**Note:** Licensed under BSD. Author: Didier Verna. SBCL only.
+
+---
+
+
+## litterae
+
+**System Name:** `litterae`
+
+**Purpose:** Beautiful documentation generation.
+
+**Why Use It:**
+- **Documentation**: Generate beautiful HTML documentation
+- **Docparser**: Extracts docstrings and definitions
+- **Markdown**: Supports Markdown in docstrings
+- **Code Blocks**: Syntax-highlighted code blocks via 3bmd
+- **Templates**: LSX-based templating system
+- **Configuration**: YAML configuration files
+- **API Docs**: Automatic API documentation generation
+- **Customizable**: Flexible template system
+
+**Best For:** Generating professional-looking HTML documentation for Common Lisp libraries and applications.
+
+---
+
+
+## manifest
+
+**System Name:** `manifest`
+
+**Purpose:** A system for semi-automatically documenting Common Lisp packages.
+
+**Why Use It:**
+- **Documentation**: Semi-automatic package documentation
+- **Introspection**: Uses MOP for code introspection
+- **Web Interface**: Toot-based web interface
+- **HTML Generation**: Generates HTML documentation
+- **Symbol Documentation**: Documents exported symbols
+- **Package Browsing**: Browse package structure
+- **Closer-MOP**: MOP-based analysis
+
+**Best For:** Generating package-level documentation, API references, or browsing package contents through a web interface.
+
+---
+
+
+## osh-autodoc-base
+
+**System Name:** `osh-autodoc-base`
+
+**Purpose:** Abstract syntax for Open Source Hardware assembly manuals from Scribble specifications.
+
+**Why Use It:**
+- **Documentation Generation**: Generate hardware assembly manuals
+- **Scribble Format**: Parse Scribble markup
+- **AST Representation**: Abstract syntax tree for documents
+- **Transformations**: Document transformation utilities
+- **Open Hardware**: Support open source hardware projects
+- **Alexandria Utilities**: Uses Alexandria for utilities
+- **Anaphora**: Anaphoric macros for concise code
+
+**Best For:** Creating assembly manuals and documentation for open source hardware projects.
+
+---
+
+
+## osh-autodoc-pdf
+
+**System Name:** `osh-autodoc-pdf`
+
+**Purpose:** Create Open Source Hardware assembly manuals in PDF from Scribble specifications.
+
+**Why Use It:**
+- **PDF Generation**: Generate PDF assembly manuals
+- **Scribble Input**: Parse Scribble documentation format
+- **Typesetting**: Uses cl-typesetting for layout
+- **PDF Library**: cl-pdf for PDF creation
+- **CSV Data**: cl-csv for parts lists
+- **CLI**: clingon for command-line interface
+- **OSH Autodoc Base**: Uses osh-autodoc-base for processing
+- **Complete Pipeline**: From Scribble to professional PDF
+
+**Best For:** Generating professional PDF assembly instructions for open source hardware projects from Scribble markup.
+
+---
+
+
+## scriba
+
+**System Name:** `scriba`
+
+**Purpose:** A markup format similar to Scribe with CommonDoc integration.
+
+**Why Use It:**
+- **Markup Language**: Scribe-like markup syntax
+- **CommonDoc**: Integration with the CommonDoc document model
+- **Parser**: ESrap-based parser for robust parsing
+- **Plump Integration**: Works with Plump for HTML processing
+- **Document Generation**: Create structured documents programmatically
+- **MIT License**: Permissive licensing
+
+**Best For:** Projects that need a markup language for documentation generation, particularly those using the CommonDoc ecosystem.
+
+---
+
+
+## scribble
+
+**System Name:** `scribble`
+
+**Purpose:** Syntax extensions for mixing text markup and Lisp code, porting Racket's Scribble and Bigloo's Skribe to Common Lisp.
+
+**Why Use It:**
+- **Dual Syntax**: Both Racket Scribble and Bigloo Skribe syntax support
+- **Text and Code Mixing**: Seamlessly combine markup and Lisp code
+- **Readtable Extensions**: Custom reader macros for markup
+- **Documentation**: Great for literate programming and documentation
+- **String Interpolation**: Fare-utils integration for advanced features
+- **MIT License**: Permissive licensing
+
+**Best For:** Literate programming, documentation generation, or any project that needs to elegantly mix prose and code.
 
 ---
 

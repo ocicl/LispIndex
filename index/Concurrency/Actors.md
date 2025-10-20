@@ -43,25 +43,6 @@
 ---
 
 
-## cl-gserver
-
-**System Name:** `cl-gserver`
-
-**Purpose:** Actor framework (Sento) featuring actors, agents, and message passing.
-
-**Why Use It:**
-- **Actor Model**: Erlang/Akka-style message passing
-- **Agents**: Specialized actors for state management
-- **Async/Sync**: Both ask and tell operations
-- **Rich Features**: FSM, router, event-stream, futures
-
-**Best For:** Reactive systems, parallel computing, event-based systems.
-
-**Note:** Formerly cl-gserver, now called Sento. Includes comprehensive documentation.
-
----
-
-
 ## cl-myriam
 
 **System Name:** `cl-myriam`
@@ -99,6 +80,25 @@
 **Best For:** Concurrent systems, message-passing architectures, parallel processing, reactive systems.
 
 **Note:** Based on actor model. Manual at cs.rpi.edu/~govinn/actors.pdf. Examples include ticker, factorial, print actors.
+
+---
+
+
+## simple-actors
+
+**System Name:** `simple-actors`
+
+**Purpose:** Actor model implemented with closures.
+
+**Why Use It:**
+- **Actor Model**: Concurrent programming with actors
+- **Closure-Based**: Lightweight implementation using closures
+- **Message Passing**: Actors communicate via messages
+- **Bordeaux Threads**: Portable threading
+- **Concurrency**: Handle concurrent operations safely
+- **BSD License**: Permissive licensing
+
+**Best For:** Concurrent applications that benefit from the actor model's message-passing approach to concurrency.
 
 ---
 

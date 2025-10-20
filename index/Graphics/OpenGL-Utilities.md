@@ -1,6 +1,6 @@
 # Graphics: OpenGL-Utilities
 
-1 libraries
+2 libraries
 
 ---
 
@@ -22,6 +22,25 @@
 **Best For:** Modern OpenGL applications, shader management, VAO handling.
 
 **Note:** Originally from sdl2kit. Part of lispgames suite.
+
+---
+
+
+## cl-oju
+
+**System Name:** `cl-oju`
+
+**Purpose:** Common Lisp equivalents of core Clojure functions.
+
+**Why Use It:**
+- **Clojure-Style**: Familiar API for Clojure developers
+- **Sequence Operations**: Rich set of sequence manipulation functions
+- **Functional Programming**: Clojure-inspired functional utilities
+- **Easy Transition**: Help Clojure developers work in Common Lisp
+
+**Best For:** Functional programming with Clojure-style sequence operations.
+
+**Note:** Licensed under MIT. Author: John Jacobsen.
 
 ---
 

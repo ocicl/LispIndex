@@ -1,6 +1,6 @@
 # Meta-Programming: Generics
 
-2 libraries
+1 libraries
 
 ---
 
@@ -23,29 +23,6 @@
 **Best For:** Projects wanting consistent, extensible standard operations.
 
 **Note:** Makes CL feel more modern and consistent.
-
----
-
-
-## generic-cl
-
-**System Name:** `generic-cl`
-
-**Purpose:** Generic function wrappers over Common Lisp standard functions for uniform, extensible interfaces.
-
-**Why Use It:**
-- **Single Equality**: `=` works on all types
-- **Comparison**: Generic `<`, `>`, `<=`, `>=`
-- **Sequences**: Generic sequence operations
-- **Hash Tables**: Store user-defined keys
-- **Copying**: Generic copy function
-- **Iteration**: Generic iteration interface
-- **Static Dispatch**: Can be optimized to zero overhead
-- **Extensible**: Add methods for custom types
-
-**Best For:** Generic programming, reducing special-case code, custom types.
-
-**Note:** Built on static-dispatch for performance. Full docs at alex-gutev.github.io.
 
 ---
 

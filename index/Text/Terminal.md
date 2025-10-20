@@ -1,6 +1,6 @@
 # Text: Terminal
 
-4 libraries
+3 libraries
 
 ---
 
@@ -19,27 +19,6 @@
 - **Easy API**: Simple `with-color` macro
 
 **Best For:** Applications needing flexible terminal colorization with multiple color models.
-
----
-
-
-## cl-ansi-text
-
-**System Name:** `cl-ansi-text`
-
-**Purpose:** Terminal color output with ANSI escape codes - "Because color in your terminal is nice."
-
-**Why Use It:**
-- **with-color Macro**: Environment where output to stream gets colored
-- **Multiple Color Formats**: Keywords (:red, :blue), CL-COLORS2 RGB/HSV, hex strings ("#FF0000"), integers, RGB lists
-- **Shorthand Functions**: red, yellow, blue, etc. for generating colored strings
-- **Background Support**: :style :background for background coloring
-- **Composable**: Concatenate colored strings easily
-- ***enabled* Toggle**: Bind to nil to disable colorization globally
-
-**Best For:** Colored terminal output, CLI applications, test result formatting, log highlighting.
-
-**Note:** Integrates with CL-COLORS2 for color blending operations. CI tested.
 
 ---
 

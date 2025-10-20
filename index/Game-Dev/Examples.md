@@ -1,6 +1,6 @@
 # Game-Dev: Examples
 
-2 libraries
+3 libraries
 
 ---
 
@@ -37,6 +37,25 @@
 **Best For:** Learning OpenGL, game development examples, 3D graphics demos.
 
 **Note:** MIT License. Demonstrates 3D game development in Common Lisp.
+
+---
+
+
+## snakes
+
+**System Name:** `snakes`
+
+**Purpose:** Python-style generators for Common Lisp.
+
+**Why Use It:**
+- **Generators**: Python-like generator functions
+- **Continuations**: CL-CONT for continuation support
+- **Lazy Evaluation**: Generate values on demand
+- **Itertools**: Python itertools-like utilities
+- **Iterate Integration**: Works with the Iterate macro
+- **Apache 2.0 License**: Permissive licensing
+
+**Best For:** Projects that benefit from Python-style generators for lazy evaluation and iteration patterns.
 
 ---
 

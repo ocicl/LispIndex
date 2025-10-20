@@ -8,18 +8,18 @@
 
 **System Name:** `ctype`
 
-**Purpose:** Implementation of Common Lisp type system with typep and subtypep.
+**Purpose:** An implementation of the Common Lisp type system.
 
 **Why Use It:**
-- **Type System**: Reified representation of CL types
-- **Independent**: Works without cl:typep/cl:subtypep
-- **Extensible**: Define custom type extensions
-- **Cross-implementation**: Supports SBCL, CCL, ECL, CMUCL, Clasp, ABCL
-- **Type Operations**: Negate, conjoin, disjoin ctypes
+- **Type System**: Complete reimplementation of CL type operations
+- **Multi-Implementation**: Support for SBCL, CCL, CMUCL, CLASP, ABCL, ECL, SICL
+- **Type Inference**: Advanced type derivation and function return types
+- **Data Structure Types**: Extensions for typed lists, plists, arrays, and hash tables
+- **Precise Semantics**: More precise type operations than standard CL
 
-**Best For:** Type system research, compiler development, static analysis, type checking.
+**Best For:** Advanced type checking, type inference, and static analysis tools.
 
-**Note:** Precise reflection of type specifiers. Used for implementing typep/subtypep.
+**Note:** Licensed under BSD. Author: Bike.
 
 ---
 

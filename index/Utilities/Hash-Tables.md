@@ -1,6 +1,6 @@
 # Utilities: Hash-Tables
 
-5 libraries
+3 libraries
 
 ---
 
@@ -36,42 +36,6 @@
 - **Readable**: Avoid inside-out nested gethash calls
 
 **Best For:** Working with nested data structures, especially JSON APIs.
-
----
-
-
-## cl-hash-util
-
-**System Name:** `cl-hash-util`
-
-**Purpose:** Hash table utility functions and macros.
-
-**Why Use It:**
-- **Utilities**: Common operations on hash tables
-- **Convenience**: Simplify hash table manipulation
-- **Functional**: Higher-order functions for hash tables
-
-**Best For:** Hash table operations, data manipulation, utility libraries.
-
-**Note:** Collection of hash table helpers.
-
----
-
-
-## cl-hash-table-destructuring
-
-**System Name:** `cl-hash-table-destructuring`
-
-**Purpose:** Destructuring bind macro for hash tables.
-
-**Why Use It:**
-- **Convenient Syntax**: Destructure hash tables like lists
-- **Pattern Matching**: Extract multiple values at once
-- **Cleaner Code**: Reduce boilerplate when working with hash tables
-
-**Best For:** Hash table manipulation, data extraction, cleaner APIs.
-
-**Note:** Extends destructuring-bind to hash tables.
 
 ---
 

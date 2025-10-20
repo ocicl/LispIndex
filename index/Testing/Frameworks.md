@@ -1,6 +1,6 @@
 # Testing: Frameworks
 
-20 libraries
+25 libraries
 
 ---
 
@@ -110,49 +110,6 @@
 ---
 
 
-## fiasco
-
-**System Name:** `fiasco`
-
-**Purpose:** Simple and powerful test framework with focus on interactive debugging.
-
-**Why Use It:**
-- **Interactive Debugging**: Debug tests interactively in REPL
-- **Fork of Stefil**: Maintained continuation of Stefil
-- **Simple API**: `deftest`, `is` macros
-- **Package Tests**: `run-package-tests` convenience
-- **Clear Output**: Readable test results
-- **Active Maintenance**: Unlike abandoned Stefil
-
-**Best For:** Unit testing, TDD, interactive development.
-
-**Note:** Recommended for developers who value REPL-driven testing.
-
----
-
-
-## fiveam
-
-**System Name:** `fiveam`
-
-**Purpose:** Simple regression testing framework for Common Lisp.
-
-**Why Use It:**
-- **Simple Design**: Straightforward API
-- **Comprehensive**: Fixtures, suites, random testing
-- **Dependencies**: Uses alexandria, asdf-flv, trivial-backtrace
-- **Maintained**: Active development
-- **BSD License**: Liberal licensing
-- **ASDF 3.1+**: Modern ASDF requirements
-- **Test Suite**: Self-testing with own test suite
-
-**Best For:** Unit testing, regression testing, TDD.
-
-**Note:** One of the most popular test frameworks in Common Lisp.
-
----
-
-
 ## lisp-unit2
 
 **System Name:** `lisp-unit2`
@@ -173,27 +130,6 @@
 **Best For:** Test-driven development, regression testing, CI/CD pipelines.
 
 **Note:** Tests are functions with source locations. Supports contexts for complex setups.
-
----
-
-
-## rove
-
-**System Name:** `rove`
-
-**Purpose:** Modern unit testing framework for Common Lisp - successor to Prove with enhanced features.
-
-**Why Use It:**
-- **Setup/Teardown Hooks**: defhook for before/after each test, setup/teardown for package
-- **Better Reporting**: Details of failure tests, thread support
-- **Fewer Dependencies**: Only trivial-gray-streams and UIOP
-- **Modern Features**: ok/ng assertions, signals testing, outputs testing, expands macro testing
-- **Coverage Reports**: SBCL support via COVERAGE=1 environment variable
-- **Multiple Styles**: :spec (detailed), :dot (one-dot-per-test), :none (minimal)
-
-**Best For:** Modern test-driven development, test suites requiring setup/teardown, thread-safe testing.
-
-**Note:** Supports ASDF package-inferred-system. Roswell binary available. BETA quality - APIs may change.
 
 ---
 
@@ -372,25 +308,6 @@
 ---
 
 
-## lisp-unit2
-
-**System Name:** `lisp-unit2`
-
-**Purpose:** Common Lisp library that supports unit testing.
-
-**Why Use It:**
-- **Enhanced Testing**: Improved version of lisp-unit with more features
-- **Better Assertions**: Enhanced assertion macros and collectors
-- **TAP Support**: Test Anything Protocol for CI/CD integration
-- **Rich Output**: Multiple output formats and summarization
-
-**Best For:** Advanced unit testing, test suites, continuous integration, test reporting.
-
-**Note:** MIT license.
-
----
-
-
 ## parachute
 
 **System Name:** (Not found in ocicl)
@@ -405,6 +322,174 @@
 **Best For:** Unknown - library not documented.
 
 **Note:** Not found in ocicl distribution.
+
+---
+
+
+## CheckL
+
+**System Name:** `checkl`
+
+**Purpose:** Dynamic testing framework for Common Lisp.
+
+**Why Use It:**
+- **Dynamic Testing**: Provides flexible testing capabilities for Common Lisp code
+- **Marshal Integration**: Includes serialization support for test data
+- **FiveAM Compatibility**: Optional integration with FiveAM test framework
+- **Test Execution**: Built-in test operation support
+
+**Best For:** Creating and running dynamic tests with serialization capabilities.
+
+**Note:** Licensed under LLGPL, BSD.
+
+---
+
+
+## Eos
+
+**System Name:** `Eos`
+
+**Purpose:** UNMAINTAINED fork of FiveAM test framework.
+
+**Why Use It:**
+- **Test Framework**: Unit testing capabilities for Common Lisp
+- **Test Suites**: Organize tests into hierarchical suites
+- **Assertion Macros**: Various check macros for testing
+- **Note**: This library is deprecated and unmaintained
+
+**Best For:** Legacy projects already using Eos; new projects should use FiveAM.
+
+**Note:** Licensed under MIT. UNMAINTAINED - see README for migration advice.
+
+---
+
+
+## hu.dwim.stefil
+
+**System Name:** `hu.dwim.stefil`
+
+**Purpose:** A Simple Test Framework In Lisp.
+
+**Why Use It:**
+- **Simple Testing**: Lightweight test framework
+- **Fixtures**: Built-in fixture support
+- **Assertions**: Rich set of assertion macros
+- **Suite Organization**: Hierarchical test organization
+
+**Best For:** Unit testing, test-driven development, test suite organization.
+
+**Note:** Licensed under BSD / Public domain. Part of the hu.dwim library collection.
+
+---
+
+
+## lift-20240503-a794184
+
+**System Name:** `lift`
+
+**Purpose:** LIsp Framework for Testing.
+
+**Why Use It:**
+- **Testing Framework**: SUnit-style testing
+- **Test Suites**: Organize tests in suites
+- **Reports**: Multiple report formats
+- **Random Testing**: Property-based testing support
+- **Introspection**: Test introspection capabilities
+
+**Best For:** Unit testing, test-driven development, software quality assurance.
+
+**Note:** Licensed under MIT Style License. Author: Gary Warren King. Version 1.7.1.
+
+---
+
+
+## jingoh
+
+**System Name:** `jingoh`
+
+**Purpose:** DSL to notate specification, rather than test framework.
+
+**Why Use It:**
+- **Specification**: Write executable specifications
+- **DSL Syntax**: Special syntax for specs
+- **Documentation**: Specs serve as documentation
+- **Testing**: Run specs as tests
+- **Reader Integration**: Named-readtables integration
+- **Modular**: Multiple sub-systems (org, tester, examiner, reader)
+
+**Best For:** BDD, specification-driven development, executable documentation.
+
+**Note:** Licensed under MIT. Author: Shinichi Sato. Version 3.0.1. Specification-focused, not just testing.
+
+---
+
+## monkeylib-test-framework
+
+**System Name:** `com.gigamonkeys.test-framework`
+
+**Purpose:** Simple unit test framework for Common Lisp.
+
+**Why Use It:**
+- **Unit Testing**: Simple test definition and execution
+- **Macro Utilities**: Uses com.gigamonkeys.macro-utilities
+- **Lightweight**: Minimal dependencies
+- **Self-Testing**: Includes its own test suite
+
+**Best For:** Projects preferring Peter Seibel's straightforward testing approach over more complex test frameworks.
+
+---
+
+
+## test-utils
+
+**System Name:** `test-utils`
+
+**Purpose:** Convenience functions and macros for testing Common Lisp applications via Prove and Quickcheck.
+
+**Why Use It:**
+- **Prove Integration**: Works with Prove test framework
+- **Quickcheck**: Property-based testing support
+- **Convenience Macros**: Simplified test writing
+- **Alexandria**: Common utilities
+- **Agnostic Lizard**: Additional test utilities
+- **MIT License**: Permissive license
+
+**Best For:** Projects using Prove test framework that want convenient macros and property-based testing capabilities.
+
+---
+
+
+## rt
+
+**System Name:** `rt`
+
+**Purpose:** MIT Regression Tester - a framework for writing regression test suites.
+
+**Why Use It:**
+- **Classic Testing Framework**: One of the original Common Lisp testing frameworks from MIT
+- **Regression Testing**: Specifically designed for regression test suites
+- **Simple Framework**: Straightforward approach to test definition and execution
+- **Stable API**: Mature, well-tested codebase from 1990
+- **MIT License**: Permissive licensing
+
+**Best For:** Projects that need a traditional, simple regression testing framework with a stable, proven API.
+
+---
+
+
+## unit-test
+
+**System Name:** `unit-test`
+
+**Purpose:** Unit-testing framework for Common Lisp.
+
+**Why Use It:**
+- **Testing Framework**: Simple unit testing system
+- **Lightweight**: Minimal implementation
+- **Test Definition**: Easy test definition and execution
+- **Portable**: Works across implementations
+
+**Best For:** Projects wanting a minimal, straightforward testing framework without extensive features.
 
 ---
 

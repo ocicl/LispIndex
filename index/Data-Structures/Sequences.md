@@ -1,6 +1,6 @@
 # Data-Structures: Sequences
 
-2 libraries
+5 libraries
 
 ---
 
@@ -43,6 +43,62 @@
 **Best For:** Lazy sequences, infinite sequences, functional programming.
 
 **Note:** Allocates many short-lived objects but modern GCs handle it well.
+
+---
+
+
+## native-lazy-seq
+
+**System Name:** `native-lazy-seq`
+
+**Purpose:** Lazy sequence using user-extensible sequence protocol.
+
+**Why Use It:**
+- **Lazy Sequences**: Delay sequence computation
+- **Extensible Sequences**: Uses trivial-extensible-sequences
+- **Standard Protocol**: Native sequence operations
+- **Iteration**: Uses iterate for internal operations
+- **Serapeum Integration**: Uses serapeum utilities
+
+**Best For:** Applications needing lazy evaluation of sequences with standard Common Lisp sequence operations.
+
+---
+
+
+## trivial-extensible-sequences
+
+**System Name:** `trivial-extensible-sequences`
+
+**Purpose:** Portability library for the extensible sequences protocol.
+
+**Why Use It:**
+- **Custom Sequences**: Implement custom sequence types
+- **Protocol**: Extensible sequences protocol
+- **SBCL Support**: Native SBCL support
+- **ABCL Support**: Native ABCL support
+- **Fallback**: Portable fallback implementation
+- **Zlib License**: Very permissive
+
+**Best For:** Libraries implementing custom sequence types that work like built-in sequences.
+
+---
+
+
+## xsubseq
+
+**System Name:** `xsubseq`
+
+**Purpose:** Efficient way to manage "subseq"s in Common Lisp.
+
+**Why Use It:**
+- **Efficient Subseqs**: Avoid copying with lazy subsequences
+- **Memory Optimization**: Reduce allocation overhead
+- **Sequence Operations**: Work with subseqs efficiently
+- **SBCL Optimization**: Special SBCL support
+- **Transparent**: Drop-in replacement for subseq
+- **BSD 2-Clause License**: Permissive licensing
+
+**Best For:** Performance-critical code working with large sequences where subseq copying is a bottleneck.
 
 ---
 

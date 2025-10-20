@@ -1,6 +1,6 @@
 # Meta-Programming: Type-Analysis
 
-3 libraries
+1 libraries
 
 ---
 
@@ -21,43 +21,6 @@
 **Best For:** Static analysis tools, type checkers, and compiler optimizations.
 
 **Note:** Requires cl-environments library.
-
----
-
-
-## cl-form-types
-
-**System Name:** `cl-form-types`
-
-**Purpose:** Determine value types of Common Lisp forms from environment information.
-
-**Why Use It:**
-- **Type Deduction**: Extract types from declarations, special forms, and function calls
-- **Code Walking**: Portable walker handles macros and environments across implementations
-- **Extensible**: Add custom type logic via generic function methods
-
-**Best For:** Static analysis, type checking, optimization, compiler development.
-
-**Note:** No explicit license mentioned.
-
----
-
-
-## cl-form-types
-
-**System Name:** `cl-form-types`
-
-**Purpose:** Determine value types of Common Lisp forms from environment.
-
-**Why Use It:**
-- **Type Inference**: Infer types from forms and environment
-- **Static Analysis**: Analyze code types without evaluation
-- **Environment-Aware**: Uses CLTL2 environment information
-- **Compiler Support**: Aids in optimization and type checking
-
-**Best For:** Compiler development, code analysis, type inference tools.
-
-**Note:** Requires cl-environments for portability.
 
 ---
 

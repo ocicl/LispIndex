@@ -1,6 +1,6 @@
 # Text: NLP
 
-3 libraries
+2 libraries
 
 ---
 
@@ -38,24 +38,6 @@
 **Best For:** Natural language processing applications, machine translation pipelines, and linguistic analysis tools using Apertium.
 
 **Note:** Apache-2.0 license. Depends on esrap and cl-ppcre. Designed for Apertium linguistic data format.
-
----
-
-
-## cl-inflector
-
-**System Name:** `cl-inflector`
-
-**Purpose:** Word inflection library (pluralize, singularize, etc.).
-
-**Why Use It:**
-- **Word Forms**: Convert between plural and singular forms
-- **Natural Language**: Handle English word inflections
-- **Rails-like**: Similar to Rails ActiveSupport inflector
-
-**Best For:** Natural language processing, generating human-readable text, ORM systems.
-
-**Note:** English word inflection library.
 
 ---
 

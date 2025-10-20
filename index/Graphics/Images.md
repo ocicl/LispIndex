@@ -1,6 +1,6 @@
 # Graphics: Images
 
-17 libraries
+21 libraries
 
 ---
 
@@ -152,23 +152,6 @@
 ---
 
 
-## zpng
-
-**System Name:** `zpng`
-
-**Purpose:** PNG file writing library using salza2 for ZLIB compression.
-
-**Why Use It:**
-- **PNG Generation**: Create PNG files from Common Lisp
-- **ZLIB Compression**: Uses salza2 library for compression
-
-**Best For:** Image generation, graphics output, server-side image creation.
-
-**Note:** BSD-style license. By Zach Beane.
-
----
-
-
 ## cl-bmp
 
 **System Name:** `cl-bmp`
@@ -223,24 +206,6 @@
 ---
 
 
-## cl-jpeg
-
-**System Name:** `cl-jpeg`
-
-**Purpose:** JPEG image format library for Common Lisp.
-
-**Why Use It:**
-- **JPEG Support**: Read and write JPEG image files
-- **Pure Lisp**: No external C library dependencies
-- **Image Processing**: Basic JPEG operations
-
-**Best For:** Image processing, web applications, graphics programs.
-
-**Note:** Pure Common Lisp JPEG implementation.
-
----
-
-
 ## cl-ktx
 
 **System Name:** `cl-ktx`
@@ -255,6 +220,24 @@
 - **Mipmap Support**: Handles mipmaps for texture level-of-detail
 
 **Best For:** OpenGL/WebGL applications requiring efficient texture loading, game engines, 3D graphics applications.
+
+---
+
+
+## cl-soil
+
+**System Name:** (Not found in ocicl)
+
+**Purpose:** Library appears to be missing from ocicl.
+
+**Why Use It:**
+- **Note**: This library was not found in the ocicl directory
+- **Possible SOIL Binding**: May be bindings to Simple OpenGL Image Library
+- **Verification Needed**: Check alternative sources
+
+**Best For:** Unknown - library not documented.
+
+**Note:** Not found in ocicl distribution.
 
 ---
 
@@ -298,27 +281,6 @@
 ---
 
 
-## opticl
-
-**System Name:** `opticl`
-
-**Purpose:** High-performance library for representing and processing 2D pixel-based images.
-
-**Why Use It:**
-- **Multiple Formats**: Read/write TIFF, JPEG, PNG, GIF, PNM, TGA
-- **Type-Specialized Arrays**: Optimized 8-bit/16-bit RGB, RGBA, grayscale images
-- **Image Operations**: Convolution, morphology, thresholding, gamma correction
-- **Geometric Transforms**: Rotation, scaling, affine transformations
-- **Shape Drawing**: Built-in primitive drawing functions
-- **Clustering**: K-means and image segmentation
-
-**Best For:** Computer vision, image processing pipelines, thumbnail generation, batch processing.
-
-**Note:** BSD by Cyrus Harmon. Depends on retrospectiff, zpng, pngload, cl-jpeg, skippy, opticl-core.
-
----
-
-
 ## opticl-core
 
 **System Name:** `opticl-core`
@@ -333,6 +295,120 @@
 **Best For:** Building custom image libraries, minimal image type support, opticl foundation.
 
 **Note:** BSD by Cyrus Harmon. Required by opticl. Depends only on alexandria.
+
+---
+
+
+## imago-20240505-5a43352
+
+**System Name:** `imago`
+
+**Purpose:** Image manipulation library.
+
+**Why Use It:**
+- **Format Support**: PNG, JPEG, PNM, TGA file formats
+- **Image Operations**: Drawing, rotation, scaling, morphology operations
+- **Color Management**: Comprehensive color handling
+- **Compositing**: Alpha blending and image composition
+
+**Best For:** Image processing, graphics applications, format conversion.
+
+**Note:** Licensed under LLGPL. Author: Matthieu Villeneuve. Version 0.11.0.
+
+---
+
+
+## jpeg-turbo-20250921-75d1d3f
+
+**System Name:** `jpeg-turbo`
+
+**Purpose:** libjpeg-turbo wrapper for Common Lisp.
+
+**Why Use It:**
+- **Fast JPEG**: Leverages libjpeg-turbo performance
+- **CFFI Binding**: Direct C library interface
+- **JPEG Operations**: Read and write JPEG images
+- **Optimized**: Uses highly optimized JPEG library
+
+**Best For:** JPEG image processing, high-performance image I/O, graphics applications.
+
+**Note:** Licensed under 2-clause BSD. Author: Vasily Postnicov. Version 1.0.
+
+---
+
+
+## mtif
+
+**System Name:** `mtif`
+
+**Purpose:** An interface to the MacOS MultiTouch framework.
+
+**Why Use It:**
+- **MultiTouch Support**: Access MacOS multitouch events
+- **FFI Bindings**: CFFI bindings to MultiTouch framework
+- **MacOS Specific**: Native MacOS trackpad support
+- **Touch Events**: Handle complex touch gestures
+
+**Best For:** MacOS applications needing access to trackpad multitouch gestures and events.
+
+---
+
+
+## pngload
+
+**System Name:** `pngload`
+
+**Purpose:** A reader for the PNG image format.
+
+**Why Use It:**
+- **PNG Decoding**: Full PNG image format support
+- **Metadata Support**: Reads EXIF and other PNG metadata via zpb-exif
+- **Memory Mapping**: Uses mmap for efficient large file handling
+- **Static Vectors**: Optimized memory access on supported implementations
+- **Multiple Implementations**: Works on most CL implementations (SBCL, CCL, etc.)
+- **Comprehensive**: Handles interlacing, filters, and all PNG chunk types
+- **MIT License**: Permissive licensing
+
+**Best For:** Game development, image processing applications, or any project requiring PNG image loading without external dependencies on image libraries.
+
+---
+
+
+## retrospectiff
+
+**System Name:** `retrospectiff`
+
+**Purpose:** A library for reading and writing TIFF images.
+
+**Why Use It:**
+- **TIFF Support**: Complete TIFF image format support
+- **Multiple Compression**: LZW, JPEG, Deflate, PackBits compression
+- **Metadata**: Full IFD (Image File Directory) support
+- **Floating Point**: IEEE float support for scientific images
+- **opticl Integration**: Works with opticl image processing
+- **Binary Data**: Uses com.gigamonkeys.binary-data for parsing
+- **BSD License**: Permissive licensing
+
+**Best For:** Scientific imaging, medical imaging, document scanning, or any application requiring TIFF image format support.
+
+---
+
+
+## zpb-exif
+
+**System Name:** `zpb-exif`
+
+**Purpose:** Read EXIF data from image files.
+
+**Why Use It:**
+- **EXIF Reading**: Extract EXIF metadata from images
+- **Image Metadata**: Access camera settings, timestamps, GPS data
+- **JPEG Support**: Read EXIF from JPEG files
+- **Photography**: Essential for photo applications
+- **No Dependencies**: Pure Common Lisp implementation
+- **BSD License**: Permissive licensing
+
+**Best For:** Photo management applications, image processors, or any system needing to extract EXIF metadata from images.
 
 ---
 

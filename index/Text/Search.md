@@ -1,6 +1,6 @@
 # Text: Search
 
-2 libraries
+3 libraries
 
 ---
 
@@ -38,6 +38,25 @@
 **Best For:** Japanese text editors, search applications, Japanese text processing tools.
 
 **Note:** Requires libmigemo to be installed. Licensed under MIT.
+
+---
+
+
+## lassie-20240503-209b343
+
+**System Name:** `lassie`
+
+**Purpose:** Library for Latent Semantic Indexing.
+
+**Why Use It:**
+- **LSI/LSA**: Latent Semantic Indexing/Analysis
+- **Text Analysis**: Document similarity and retrieval
+- **SVD**: Singular Value Decomposition via fsvd
+- **Search**: Semantic search capabilities
+
+**Best For:** Document search, text mining, information retrieval, semantic analysis.
+
+**Note:** Licensed under MIT. Author: Gabor Melis. Version 0.0.1.
 
 ---
 

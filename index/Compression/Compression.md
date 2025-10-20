@@ -1,6 +1,6 @@
 # Compression: Compression
 
-3 libraries
+6 libraries
 
 ---
 
@@ -60,6 +60,63 @@
 **Best For:** File compression, gzip handling, streaming compression, data archival.
 
 **Note:** GPL v3. By Keith James. Fractionally slower than gzip but 3x slower than gunzip.
+
+---
+
+
+## gzip-stream
+
+**System Name:** `gzip-stream`
+
+**Purpose:** Gzip compression and decompression streams.
+
+**Why Use It:**
+- **Stream Interface**: Transparent gzip compression/decompression
+- **Gray Streams**: Standard stream protocol implementation
+- **Inflate Support**: Full gzip decompression support
+- **Memory Efficient**: Stream-based processing for large files
+
+**Best For:** File compression, HTTP gzip handling, data archiving.
+
+**Note:** Version 0.2.8.
+
+---
+
+
+## gzip-stream
+
+**System Name:** `gzip-stream`
+
+**Purpose:** Read and write gzip-compressed streams.
+
+**Why Use It:**
+- **Transparent Compression**: Read/write gzip data as regular streams
+- **Gray Streams**: Implements standard stream interface via trivial-gray-streams
+- **Both Directions**: Support for both compression and decompression
+- **Salza2 Integration**: Uses salza2 for compression
+- **Flexi-streams**: Character encoding support via flexi-streams
+- **Memory Efficient**: Stream-based processing without loading entire files
+
+**Best For:** Applications needing transparent gzip compression/decompression for network protocols, file I/O, or data storage.
+
+---
+
+
+## trivial-compress
+
+**System Name:** `trivial-compress`
+
+**Purpose:** Compress a directory.
+
+**Why Use It:**
+- **Directory Compression**: Compress entire directories
+- **Archive**: Archive library support
+- **ZIP**: Zip format support
+- **Native Tools**: Falls back to system tools
+- **Alexandria**: Utility support
+- **MIT License**: Permissive license
+
+**Best For:** Applications needing to create compressed archives of directories for distribution or backup.
 
 ---
 

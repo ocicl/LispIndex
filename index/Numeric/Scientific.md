@@ -1,6 +1,6 @@
 # Numeric: Scientific
 
-4 libraries
+5 libraries
 
 ---
 
@@ -77,6 +77,28 @@
 **Best For:** Scientific computing, physics simulations, unit conversions, educational software.
 
 **Note:** All constants defined as both constant and function. Latest values in main package, historical in year-specific packages.
+
+---
+
+
+## gsll
+
+**System Name:** `gsll`
+
+**Purpose:** GNU Scientific Library for Lisp - comprehensive CFFI bindings to GSL for numerical computing.
+
+**Why Use It:**
+- **Comprehensive Math Library**: Linear algebra (BLAS, LU, QR, SVD, Cholesky), special functions (Bessel, Gamma, elliptic), calculus (integration, differentiation, ODEs)
+- **Random Number Generation**: 30+ probability distributions (Gaussian, Poisson, binomial, etc.) with multiple RNG algorithms
+- **Statistical Functions**: Mean, variance, correlation, covariance, median, percentiles, autocorrelation
+- **FFT and Signal Processing**: Fast Fourier transforms, wavelet transforms, discrete transforms
+- **Optimization and Fitting**: Root finding, minimization, linear/nonlinear least squares, simulated annealing
+- **Physical Constants**: Built-in MKSA, CGSM, and numerical constants
+- **Matrix/Vector Types**: Foreign arrays with automatic memory management
+
+**Best For:** Scientific computing, numerical analysis, statistics, signal processing, physics simulations.
+
+**Note:** Requires GSL C library installed. GPLv3 license.
 
 ---
 

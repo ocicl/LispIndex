@@ -1,9 +1,9 @@
 # Compression Libraries
 
-This category contains 3 subcategories with 10 total libraries.
+This category contains 3 subcategories with 18 total libraries.
 
 ## Subcategories
 
-- [Archives](Archives.md) (3 libraries)
-- [Compression](Compression.md) (3 libraries)
-- [Decompression](Decompression.md) (4 libraries)
+- [Archives](Archives.md) (6 libraries)
+- [Compression](Compression.md) (6 libraries)
+- [Decompression](Decompression.md) (6 libraries)

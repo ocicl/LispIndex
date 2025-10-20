@@ -1,6 +1,6 @@
 # Parsing: JavaScript
 
-1 libraries
+2 libraries
 
 ---
 
@@ -20,6 +20,25 @@
 **Best For:** JavaScript analysis, transpilers, code generation, JavaScript tooling.
 
 **Note:** MIT license.
+
+---
+
+
+## parse-js
+
+**System Name:** `parse-js`
+
+**Purpose:** JavaScript parser.
+
+**Why Use It:**
+- **JavaScript Parsing**: Parse JavaScript code
+- **AST Generation**: Generate abstract syntax trees
+- **Tokenization**: JavaScript tokenizer
+- **Source Analysis**: Analyze JavaScript programs
+- **Code Generation**: Can be used for code generation
+- **BSD License**: Permissive license
+
+**Best For:** Tools that need to parse, analyze, or transform JavaScript code from Common Lisp.
 
 ---
 

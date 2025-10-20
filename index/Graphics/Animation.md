@@ -8,18 +8,17 @@
 
 **System Name:** `easing`
 
-**Purpose:** Robert Penner's easing functions for smooth animations and transitions.
+**Purpose:** Easing functions.
 
 **Why Use It:**
-- **Complete Set**: All standard easing functions (sine, cubic, quad, quart, quint, exp, circ, elastic, back, bounce)
-- **In/Out/InOut**: Every easing type in all three variants
-- **Animation Ready**: Drop-in for game and UI animations
-- **Linear Too**: Includes linear interpolation for completeness
-- **Demo Included**: Sketch-based example program
+- **Animation**: Smooth transitions and animations
+- **Multiple Functions**: Various easing curves (ease-in, ease-out, etc.)
+- **Single-Float**: Optimized single-float implementation
+- **Graphics**: Useful for UI animations and graphics interpolation
 
-**Best For:** Game animations, UI transitions, smooth interpolations, motion graphics.
+**Best For:** Animation and smooth value interpolation in graphics applications.
 
-**Note:** Industry-standard easing equations. MIT license.
+**Note:** Licensed under MIT. Author: Danilo Vidovic (vydd).
 
 ---
 

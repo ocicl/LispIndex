@@ -1,6 +1,6 @@
 # Graphics: Plotting
 
-4 libraries
+6 libraries
 
 ---
 
@@ -83,6 +83,42 @@
 **Best For:** Scientific computing, data visualization, statistics, mathematical plotting.
 
 **Note:** MIT License.
+
+---
+
+
+## clog-plotly
+
+**System Name:** `clog-plotly`
+
+**Purpose:** Plotly plugin for CLOG.
+
+**Why Use It:**
+- **Data Visualization**: Interactive charts and plots in CLOG applications
+- **Plotly.js Integration**: Full Plotly charting library capabilities
+- **Web-Based**: Browser-rendered visualizations
+- **Interactive**: Dynamic and responsive chart updates
+
+**Best For:** Adding data visualization and charting to CLOG web applications.
+
+**Note:** Licensed under BSD.
+
+---
+
+
+## mra-wavelet-plot
+
+**System Name:** `mra-wavelet-plot`
+
+**Purpose:** Plot MRA-based wavelets with given dilation equation coefficients.
+
+**Why Use It:**
+- **Wavelet Plotting**: Visualize scaling functions and mother wavelets
+- **MRA Support**: Multi-resolution analysis wavelets
+- **Dilation Equations**: Work with wavelet coefficients
+- **Scientific Computing**: Signal processing visualization
+
+**Best For:** Signal processing and wavelet analysis applications needing to visualize wavelet functions.
 
 ---
 

@@ -1,6 +1,6 @@
 # Data-Structures: Queues
 
-5 libraries
+6 libraries
 
 ---
 
@@ -85,22 +85,40 @@
 ---
 
 
-## cl-speedy-queue
+## jpl-queues-0.1
 
-**System Name:** `cl-speedy-queue`
+**System Name:** `jpl-queues`
 
-**Purpose:** Portable, non-consing, optimized queue implementation.
+**Purpose:** A few different kinds of queues, with optional multithreading synchronization.
 
 **Why Use It:**
-- **Non-consing**: Minimizes memory allocation during queue operations
-- **High Performance**: Optimized for speed with fixed-size queues
-- **Simple API**: Standard queue operations (enqueue, dequeue, peek)
-- **Queue Inspection**: Check queue count, length, full and empty states
-- **Portable**: Works across Common Lisp implementations
+- **Queue Varieties**: Bounded FIFO, unbounded FIFO, lossy bounded, random queues
+- **Thread-Safe**: Optional synchronization support
+- **Flexible**: Multiple queue implementation strategies
+- **Utility Library**: Depends on jpl-util
 
-**Best For:** High-performance concurrent programming, channel implementations, task queues.
+**Best For:** Concurrent programming, producer-consumer patterns, task queues, thread coordination.
 
-**Note:** MIT License. Originally written for ChanL.
+**Note:** Licensed under ISC-style permissive. Author: J.P. Larocque. Version 0.1.
+
+---
+
+
+## queues
+
+**System Name:** `queues`
+
+**Purpose:** A package of queue data structures.
+
+**Why Use It:**
+- **Queue Interface**: Unified API for different queue types
+- **Simple Queue**: Basic FIFO queue implementation
+- **Priority Queue**: Priority-based queue operations
+- **Concurrent Queues**: Thread-safe queue variants (cqueue)
+- **Flexible**: Choose implementation based on needs
+- **Clean API**: Simple interface for queue operations
+
+**Best For:** Task scheduling, message passing, breadth-first algorithms, or any application requiring queue data structures.
 
 ---
 

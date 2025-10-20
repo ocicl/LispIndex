@@ -1,6 +1,6 @@
 # Meta-Programming: Iteration
 
-8 libraries
+11 libraries
 
 ---
 
@@ -143,6 +143,25 @@
 ---
 
 
+## gtwiwtg
+
+**System Name:** `gtwiwtg`
+
+**Purpose:** Generators (lazy iterators) The Way I Want Them Generated - composable lazy sequences.
+
+**Why Use It:**
+- **Lazy Evaluation**: Process infinite sequences without memory explosion (ranges, primes, Fibonacci)
+- **Functional Composition**: map!, filter!, inflate! for building complex generators from simple ones
+- **Multiple Constructors**: ranges, sequences, files (lines/chars/bytes), recurrence relations, thunks, noise
+- **Rich Combinators**: zip!, concat!, merge!, intersperse!, indexed!, skip!, truncate!
+- **Flexible Consumers**: for macro, fold accumulator, collect, take, pick-out, argmax/argmin
+- **Memory Efficient**: Generate large sequences (permutations, Cartesian products) without storing all values
+
+**Best For:** Lazy evaluation, infinite sequences, memory-constrained iteration, functional programming, streaming data.
+
+---
+
+
 ## Khazern
 
 **System Name:** `khazern`, `khazern-intrinsic`, `khazern-extrinsic`
@@ -159,6 +178,43 @@
 **Best For:** Custom LOOP extensions, portable LOOP implementation, LOOP research.
 
 **Note:** BSD license. Originally from SICL.
+
+---
+
+
+## loop-continue
+
+**System Name:** `loop-continue`
+
+**Purpose:** Extension to the CL:LOOP macro: CONTINUE, TAG, GO.
+
+**Why Use It:**
+- **LOOP Extension**: Adds CONTINUE, TAG, and GO to LOOP
+- **Control Flow**: Enhanced loop control flow operations
+- **Multiple Implementations**: Supports SBCL, CMUCL, CCL, Allegro, CLASP, ABCL, ECL
+- **Fallback**: Graceful fallback for unsupported implementations
+- **Enable/Disable**: Can be enabled or disabled as needed
+- **MIT-LOOP**: Based on MIT LOOP implementation
+
+**Best For:** Complex loop logic requiring early continuation, labeled jumps, or enhanced control flow within LOOP constructs.
+
+---
+
+
+## stateless-iterators
+
+**System Name:** `stateless-iterators`
+
+**Purpose:** Stateless iterators similar to those in Lua or Julia.
+
+**Why Use It:**
+- **Stateless Design**: Iterators without mutable state
+- **Functional Style**: Pure functional iteration
+- **Serapeum Integration**: Uses Serapeum utilities
+- **Composable**: Combine iterators easily
+- **2-clause BSD**: Permissive licensing
+
+**Best For:** Functional programming projects that prefer stateless iteration patterns over stateful iteration.
 
 ---
 

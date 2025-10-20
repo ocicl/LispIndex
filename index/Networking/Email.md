@@ -4,24 +4,24 @@
 
 ---
 
-## cl-smtp
+## mel-base
 
-**System Name:** `cl-smtp`
+**System Name:** `mel-base`
 
-**Purpose:** SMTP client for sending email from Common Lisp.
+**Purpose:** Email and mail folder protocols for Common Lisp.
 
 **Why Use It:**
-- **RFC 5321**: Compliant SMTP implementation
-- **Authentication**: Supports PLAIN and LOGIN mechanisms
-- **SSL/TLS**: Can use cl+ssl for secure connections
-- **Attachments**: Send emails with file attachments
-- **Simple API**: `send-email` function with keyword arguments
-- **Well-Tested**: Stable and widely used
-- **Multiple Recipients**: Support for To, CC, BCC fields
+- **Email**: Comprehensive email handling
+- **IMAP**: IMAP folder support
+- **POP3**: POP3 mail retrieval
+- **SMTP**: SMTP mail sending
+- **Maildir**: Maildir folder format
+- **MIME**: MIME message parsing and generation
+- **RFC2822**: RFC2822 message format support
+- **Base64/QP**: Base64 and Quoted-Printable encoding
+- **SSL Support**: Optional SSL/TLS via CL+SSL
 
-**Best For:** Sending email notifications, alerts, and reports from applications.
-
-**Note:** De facto standard SMTP client for Common Lisp.
+**Best For:** Email clients, mail processing systems, automated email handling, or applications requiring comprehensive email protocol support.
 
 ---
 

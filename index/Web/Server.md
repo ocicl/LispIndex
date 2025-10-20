@@ -1,6 +1,6 @@
 # Web: Server
 
-5 libraries
+6 libraries
 
 ---
 
@@ -109,6 +109,27 @@
 **Best For:** Web application development, server-side rendering, interactive web interfaces.
 
 **Note:** LLGPL licensed. Depends on Plump, global-vars, str, tailrec.
+
+---
+
+
+## wookie
+
+**System Name:** `wookie`
+
+**Purpose:** An evented webserver for Common Lisp.
+
+**Why Use It:**
+- **Async Web Server**: Event-driven HTTP server
+- **CL-Async**: Built on cl-async event loop
+- **High Performance**: Non-blocking I/O
+- **WebSocket Support**: Optional WebSocket capability
+- **Fast HTTP Parsing**: Uses fast-http parser
+- **Plugin System**: Extensible architecture
+- **SSL Support**: Optional SSL/TLS support
+- **MIT License**: Permissive licensing
+
+**Best For:** High-performance web applications, REST APIs, or real-time services requiring asynchronous request handling.
 
 ---
 

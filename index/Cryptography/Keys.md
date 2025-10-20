@@ -1,6 +1,6 @@
 # Cryptography: Keys
 
-2 libraries
+3 libraries
 
 ---
 
@@ -40,6 +40,27 @@
 **Best For:** SSH tools, security applications, key management, automation, DevOps.
 
 **Note:** BSD License. Comprehensive SSH key support with excellent documentation.
+
+---
+
+
+## openid-key
+
+**System Name:** `openid-key`
+
+**Purpose:** Get OpenID keys from issuer.
+
+**Why Use It:**
+- **OpenID Support**: Retrieve OpenID Connect keys
+- **Key Management**: Fetch JWKs from OpenID providers
+- **JWT Verification**: Verify JWT tokens with fetched keys
+- **Cryptography**: Uses ironclad for crypto operations
+- **HTTP Fetch**: Dexador for fetching keys
+- **JSON Parsing**: Jonathan for fast JSON handling
+- **Base64**: cl-base64 for key encoding
+- **Time Handling**: local-time and trivial-rfc-1123 for timestamps
+
+**Best For:** Implementing OpenID Connect authentication and JWT verification in Common Lisp web applications.
 
 ---
 

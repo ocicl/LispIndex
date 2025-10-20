@@ -1,6 +1,6 @@
 # Terminal: UI
 
-6 libraries
+14 libraries
 
 ---
 
@@ -19,6 +19,26 @@
 - **Portable**: Works across ANSI-compliant terminals
 
 **Best For:** Terminal applications requiring formatted, colorized output.
+
+---
+
+
+## cl-charms
+
+**System Name:** `cl-charms`
+
+**Purpose:** Interface to libcurses (ncurses) for terminal UI.
+
+**Why Use It:**
+- **Ncurses Bindings**: CFFI bindings to libcurses/ncurses
+- **Two-Level API**: Low-level (charms/ll) and high-level (charms) interfaces
+- **Terminal UI**: Create full-featured terminal user interfaces
+- **Portable**: More portable than cl-ncurses (uses CFFI instead of UFFI)
+- **Compatibility**: Low-level interface compatible with cl-ncurses
+
+**Best For:** Full-featured terminal user interfaces requiring ncurses.
+
+**Note:** Successor to cl-ncurses with better portability.
 
 ---
 
@@ -56,6 +76,28 @@
 **Best For:** Long-running operations, batch processing, data processing.
 
 **Note:** Superseded by cl-tqdm but still in use.
+
+---
+
+
+## croatoan
+
+**System Name:** `croatoan`
+
+**Purpose:** High-level Lisp CLOS bindings for the ncurses terminal library.
+
+**Why Use It:**
+- **Terminal UI**: Create full-featured terminal user interfaces
+- **CLOS Interface**: Object-oriented ncurses wrapper with high-level abstractions
+- **Rich Features**: Menus, forms, fields, textareas, dropdown menus, dialog boxes
+- **Gray Streams**: Terminal I/O via Gray streams protocol
+- **UTF-8 Support**: Full Unicode support for terminal applications
+- **Multi-Threading**: Thread support with queue system
+- **Mouse Support**: Handle mouse events in terminal
+
+**Best For:** Terminal applications, TUI development, CLI tools, system administration utilities.
+
+**Note:** MIT licensed. Comprehensive ncurses wrapper. Active development. Version 0.3.
 
 ---
 
@@ -117,6 +159,120 @@
 **Best For:** Interactive CLI tools, configuration wizards, user prompts, data entry applications.
 
 **Note:** MIT license. By Mariano Montone. Makes building interactive command-line interfaces easy and user-friendly.
+
+---
+
+
+## cl-tqdm
+
+**System Name:** `cl-tqdm`
+
+**Purpose:** Simple And Fast Progress Bar Library for Common Lisp.
+
+**Why Use It:**
+- **Progress Tracking**: Visual progress bars for long-running operations
+- **Fast**: Minimal overhead for progress display
+- **Simple API**: Easy to integrate into existing code
+- **Python-Inspired**: Familiar interface for Python tqdm users
+
+**Best For:** Adding progress bars to batch processing and iterative tasks.
+
+**Note:** Licensed under MIT. Author: hikettei.
+
+---
+
+
+## clog-terminal
+
+**System Name:** `clog-terminal`
+
+**Purpose:** CLOG Terminal widget.
+
+**Why Use It:**
+- **Terminal Emulator**: Web-based terminal interface for CLOG
+- **Interactive Shell**: Command-line interface in browser
+- **CLOG Integration**: Seamless integration with CLOG applications
+- **Tool Support**: Enhanced functionality through tools subsystem
+
+**Best For:** Web applications requiring terminal or command-line interfaces.
+
+**Note:** Licensed under BSD. Author: David Botton.
+
+---
+
+
+## gtfl
+
+**System Name:** `gtfl`
+
+**Purpose:** A Graphical Terminal For Lisp.
+
+**Why Use It:**
+- **Web-based Terminal**: Browser-based Lisp interaction
+- **Visualization**: HTML-based pretty printing and tree drawing
+- **Interactive**: Built on Hunchentoot with AJAX support
+- **Expandable Elements**: Interactive UI elements for complex data
+
+**Best For:** Interactive Lisp development, debugging visualizations, web-based REPLs.
+
+**Note:** Licensed under BSD-style. Author: Martin Loetzsch. Version 0.1.3.
+
+---
+
+
+## gtfl
+
+**System Name:** `gtfl`
+
+**Purpose:** A Graphical Terminal For Lisp.
+
+**Why Use It:**
+- **Visual REPL**: Web-based graphical interface for interactive Lisp development
+- **HTML Output**: Rich HTML rendering of Lisp objects and results
+- **Tree Visualization**: Visualize tree structures in the browser
+- **Pretty Printing**: HTML-based pretty printing of Lisp forms
+- **Web Interface**: Uses Hunchentoot and cl-who for web serving
+- **AJAX Support**: Interactive features via ht-simple-ajax
+- **Expandable Elements**: Collapsible tree views for complex data
+
+**Best For:** Developers wanting a rich graphical interface for interactive Lisp development, especially for visualizing complex data structures.
+
+---
+
+
+## terminfo
+
+**System Name:** `terminfo`
+
+**Purpose:** Terminfo database front-end.
+
+**Why Use It:**
+- **Terminal Capabilities**: Query terminal capabilities
+- **Terminfo Database**: Access to terminfo data
+- **Cross-Platform**: Works on Unix-like systems
+- **Terminal Detection**: Detect terminal features
+- **No Dependencies**: Standalone implementation
+- **Verbatim License**: Very permissive
+
+**Best For:** Terminal applications needing to query and adapt to terminal capabilities across different terminal types.
+
+---
+
+
+## termp
+
+**System Name:** `termp`
+
+**Purpose:** Check if we are in a dumb or real terminal. Provide the termp check and a quit function.
+
+**Why Use It:**
+- **Terminal Detection**: Detect dumb vs real terminals
+- **Simple API**: Single predicate function
+- **Quit Function**: Graceful program termination
+- **Lightweight**: Minimal dependencies
+- **MIT License**: Permissive license
+
+**Best For:** CLI applications that need to adjust behavior based on terminal capabilities or provide appropriate quit mechanisms.
 
 ---
 

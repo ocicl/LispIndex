@@ -1,6 +1,6 @@
 # Audio: Metadata
 
-3 libraries
+5 libraries
 
 ---
 
@@ -60,6 +60,43 @@
 **Best For:** Audio applications, music libraries, metadata extraction.
 
 **Note:** Requires libFLAC 1.4+.
+
+---
+
+
+## id3v2
+
+**System Name:** `id3v2`
+
+**Purpose:** ID3v2 tag parser for MP3 files.
+
+**Why Use It:**
+- **ID3v2 Tags**: Parse ID3v2.2, v2.3, v2.4 tags
+- **MP3 Metadata**: Read artist, title, album from MP3s
+- **Tag Reading**: Extract all ID3 tag information
+- **Multiple Versions**: Support for all ID3v2 versions
+- **Stream Based**: Works with streams, not just files
+
+**Best For:** MP3 tag reading, music libraries, media players, audio metadata.
+
+**Note:** Licensed under BSD 2-Clause. Author: Eitaro Fukamachi.
+
+---
+
+
+## mp3-duration
+
+**System Name:** `mp3-duration`
+
+**Purpose:** Get the duration of an MP3 file.
+
+**Why Use It:**
+- **MP3 Analysis**: Extract MP3 file duration
+- **No Dependencies**: Pure Common Lisp implementation
+- **Lightweight**: Minimal implementation
+- **File Parsing**: Parse MP3 headers
+
+**Best For:** Applications needing to determine MP3 file lengths without heavyweight audio libraries.
 
 ---
 

@@ -1,6 +1,6 @@
 # Concurrency: Events
 
-3 libraries
+4 libraries
 
 ---
 
@@ -60,6 +60,27 @@
 **Best For:** Event-driven architectures, pub-sub patterns, reactive programming.
 
 **Note:** MIT License.
+
+---
+
+
+## deeds
+
+**System Name:** `deeds`
+
+**Purpose:** Deeds Extensible Event Delivery System.
+
+**Why Use It:**
+- **Event System**: Comprehensive event-driven programming framework
+- **Event Loops**: Multi-threaded event processing
+- **Handler System**: Flexible event handler registration and dispatch
+- **Standard Events**: Pre-defined common event types
+- **Command Pattern**: Built-in command pattern implementation
+- **Origin Tracking**: Track event sources and propagation
+
+**Best For:** Building event-driven applications with complex event handling requirements.
+
+**Note:** Licensed under zlib. Author: Yukari Hafner.
 
 ---
 

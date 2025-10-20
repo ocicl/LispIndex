@@ -1,6 +1,6 @@
 # Text: Streams
 
-2 libraries
+1 libraries
 
 ---
 
@@ -22,28 +22,6 @@
 **Best For:** Character I/O with encoding flexibility and in-memory binary streams.
 
 **Note:** Essential library for text encoding handling.
-
----
-
-
-## flexi-streams
-
-**System Name:** `flexi-streams`
-
-**Purpose:** Flexible bivalent streams with on-the-fly encoding changes.
-
-**Why Use It:**
-- **Bivalent Streams**: Read/write as binary or character
-- **Multiple Encodings**: Single- and multi-octet encodings
-- **Dynamic Encoding**: Change encoding on the fly
-- **In-memory Streams**: Binary string-like streams
-- **Well-Documented**: Comprehensive documentation at edicl.github.io
-- **Edi Weitz**: By prolific CL library author
-- **Battle-tested**: Used widely in CL ecosystem
-
-**Best For:** Text encoding, international text, stream processing.
-
-**Note:** Essential for handling various text encodings in Common Lisp.
 
 ---
 

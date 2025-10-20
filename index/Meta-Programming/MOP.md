@@ -1,6 +1,6 @@
 # Meta-Programming: MOP
 
-3 libraries
+2 libraries
 
 ---
 
@@ -20,27 +20,6 @@
 **Best For:** Any code using the CLOS Metaobject Protocol portably.
 
 **Note:** One of the most fundamental portability libraries in CL.
-
----
-
-
-## closer-mop
-
-**System Name:** `closer-mop`
-
-**Purpose:** CLOS MOP compatibility layer rectifying absent/incorrect MOP features across CL implementations.
-
-**Why Use It:**
-- **Broad Support**: ACL, ABCL, CLISP, CCL, ECL, LispWorks, SBCL
-- **MOP Portability**: Standard metaobject protocol across implementations
-- **Generic Function Invocation**: COMPUTE-EFFECTIVE-METHOD-FUNCTION, MAKE-METHOD-LAMBDA
-- **Utility Functions**: subclassp, required-args, ensure-finalized, classp
-- **CLOSER-COMMON-LISP**: Package combining CL + MOP + shadow-imports
-- **Semantic Versioning**: Version 1.0.0+ with proper version numbers
-
-**Best For:** Portable metaprogramming, custom metaclasses, MOP-based libraries, reflective programming.
-
-**Note:** Shadows some CL/MOP symbols. See features.txt for details. C2MOP short name.
 
 ---
 

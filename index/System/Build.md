@@ -1,6 +1,6 @@
 # System: Build
 
-17 libraries
+29 libraries
 
 ---
 
@@ -323,6 +323,235 @@
 **Best For:** Projects using hu.dwim libraries, advanced ASDF customization.
 
 **Note:** Part of hu.dwim.hu project. See http://dwim.hu/project/hu.dwim.asdf
+
+---
+
+
+## asdf-release-ops
+
+**System Name:** `asdf-release-ops`
+
+**Purpose:** Set of ASDF operations useful for releasing code.
+
+**Why Use It:**
+- **Release Automation**: Automate software release processes
+- **Build Operations**: Custom build operations for distribution
+- **Archive Creation**: Generate release archives automatically
+- **Platform Support**: Cross-platform release building
+- **Variant Management**: Handle different build variants and configurations
+
+**Best For:** Automating the release and distribution of Common Lisp software.
+
+**Note:** Licensed under BSD-2-Clause.
+
+---
+
+
+## asdf-viz
+
+**System Name:** `asdf-viz`
+
+**Purpose:** Visualize dependencies between ASDF systems and function call graphs.
+
+**Why Use It:**
+- **Dependency Visualization**: Generate graphs of system dependencies
+- **Call Graph Analysis**: Visualize function call relationships
+- **Class Hierarchy**: Display class inheritance hierarchies
+- **GraphViz Output**: Generate DOT files for GraphViz rendering
+- **Development Tool**: Understand complex system relationships
+
+**Best For:** Understanding system architecture and dependencies visually.
+
+**Note:** Licensed under LLGPL. Author: Masataro Asai.
+
+---
+
+
+## evol
+
+**System Name:** `evol`
+
+**Purpose:** Multi-purpose build system (entrenched virtues of lisp / love reversed).
+
+**Why Use It:**
+- **Build Automation**: Comprehensive build system for complex projects
+- **Dependency Management**: Track and manage build dependencies
+- **Shell Integration**: Execute shell commands with environment handling
+- **Parallel Builds**: Multi-threaded build support via bordeaux-threads
+
+**Best For:** Complex build processes, project automation, compilation pipelines.
+
+**Note:** Licensed under GPLv3+. Author: Alexander Kahl. Version 0.0.1.
+
+---
+
+
+## iolib.asdf
+
+**System Name:** `iolib.asdf`
+
+**Purpose:** A few ASDF component classes.
+
+**Why Use It:**
+- **ASDF Extensions**: Custom ASDF component classes for IOLib
+- **Build Support**: Infrastructure for IOLib system building
+- **Compilation Wrappers**: Specialized compilation support
+- **IOLib Foundation**: Required by other IOLib subsystems
+
+**Best For:** Building IOLib-based applications, ASDF customization.
+
+**Note:** Licensed under MIT. Author: Stelian Ionescu. Part of IOLib.
+
+---
+
+
+## iolib.conf
+
+**System Name:** `iolib.conf`
+
+**Purpose:** Compile-time configuration for IOLib.
+
+**Why Use It:**
+- **Build Configuration**: IOLib compile-time settings
+- **Feature Detection**: Detect available Lisp features
+- **Gray Streams Loading**: Automatic gray streams loading
+- **Build Infrastructure**: Foundation for IOLib compilation
+
+**Best For:** Building IOLib, configuration management.
+
+**Note:** Licensed under MIT. Author: Stelian Ionescu. Part of IOLib.
+
+---
+
+## evol
+
+**System Name:** `evol`
+
+**Purpose:** evol - entrenched virtues of lisp / love reversed. Multi-purpose build system.
+
+**Why Use It:**
+- **Build System**: Multi-purpose build and dependency management system
+- **Shell Integration**: Execute shell commands with shell abstraction
+- **External Programs**: Run external programs via external-program
+- **Dependency Tracking**: Track and manage build dependencies
+- **File System**: File operations with cl-fad
+- **Pattern Matching**: Uses cl-ppcre for file patterns
+- **Parallel Builds**: Uses bordeaux-threads for parallel execution
+- **Command Line**: Unix-options for command-line parsing
+
+**Best For:** Projects requiring a sophisticated build system with dependency tracking, shell integration, and parallel build capabilities.
+
+---
+
+
+## mk-defsystem
+
+**System Name:** `mk-defsystem`
+
+**Purpose:** The MK-DEFSYSTEM build system.
+
+**Why Use It:**
+- **Legacy System**: Historical defsystem implementation
+- **Build System**: Define and build Common Lisp systems
+- **ASDF Compatibility**: Can be loaded alongside ASDF
+- **Simple Interface**: Basic system definition facility
+
+**Best For:** Maintaining legacy Common Lisp projects that use MK-DEFSYSTEM, or studying historical build systems.
+
+---
+
+
+## trivial-build
+
+**System Name:** `trivial-build`
+
+**Purpose:** Compile a system into an executable.
+
+**Why Use It:**
+- **Executable Creation**: Build standalone executables
+- **Trivial-exe**: Executable utilities
+- **Lisp Invocation**: Cross-implementation
+- **Simple API**: Easy executable building
+- **MIT License**: Permissive license
+
+**Best For:** Projects needing to build standalone executables from Common Lisp systems.
+
+---
+
+
+## quickapp
+
+**System Name:** `quickapp`
+
+**Purpose:** A utility library to automate much of the app creation process.
+
+**Why Use It:**
+- **Rapid Development**: Quick application scaffolding
+- **Argument Parsing**: Built-in command-line argument handling
+- **Application Templates**: Automated setup for new apps
+- **Minimal Dependencies**: No external dependencies
+- **Simple API**: Easy to use for common app patterns
+- **Modified BSD License**: Permissive licensing
+
+**Best For:** Creating command-line applications, prototyping, or developers who want to quickly bootstrap new projects.
+
+---
+
+
+## quickproject
+
+**System Name:** `quickproject`
+
+**Purpose:** Creates the skeleton of a new Common Lisp project.
+
+**Why Use It:**
+- **Project Templates**: Standard project structure generation
+- **ASDF Integration**: Creates proper .asd system definitions
+- **Template System**: Uses html-template for customization
+- **Quick Start**: Get new projects up and running fast
+- **Best Practices**: Follows Common Lisp project conventions
+- **Maintained**: By Zach Beane, Quicklisp creator
+- **MIT License**: Permissive licensing
+
+**Best For:** Starting new Common Lisp projects, creating library skeletons, or developers wanting standardized project structures.
+
+---
+
+
+## trivial-system-loader
+
+**System Name:** `trivial-system-loader`
+
+**Purpose:** A system installation/loading abstraction for Common Lisp.
+
+**Why Use It:**
+- **System Loading**: Abstraction layer for system loading operations
+- **Installation Management**: Handles system installation workflows
+- **UIOP Integration**: Built on top of UIOP utilities
+- **Portable**: Works across implementations
+- **Simple API**: Clean interface for system management
+- **MIT License**: Permissive licensing
+
+**Best For:** Build tools, deployment scripts, or applications that need programmatic control over system loading and installation.
+
+---
+
+
+## wild-package-inferred-system
+
+**System Name:** `wild-package-inferred-system`
+
+**Purpose:** Introduces the wildcards '*' and '**' into package-inferred-system.
+
+**Why Use It:**
+- **Wildcard Support**: Use * and ** in package inference
+- **ASDF 3.3+**: Requires modern ASDF
+- **Simplified Dependencies**: Easier dependency specification
+- **Package Inference**: Enhanced package-inferred-system
+- **Less Boilerplate**: Reduce repetitive system definitions
+- **MIT License**: Permissive licensing
+
+**Best For:** Projects using package-inferred-system wanting more flexible wildcard-based dependency specification.
 
 ---
 

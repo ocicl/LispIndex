@@ -1,6 +1,6 @@
 # Meta-Programming: Design-Patterns
 
-5 libraries
+7 libraries
 
 ---
 
@@ -95,6 +95,43 @@
 **Best For:** Generic interfaces, type-based dispatch, extensible systems, protocol-oriented programming.
 
 **Note:** Inspired by Clojure. Single specialization on first parameter. Used by generic-collection-interface system.
+
+---
+
+
+## nhooks
+
+**System Name:** `nhooks`
+
+**Purpose:** Improved hooks facility inspired by Serapeum.
+
+**Why Use It:**
+- **Hook System**: Extensible hook mechanism
+- **Thread-Safe**: Uses bordeaux-threads
+- **Handler Management**: Add/remove hook handlers
+- **MOP Integration**: Uses closer-mop for extensibility
+- **Serapeum-Inspired**: Enhanced beyond Serapeum's hooks
+- **Atlas Engineer**: Part of Atlas Engineer ecosystem
+
+**Best For:** Applications needing sophisticated, thread-safe hook systems for extensibility points.
+
+---
+
+
+## message-oo
+
+**System Name:** `message-oo`
+
+**Purpose:** Message-passing Smalltalk-style object system.
+
+**Why Use It:**
+- **Message Passing**: Smalltalk-style message-passing OOP
+- **Alternative OOP**: Different from CLOS approach
+- **Encapsulation**: Strong encapsulation model
+- **Dynamic Dispatch**: Message-based method dispatch
+- **Smalltalk Idioms**: Familiar to Smalltalk programmers
+
+**Best For:** Smalltalk programmers, learning different OOP paradigms, or projects preferring message-passing over CLOS.
 
 ---
 

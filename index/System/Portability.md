@@ -1,6 +1,6 @@
 # System: Portability
 
-3 libraries
+7 libraries
 
 ---
 
@@ -61,6 +61,79 @@
 **Best For:** Portable numeric code, float introspection.
 
 **Note:** Repository moved from GitHub to Codeberg in August 2025.
+
+---
+
+
+## iolib.common-lisp
+
+**System Name:** `iolib.common-lisp`
+
+**Purpose:** Slightly modified Common Lisp.
+
+**Why Use It:**
+- **Gray Streams**: Gray streams support and extensions
+- **Modified CL**: Enhanced Common Lisp package
+- **Stream Conduits**: Stream connection infrastructure
+- **Type Definitions**: Extended type system
+
+**Best For:** Stream-based I/O, IOLib development, gray streams applications.
+
+**Note:** Licensed under MIT. Author: Stelian Ionescu. Part of IOLib.
+
+---
+
+
+## lw-compat
+
+**System Name:** `lw-compat`
+
+**Purpose:** A few utility functions from the LispWorks library used in Closer to MOP.
+
+**Why Use It:**
+- **Portability**: LispWorks compatibility layer
+- **MOP Support**: Utilities for Closer-MOP
+- **Cross-Implementation**: Use LispWorks idioms on other implementations
+- **Minimal**: Small, focused set of utilities
+- **MOP Foundation**: Support for metaobject protocol libraries
+
+**Best For:** Porting LispWorks code to other implementations, or using Closer-MOP-based libraries that depend on LispWorks utilities.
+
+---
+
+
+## madeira-port
+
+**System Name:** `madeira-port`
+
+**Purpose:** Provides :MADEIRA-PORT file class for ASDF, and an extended #+ and #- syntax.
+
+**Why Use It:**
+- **ASDF Extension**: Custom file class for ASDF
+- **Feature Conditionals**: Extended #+ and #- reader syntax
+- **Portability**: Enhanced feature-based conditional compilation
+- **Platform Detection**: Advanced platform feature detection
+- **Build System**: Integration with ASDF build system
+
+**Best For:** Projects requiring enhanced feature-conditional compilation, complex platform-specific code, or custom ASDF file types.
+
+---
+
+
+## s-sysdeps
+
+**System Name:** `s-sysdeps`
+
+**Purpose:** An abstraction layer over platform-dependent functionality.
+
+**Why Use It:**
+- **Platform Abstraction**: Unified interface for platform-specific operations
+- **Socket Support**: Uses usocket and usocket-server for networking
+- **Threading**: Bordeaux-threads integration for portable threading
+- **Cross-Platform**: Works across different Common Lisp implementations
+- **LLGPL License**: Permissive licensing
+
+**Best For:** Cross-platform applications that need a unified interface for system-dependent operations.
 
 ---
 

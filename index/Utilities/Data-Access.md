@@ -44,27 +44,6 @@
 ---
 
 
-## access
-
-**System Name:** `access`
-
-**Purpose:** Unified access to common data structures (CLOS, plists, alists, hash-tables, arrays).
-
-**Why Use It:**
-- **Unified API**: Single access/accesses/(setf access) for all structures
-- **CLOS Support**: Accessor and slot access to objects
-- **Deep Nesting**: accesses for modifying deeply nested structures without intermediary bindings
-- **Error Suppression**: Returns nil instead of signaling errors on failed access
-- **Extensible**: do-access/do-set-access for custom map datastructures
-- **Auto-Creation**: Setting through nil creates appropriate dictionary (:type parameter)
-
-**Best For:** Newcomers to CL, working with heterogeneous data structures, deeply nested modifications.
-
-**Note:** Opts for convenience over strict error handling. Slot unboundedness errors not signaled.
-
----
-
-
 ## assoc-utils
 
 **System Name:** `assoc-utils`
@@ -81,6 +60,25 @@
 **Best For:** Working with JSON-like data structures, configuration files, API responses, nested data manipulation, and code that frequently needs to convert between different key-value representations.
 
 **Note:** Public Domain license. Author: Eitaro Fukamachi. Includes support for recursive hash/alist conversions. Default test function is #'equal (configurable via *assoc-test*).
+
+---
+
+
+## lense-20240503-d932036
+
+**System Name:** `lense`
+
+**Purpose:** Racket style lenses for the Common Lisp.
+
+**Why Use It:**
+- **Functional Lenses**: Composable data accessors
+- **Immutable Updates**: Functional data structure updates
+- **CLOS Integration**: Works with CLOS objects
+- **Documentation**: Documentation-utils integration
+
+**Best For:** Functional programming, immutable data structures, data transformation.
+
+**Note:** Licensed under BSD-2. Author: Marek Kochanowicz. Version 0.0.0.
 
 ---
 

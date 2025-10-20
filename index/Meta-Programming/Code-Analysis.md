@@ -1,6 +1,6 @@
 # Meta-Programming: Code-Analysis
 
-6 libraries
+10 libraries
 
 ---
 
@@ -120,6 +120,81 @@
 **Best For:** IDE development, code analysis tools, refactoring tools, advanced macro systems, compiler development.
 
 **Note:** Use with Eclector library for reading source code into CSTs. Extensive documentation included.
+
+---
+
+
+## Ecclesia
+
+**System Name:** `ecclesia`
+
+**Purpose:** Utilities for parsing Lisp code.
+
+**Why Use It:**
+- **Code Parsing**: Tools for analyzing and parsing Lisp source code
+- **Lambda List Processing**: Parse and canonicalize lambda lists
+- **Destructuring Support**: Handle complex destructuring patterns
+- **Declaration Analysis**: Process and analyze declarations
+
+**Best For:** Building code analysis tools and macros with complex parsing needs.
+
+**Note:** Licensed under MIT. Author: Robert Strandh.
+
+---
+
+
+## parse-declarations
+
+**System Name:** `parse-declarations-1.0`
+
+**Purpose:** Library to parse and rebuild declarations.
+
+**Why Use It:**
+- **Declaration Parsing**: Parse Common Lisp declarations
+- **Declaration Rebuilding**: Reconstruct declarations
+- **Compiler Support**: Aid in writing compilers/macros
+- **Type Declarations**: Handle type declarations correctly
+- **Simple API**: Easy declaration manipulation
+- **MIT License**: Permissive license
+
+**Best For:** Macros and code walkers that need to process or manipulate Common Lisp declarations.
+
+---
+
+
+## trivial-cltl2
+
+**System Name:** `trivial-cltl2`
+
+**Purpose:** Compatibility package exporting CLtL2 functionality.
+
+**Why Use It:**
+- **CLtL2 Functions**: Common Lisp the Language 2 functions
+- **Environment Access**: Lexical environment queries
+- **Portable**: Cross-implementation
+- **Allegro Support**: Special Allegro handling
+- **LLGPL License**: Lisp LGPL
+
+**Best For:** Libraries and macros needing CLtL2 environment introspection functions portably.
+
+---
+
+
+## trivial-with-current-source-form
+
+**System Name:** `trivial-with-current-source-form`
+
+**Purpose:** Helps macro writers produce better errors for macro users.
+
+**Why Use It:**
+- **Better Error Messages**: Improved macro error reporting
+- **Source Form Tracking**: Track current source form during macro expansion
+- **SBCL Support**: Full support on SBCL
+- **Clasp Support**: Works with Clasp implementation
+- **Developer Experience**: Better debugging for macro users
+- **MIT License**: Permissive licensing
+
+**Best For:** Macro-heavy libraries that want to provide helpful error messages with accurate source location information.
 
 ---
 

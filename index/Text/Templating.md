@@ -1,8 +1,26 @@
 # Text: Templating
 
-3 libraries
+4 libraries
 
 ---
+
+## cl-interpol
+
+**System Name:** `cl-interpol`
+
+**Purpose:** String interpolation for Common Lisp (like Perl/shell scripts).
+
+**Why Use It:**
+- **String Interpolation**: Embed Lisp expressions in strings
+- **Perl-like Syntax**: Familiar to Perl/shell script users
+- **Special Characters**: Easy insertion of special Unicode characters
+- **Named Readtable**: Uses named readtable `:interpol-syntax`
+- **Variable Expansion**: Expand variables with `${var}` syntax
+
+**Best For:** String processing and template generation with embedded expressions.
+
+---
+
 
 ## cl-template
 
@@ -22,27 +40,6 @@
 ---
 
 
-## cl-template
-
-**System Name:** `cl-template`
-
-**Purpose:** Simple general-purpose template engine for Common Lisp.
-
-**Why Use It:**
-- **ERb-style**: Ruby ERb-inspired template syntax
-- **Pure Lisp**: Templates are just Lisp code with delimiters
-- **Output Agnostic**: Generate HTML, JSON, CSV, Markdown, or any text
-- **No Extra Syntax**: Unlike other engines, uses plain Common Lisp
-- **Compile-time**: Templates compile to functions
-- **Clean Templates**: Optional syntax sugar for readability
-
-**Best For:** Web development, HTML generation, text templating, report generation.
-
-**Note:** MIT License. Can generate any text format, not just HTML.
-
----
-
-
 ## lisp-preprocessor
 
 **System Name:** `lisp-preprocessor`
@@ -58,6 +55,25 @@
 **Best For:** Code generation, text templating, web templates, document generation.
 
 **Note:** MIT license.
+
+---
+
+
+## linewise-template-20240503-eef8d32
+
+**System Name:** `linewise-template`
+
+**Purpose:** Linewise file/stream processor for code generation etc.
+
+**Why Use It:**
+- **Template Processing**: Line-by-line template processing
+- **Code Generation**: Generate code from templates
+- **Stream Processing**: File and stream support
+- **Pattern Matching**: Cl-ppcre integration
+
+**Best For:** Code generation, template processing, text transformation.
+
+**Note:** Licensed under BSD-3-Clause. Author: Boris Smilga. Uses cl-ppcre and cl-fad.
 
 ---
 

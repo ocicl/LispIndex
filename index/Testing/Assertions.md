@@ -1,6 +1,6 @@
 # Testing: Assertions
 
-4 libraries
+3 libraries
 
 ---
 
@@ -21,28 +21,6 @@
 **Best For:** FiveAM tests requiring complex, readable assertions.
 
 **Note:** Makes test assertions more expressive.
-
----
-
-
-## fiveam-matchers
-
-**System Name:** `fiveam-matchers`
-
-**Purpose:** Extensible, composable matchers library for fiveam.
-
-**Why Use It:**
-- **Composable**: Combine matchers for complex assertions
-- **Expressive**: Readable test assertions
-- **Examples**: `has-item`, `starts-with`, `equal-to`
-- **Extensible**: Create custom matchers
-- **Better Messages**: Descriptive failure messages
-- **CircleCI**: Continuous integration
-- **assert-that**: Clean assertion syntax
-
-**Best For:** Readable tests, complex assertions, matcher-based testing.
-
-**Note:** Essential companion to fiveam for expressive tests.
 
 ---
 

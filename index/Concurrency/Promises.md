@@ -23,22 +23,21 @@
 ---
 
 
-## blackbird
+## deferred
 
-**System Name:** `blackbird`
+**System Name:** `deferred`
 
-**Purpose:** Standalone promise implementation for abstracting synchronous and asynchronous code.
+**Purpose:** A simple library allowing you to write code using deferred libraries.
 
 **Why Use It:**
-- **Promise Pattern**: Handle both blocking and non-blocking operations uniformly
-- **Natural to Lisp**: Abstracts delayed results naturally for Lisp programming
-- **Successor to cl-async-future**: Modern replacement for deprecated project
-- **Driver Development**: Ideal for drivers handling both socket types
-- **Threading Abstraction**: Concept of delayed result for threading operations
+- **Deferred Loading**: Postpone evaluation until values are needed
+- **Reader Syntax**: Named readtable support for deferred expressions
+- **Lazy Evaluation**: Implement lazy computation patterns
+- **Simple API**: Minimal interface for deferred operations
 
-**Best For:** Async I/O drivers, promise-based concurrency, threading with delayed results.
+**Best For:** Implementing lazy evaluation and deferred computation patterns.
 
-**Note:** MIT license. Successor to cl-async-future. See http://orthecreedence.github.io/blackbird.
+**Note:** Licensed under zlib. Author: Yukari Hafner.
 
 ---
 

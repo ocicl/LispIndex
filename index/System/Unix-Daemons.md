@@ -1,6 +1,6 @@
 # System: Unix-Daemons
 
-2 libraries
+1 libraries
 
 ---
 
@@ -17,24 +17,6 @@
 - **Unix-focused**: For Unix-like platforms
 
 **Best For:** Running Lisp applications as Unix daemons/services.
-
----
-
-
-## daemon
-
-**System Name:** `daemon`
-
-**Purpose:** Simple functionality to daemonize Lisp process on Unix-like platforms.
-
-**Why Use It:**
-- **daemonize**: Make process a daemon with :exit-parent option
-- **exit**: Clean daemon shutdown
-- **Simple API**: Only two exported functions
-
-**Best For:** Unix daemons, background processes, server applications.
-
-**Note:** Unix-only. Simple and focused.
 
 ---
 

@@ -8,18 +8,18 @@
 
 **System Name:** `eclector`
 
-**Purpose:** Portable, extensible Common Lisp reader with error recovery and CST support.
+**Purpose:** Portable, extensible Common Lisp reader.
 
 **Why Use It:**
-- **Error Recovery**: Continue reading after syntax errors with restarts
-- **Custom Results**: Client-controlled parse result construction
-- **Source Tracking**: Optional location information for all forms
-- **CST Support**: Concrete syntax tree output with eclector.concrete-syntax-tree
-- **Extensible**: Protocol-based design for customization
+- **Customizable Reader**: Fully extensible reader implementation
+- **Parse Results**: Can produce parse result objects instead of forms
+- **Error Recovery**: Support for error recovery during reading
+- **Readtable Protocol**: Complete reimplementation of readtable functionality
+- **CST Integration**: Optional concrete syntax tree support
 
-**Best For:** IDEs, linters, code analysis tools, syntax highlighting, refactoring.
+**Best For:** Building custom readers, code analysis tools, and IDE features.
 
-**Note:** Part of s-expressionists project. BSD license.
+**Note:** Licensed under BSD. Authors: Robert Strandh, Jan Moringen.
 
 ---
 

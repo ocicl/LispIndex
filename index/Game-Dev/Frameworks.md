@@ -1,6 +1,6 @@
 # Game-Dev: Frameworks
 
-4 libraries
+5 libraries
 
 ---
 
@@ -81,6 +81,29 @@
 **Best For:** Game development, graphics programming, interactive applications, multimedia projects.
 
 **Note:** Requires raylib dynamic library installed separately. Examples provided.
+
+---
+
+
+## lispbuilder
+
+**System Name:** `lispbuilder-sdl`
+
+**Purpose:** Wrapper and tools for SDL 1.2.14 for cross-platform game development.
+
+**Why Use It:**
+- **SDL Bindings**: CFFI-based SDL 1.2 bindings for portability
+- **Graphics**: Comprehensive 2D graphics primitives
+- **Events**: Keyboard, mouse, and joystick input handling
+- **Surfaces**: Image loading and surface manipulation
+- **Fonts**: Multiple font rendering systems (bitmap, TTF, GFX)
+- **Audio**: Sound and music playback support
+- **OpenGL**: Optional OpenGL integration
+- **Cross-Platform**: Works across Lisp implementations via CFFI
+- **Game Utilities**: FPS management, color handling, rectangles
+- **Extensions**: Additional packages for SDL_gfx, SDL_image, SDL_mixer, SDL_ttf
+
+**Best For:** Cross-platform 2D game development, multimedia applications, interactive graphics applications, or learning game programming in Common Lisp.
 
 ---
 

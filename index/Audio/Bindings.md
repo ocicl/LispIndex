@@ -1,8 +1,28 @@
 # Audio: Bindings
 
-2 libraries
+3 libraries
 
 ---
+
+## also-alsa
+
+**System Name:** `also-alsa`
+
+**Purpose:** Basic ALSA (Advanced Linux Sound Architecture) bindings for Common Lisp.
+
+**Why Use It:**
+- **Linux Audio**: Direct access to ALSA audio interface on Linux
+- **PCM Streams**: Record and playback audio via PCM streams
+- **Low Latency**: Direct ALSA access for minimal latency
+- **Audio Programming**: Build audio applications and synthesizers
+- **No Middleware**: Direct hardware access without PulseAudio/JACK overhead
+
+**Best For:** Linux audio applications requiring low-level ALSA access for playback and recording.
+
+**Note:** Linux-specific.
+
+---
+
 
 ## cl-soloud
 

@@ -1,6 +1,6 @@
 # Utilities: Timeouts
 
-2 libraries
+1 libraries
 
 ---
 
@@ -18,22 +18,6 @@
 **Best For:** Portable timeout functionality.
 
 **Note:** Unmaintained but still useful. MIT license.
-
----
-
-
-## trivial-timeout
-
-**System Name:** `trivial-timeout`
-
-**Purpose:** Portable and possibly dangerous timeout library for Common Lisp.
-
-**Why Use It:**
-- **Portable Timeouts**: Cross-implementation timeout support
-
-**Best For:** Operations requiring timeout bounds (use with caution).
-
-**Note:** UNMAINTAINED. Gary King no longer active Lisper. Marked as "possibly dangerous".
 
 ---
 

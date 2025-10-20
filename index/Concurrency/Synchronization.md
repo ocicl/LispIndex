@@ -1,6 +1,6 @@
 # Concurrency: Synchronization
 
-1 libraries
+2 libraries
 
 ---
 
@@ -20,6 +20,26 @@
 **Best For:** Thread synchronization, resource pools, producer-consumer patterns, or rate limiting.
 
 **Note:** OBSOLETE! Use bordeaux-threads built-in semaphores (available since 0.8.6) instead. MIT license. Kept for historical/compatibility purposes only.
+
+---
+
+
+## metalock
+
+**System Name:** `metalock`
+
+**Purpose:** A metaclass that provides automatic per-slot locking for parallel systems.
+
+**Why Use It:**
+- **Thread Safety**: Automatic slot-level locking
+- **Metaclass**: MOP-based metaclass for concurrent access
+- **Reader/Writer Locks**: Efficient read/write lock support
+- **Parallel Programming**: Simplify multithreaded code
+- **Automatic Locking**: Locks acquired automatically on slot access
+- **Bordeaux-Threads**: Cross-implementation threading
+- **Fine-Grained**: Per-slot rather than per-object locking
+
+**Best For:** Multithreaded applications requiring automatic synchronization, concurrent data structures, or parallel systems with shared state.
 
 ---
 

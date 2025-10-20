@@ -1,6 +1,6 @@
 # Compression: Archives
 
-3 libraries
+6 libraries
 
 ---
 
@@ -59,6 +59,64 @@
 **Best For:** Low-level tar file manipulation or building higher-level tar tools.
 
 **Note:** Fork of Nathan Froyd's archive library with improvements.
+
+---
+
+
+## trivial-extract
+
+**System Name:** `trivial-extract`
+
+**Purpose:** Extract .tar/.tar.gz/.zip files.
+
+**Why Use It:**
+- **Archive Extraction**: Extract compressed archives
+- **Multiple Formats**: tar, tar.gz, zip support
+- **Archive Library**: Pure Lisp extraction
+- **Native Tools**: Falls back to system tools
+- **CL-FAD**: File utilities
+- **MIT License**: Permissive license
+
+**Best For:** Applications needing to extract compressed archive files for installation or data processing.
+
+---
+
+
+## zip
+
+**System Name:** `zip`
+
+**Purpose:** Library for ZIP archive file reading and writing.
+
+**Why Use It:**
+- **ZIP Archives**: Read and write ZIP files
+- **Compression**: Uses Salza2 for compression
+- **Gray Streams**: Stream-based interface
+- **Character Encoding**: Babel integration
+- **CL-FAD**: File system utilities
+- **Lisp-LGPL License**: Free software licensing
+
+**Best For:** Applications needing to create or extract ZIP archives programmatically.
+
+---
+
+
+## zippy
+
+**System Name:** `zippy`
+
+**Purpose:** A fast zip archive library.
+
+**Why Use It:**
+- **Fast ZIP**: High-performance ZIP operations
+- **Multiple Compression**: Deflate (3bz) and DEFLATE (Salza2) support
+- **Encryption**: PKWARE encryption support
+- **File Attributes**: Preserve file metadata
+- **Pathname Utilities**: Advanced path handling
+- **Documentation**: Comprehensive documentation
+- **zlib License**: Permissive licensing
+
+**Best For:** High-performance applications requiring fast ZIP archive creation and extraction with modern features.
 
 ---
 

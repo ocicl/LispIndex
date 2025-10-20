@@ -1,6 +1,6 @@
 # Web: OAuth
 
-4 libraries
+6 libraries
 
 ---
 
@@ -76,6 +76,46 @@
 **Best For:** Twitter/OAuth 1.0a APIs, third-party authentication, protected resource access.
 
 **Note:** LLGPL by Leslie P. Polzer. Version 3. Depends on ironclad, cl-base64, babel, drakma, hunchentoot.
+
+---
+
+
+## erjoalgo-webutil
+
+**System Name:** `erjoalgo-webutil`
+
+**Purpose:** Framework for defining OAuth HTTP API client and server.
+
+**Why Use It:**
+- **OAuth Support**: Built-in OAuth authentication framework
+- **API Tools**: Define both API clients and servers
+- **JSON Handling**: Integrated JSON processing with cl-json
+- **Web Server**: Hunchentoot-based server infrastructure
+
+**Best For:** Building OAuth-enabled web services and API clients.
+
+**Note:** Licensed under GPLv3. Author: Ernesto Alfonso.
+
+---
+
+
+## erjoalgo-webutil
+
+**System Name:** `erjoalgo-webutil`
+
+**Purpose:** Framework for defining [oauth] http api client & server.
+
+**Why Use It:**
+- **API Client Framework**: Build HTTP API clients with OAuth support
+- **Server Endpoints**: Define server endpoints with defendpoint macro
+- **OAuth Integration**: Full OAuth authentication support
+- **JSON Handling**: JSON parsing and generation with cl-json
+- **HTTP Client**: Uses drakma for HTTP requests
+- **Compression**: Gzip compression support via gzip-stream
+- **Logging**: Integrated logging with vom
+- **Site Integrations**: Pre-built integrations for common web services
+
+**Best For:** Building OAuth-authenticated HTTP API clients or servers, especially for integrating with third-party web services.
 
 ---
 

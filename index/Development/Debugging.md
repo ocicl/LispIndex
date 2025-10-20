@@ -4,41 +4,6 @@
 
 ---
 
-## trivial-backtrace
-
-**System Name:** `trivial-backtrace`
-
-**Purpose:** Portable simple API for backtraces.
-
-**Why Use It:**
-- **Portable Backtraces**: Unified API across implementations
-- **Simple**: Easy-to-use interface
-- **Debugging**: Essential for error reporting
-
-**Best For:** Portable backtrace capture and printing.
-
-**Note:** Unmaintained but still useful.
-
----
-
-
-## trivial-backtrace
-
-**System Name:** `trivial-backtrace`
-
-**Purpose:** Portable simple API to work with backtraces in Common Lisp.
-
-**Why Use It:**
-- **Portable**: Works across multiple Common Lisp implementations
-- **Simple API**: Straightforward backtrace access
-
-**Best For:** Error reporting, debugging utilities, logging stack traces.
-
-**Note:** UNMAINTAINED. Gary King no longer active Lisper. Looking for new maintainer.
-
----
-
-
 ## trivial-custom-debugger
 
 **System Name:** `trivial-custom-debugger`
@@ -117,25 +82,6 @@
 ---
 
 
-## delta-debug
-
-**System Name:** `delta-debug`
-
-**Purpose:** Implementation of delta debugging algorithm.
-
-**Why Use It:**
-- **Automatic Minimization**: Minimize failing test cases automatically
-- **Delta Debugging**: Classic algorithm for test case reduction
-- **Command-Line Tool**: Includes executable delta utility
-- **Shell Integration**: Works with external test scripts
-
-**Best For:** Bug minimization, test case reduction, debugging, automated testing.
-
-**Note:** Public domain. By Eric Schulte. Implements Zeller's delta debugging.
-
----
-
-
 ## html-inspector-views
 
 **System Name:** `html-inspector-views`
@@ -150,6 +96,62 @@
 - **Web-Based Debugging**: Use in web REPL or debugging interfaces
 
 **Best For:** Web-based REPLs, remote debugging, HTML inspection interfaces, object visualization.
+
+---
+
+
+## ndebug
+
+**System Name:** `ndebug`
+
+**Purpose:** A toolkit to construct interface-aware yet standard-compliant debugger hooks.
+
+**Why Use It:**
+- **Custom Debuggers**: Build custom debugger interfaces
+- **Stack Analysis**: Uses dissect for stack inspection
+- **Custom Debugger Integration**: Uses trivial-custom-debugger
+- **Thread Support**: Uses bordeaux-threads
+- **Stream Abstraction**: Custom Gray streams for debugger I/O
+- **Interface Aware**: Adapt debugger to different UIs
+
+**Best For:** Applications needing custom debugger interfaces while maintaining standard Common Lisp debugger protocol.
+
+---
+
+
+## noisy
+
+**System Name:** `noisy`
+
+**Purpose:** Perlin noise for arbitrary numbers of dimensions.
+
+**Why Use It:**
+- **Perlin Noise**: Generate Perlin noise
+- **Multi-Dimensional**: Support arbitrary dimensions
+- **Random State**: Uses random-state for seeding
+- **Procedural Generation**: Terrain, textures, patterns
+
+**Best For:** Games, procedural generation, and graphics applications needing multi-dimensional Perlin noise.
+
+---
+
+
+## printv
+
+**System Name:** `printv`
+
+**Purpose:** A batteries-included tracing and debug-logging macro.
+
+**Why Use It:**
+- **Debug Tracing**: Print variable values with their names
+- **Thread-Safe**: Locking support for concurrent debugging
+- **Timestamping**: Automatic timestamps on debug output
+- **Expression Evaluation**: Shows both the expression and its value
+- **Minimal Overhead**: Lightweight debugging tool
+- **Easy Toggle**: Simple to enable/disable debug output
+- **Apache 2.0 License**: Permissive open source license
+
+**Best For:** Debugging complex applications, tracing program execution, or development workflows requiring quick insight into variable values.
 
 ---
 

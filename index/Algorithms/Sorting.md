@@ -1,8 +1,27 @@
 # Algorithms: Sorting
 
-1 libraries
+2 libraries
 
 ---
+
+## cl-ソート
+
+**System Name:** (Not found in ocicl)
+
+**Purpose:** Library appears to be missing from ocicl.
+
+**Why Use It:**
+- **Note**: This library was not found in the ocicl directory
+- **Japanese Name**: "ソート" means "sort" in Japanese
+- **Possible Sorting Library**: May be a sorting algorithm library
+- **Verification Needed**: Check alternative sources or Unicode variations
+
+**Best For:** Unknown - library not documented.
+
+**Note:** Not found in ocicl distribution.
+
+---
+
 
 ## nsort
 

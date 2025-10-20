@@ -1,6 +1,6 @@
 # Utilities: Validation
 
-2 libraries
+3 libraries
 
 ---
 
@@ -35,6 +35,26 @@
 **Best For:** Form validation, API input sanitization, and data interchange layers.
 
 **Note:** GPL v3 license. Version 0.2.0. By Dr. John A.R. Williams. Uses cl-ppcre for pattern matching.
+
+---
+
+
+## data-sift
+
+**System Name:** `data-sift`
+
+**Purpose:** Data filtering and transformation library.
+
+**Why Use It:**
+- **Query Language**: DSL for filtering and extracting data
+- **Pattern Matching**: Regular expression support via CL-PPCRE
+- **Number Parsing**: Parse numbers from strings
+- **URI Support**: Handle URI data via PURI
+- **Flexible Extraction**: Extract structured data from various sources
+
+**Best For:** Data extraction and transformation tasks.
+
+**Note:** Licensed under Lisp-LGPL. Author: Moskvitin Andrey.
 
 ---
 

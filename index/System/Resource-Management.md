@@ -1,6 +1,6 @@
 # System: Resource-Management
 
-1 libraries
+2 libraries
 
 ---
 
@@ -21,6 +21,25 @@
 **Best For:** Managing foreign resources, file handles, network connections.
 
 **Note:** Inspired by Apache Portable Runtime pools.
+
+---
+
+
+## asdf-finalizers
+
+**System Name:** `asdf-finalizers`
+
+**Purpose:** Enforced calling of finalizers for Lisp code.
+
+**Why Use It:**
+- **Cleanup Guarantee**: Ensure cleanup code runs even with non-local exits
+- **ASDF Integration**: Seamless integration with ASDF build system
+- **Resource Management**: Proper handling of resources like files and connections
+- **Initialization Support**: Complementary initialization facilities
+
+**Best For:** Reliable resource management and cleanup in ASDF systems.
+
+**Note:** Licensed under MIT. Author: Francois-Rene Rideau.
 
 ---
 

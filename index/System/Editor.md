@@ -1,6 +1,6 @@
 # System: Editor
 
-3 libraries
+5 libraries
 
 ---
 
@@ -55,6 +55,49 @@
 **Best For:** Building text editors, IDE components, code analysis tools.
 
 **Note:** Part of the Second Climacs project. Used by McCLIM-based editors.
+
+---
+
+
+## lem-20250810-bbe1ed3b
+
+**System Name:** `lem/core`, `lem`
+
+**Purpose:** Text editor and IDE for Common Lisp.
+
+**Why Use It:**
+- **Modern Editor**: Emacs-like editor written in Common Lisp
+- **Language Support**: Multiple programming languages
+- **LSP Support**: Language Server Protocol integration
+- **Extensible**: Rich extension system
+- **Multiple Frontends**: ncurses, webview, SDL2
+
+**Best For:** Common Lisp development, text editing, IDE functionality.
+
+**Note:** Licensed under MIT. Version 2.3.0. Includes extensive language mode support.
+
+---
+
+
+## minilem
+
+**System Name:** `minilem`
+
+**Purpose:** Minimal version of Lem, an Emacs-like editor for Common Lisp.
+
+**Why Use It:**
+- **Emacs-like Editing**: Emacs-style editor implemented in Common Lisp
+- **Self-Modifying**: Editor that can modify itself
+- **Lisp Mode**: Full-featured Lisp editing mode with SLIME integration
+- **VI Mode**: VI-style modal editing support
+- **Paredit Mode**: Structural editing for Lisp code
+- **Multiple Encodings**: Support for various character encodings
+- **Swank Integration**: Connect to running Lisp processes
+- **REPL Integration**: Interactive Lisp REPL within the editor
+- **Syntax Highlighting**: TextMate-style grammar support
+- **Extensible**: Written in Common Lisp, fully programmable
+
+**Best For:** Developers wanting an Emacs-like editor written entirely in Common Lisp that can be embedded or customized.
 
 ---
 

@@ -1,6 +1,6 @@
 # Web: Authentication
 
-5 libraries
+8 libraries
 
 ---
 
@@ -98,6 +98,64 @@
 **Best For:** OAuth-enabled web services, API authentication, third-party integrations.
 
 **Note:** LGPL License.
+
+---
+
+
+## hunchentoot-single-signon
+
+**System Name:** `hunchentoot-single-signon`
+
+**Purpose:** SPNEGO authentication implementation for Hunchentoot.
+
+**Why Use It:**
+- **SSO Support**: Single sign-on via SPNEGO
+- **Kerberos**: Kerberos authentication integration
+- **Windows Auth**: Windows domain authentication
+- **Enterprise Integration**: Corporate network SSO
+- **GSS-API**: Generic Security Service API support
+
+**Best For:** Enterprise web apps, corporate intranets, Kerberos environments.
+
+**Note:** Licensed under BSD. Author: Elias Martenson. Depends on cl-gss.
+
+---
+
+
+## hunchentoot-auth
+
+**System Name:** `hunchentoot-auth`
+
+**Purpose:** Authentication support for Hunchentoot.
+
+**Why Use It:**
+- **Authentication**: User authentication framework for Hunchentoot
+- **Realm Management**: Support for authentication realms
+- **Session Integration**: Integrate authentication with Hunchentoot sessions
+- **User Management**: User account management
+- **Persistence**: Uses cl-store for user data persistence
+- **Thread-Safe**: Uses bordeaux-threads for concurrent access
+- **HTML Generation**: Uses cl-who for authentication forms
+
+**Best For:** Hunchentoot web applications requiring user authentication, login systems, and access control.
+
+---
+
+
+## session-token
+
+**System Name:** `session-token`
+
+**Purpose:** Simple session token generation library.
+
+**Why Use It:**
+- **Token Generation**: Create secure session tokens
+- **CL-ISAAC**: Uses ISAAC PRNG for randomness
+- **Simple API**: Straightforward token creation
+- **Session Management**: Support for web session handling
+- **BSD License**: Permissive licensing
+
+**Best For:** Web applications requiring secure session token generation for user authentication and session management.
 
 ---
 

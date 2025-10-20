@@ -1,6 +1,6 @@
 # Parsing: Binary
 
-4 libraries
+6 libraries
 
 ---
 
@@ -83,6 +83,45 @@
 **Best For:** Audio file processing, multimedia applications, WAV file handling.
 
 **Note:** Written for cross-platform WAV processing. See also cl-wav.
+
+---
+
+
+## nail
+
+**System Name:** `nail`
+
+**Purpose:** Library providing convenient functions for working with linear algebra, statistics and probability.
+
+**Why Use It:**
+- **Linear Algebra**: Matrix and vector operations
+- **Statistics**: Statistical functions
+- **Probability**: Probability distributions
+- **Plotting**: Uses eazy-gnuplot for visualization
+- **Utilities**: Mathematical utility functions
+- **Re-export**: Uses cl-reexport for clean API
+
+**Best For:** Scientific computing and data analysis applications needing basic linear algebra and statistics.
+
+---
+
+
+## proc-parse
+
+**System Name:** `proc-parse`
+
+**Purpose:** Procedural vector parser.
+
+**Why Use It:**
+- **Vector Parsing**: Efficient parsing of byte vectors
+- **Procedural Style**: Imperative parsing approach for clarity
+- **Fast**: Optimized for performance on vector data
+- **Low-Level**: Direct control over parsing operations
+- **Babel Integration**: Character encoding support
+- **Zero-Copy**: Efficient parsing without unnecessary copying
+- **BSD License**: 2-Clause BSD license
+
+**Best For:** Network protocol parsers, binary file format readers, or any application requiring fast procedural parsing of byte vectors.
 
 ---
 

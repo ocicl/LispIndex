@@ -1,6 +1,6 @@
 # Utilities: Data-Manipulation
 
-3 libraries
+4 libraries
 
 ---
 
@@ -61,6 +61,26 @@
 **Best For:** Data processing, collection manipulation, performance-critical grouping.
 
 **Note:** Standalone utility function. MIT license.
+
+---
+
+
+## select
+
+**System Name:** `select`
+
+**Purpose:** DSL for array and data-frame slicing and selection.
+
+**Why Use It:**
+- **Array Slicing**: Powerful array indexing and slicing operations
+- **Data Frame Support**: Works with data frames for data science
+- **DSL**: Domain-specific language for selections
+- **Lisp-Stat Integration**: Part of the Lisp-Stat ecosystem
+- **Sampling**: Random sampling capabilities
+- **Anaphoric Macros**: Convenient selection syntax
+- **MS-PL License**: Microsoft Public License
+
+**Best For:** Data analysis, scientific computing, or any application requiring sophisticated array slicing and data frame operations.
 
 ---
 

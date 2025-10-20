@@ -1,6 +1,6 @@
 # Algorithms: Automata
 
-1 libraries
+2 libraries
 
 ---
 
@@ -20,6 +20,25 @@
 **Best For:** Pattern matching, lexical analysis, compiler construction, text processing, and formal language applications.
 
 **Note:** License unspecified. Depends on rt test framework. More actively maintained version exists in McCLIM's Drei library.
+
+---
+
+
+## ndfa
+
+**System Name:** `ndfa`
+
+**Purpose:** Implementation of non-deterministic finite automata.
+
+**Why Use It:**
+- **NFA Implementation**: Non-deterministic finite automata
+- **Minimization**: DFA minimization algorithms
+- **Graphviz Export**: Export to DOT format
+- **Product Construction**: Automata product operations
+- **Transit Operations**: State transition analysis
+- **Adjuvant Integration**: Uses adjuvant utilities
+
+**Best For:** Compiler construction, pattern matching, or formal language applications needing finite automata.
 
 ---
 

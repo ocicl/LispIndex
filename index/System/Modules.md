@@ -1,6 +1,6 @@
 # System: Modules
 
-4 libraries
+3 libraries
 
 ---
 
@@ -17,26 +17,6 @@
 **Best For:** Code organization, modularity.
 
 **Note:** This repository no longer receives updates. Use Codeberg instead.
-
----
-
-
-## modularize
-
-**System Name:** `modularize`
-
-**Purpose:** Modularization framework for organizing code into independent modules.
-
-**Why Use It:**
-- **Module System**: Create isolated, self-contained code modules
-- **Package Management**: Enhanced package management with module semantics
-- **Hook System**: Built-in hooks for module lifecycle events
-- **ASDF Integration**: Seamless integration with ASDF system definitions
-- **Documentation**: Integration with documentation-utils
-
-**Best For:** Large applications, plugin systems, modular architecture, code organization.
-
-**Note:** zlib License by Yukari Hafner. Provides foundation for modular application design.
 
 ---
 

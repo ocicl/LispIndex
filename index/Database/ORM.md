@@ -1,6 +1,6 @@
 # Database: ORM
 
-9 libraries
+11 libraries
 
 ---
 
@@ -100,29 +100,6 @@
 ---
 
 
-## mito
-
-**System Name:** `mito`
-
-**Purpose:** Object relational mapper (ORM) for MySQL, PostgreSQL, and SQLite3.
-
-**Why Use It:**
-- **deftable**: Define database tables as CLOS classes
-- **Migrations**: Automatic schema migration support
-- **Auto-Timestamps**: created_at/updated_at by default
-- **Relationships**: Foreign keys and eager loading
-- **CRUD**: insert-dao, find-dao, update-dao, delete-dao
-- **SxQL Integration**: Powerful query builder
-- **Inflation/Deflation**: Custom type conversions
-- **Connection Management**: connect-toplevel, middleware support
-
-**Best For:** Database-backed applications, web frameworks, data persistence.
-
-**Note:** By Fukamachi. Successor to Integral. Alpha quality but production-ready.
-
----
-
-
 ## mito-auth
 
 **System Name:** `mito-auth`
@@ -175,6 +152,70 @@
 **Best For:** Web applications with databases, REST APIs, rapid CRUD interfaces, admin dashboards.
 
 **Note:** MIT by Ric da Silva. Version 0.2.0. Depends on clsql, jonathan, semantic-spinneret, spinneret.
+
+---
+
+
+## integral
+
+**System Name:** `integral`
+
+**Purpose:** Object Relational Mapper (ORM) for Common Lisp.
+
+**Why Use It:**
+- **ORM**: Map database tables to CLOS objects
+- **Multiple Databases**: MySQL, PostgreSQL, SQLite3
+- **Migrations**: Database schema migrations
+- **Query Builder**: SxQL integration
+- **CRUD Operations**: Simple database operations
+- **Fixtures**: Test data management
+- **Column Mapping**: Automatic column type mapping
+- **Relationships**: (via additional code)
+
+**Best For:** Database applications, web backends, data persistence.
+
+**Note:** Licensed under BSD 3-Clause. Author: Eitaro Fukamachi. Modern ORM for CL.
+
+---
+
+
+## orizuru-orm
+
+**System Name:** `orizuru-orm`
+
+**Purpose:** An ORM for Common Lisp and PostgreSQL.
+
+**Why Use It:**
+- **PostgreSQL ORM**: Object-relational mapping for PostgreSQL
+- **CLOS Integration**: Map CLOS objects to database tables
+- **SXQL**: Uses SXQL for SQL generation
+- **DBI**: Database connectivity via DBI
+- **Migrations**: Database migration support
+- **Fixtures**: Test data fixtures with clos-fixtures
+- **Query Sets**: Django-style query set API
+- **Transactions**: Transaction support
+- **Timestamps**: local-time for timestamp fields
+
+**Best For:** PostgreSQL-backed Common Lisp applications requiring object-relational mapping and database abstraction.
+
+---
+
+
+## orm-utils
+
+**System Name:** `orm-utils`
+
+**Purpose:** Utilities for personal work by Orm Finnendahl.
+
+**Why Use It:**
+- **File Utilities**: cl-fad for file operations
+- **Pattern Matching**: cl-ppcre for regex
+- **MOP Utilities**: closer-mop for metaobject protocol
+- **Universal Copy**: Universal copy functionality
+- **Collection Utilities**: org.tfeb.hax.collecting for collections
+- **Personal Tools**: Curated set of utilities
+
+**Best For:** General Lisp development with file operations, pattern matching, and MOP-based programming.
 
 ---
 

@@ -1,44 +1,8 @@
 # Text: String-Manipulation
 
-8 libraries
+5 libraries
 
 ---
-
-## cl-interpol
-
-**System Name:** `cl-interpol`
-
-**Purpose:** String interpolation for Common Lisp (like Perl/shell scripts).
-
-**Why Use It:**
-- **String Interpolation**: Embed Lisp expressions in strings
-- **Perl-like Syntax**: Familiar to Perl/shell script users
-- **Special Characters**: Easy insertion of special Unicode characters
-- **Named Readtable**: Uses named readtable `:interpol-syntax`
-- **Variable Expansion**: Expand variables with `${var}` syntax
-
-**Best For:** String processing and template generation with embedded expressions.
-
----
-
-
-## cl-slug
-
-**System Name:** `cl-slug`
-
-**Purpose:** Create URL-friendly slugs from strings.
-
-**Why Use It:**
-- **URL Slugs**: Convert strings to URL-friendly formats
-- **Many Languages**: Supports many language alphabets
-- **Accent Removal**: Removes accented characters
-- **Configurable Separator**: Customizable slug separator
-- **Numbers Preserved**: Keeps numbers in slugs
-
-**Best For:** Web applications generating URL slugs from titles or names.
-
----
-
 
 ## cl-str (str)
 
@@ -62,42 +26,23 @@
 ---
 
 
-## cl-slug
+## cl-change-case
 
-**System Name:** `cl-slug`
+**System Name:** `cl-change-case`
 
-**Purpose:** URL slug generation from strings with multi-language alphabet support.
-
-**Why Use It:**
-- **Multi-Language**: 20+ languages (English, Portuguese, German, French, Russian, Greek, etc.)
-- **slugify**: Remove accents/punctuation, replace with separator (default dash)
-- **asciify**: Remove accents only, preserve spaces/case
-- **CamelCaseFy**: Convert to CamelCase format
-- **Customizable**: *slug-separator* for custom separator character
-- **Number-Safe**: Preserves numbers in slugs
-
-**Best For:** URL generation, blog posts, article slugs, SEO-friendly URLs.
-
-**Note:** LLGPL. Inspired by Django. Depends on CL-PPCRE. Tested on ABCL, SBCL, CCL, CLISP, ECL.
-
----
-
-
-## cl-interpol
-
-**System Name:** `cl-interpol`
-
-**Purpose:** String interpolation with reader macros - Perl/Unix Shell style.
+**Purpose:** Convert strings between camelCase, param-case, PascalCase, and more.
 
 **Why Use It:**
-- **String Interpolation**: ${variable} syntax like Perl/Shell
-- **Arbitrary Characters**: Insert characters via \xC4, \N{name} even if editor doesn't support
-- **Reader Integration**: named-readtables :interpol-syntax
-- **#?" Syntax**: #?"foo: ${a}" for interpolated strings
+- **Many Cases**: camelCase, PascalCase, snake_case, param-case, CONSTANT_CASE, etc.
+- **Unicode Support**: Uses cl-ppcre-unicode
+- **Simple Functions**: One function per case type
+- **Well-Tested**: Comprehensive test coverage with FiveAM
+- **MPL 2.0 License**: Mozilla Public License
+- **Clean API**: Straightforward case conversion
 
-**Best For:** String generation, templating, config files, readable string construction.
+**Best For:** String case conversions in APIs, code generators, data transformations.
 
-**Note:** BSD-style license. Docs at http://edicl.github.io/cl-interpol/.
+**Note:** Port of JavaScript's change-case library.
 
 ---
 

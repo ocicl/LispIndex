@@ -1,6 +1,6 @@
 # Parsing: Markup
 
-2 libraries
+3 libraries
 
 ---
 
@@ -41,6 +41,24 @@
 **Best For:** Document generation, Lisp-based markup, CommonDoc workflows, programmatic documents.
 
 **Note:** MIT by Fernando Borretti. Version 0.1. Depends on plump, common-doc-plump, esrap.
+
+---
+
+
+## monkeylib-markup
+
+**System Name:** `com.gigamonkeys.markup`
+
+**Purpose:** Library for parsing Markup-formatted text.
+
+**Why Use It:**
+- **Markup Parser**: Parse custom markup format
+- **Text Processing**: Process structured text documents
+- **Regular Expressions**: Uses cl-ppcre for parsing
+- **Utilities Integration**: Uses com.gigamonkeys.utilities
+- **Pathname Handling**: Integrated pathname utilities
+
+**Best For:** Projects needing to parse and process Peter Seibel's Markup text format.
 
 ---
 

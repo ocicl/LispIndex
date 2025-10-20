@@ -1,6 +1,6 @@
 # Parsing: HTML
 
-12 libraries
+10 libraries
 
 ---
 
@@ -84,59 +84,6 @@
 ---
 
 
-## plump
-
-**System Name:** `plump`
-
-**Purpose:** Lenient HTML/XML parser.
-
-**Why Use It:**
-- **Moved to Codeberg**: Project relocated in August 2025
-- **By Shinmera**: Check https://shinmera.com/projects/plump
-
-**Best For:** HTML/XML parsing.
-
-**Note:** This repository no longer receives updates. Use Codeberg instead.
-
----
-
-
-## closure-html
-
-**System Name:** `closure-html`
-
-**Purpose:** HTML parser for Common Lisp - extracted from Closure web browser.
-
-**Why Use It:**
-- **Browser Quality**: HTML parsing from actual web browser project
-- **Stand-alone**: Separated from Closure browser for independent use
-- **Integration**: Works with Closure XML
-
-**Best For:** HTML parsing, web scraping, HTML processing, browser integration.
-
-**Note:** MIT-style license. Originally by Gilbert Baumann. Docs at common-lisp.net/project/closure/closure-html/.
-
----
-
-
-## cl-html5-parser
-
-**System Name:** `cl-html5-parser`
-
-**Purpose:** HTML5-compliant parser for Common Lisp.
-
-**Why Use It:**
-- **HTML5 Parsing**: Parse real-world HTML according to HTML5 spec
-- **Error Handling**: Handles malformed HTML gracefully
-- **Standards Compliant**: Follows WHATWG HTML5 parsing algorithm
-
-**Best For:** Web scraping, HTML processing, browser implementations.
-
-**Note:** HTML5 specification-compliant parser.
-
----
-
-
 ## cl-htmlprag
 
 **System Name:** `cl-htmlprag`
@@ -151,24 +98,6 @@
 **Best For:** Web scraping, HTML manipulation, quick HTML parsing.
 
 **Note:** Pragmatic approach to HTML parsing.
-
----
-
-
-## cl-html-parse
-
-**System Name:** `cl-html-parse`
-
-**Purpose:** HTML parsing library for Common Lisp.
-
-**Why Use It:**
-- **HTML Parsing**: Convert HTML to tree structure
-- **DOM Access**: Navigate and query HTML documents
-- **Simple**: Straightforward HTML parsing
-
-**Best For:** Web scraping, HTML analysis, document processing.
-
-**Note:** Classic HTML parser implementation.
 
 ---
 
@@ -226,6 +155,44 @@
 **Best For:** Unknown - library not documented.
 
 **Note:** Not found in ocicl distribution.
+
+---
+
+
+## plump-sexp
+
+**System Name:** `plump-sexp`
+
+**Purpose:** Turning SEXPs into a Plump DOM and back.
+
+**Why Use It:**
+- **S-Expression DOM**: Convert between Plump DOM trees and S-expressions
+- **Bidirectional**: Parse SEXPs to DOM and serialize DOM back to SEXPs
+- **Plump Integration**: Works seamlessly with the Plump HTML/XML parser
+- **Simple API**: Straightforward conversion functions
+- **Programmatic Manipulation**: Easier to work with HTML/XML using Lisp data structures
+- **Zlib License**: Permissive licensing
+
+**Best For:** Projects that need to manipulate HTML/XML documents using S-expressions, or generate DOM structures from Lisp code.
+
+---
+
+
+## plump-tex
+
+**System Name:** `plump-tex`
+
+**Purpose:** Rudimentary parser turning TeX-like syntax into a Plump DOM.
+
+**Why Use It:**
+- **TeX Syntax**: Parse TeX-like markup into structured DOM
+- **Plump Integration**: Produces standard Plump DOM nodes
+- **Simple Markup**: Alternative to HTML/XML for document markup
+- **Command Support**: Handles TeX-style commands and environments
+- **Regex-based**: Uses cl-ppcre for pattern matching
+- **Zlib License**: Open source and permissive
+
+**Best For:** Applications that need to parse TeX-like syntax or want a simpler markup alternative that integrates with Plump-based HTML/XML processing.
 
 ---
 

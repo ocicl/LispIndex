@@ -1,6 +1,6 @@
 # Algorithms: String-Similarity
 
-2 libraries
+3 libraries
 
 ---
 
@@ -35,6 +35,25 @@
 - **Fuzzy Matching**: Find similar strings
 
 **Best For:** Spell checking, fuzzy search, string matching, autocomplete.
+
+---
+
+
+## DartsCLSequenceMetrics
+
+**System Name:** `darts.lib.sequence-metrics`
+
+**Purpose:** Various distance metrics for sequences.
+
+**Why Use It:**
+- **Multiple Metrics**: Includes Levenshtein, Hamming, LCS, Jaro-Winkler distances
+- **N-gram Support**: Generate and compare n-grams from sequences
+- **String Similarity**: Measure similarity between strings for fuzzy matching
+- **Pure Implementation**: No external dependencies required
+
+**Best For:** String similarity analysis, fuzzy matching, and sequence comparison.
+
+**Note:** Licensed under MIT. Author: Dirk Esser.
 
 ---
 

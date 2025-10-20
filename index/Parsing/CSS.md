@@ -1,6 +1,6 @@
 # Parsing: CSS
 
-3 libraries
+2 libraries
 
 ---
 
@@ -18,26 +18,6 @@
 - **Simple API**: Main `query` function
 
 **Best For:** Parsing/querying HTML/XML documents with CSS selectors.
-
----
-
-
-## css-selectors
-
-**System Name:** `css-selectors`
-
-**Purpose:** Implementation of CSS selectors for querying XML/HTML documents.
-
-**Why Use It:**
-- **CSS Query Syntax**: Use familiar CSS selector syntax in Lisp
-- **XML/HTML Parsing**: Query parsed documents with CSS selectors
-- **Pseudo-Class Support**: Handle CSS pseudo-classes
-- **CXML Integration**: Works with CXML parsed documents
-- **BuildNode Integration**: Query BuildNode structures
-
-**Best For:** Web scraping, HTML processing, document querying, testing web content.
-
-**Note:** BSD licensed. Depends on iterate, yacc, cl-ppcre, buildnode, cxml, cl-interpol.
 
 ---
 

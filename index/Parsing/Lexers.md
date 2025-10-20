@@ -1,6 +1,6 @@
 # Parsing: Lexers
 
-2 libraries
+3 libraries
 
 ---
 
@@ -38,6 +38,26 @@
 **Best For:** Configuration file parsing, shell-like DSLs, command parsing.
 
 **Note:** MIT License. Closer to shell behavior with punctuation-chars option.
+
+---
+
+
+## graylex
+
+**System Name:** `graylex`, `graylex-test`, `graylex-m4-example`
+
+**Purpose:** Gray Streams-based lexer for processing large input files without loading them entirely into memory.
+
+**Why Use It:**
+- **Stream-Based Lexing**: Process huge files (SQL dumps, logs) without memory exhaustion
+- **Gray Streams Integration**: Leverages Common Lisp Gray Streams for flexible buffering
+- **Dynamic Grammar Support**: Supports languages with volatile grammars that change during evaluation (like M4)
+- **Configurable Buffers**: Fixed-size and flexible buffer strategies for performance tuning
+- **String Operations on Streams**: Perform string matching/operations directly on input streams
+
+**Best For:** Lexical analysis of large files, SQL dump processing, stream-based parsers, M4 macro processors.
+
+**Note:** Inspired by dso-lex but designed for streaming. GPLv3+ license.
 
 ---
 

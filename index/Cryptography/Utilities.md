@@ -1,6 +1,6 @@
 # Cryptography: Utilities
 
-1 libraries
+2 libraries
 
 ---
 
@@ -20,6 +20,25 @@
 **Best For:** Web authentication, password hashing, data encryption, API security, TOTP implementation.
 
 **Note:** Zlib licensed. Version 2.0.0. Documentation included.
+
+---
+
+
+## secret-values
+
+**System Name:** `secret-values`
+
+**Purpose:** Library designed to reduce the risk of accidentally revealing secret values such as passwords.
+
+**Why Use It:**
+- **Secret Protection**: Wrap sensitive values to prevent accidental disclosure
+- **Print Safety**: Secrets don't print their values
+- **Security**: Reduces risk of secrets appearing in logs or REPL output
+- **No Dependencies**: Standalone library
+- **Simple API**: Easy to wrap and unwrap secret values
+- **MIT License**: Permissive licensing
+
+**Best For:** Any application handling passwords, API keys, or other sensitive data that should not appear in logs or debug output.
 
 ---
 

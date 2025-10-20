@@ -1,6 +1,6 @@
 # System: IO
 
-3 libraries
+2 libraries
 
 ---
 
@@ -21,27 +21,6 @@
 **Best For:** Performance-critical I/O to octet vectors or streams.
 
 **Note:** Includes comprehensive benchmarks. Major performance improvement.
-
----
-
-
-## fast-io
-
-**System Name:** `fast-io`
-
-**Purpose:** High-performance I/O for octet-vectors and octet streams.
-
-**Why Use It:**
-- **Extreme Speed**: 8.5x faster than vector-push-extend
-- **Memory Efficient**: ~6x less memory consed than flexi-streams
-- **Static Vectors**: Supports static-vectors for zero-copy operations
-- **Simple API**: `with-fast-output` and `fast-write-byte`
-- **Benchmarked**: Proven performance improvements (see benchmarks)
-- **Stream Support**: Works with both vectors and streams
-
-**Best For:** Network protocols, binary formats, performance-critical I/O.
-
-**Note:** Essential for high-performance binary I/O in Common Lisp.
 
 ---
 

@@ -1,6 +1,6 @@
 # Numeric: Computer-Algebra
 
-1 libraries
+2 libraries
 
 ---
 
@@ -21,6 +21,26 @@
 **Best For:** Computer algebra systems, automated theorem proving, solving polynomial systems, graph coloring problems, algebraic geometry applications, and symbolic mathematics.
 
 **Note:** Mailing list at sr.ht/~jmbr/cl-buchberger-devel. Uses patches via git-send-email workflow. Default ring is ℚ[X,Y,Z]. Functions groebner, reduced-groebner, and basis available for computations.
+
+---
+
+
+## mini-cas
+
+**System Name:** `mini-cas`
+
+**Purpose:** A MINImal Computer Algebra System.
+
+**Why Use It:**
+- **Symbolic Math**: Symbolic mathematics and algebra
+- **Derivatives**: Symbolic differentiation
+- **Simplification**: Expression simplification
+- **Substitution**: Variable substitution in expressions
+- **Arrays**: Array/matrix support
+- **Lightweight**: Minimal CAS implementation
+- **Educational**: Learn CAS implementation
+
+**Best For:** Symbolic mathematics, educational purposes, prototyping mathematical software, or lightweight computer algebra needs.
 
 ---
 

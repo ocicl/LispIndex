@@ -1,6 +1,6 @@
 # Time: Core
 
-3 libraries
+4 libraries
 
 ---
 
@@ -60,6 +60,26 @@
 **Best For:** Benchmarking, profiling, precise timing, performance measurement.
 
 **Note:** MIT License. Provides microsecond/nanosecond precision where available.
+
+---
+
+
+## precise-time
+
+**System Name:** `precise-time`
+
+**Purpose:** Precise time measurements.
+
+**Why Use It:**
+- **High Precision**: Nanosecond-level time measurements where supported
+- **Cross-Platform**: Works on POSIX, Darwin, Windows, Mezzano, and Nintendo Switch
+- **CFFI-based**: Uses native platform APIs for accuracy
+- **Benchmarking**: Essential for performance measurements
+- **Profiling Support**: Accurate timing for profilers
+- **Documentation**: Comprehensive documentation via documentation-utils
+- **Zlib License**: Permissive licensing
+
+**Best For:** Performance benchmarking, profiling, real-time applications, or any project requiring precise time measurements beyond what GET-INTERNAL-REAL-TIME provides.
 
 ---
 

@@ -1,6 +1,6 @@
 # Parsing: Regex
 
-4 libraries
+5 libraries
 
 ---
 
@@ -63,23 +63,42 @@
 ---
 
 
-## one-more-re-nightmare
+## perlre
 
-**System Name:** `one-more-re-nightmare`
+**System Name:** `perlre`
 
-**Purpose:** High-performance regular expression compiler using derivative-based DFA construction.
+**Purpose:** Perl-like regular expression API (s///, m//, etc.) for CL-PPCRE and CL-INTERPOL.
 
 **Why Use It:**
-- **Brzozowski Derivatives**: Elegant DFA construction algorithm
-- **Native Compilation**: Compiles regexes to optimized machine code
-- **Thread-Safe**: Parallel matching with bordeaux-threads
-- **SIMD Support**: Optional SIMD acceleration for character matching
-- **Advanced Features**: Backreferences, lookahead/lookbehind, captures
-- **Type Inference**: Uses Trivia pattern matching for optimization
+- **Perl Syntax**: Perl-like regex syntax in Lisp
+- **CL-PPCRE**: Built on CL-PPCRE regex engine
+- **CL-INTERPOL**: String interpolation support
+- **s/// m/// d///**: Familiar Perl regex operators
+- **Let Over Lambda**: Uses LOL idioms
+- **Trivia**: Pattern matching integration
+- **BSD License**: Simplified BSD
 
-**Best For:** Performance-critical text processing, parsers, lexers, high-throughput log analysis.
+**Best For:** Lispers familiar with Perl regex syntax or porting Perl code that uses regular expressions.
 
-**Note:** BSD 2-clause by Hayley Patton. Depends on trivia, alexandria, babel, esrap, bordeaux-threads.
+---
+
+
+## regex
+
+**System Name:** `regex`
+
+**Purpose:** A Regular Expression Engine.
+
+**Why Use It:**
+- **Pure Lisp**: Native Common Lisp regex implementation
+- **No Dependencies**: Zero external dependencies
+- **Closure Generation**: Compiles regexes to efficient closures
+- **Optimization**: Built-in regex optimization
+- **Parser**: Complete regex parser
+- **Test Suite**: Includes comprehensive test suite
+- **BSD License**: BSD-style licensing
+
+**Best For:** Projects wanting a pure-Lisp regex engine, educational purposes, or environments where CFFI-based regex libraries are unavailable.
 
 ---
 

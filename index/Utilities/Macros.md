@@ -1,6 +1,6 @@
 # Utilities: Macros
 
-2 libraries
+3 libraries
 
 ---
 
@@ -38,6 +38,25 @@
 **Best For:** Data transformation pipelines, functional programming style, reducing nested function calls, data processing workflows.
 
 **Note:** BSD-3 License. Migrated to Codeberg. Different from typical threading macros, uses explicit <> placeholder.
+
+---
+
+
+## piping
+
+**System Name:** `piping`
+
+**Purpose:** A library to enable simple message pipelines.
+
+**Why Use It:**
+- **Message Pipelines**: Build data processing pipelines with composable operations
+- **No Dependencies**: Zero external dependencies for simplicity
+- **Clean Design**: Enables functional-style data transformation chains
+- **Array Processing**: Includes utilities for efficient array manipulation
+- **Extensible**: Easy to add custom pipeline operations
+- **Zlib License**: Permissive open source license
+
+**Best For:** Applications that need to process data through multiple transformation stages, ETL operations, or functional programming patterns with data flow pipelines.
 
 ---
 

@@ -1,6 +1,6 @@
 # Database: Query-Builder
 
-4 libraries
+6 libraries
 
 ---
 
@@ -83,5 +83,48 @@
 ---
 
 
+
+
+## datafly
+
+**System Name:** `datafly`
+
+**Purpose:** Lightweight database library.
+
+**Why Use It:**
+- **Lightweight ORM**: Simple object-relational mapping without heavy overhead
+- **DBI Backend**: Works with multiple databases via DBI
+- **Model System**: Define database models as CLOS classes
+- **SxQL Integration**: Type-safe SQL generation
+- **JSON Support**: Automatic JSON serialization via Jonathan
+- **Caching**: Built-in query result caching
+- **Inflation**: Automatic type conversion for database values
+
+**Best For:** Lightweight database access with ORM features for web applications.
+
+**Note:** Licensed under BSD 3-Clause. Author: Eitaro Fukamachi.
+
+---
+
+
+## lqn
+
+**System Name:** `lqn`
+
+**Purpose:** Lisp Query Notation.
+
+**Why Use It:**
+- **Query Language**: DSL for data queries in Lisp
+- **JSON Support**: JSON serialization via Yason
+- **Reader Macros**: Custom reader syntax for queries
+- **Operators**: Rich set of query operators
+- **Shell Integration**: Shell command integration
+- **Documentation**: Built-in documentation system
+- **I/O**: Data input/output utilities
+- **Composable**: Compose complex queries from simple ones
+
+**Best For:** Data querying, filtering, and transformation; data processing pipelines; or projects needing a query DSL.
+
+---
 
 

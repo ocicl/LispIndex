@@ -1,6 +1,6 @@
 # System: CLI
 
-16 libraries
+17 libraries
 
 ---
 
@@ -92,27 +92,6 @@
 **Best For:** CLI applications, command-line tools, scripts.
 
 **Note:** Created by Kevin Rosenberg. Available at kpe.io/files/getopt/.
-
----
-
-
-## command-line-arguments
-
-**System Name:** `command-line-arguments`
-
-**Purpose:** Portable command-line argument parsing for cl-launch and asdf:program-op.
-
-**Why Use It:**
-- **handle-command-line**: Parse args with spec, call function with parsed values
-- **define-command**: Macro for simultaneous definition of command/help/run functions
-- **Type Support**: :type boolean, string, etc. for options
-- **Positional Args**: :positional-arity for mandatory args, :rest-arity for extras
-- **Help Generation**: show-option-help for auto-generated usage
-- **Multiple Spellings**: ("help" #\h #\?) for --help, -h, -?
-
-**Best For:** CLI applications, executable generation, argument parsing, script writing.
-
-**Note:** Under-documented. See tthsum, workout-timer for simple examples, xcvb for complex use.
 
 ---
 
@@ -308,6 +287,45 @@
 **Best For:** Clon library setup, build configuration, preload customization.
 
 **Note:** BSD licensed by Didier Verna. Required by the main net.didierverna.clon system.
+
+---
+
+
+## unix-options
+
+**System Name:** `unix-options`
+
+**Purpose:** Easy to use command line option parser.
+
+**Why Use It:**
+- **Option Parsing**: Unix-style command line parsing
+- **Short and Long Options**: Support for -x and --option formats
+- **Simple API**: Easy to use interface
+- **Argument Handling**: Handle option arguments naturally
+- **Portable**: Works across implementations
+- **LLGPL License**: Free software licensing
+
+**Best For:** Command-line applications needing standard Unix-style option parsing.
+
+---
+
+
+## whereiseveryone.command-line-args
+
+**System Name:** `whereiseveryone.command-line-args`
+
+**Purpose:** Automatically create a command-line-argument parser for a given Common Lisp function definition.
+
+**Why Use It:**
+- **Automatic Parser**: Generate parser from function definition
+- **Defun Wrapper**: command macro wraps defun
+- **Options Support**: Command-line options, positional, variadic args
+- **Help Generation**: Automatic help message creation
+- **Non-Intrusive**: Minimal boilerplate
+- **Trivia Integration**: Pattern matching support
+- **AGPL v3 License**: Strong copyleft licensing
+
+**Best For:** Command-line applications wanting automatic argument parsing derived from function signatures.
 
 ---
 

@@ -1,6 +1,6 @@
 # Terminal: Graphics
 
-1 libraries
+2 libraries
 
 ---
 
@@ -18,6 +18,26 @@
 **Best For:** Terminal-based data visualization, ASCII art, command-line plotting and graphing.
 
 **Note:** MIT License by Goheeca.
+
+---
+
+
+## text-draw
+
+**System Name:** `text-draw`
+
+**Purpose:** A utility library to draw nice presentations in pure text.
+
+**Why Use It:**
+- **Text Presentations**: Create visual text layouts
+- **Drawing Primitives**: Boxes, lines, tables
+- **Style Support**: Configurable text styles
+- **Documentation Utils**: Self-documenting
+- **Pure Text**: No graphics dependencies
+- **Zlib License**: Very permissive
+- **Shinmera**: Well-maintained library
+
+**Best For:** CLI applications, TUIs, or documentation tools needing to create visually appealing text-based presentations and layouts.
 
 ---
 

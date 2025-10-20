@@ -1,6 +1,6 @@
 # Data-Structures: Trees
 
-13 libraries
+17 libraries
 
 ---
 
@@ -256,6 +256,84 @@
 **Best For:** Implementing search trees, ordered sequences, custom data structures.
 
 **Note:** Part of Second Climacs. Provides foundation for other tree-based structures.
+
+---
+
+
+## hh-redblack
+
+**System Name:** `hh-redblack`
+
+**Purpose:** Red-black tree implementation with optional persistent (file-backed) storage.
+
+**Why Use It:**
+- **Balanced Tree**: O(log n) search, insertion, and deletion with guaranteed balancing
+- **In-Memory Trees**: Fast transient red-black trees
+- **Persistent Trees**: Append-only file storage for durable trees
+- **Human-Readable Format**: Text file storage format
+- **ACID Properties**: Footer-based consistency checking with backup footer
+- **Write-Once Storage**: No byte overwriting ensures data integrity
+
+**Best For:** Sorted maps, persistent data structures, database indexes, ordered collections.
+
+**Note:** Based on Introduction to Algorithms (CLRS). MIT license.
+
+---
+
+
+## DartsCLHashTree
+
+**System Name:** `darts.lib.wbtree`
+
+**Purpose:** Weight-balanced binary tree implementation.
+
+**Why Use It:**
+- **Balanced Trees**: Provides weight-balanced binary tree data structures
+- **Efficient Operations**: Optimized tree operations for searches and updates
+- **Pure Lisp**: No external dependencies for maximum portability
+
+**Best For:** Applications requiring efficient balanced tree data structures.
+
+**Note:** Licensed under MIT. Author: Dirk Esser.
+
+---
+
+
+## trees
+
+**System Name:** `trees`
+
+**Purpose:** A library for binary trees in normal and balanced flavors.
+
+**Why Use It:**
+- **Binary Trees**: Generic binary tree implementation
+- **Red-Black Trees**: Self-balancing trees
+- **AVL Trees**: Height-balanced trees
+- **AA Trees**: Simplified balanced trees
+- **Iterators**: Tree traversal iterators
+- **Generic Functions**: CLOS-based API
+- **BSD License**: Permissive license
+
+**Best For:** Applications requiring efficient ordered data structures with O(log n) operations for insert, delete, and search.
+
+---
+
+
+## spatial-trees
+
+**System Name:** `spatial-trees`
+
+**Purpose:** Spatial indexing data structures (R-trees, R*-trees, R+-trees, X-trees).
+
+**Why Use It:**
+- **Spatial Indexing**: Efficient spatial data structures
+- **Multiple Variants**: R-trees, Greene trees, R*-trees, R+-trees, X-trees
+- **Rectangle Operations**: Geometric rectangle handling
+- **Nearest Neighbor**: Spatial search capabilities
+- **No Dependencies**: Pure Common Lisp implementation
+- **License**: Open source
+
+**Best For:** GIS applications, games, or any system requiring efficient spatial indexing and queries on geometric data.
 
 ---
 

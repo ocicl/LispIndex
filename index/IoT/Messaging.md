@@ -8,18 +8,18 @@
 
 **System Name:** `dweet`
 
-**Purpose:** Client library for dweet.io - simple IoT messaging and data sharing.
+**Purpose:** A dweet.io client for Common Lisp.
 
 **Why Use It:**
-- **Simple API**: Post, fetch, and listen to dweets with minimal code
-- **Real-time Listening**: Stream dweets as they arrive with callback functions
-- **Thing Management**: Group data by "thing" names for organization
-- **JSON Messages**: Send arbitrary JSON data in dweet content
-- **No Authentication**: Simple public messaging without complex auth
+- **IoT Communication**: Simple messaging for IoT devices via dweet.io
+- **HTTP API**: RESTful interface to dweet.io service
+- **JSON Handling**: Parse dweet messages automatically
+- **Lightweight**: Minimal dependencies for embedded systems
+- **Real-Time**: Share data between devices and applications
 
-**Best For:** IoT prototypes, machine status reporting, simple data sharing, real-time notifications.
+**Best For:** IoT applications requiring simple device-to-device messaging.
 
-**Note:** Connects to dweet.io web service. MIT license.
+**Note:** Licensed under MIT. Author: death.
 
 ---
 

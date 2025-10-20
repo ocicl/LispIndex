@@ -1,8 +1,25 @@
 # Data-Structures: General
 
-3 libraries
+5 libraries
 
 ---
+
+## cl-containers
+
+**System Name:** `cl-containers`
+
+**Purpose:** Comprehensive data structures library for Common Lisp.
+
+**Why Use It:**
+- **Many Containers**: Various container types beyond standard CL
+- **Abstract Protocols**: Generic container protocols
+- **Efficiency**: Optimized implementations
+- **Well-Established**: Long-standing library in CL ecosystem
+
+**Best For:** Projects needing specialized data structures beyond CL standard.
+
+---
+
 
 ## cl-data-structures
 
@@ -60,4 +77,24 @@
 
 ---
 
+
+## pileup
+
+**System Name:** `pileup`
+
+**Purpose:** A portable, performant, and thread-safe binary heap / priority queue.
+
+**Why Use It:**
+- **Priority Queue**: Efficient priority queue implementation
+- **Binary Heap**: Classic binary heap data structure
+- **Thread-Safe**: Concurrent access support
+- **Performance**: Optimized for speed
+- **Portable**: Works on multiple implementations
+- **Bordeaux Threads**: Thread safety via bordeaux-threads (non-SBCL)
+- **MIT License**: Permissive license
+- **Simple API**: Easy to use priority queue
+
+**Best For:** Applications requiring priority queues, task scheduling, or any use case needing efficient min/max heap operations with thread safety.
+
+---
 

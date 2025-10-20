@@ -1,6 +1,6 @@
 # Development: Code-Analysis
 
-1 libraries
+2 libraries
 
 ---
 
@@ -20,6 +20,25 @@
 **Best For:** Educational institutions, coding assessments, academic integrity checking.
 
 **Note:** MIT License. Requires MOSS user ID from Stanford.
+
+---
+
+
+## lisp-critic-20240717-42b7dec
+
+**System Name:** `lisp-critic`
+
+**Purpose:** A Lisp code critiquing package.
+
+**Why Use It:**
+- **Code Review**: Automated code quality analysis
+- **Best Practices**: Detect bad Lisp programming patterns
+- **Educational**: Learn better Lisp idioms
+- **Pattern Matching**: Rule-based code analysis
+
+**Best For:** Code review, education, code quality, learning Lisp idioms.
+
+**Note:** Licensed under MIT. Author: Chris Riesbeck. Maintainer: CHIBA Masaomi. Version 1.1.
 
 ---
 

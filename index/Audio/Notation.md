@@ -1,6 +1,6 @@
 # Audio: Notation
 
-2 libraries
+3 libraries
 
 ---
 
@@ -40,6 +40,24 @@
 **Best For:** Algorithmic composition with notation output, computer music, score generation.
 
 **Note:** Requires separate installation of CM and FOMUS. Enhances modularity by keeping concerns separate.
+
+---
+
+
+## music-spelling
+
+**System Name:** `music-spelling`
+
+**Purpose:** Automatic pitch and rhythm spelling.
+
+**Why Use It:**
+- **Pitch Spelling**: Automatic enharmonic spelling
+- **Rhythm Spelling**: Rhythm notation generation
+- **Text Notation**: Music text notation support
+- **Parsing**: Uses parse-float and cl-ppcre
+- **Music Theory**: Algorithmic music notation
+
+**Best For:** Music software needing automatic conversion of MIDI-style pitches and durations to proper musical notation.
 
 ---
 

@@ -1,6 +1,6 @@
 # Documentation: Conversion
 
-1 libraries
+2 libraries
 
 ---
 
@@ -20,6 +20,26 @@
 **Best For:** HTML processing, document conversion, web scraping to documents, VerTeX integration.
 
 **Note:** MIT License. By Fernando Borretti. Bridge between HTML parsing and document object model.
+
+---
+
+
+## pandocl
+
+**System Name:** `pandocl`
+
+**Purpose:** A universal document converter.
+
+**Why Use It:**
+- **Format Conversion**: Convert between document formats
+- **CommonDoc**: Uses common-doc as intermediate format
+- **Multiple Formats**: Scriba, ParenML, Thorn, HTML support
+- **Extensible**: Add new formats via common-doc
+- **Document Processing**: Parse and emit various formats
+- **CommonDoc Contrib**: Additional format support
+- **Vertex**: Additional format capabilities
+
+**Best For:** Converting documentation between different markup formats in Common Lisp build systems or documentation pipelines.
 
 ---
 

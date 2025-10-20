@@ -1,6 +1,6 @@
 # System: Processes
 
-7 libraries
+9 libraries
 
 ---
 
@@ -139,6 +139,45 @@
 **Best For:** Build systems, testing frameworks, Lisp scripting, process management.
 
 **Note:** MIT license.
+
+---
+
+
+## trivial-shell
+
+**System Name:** `trivial-shell`
+
+**Purpose:** OS and Implementation independent access to the shell.
+
+**Why Use It:**
+- **Shell Access**: Execute shell commands
+- **Cross-Platform**: Multi-OS support
+- **Cross-Implementation**: Works everywhere
+- **Timeout Support**: Command timeouts
+- **Output Capture**: Capture command output
+- **MIT License**: Permissive license
+
+**Best For:** Applications needing to execute external shell commands portably across operating systems and implementations.
+
+---
+
+
+## simple-inferiors
+
+**System Name:** `simple-inferiors`
+
+**Purpose:** A very simple library to use inferior processes.
+
+**Why Use It:**
+- **Process Management**: Spawn and manage external processes
+- **Simple API**: Straightforward process control
+- **Stream Handling**: Manage process input/output
+- **Threading**: Bordeaux-threads for asynchronous operations
+- **UIOP Integration**: Works with UIOP's process facilities
+- **Documentation**: Comprehensive documentation included
+- **zlib License**: Permissive licensing
+
+**Best For:** Applications that need to spawn and communicate with external processes with a simpler API than raw UIOP.
 
 ---
 

@@ -1,6 +1,6 @@
 # Text: Unicode
 
-3 libraries
+4 libraries
 
 ---
 
@@ -57,6 +57,25 @@
 **Best For:** Unicode text processing, internationalization, character analysis.
 
 **Note:** BSD license by Edi Weitz. Comprehensive Unicode utilities.
+
+---
+
+
+## uax-14
+
+**System Name:** `uax-14`
+
+**Purpose:** Implementation of the Unicode Standards Annex #14's line breaking algorithm.
+
+**Why Use It:**
+- **Line Breaking**: Unicode-compliant line breaking
+- **Text Layout**: Proper text wrapping and breaking
+- **Unicode Standard**: Follows UAX #14 specification
+- **Internationalization**: Correct line breaking for all languages
+- **Documentation**: Comprehensive documentation support
+- **zlib License**: Permissive licensing
+
+**Best For:** Text rendering systems, terminal emulators, or any application requiring proper Unicode line breaking.
 
 ---
 
