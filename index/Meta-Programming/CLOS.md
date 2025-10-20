@@ -61,26 +61,6 @@
 ---
 
 
-## closer-mop
-
-**System Name:** `closer-mop`
-
-**Purpose:** Compatibility layer for CLOS MOP (Metaobject Protocol) across implementations.
-
-**Why Use It:**
-- **MOP Compatibility**: Rectifies missing/incorrect MOP features
-- **Broad Support**: Works on ACL, ABCL, CLisp, CCL, ECL, LispWorks, SBCL
-- **Standard Interface**: Unified MOP interface across implementations
-- **Essential for Libraries**: Many libraries depend on this
-- **Well-Maintained**: Long-standing, actively maintained
-
-**Best For:** Any code using the CLOS Metaobject Protocol portably.
-
-**Note:** One of the most fundamental portability libraries in CL.
-
----
-
-
 ## contextl
 
 **System Name:** `contextl`
@@ -237,6 +217,25 @@
 **Best For:** AI systems, alternative OOP, metaprogramming research.
 
 **Note:** Alternative to CLOS/MOP with different semantic foundations.
+
+---
+
+
+## abstract-classes
+
+**System Name:** `abstract-classes`
+
+**Purpose:** Allows definition of abstract classes in CLOS that cannot be instantiated.
+
+**Why Use It:**
+- **Abstract Base Classes**: Define classes meant only to be inherited, not instantiated directly
+- **Design Enforcement**: Prevents accidental instantiation of base classes that should only provide structure
+- **OOP Patterns**: Implement abstract class patterns similar to other object-oriented languages
+- **Compile-Time Checking**: Errors on attempts to instantiate abstract classes
+
+**Best For:** Large object hierarchies, framework design, API design with abstract base classes.
+
+**Note:** Simple focused library for enforcing abstract class semantics in CLOS.
 
 ---
 

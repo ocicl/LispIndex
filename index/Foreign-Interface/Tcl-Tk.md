@@ -18,8 +18,6 @@
 
 **Best For:** Projects needing Tcl/Tk GUI integration.
 
-**Note:** Fork maintained for Quicklisp availability.
-
 ---
 
 

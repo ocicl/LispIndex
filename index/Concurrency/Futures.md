@@ -1,27 +1,8 @@
 # Concurrency: Futures
 
-2 libraries
+1 libraries
 
 ---
-
-## blackbird
-
-**System Name:** `blackbird`
-
-**Purpose:** Standalone promise/future implementation for Common Lisp.
-
-**Why Use It:**
-- **Promises**: Abstraction for sync and async code
-- **Blocking and Non-Blocking**: Handle both synchronously and asynchronously
-- **Natural Lisp Style**: Designed to feel natural to Lisp programming
-- **Threading Support**: Good for threading operations with delayed results
-- **Driver Development**: Ideal for drivers handling both blocking and non-blocking sockets
-- **Successor to cl-async-future**: More modern promise implementation
-
-**Best For:** Async programming, driver development, and code requiring promise-based concurrency patterns.
-
----
-
 
 ## cl-async-future
 

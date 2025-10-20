@@ -1,6 +1,6 @@
 # Data-Structures: Trees
 
-5 libraries
+8 libraries
 
 ---
 
@@ -97,6 +97,68 @@
 **Best For:** Web browsers, file managers, any navigation with history.
 
 **Note:** Used by Nyxt browser. Not thread-safe by design.
+
+---
+
+
+## bk-tree
+
+**System Name:** `bk-tree`
+
+**Purpose:** BK-Tree data structure implementation with optimized search for approximate string matching using Levenshtein distance.
+
+**Why Use It:**
+- **Fast Fuzzy Search**: Efficiently find strings within edit distance threshold
+- **Generic Values**: Store any value type with custom metric functions
+- **Optimized Algorithm**: Enhanced node traversal sorting for better performance
+- **Duplicate Handling**: Automatically discards duplicate values
+- **Flexible Distance**: Configurable Levenshtein costs and constraints
+- **Proven Performance**: Detailed benchmarks showing <1% node scanning for small thresholds
+
+**Best For:** Spell checkers, autocomplete systems, DNA sequence matching, OCR error correction, or any application requiring efficient similarity searches.
+
+**Note:** GPL-3 license. Levenshtein function has input length and cost constraints (configurable). Excellent performance characteristics shown in included benchmarks.
+
+---
+
+
+## bst
+
+**System Name:** `bst`
+
+**Purpose:** Binary search tree library supporting any value type with customizable comparison and copy functions.
+
+**Why Use It:**
+- **Generic Values**: Store any type with custom comparison functions
+- **Balanced Trees**: Automatic balancing for optimal search performance
+- **Immutable Operations**: Non-destructive add/remove return new trees
+- **Destructive Variants**: Optional in-place modifications for performance
+- **Rich API**: Search, min/max, range queries, mapping, and iteration
+- **Memory Efficient**: Structure sharing reduces allocations
+
+**Best For:** Maintaining sorted collections, range queries, ordered data structures, or when you need efficient insert/delete/search operations with custom ordering.
+
+**Note:** GPL-3 license. Defaults to numeric comparisons; bind special variables for other types. Includes FiveAM test suite. Balanced trees significantly improve performance.
+
+---
+
+
+## btrie
+
+**System Name:** `btrie`
+
+**Purpose:** Generic trie implementation with branch widths for calculating suffix probabilities on sequences.
+
+**Why Use It:**
+- **Branch Widths**: Novel feature tracking branches through each node for probability calculations
+- **Generic Keys**: Works with sequences of any type, not just strings
+- **Probabilistic Analysis**: Calculate probabilities for different suffixes
+- **Recursive Structure**: Trie nodes are themselves tries for elegant traversal
+- **Fast Lookups**: O(m) worst-case time where m is key length
+
+**Best For:** Text prediction, autocomplete, spell correction, natural language processing, or applications requiring probabilistic suffix analysis.
+
+**Note:** All functions are destructive for efficiency with large datasets. Non-destructive versions planned. Removal and set operations not yet implemented. Bit trie support planned.
 
 ---
 

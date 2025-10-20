@@ -1,6 +1,6 @@
 # System: CLI
 
-5 libraries
+6 libraries
 
 ---
 
@@ -92,6 +92,27 @@
 **Best For:** CLI applications, command-line tools, scripts.
 
 **Note:** Created by Kevin Rosenberg. Available at kpe.io/files/getopt/.
+
+---
+
+
+## command-line-arguments
+
+**System Name:** `command-line-arguments`
+
+**Purpose:** Portable command-line argument parsing for cl-launch and asdf:program-op.
+
+**Why Use It:**
+- **handle-command-line**: Parse args with spec, call function with parsed values
+- **define-command**: Macro for simultaneous definition of command/help/run functions
+- **Type Support**: :type boolean, string, etc. for options
+- **Positional Args**: :positional-arity for mandatory args, :rest-arity for extras
+- **Help Generation**: show-option-help for auto-generated usage
+- **Multiple Spellings**: ("help" #\h #\?) for --help, -h, -?
+
+**Best For:** CLI applications, executable generation, argument parsing, script writing.
+
+**Note:** Under-documented. See tthsum, workout-timer for simple examples, xcvb for complex use.
 
 ---
 

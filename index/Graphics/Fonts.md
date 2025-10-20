@@ -32,7 +32,6 @@
 - **Glyph Outlines**: Access glyph outline data
 - **Pure Common Lisp**: No external dependencies
 - **BSD License**: Permissive licensing
-- **By Zach Beane**: Author of Quicklisp and Vecto
 
 **Best For:** Reading TrueType font files for rendering or analysis.
 

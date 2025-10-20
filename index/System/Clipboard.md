@@ -1,6 +1,6 @@
 # System: Clipboard
 
-1 libraries
+2 libraries
 
 ---
 
@@ -18,6 +18,24 @@
 **Best For:** Applications needing clipboard integration.
 
 **Note:** Repository moved to Codeberg.
+
+---
+
+
+## trivial-clipboard
+
+**System Name:** `trivial-clipboard`
+
+**Purpose:** Simple system clipboard access for reading and writing text.
+
+**Why Use It:**
+- **Simple API**: (text) to get, (text "string") to set clipboard
+- **Cross-Platform**: Works on multiple operating systems
+- **Minimal Dependencies**: CFFI only on Windows
+
+**Best For:** Clipboard integration, copy/paste functionality, UI applications.
+
+**Note:** Uses CFFI on Windows.
 
 ---
 

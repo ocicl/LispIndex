@@ -1,25 +1,8 @@
 # Time: Parsing
 
-2 libraries
+1 libraries
 
 ---
-
-## chronicity
-
-**System Name:** `chronicity`
-
-**Purpose:** Natural language date and time parser.
-
-**Why Use It:**
-- **Natural Language**: Parse dates like "next Tuesday", "3 months ago"
-- **Ruby Chronic Port**: Inspired by Ruby's Chronic library
-- **Relative Dates**: All calculations relative to "now"
-- **Human-Friendly**: Accept dates as users naturally express them
-
-**Best For:** Applications accepting date/time input from users in natural language.
-
----
-
 
 ## fuzzy-dates
 

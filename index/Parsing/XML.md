@@ -1,6 +1,6 @@
 # Parsing: XML
 
-4 libraries
+5 libraries
 
 ---
 
@@ -113,6 +113,28 @@
 **Best For:** Simple XML parsing without heavyweight dependencies.
 
 **Note:** Good choice for straightforward XML processing needs.
+
+---
+
+
+## xmls
+
+**System Name:** `xmls`
+
+**Purpose:** Small, simple, non-validating XML parser mapping XML to lisp structures/s-expressions.
+
+**Why Use It:**
+- **Small and Embeddable**: <600 lines, single file, pure Lisp, no external tools
+- **Structure or S-Expr**: Default struct representation, s-expression via parse-to-list
+- **Namespace Support**: Full XML namespace handling
+- **Threadsafe**: Safe for concurrent use
+- **Serialization**: toxml/write-xml to convert back to XML
+- **Helper Functions**: xmlrep-* functions for structure manipulation
+- **xmls/octets**: Affiliated library for character encoding support
+
+**Best For:** XML-RPC, WebDAV, BEEP protocols, embedded XML parsing, small XML documents.
+
+**Note:** BSD license. Parses entire document into memory. Parses 85/98 OASIS valid documents.
 
 ---
 

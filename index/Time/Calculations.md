@@ -17,7 +17,7 @@
 
 **Best For:** Date arithmetic and calendar calculations.
 
-**Note:** Fork of dropped Quicklisp library.
+**Note:** Maintained fork of Heiko Schröter's library.
 
 ---
 

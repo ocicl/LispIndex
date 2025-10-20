@@ -1,6 +1,6 @@
 # Meta-Programming Libraries
 
-This category contains 20 subcategories with 60 total libraries.
+This category contains 21 subcategories with 61 total libraries.
 
 ## Subcategories
 
@@ -17,10 +17,11 @@ This category contains 20 subcategories with 60 total libraries.
 - [Generics](Generics.md) (2 libraries)
 - [Iteration](Iteration.md) (3 libraries)
 - [Lenses](Lenses.md) (1 library)
+- [MOP](MOP.md) (2 libraries)
 - [Macros](Macros.md) (12 libraries)
-- [Pattern-Matching](Pattern-Matching.md) (2 libraries)
+- [Pattern-Matching](Pattern-Matching.md) (1 library)
+- [Performance](Performance.md) (1 library)
 - [Quasiquote](Quasiquote.md) (2 libraries)
 - [Reader-Macros](Reader-Macros.md) (6 libraries)
 - [Syntax](Syntax.md) (3 libraries)
-- [Types](Types.md) (1 library)
 - [Variables](Variables.md) (1 library)

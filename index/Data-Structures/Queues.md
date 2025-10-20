@@ -1,6 +1,6 @@
 # Data-Structures: Queues
 
-3 libraries
+4 libraries
 
 ---
 
@@ -60,6 +60,27 @@
 **Best For:** Actor systems, concurrent programming, message passing.
 
 **Note:** SBCL x86-64 only. Ideal for building actor frameworks.
+
+---
+
+
+## safe-queue
+
+**System Name:** `safe-queue`
+
+**Purpose:** Thread-safe queues and mailboxes with uniform interface.
+
+**Why Use It:**
+- **Thread-Safe**: Concurrent queue/mailbox operations
+- **Uniform Interface**: Same API across implementations
+- **Implementation Aware**: Uses sb-concurrency on SBCL, lparallel on others
+- **Timeouts**: mailbox-receive-message with :timeout support
+- **Non-Blocking**: mailbox-receive-message-no-hang for polling
+- **Simple API**: make-mailbox, send-message, receive-message
+
+**Best For:** Multi-threaded applications, concurrent message passing, work queues.
+
+**Note:** Automatically selects best implementation for your Common Lisp.
 
 ---
 

@@ -1,6 +1,6 @@
 # Parsing: HTML
 
-5 libraries
+6 libraries
 
 ---
 
@@ -97,6 +97,24 @@
 **Best For:** HTML/XML parsing.
 
 **Note:** This repository no longer receives updates. Use Codeberg instead.
+
+---
+
+
+## closure-html
+
+**System Name:** `closure-html`
+
+**Purpose:** HTML parser for Common Lisp - extracted from Closure web browser.
+
+**Why Use It:**
+- **Browser Quality**: HTML parsing from actual web browser project
+- **Stand-alone**: Separated from Closure browser for independent use
+- **Integration**: Works with Closure XML
+
+**Best For:** HTML parsing, web scraping, HTML processing, browser integration.
+
+**Note:** MIT-style license. Originally by Gilbert Baumann. Docs at common-lisp.net/project/closure/closure-html/.
 
 ---
 

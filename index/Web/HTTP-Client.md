@@ -1,6 +1,6 @@
 # Web: HTTP-Client
 
-4 libraries
+3 libraries
 
 ---
 
@@ -58,29 +58,6 @@
 - **Same Behavior**: Attempts exact same behavior as drakma
 
 **Best For:** Async HTTP requests with familiar drakma API.
-
----
-
-
-## dexador
-
-**System Name:** `dexador`
-
-**Purpose:** HTTP client with neat APIs and connection pooling.
-
-**Why Use It:**
-- **Fast**: Especially for same-host requests (connection pooling)
-- **Connection Pooling**: Reuses connections for performance
-- **Neat API**: Clean, simple interface
-- **Conditions**: Signals condition on HTTP errors
-- **No OpenSSL on Windows**: Easier Windows support than Drakma
-- **Redirects**: Automatic redirect following
-- **Form-Data**: Auto-detects multipart when needed
-- **Modern**: Successor to Drakma
-
-**Best For:** Modern HTTP client needs with performance focus.
-
-**Note:** BETA quality. Faster than Drakma.
 
 ---
 

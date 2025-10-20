@@ -1,6 +1,6 @@
 # Web: Routing
 
-3 libraries
+4 libraries
 
 ---
 
@@ -60,6 +60,27 @@
 **Best For:** Web routing, Clack/Caveman applications, REST APIs.
 
 **Note:** By Fukamachi. Originally part of Clack. Works with Clack middleware.
+
+---
+
+
+## routes (40ants-routes)
+
+**System Name:** `40ants-routes`
+
+**Purpose:** Django-inspired URL routing library with namespace support and breadcrumb generation.
+
+**Why Use It:**
+- **Framework Agnostic**: Works with any web framework
+- **Namespace Support**: Organize routes hierarchically with defroutes
+- **URL Generation**: genurl function for reverse URL generation
+- **Breadcrumbs**: Automatic breadcrumb generation for navigation
+- **Route Parameters**: <type:name> syntax for typed URL parameters (string, integer, etc.)
+- **Method Routing**: get, post, put, delete macros for HTTP methods
+
+**Best For:** Web applications needing organized routing, sites requiring breadcrumbs, RESTful APIs.
+
+**Note:** Inspired by Django's URL routing system.
 
 ---
 

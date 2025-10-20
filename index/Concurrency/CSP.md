@@ -1,31 +1,8 @@
 # Concurrency: CSP
 
-2 libraries
+1 libraries
 
 ---
-
-## chanl
-
-**System Name:** `chanl`
-
-**Purpose:** Portable channel-based concurrency for Common Lisp (CSP-style).
-
-**Why Use It:**
-- **CSP Model**: Communicating Sequential Processes paradigm
-- **Channels**: Thread-safe communication channels
-- **Go-like**: Similar to Go's goroutines and channels
-- **Select**: Multi-way concurrent control (select statement)
-- **Buffered/Unbuffered**: Both channel types supported
-- **Thread Pools**: Efficient thread management
-- **Portable**: Works across CL implementations
-- **Structured Concurrency**: Clear communication patterns
-
-**Best For:** Concurrent programming with message passing instead of shared state.
-
-**Note:** Alternative to lparallel for CSP-style concurrency.
-
----
-
 
 ## calispel
 

@@ -1,6 +1,6 @@
 # Utilities: General
 
-11 libraries
+15 libraries
 
 ---
 
@@ -208,6 +208,79 @@
 **Best For:** General-purpose Lisp development.
 
 **Note:** Created by Michael Fiano. Documentation minimal.
+
+---
+
+
+## serapeum
+
+**System Name:** `serapeum`
+
+**Purpose:** Conservative Common Lisp utilities library - supplement to Alexandria, not competitor.
+
+**Why Use It:**
+- **No Conflicts**: Safe to use with both CL, Alexandria, and Serapeum together
+- **Modular**: Organized into subsystems (binding, conditions, control-flow, types, iter, etc.)
+- **Bundle Package**: serapeum/bundle reexports Alexandria + Serapeum for convenience
+- **Well Documented**: Credits borrowed ideas, extensive docstrings
+- **Broader Scope**: Draws from other Lisps and functional languages, less conservative than Alexandria
+
+**Best For:** Projects needing utilities beyond Alexandria, modular utility adoption, portable code.
+
+**Note:** Compatible with Alexandria. Principally tested on SBCL and Clozure CL.
+
+---
+
+
+## cl-utilities
+
+**System Name:** `cl-utilities`
+
+**Purpose:** Collection of semi-standard utilities for Common Lisp.
+
+**Why Use It:**
+- **Common Utilities**: Collection of frequently needed utility functions
+
+**Best For:** General utility functions, common helpers.
+
+**Note:** Mirror at common-lisp.net/project/cl-utilities/.
+
+---
+
+
+## alexandria+
+
+**System Name:** `alexandria+`
+
+**Purpose:** Extensions and additions to the popular Alexandria utility library.
+
+**Why Use It:**
+- **Additional Utilities**: More general-purpose utilities building on Alexandria's foundation
+- **Complementary**: Designed to work alongside Alexandria, not replace it
+- **Enhanced Functionality**: Adds utilities that complement Alexandria's existing collection
+- **General Purpose**: Covers common patterns not in the base Alexandria library
+
+**Best For:** General Common Lisp development, utility functions, extending Alexandria.
+
+**Note:** Use alongside Alexandria for extended utility coverage.
+
+---
+
+
+## bodge-utilities
+
+**System Name:** `bodge-utilities`
+
+**Purpose:** Various utilities for the bodge library collection providing common helper functions.
+
+**Why Use It:**
+- **Bodge Ecosystem**: Supporting utilities for bodge libraries
+- **Helper Functions**: Common utility functions for game development
+- **Convenience Macros**: Shortcuts for frequently used patterns
+
+**Best For:** Projects already using bodge libraries that need access to shared utility functions.
+
+**Note:** WARNING: API is unstable and intended only for bodge libraries. Not recommended for external projects - copy relevant code instead. Subject to change without notice.
 
 ---
 

@@ -1,6 +1,6 @@
 # Graphics: Images
 
-7 libraries
+8 libraries
 
 ---
 
@@ -148,6 +148,23 @@
 **Best For:** Image processing, computer vision, graphics, photo manipulation.
 
 **Note:** By Cyrus Harmon. Designed for SBCL performance. opticl-core required.
+
+---
+
+
+## zpng
+
+**System Name:** `zpng`
+
+**Purpose:** PNG file writing library using salza2 for ZLIB compression.
+
+**Why Use It:**
+- **PNG Generation**: Create PNG files from Common Lisp
+- **ZLIB Compression**: Uses salza2 library for compression
+
+**Best For:** Image generation, graphics output, server-side image creation.
+
+**Note:** BSD-style license. By Zach Beane.
 
 ---
 

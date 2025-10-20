@@ -1,6 +1,6 @@
 # Web: HTML-Generation
 
-3 libraries
+4 libraries
 
 ---
 
@@ -65,6 +65,28 @@
 **Best For:** Web development, HTML generation, server-side rendering.
 
 **Note:** Modern alternative to CL-WHO with composable components.
+
+---
+
+
+## spinneret
+
+**System Name:** `spinneret`
+
+**Purpose:** Modern HTML5 generation with composable, pretty-printing output.
+
+**Why Use It:**
+- **Modern**: Targets HTML5, UTF-8, treats HTML as document format
+- **Composable**: Easy to refactor into functions/macros with with-html
+- **Pretty Output**: Idiomatic, readable HTML following HTML5 coding style
+- **Aggressive Interpretation**: Maximizes convenience over correctness (90/10 trade-off)
+- **Bilingual**: Same semantics in Lisp and Parenscript (after loading spinneret/ps)
+- **Markdown Support**: Can interpret markdown trees
+- **deftag**: Define custom HTML tag macros
+
+**Best For:** HTML generation, server-side rendering, composable web page construction.
+
+**Note:** Assumes UTF-8 serving. Use :disable-html for mixing Lisp forms with HTML syntax.
 
 ---
 

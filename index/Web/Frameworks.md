@@ -4,28 +4,6 @@
 
 ---
 
-## clack
-
-**System Name:** `clack`
-
-**Purpose:** Web application environment for Common Lisp (WSGI/Rack inspired).
-
-**Why Use It:**
-- **WSGI-Style**: Python WSGI / Ruby Rack inspired
-- **Server Abstraction**: Works with Hunchentoot, Woo, and others
-- **Middleware**: Rich middleware ecosystem (via Lack)
-- **clackup**: Command-line interface via Roswell
-- **Standard Framework**: De facto standard web framework
-- **Simple Apps**: Simple lambda-based app definition
-- **Well-Documented**: Good documentation and tutorials
-
-**Best For:** Building web applications with middleware.
-
-**Note:** Built on top of Lack for middleware support.
-
----
-
-
 ## caveman
 
 **System Name:** `caveman2`
@@ -89,6 +67,28 @@
 **Best For:** Small web apps, REST APIs, microservices, prototypes.
 
 **Note:** By Fukamachi. Fork of Caveman. No project skeleton needed.
+
+---
+
+
+## caveman
+
+**System Name:** `caveman2`
+
+**Purpose:** Lightweight web application framework with database integration - successor to Caveman 1.
+
+**Why Use It:**
+- **@route Macro**: Concise routing with @route GET/POST/PUT/DELETE decorators
+- **Database Integration**: CL-DBI support with connection management by default
+- **Based on Ningle**: Built on proven micro-framework foundation
+- **Envy Configuration**: Separate configuration system
+- **Project Generation**: make-project creates complete skeleton (db/, src/, templates/, static/)
+- **Server Choice**: Clack/Lack based - run on Hunchentoot, Woo, Wookie, etc.
+- **Extensible, Practical**: Design goals: extensible, practical, don't force anything
+
+**Best For:** Web applications needing database support, practical web development, growing beyond micro-frameworks.
+
+**Note:** Written from scratch (not micro anymore). Successor to Caveman 1.
 
 ---
 

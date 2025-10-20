@@ -47,7 +47,7 @@
 
 **System Name:** `cl-progress-bar`
 
-**Purpose:** Progress bars (inspired by Quicklisp's progress bars).
+**Purpose:** Progress bars for command-line applications.
 
 **Why Use It:**
 - **Visual Feedback**: Show progress for long operations

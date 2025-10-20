@@ -1,6 +1,6 @@
 # Web Libraries
 
-This category contains 28 subcategories with 69 total libraries.
+This category contains 32 subcategories with 75 total libraries.
 
 ## Subcategories
 
@@ -10,6 +10,7 @@ This category contains 28 subcategories with 69 total libraries.
 - [Cloud](Cloud.md) (3 libraries)
 - [Cookies](Cookies.md) (1 library)
 - [Debugging](Debugging.md) (1 library)
+- [Desktop-Apps](Desktop-Apps.md) (1 library)
 - [Email](Email.md) (1 library)
 - [File-Uploads](File-Uploads.md) (1 library)
 - [Forms](Forms.md) (2 libraries)
@@ -17,18 +18,21 @@ This category contains 28 subcategories with 69 total libraries.
 - [Frontend](Frontend.md) (1 library)
 - [GUI](GUI.md) (1 library)
 - [HTML](HTML.md) (1 library)
-- [HTML-Generation](HTML-Generation.md) (3 libraries)
-- [HTTP-Client](HTTP-Client.md) (4 libraries)
+- [HTML-Generation](HTML-Generation.md) (4 libraries)
+- [HTTP-Client](HTTP-Client.md) (3 libraries)
+- [HTTP-Clients](HTTP-Clients.md) (1 library)
 - [MIME](MIME.md) (1 library)
 - [Middleware](Middleware.md) (5 libraries)
+- [OpenAPI](OpenAPI.md) (1 library)
 - [Parsing](Parsing.md) (1 library)
-- [Routing](Routing.md) (3 libraries)
+- [Routing](Routing.md) (4 libraries)
 - [Server](Server.md) (3 libraries)
 - [Server-Utilities](Server-Utilities.md) (1 library)
+- [Servers](Servers.md) (2 libraries)
 - [Social-Media](Social-Media.md) (2 libraries)
 - [Static-Site-Generation](Static-Site-Generation.md) (1 library)
 - [Streams](Streams.md) (1 library)
 - [Templating](Templating.md) (5 libraries)
 - [Testing](Testing.md) (1 library)
+- [UI-Widgets](UI-Widgets.md) (1 library)
 - [URI](URI.md) (4 libraries)
-- [Utilities](Utilities.md) (1 library)

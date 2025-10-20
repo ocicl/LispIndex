@@ -1,6 +1,6 @@
 # Foreign-Interface: Bindings
 
-7 libraries
+6 libraries
 
 ---
 
@@ -116,28 +116,6 @@
 **Best For:** Creating Common Lisp bindings to C/C++ libraries.
 
 **Note:** BETA quality. Recommended to use CCL for generation.
-
----
-
-
-## cl-opengl
-
-**System Name:** `cl-opengl`
-
-**Purpose:** Common Lisp bindings to OpenGL.
-
-**Why Use It:**
-- **OpenGL Access**: Complete OpenGL API bindings
-- **CFFI-based**: Uses CFFI for bindings
-- **Modern OpenGL**: Supports recent OpenGL versions
-- **Cross-platform**: Works on multiple platforms
-- **BSD License**: Permissive licensing
-- **Well-maintained**: Active development
-- **Documentation**: Good API coverage
-
-**Best For:** 3D graphics, game development, visualization.
-
-**Note:** Standard OpenGL bindings for Common Lisp.
 
 ---
 

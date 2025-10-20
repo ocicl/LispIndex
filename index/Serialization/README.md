@@ -1,7 +1,8 @@
 # Serialization Libraries
 
-This category contains 1 subcategories with 1 total libraries.
+This category contains 2 subcategories with 4 total libraries.
 
 ## Subcategories
 
-- [Binary](Binary.md) (1 library)
+- [Binary](Binary.md) (3 libraries)
+- [Persistence](Persistence.md) (1 library)

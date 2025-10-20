@@ -1,9 +1,10 @@
 # AI Libraries
 
-This category contains 5 subcategories with 5 total libraries.
+This category contains 6 subcategories with 6 total libraries.
 
 ## Subcategories
 
+- [Expert-Systems](Expert-Systems.md) (1 library)
 - [Integration](Integration.md) (1 library)
 - [Knowledge-Representation](Knowledge-Representation.md) (1 library)
 - [LLM](LLM.md) (1 library)

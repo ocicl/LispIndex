@@ -1,6 +1,6 @@
 # Documentation: Generation
 
-5 libraries
+6 libraries
 
 ---
 
@@ -100,6 +100,26 @@
 **Best For:** Documentation systems, portable documents, publishing workflows.
 
 **Note:** Reference implementation in Common Lisp. Full docs at inters.co/geneva/.
+
+---
+
+
+## atdoc
+
+**System Name:** `atdoc`
+
+**Purpose:** HTML documentation generation for Common Lisp packages from custom markup in documentation strings.
+
+**Why Use It:**
+- **Markup Language**: Extracts documentation strings written with custom markup and generates HTML pages
+- **Package Documentation**: Automatically documents Common Lisp packages with functions, classes, variables, and macros
+- **XSLT Processing**: Uses Xuriella XSLT for flexible transformation of documentation to various output formats
+- **MOP Integration**: Leverages Closer MOP to introspect package definitions and extract complete API documentation
+- **Swank Integration**: Integrates with Slime's Swank for enhanced documentation capabilities
+
+**Best For:** Library authors needing API documentation, open source projects requiring maintainable documentation, generating reference manuals from source code, and documentation-driven development workflows.
+
+**Note:** Author: David Lichteblau. X11-style license. Dependencies: Closure XML, Split-sequence, Swank, Xuriella, Closer MOP, cl-ppcre. Includes SBCL-specific compiler note suppression.
 
 ---
 

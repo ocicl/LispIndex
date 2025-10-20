@@ -1,6 +1,6 @@
 # Graphics: Windowing
 
-4 libraries
+3 libraries
 
 ---
 
@@ -19,27 +19,6 @@
 **Best For:** OpenGL applications requiring window management and input handling.
 
 **Note:** Requires GLFW 3.x and libffi.
-
----
-
-
-## clx
-
-**System Name:** `clx`
-
-**Purpose:** X11 client library for Common Lisp.
-
-**Why Use It:**
-- **X11 Integration**: Create X11 GUI applications
-- **Extensions**: SHAPE, XFREE86-VIDMODE, RENDER extension support
-- **SSH Forwarding**: X authority support with SSH
-- **Manual**: Documentation in texinfo format
-- **Broad Support**: Works on CCL, CLISP, CMUCL, ECL, SBCL
-- **Demos**: Includes demo applications
-
-**Best For:** X11 window system GUI applications on Unix/Linux.
-
-**Note:** Allegro CL users should use Franz's fork.
 
 ---
 

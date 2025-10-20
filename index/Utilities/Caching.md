@@ -1,6 +1,6 @@
 # Utilities: Caching
 
-4 libraries
+5 libraries
 
 ---
 
@@ -83,6 +83,27 @@
 **Best For:** Performance optimization, caching expensive computations, hash-consing.
 
 **Note:** Comprehensive memoization solution for Common Lisp.
+
+---
+
+
+## cacle
+
+**System Name:** `cacle`
+
+**Purpose:** Extensible cache management facility with configurable replacement policies and thread-safe operation.
+
+**Why Use It:**
+- **Multiple Policies**: FIFO, LIFO, LRU, MRU, Random, LFU, LFUDA replacement strategies
+- **Thread Safe**: Ready for multi-threaded environments with automatic deduplication
+- **Extensible**: Define custom replacement policies via generic functions
+- **Lifetime Support**: Automatic expiration of cached data after configurable duration
+- **Provider Pattern**: Generic data fetching with automatic caching
+- **Cleanup Callbacks**: Optional cleanup functions for expired entries
+
+**Best For:** Web services, CDN nodes, database query caching, API response caching, or any application requiring configurable cache strategies with thread safety.
+
+**Note:** MIT license. Data provider and cleanup functions run unlocked for performance. Cache size doesn't include items pending release or being fetched. Extensive documentation included.
 
 ---
 

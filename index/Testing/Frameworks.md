@@ -1,6 +1,6 @@
 # Testing: Frameworks
 
-6 libraries
+10 libraries
 
 ---
 
@@ -41,6 +41,27 @@
 **Best For:** Test-driven development with interactive debugging.
 
 **Note:** Good alternative to FiveAM for interactive testing.
+
+---
+
+
+## fiveam
+
+**System Name:** `fiveam` (nickname `5am`)
+
+**Purpose:** Common Lisp testing framework.
+
+**Why Use It:**
+- **Well-Established**: One of the most popular CL test frameworks
+- **Simple**: Easy to learn and use
+- **Test Suites**: Organize tests in suites
+- **Fixtures**: Test fixture support
+- **Comprehensive**: Full-featured testing
+- **Widely Used**: Many libraries use it
+
+**Best For:** General-purpose unit testing in Common Lisp.
+
+**Note:** Very popular, standard choice for CL testing.
 
 ---
 
@@ -110,6 +131,28 @@
 ---
 
 
+## fiveam
+
+**System Name:** `fiveam`
+
+**Purpose:** Simple regression testing framework for Common Lisp.
+
+**Why Use It:**
+- **Simple Design**: Straightforward API
+- **Comprehensive**: Fixtures, suites, random testing
+- **Dependencies**: Uses alexandria, asdf-flv, trivial-backtrace
+- **Maintained**: Active development
+- **BSD License**: Liberal licensing
+- **ASDF 3.1+**: Modern ASDF requirements
+- **Test Suite**: Self-testing with own test suite
+
+**Best For:** Unit testing, regression testing, TDD.
+
+**Note:** One of the most popular test frameworks in Common Lisp.
+
+---
+
+
 ## lisp-unit2
 
 **System Name:** `lisp-unit2`
@@ -130,6 +173,48 @@
 **Best For:** Test-driven development, regression testing, CI/CD pipelines.
 
 **Note:** Tests are functions with source locations. Supports contexts for complex setups.
+
+---
+
+
+## rove
+
+**System Name:** `rove`
+
+**Purpose:** Modern unit testing framework for Common Lisp - successor to Prove with enhanced features.
+
+**Why Use It:**
+- **Setup/Teardown Hooks**: defhook for before/after each test, setup/teardown for package
+- **Better Reporting**: Details of failure tests, thread support
+- **Fewer Dependencies**: Only trivial-gray-streams and UIOP
+- **Modern Features**: ok/ng assertions, signals testing, outputs testing, expands macro testing
+- **Coverage Reports**: SBCL support via COVERAGE=1 environment variable
+- **Multiple Styles**: :spec (detailed), :dot (one-dot-per-test), :none (minimal)
+
+**Best For:** Modern test-driven development, test suites requiring setup/teardown, thread-safe testing.
+
+**Note:** Supports ASDF package-inferred-system. Roswell binary available. BETA quality - APIs may change.
+
+---
+
+
+## cardiogram
+
+**System Name:** `cardiogram`
+
+**Purpose:** Framework for impromptu testing with test chaining, dependencies, automatic fixes, and custom reporters.
+
+**Why Use It:**
+- **Smart Caching**: Tests run once and cache results; re-run with :run keyword
+- **Test Chaining**: :before, :after, :around combinations for complex workflows
+- **Dependencies**: Specify test dependencies with AND/OR logic
+- **Automatic Fixes**: with-fixes macro and f!let for environment restoration
+- **Custom Valuations**: Define your own test assertions with custom formatting
+- **Flexible Output**: Multiple reporter formats (simple, binary, custom like YAML)
+
+**Best For:** Exploratory testing, TDD workflows, integration tests with complex setup/teardown, or when you need fine-grained control over test execution order.
+
+**Note:** Work in progress. Tests return t/nil for pass/fail enabling programmatic use. *ignore-errors* controls debugger invocation. Supports custom defix macros for cleanup.
 
 ---
 

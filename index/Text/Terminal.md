@@ -1,0 +1,65 @@
+# Text: Terminal
+
+3 libraries
+
+---
+
+## cl-ansi-text
+
+**System Name:** `cl-ansi-text`
+
+**Purpose:** Colorize terminal output with ANSI escape codes.
+
+**Why Use It:**
+- **Simple Colors**: Basic 8-color support with keyword symbols
+- **24-bit Color**: Full RGB color support via CL-COLORS2
+- **HSV Support**: HSV color model support
+- **Hex Colors**: CSS-style hex color strings
+- **Color Operations**: Blending and color manipulation via CL-COLORS2
+- **Easy API**: Simple `with-color` macro
+
+**Best For:** Applications needing flexible terminal colorization with multiple color models.
+
+---
+
+
+## cl-ansi-text
+
+**System Name:** `cl-ansi-text`
+
+**Purpose:** Terminal color output with ANSI escape codes - "Because color in your terminal is nice."
+
+**Why Use It:**
+- **with-color Macro**: Environment where output to stream gets colored
+- **Multiple Color Formats**: Keywords (:red, :blue), CL-COLORS2 RGB/HSV, hex strings ("#FF0000"), integers, RGB lists
+- **Shorthand Functions**: red, yellow, blue, etc. for generating colored strings
+- **Background Support**: :style :background for background coloring
+- **Composable**: Concatenate colored strings easily
+- ***enabled* Toggle**: Bind to nil to disable colorization globally
+
+**Best For:** Colored terminal output, CLI applications, test result formatting, log highlighting.
+
+**Note:** Integrates with CL-COLORS2 for color blending operations. CI tested.
+
+---
+
+
+## ansi-escape
+
+**System Name:** `ansi-escape`
+
+**Purpose:** Generate ANSI escape sequences for terminal text styling and control.
+
+**Why Use It:**
+- **Terminal Colors**: Easy generation of colored text for terminal output
+- **Text Styling**: Bold, italic, underline, and other text attributes
+- **Cursor Control**: Move cursor, clear screen, position text
+- **Cross-Platform**: Works on terminals supporting ANSI escape codes
+
+**Best For:** CLI applications, terminal UIs, colored logging, text-based interfaces.
+
+**Note:** Essential for creating rich terminal user interfaces.
+
+---
+
+

@@ -14,7 +14,6 @@
 - **Compression**: Compress to zlib/deflate (chipz does decompression)
 - **Pure Common Lisp**: No external dependencies
 - **BSD License**: Permissive licensing
-- **By Zach Beane**: Author of Quicklisp
 
 **Best For:** Creating compressed zlib/deflate data.
 

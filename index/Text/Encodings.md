@@ -1,29 +1,8 @@
 # Text: Encodings
 
-5 libraries
+4 libraries
 
 ---
-
-## babel
-
-**System Name:** `babel`
-
-**Purpose:** Character encoding/decoding library (charset conversion).
-
-**Why Use It:**
-- **Encoding Conversion**: Convert between character encodings (UTF-8, Latin-1, etc.)
-- **Pure Lisp**: No external dependencies like libiconv
-- **Performance**: Optimized for good performance
-- **Reusable**: Interface for conversions between different data types
-- **String/Octets**: Built-in converters for strings and byte vectors
-- **Extensible**: Easy to add converters for other data types
-
-**Best For:** Any application dealing with text encoding/decoding, especially internationalization.
-
-**Note:** One of the fundamental libraries in the CL ecosystem for encoding handling.
-
----
-
 
 ## base64
 

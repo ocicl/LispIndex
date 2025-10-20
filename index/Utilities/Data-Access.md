@@ -1,6 +1,6 @@
 # Utilities: Data-Access
 
-4 libraries
+6 libraries
 
 ---
 
@@ -76,6 +76,47 @@
 **Best For:** Working with hierarchical data, JSON-like structures, configuration.
 
 **Note:** MIT licensed. Alternative to ACCESS library.
+
+---
+
+
+## access
+
+**System Name:** `access`
+
+**Purpose:** Unified access to common data structures (CLOS, plists, alists, hash-tables, arrays).
+
+**Why Use It:**
+- **Unified API**: Single access/accesses/(setf access) for all structures
+- **CLOS Support**: Accessor and slot access to objects
+- **Deep Nesting**: accesses for modifying deeply nested structures without intermediary bindings
+- **Error Suppression**: Returns nil instead of signaling errors on failed access
+- **Extensible**: do-access/do-set-access for custom map datastructures
+- **Auto-Creation**: Setting through nil creates appropriate dictionary (:type parameter)
+
+**Best For:** Newcomers to CL, working with heterogeneous data structures, deeply nested modifications.
+
+**Note:** Opts for convenience over strict error handling. Slot unboundedness errors not signaled.
+
+---
+
+
+## assoc-utils
+
+**System Name:** `assoc-utils`
+
+**Purpose:** Utilities for manipulating association lists with convenient access, conversion, and comparison functions.
+
+**Why Use It:**
+- **Convenient Access**: aget function with setf-able places and default values, plus alist-get for nested access via key paths
+- **with-keys Macro**: Alist equivalent of with-slots for binding multiple alist values to symbols in one expression
+- **Format Conversion**: Convert between alists, plists, and hash tables with alist-plist, plist-alist, alist-hash, and hash-alist
+- **Manipulation Functions**: Remove/delete entries, extract keys/values, test equality, and validate alist structure
+- **Type Predicates**: alistp predicate and custom alist type for use with typep and type declarations
+
+**Best For:** Working with JSON-like data structures, configuration files, API responses, nested data manipulation, and code that frequently needs to convert between different key-value representations.
+
+**Note:** Public Domain license. Author: Eitaro Fukamachi. Includes support for recursive hash/alist conversions. Default test function is #'equal (configurable via *assoc-test*).
 
 ---
 

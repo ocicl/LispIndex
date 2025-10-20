@@ -1,6 +1,6 @@
 # Testing: Property-Based
 
-2 libraries
+3 libraries
 
 ---
 
@@ -38,6 +38,27 @@
 - **Random Testing**: Automatic test case generation
 
 **Best For:** Property-based testing and finding edge cases.
+
+---
+
+
+## check-it
+
+**System Name:** `check-it`
+
+**Purpose:** Randomized property-based testing library for embedding QuickCheck-style tests in any test framework.
+
+**Why Use It:**
+- **Property-Based Testing**: Generate random test cases automatically
+- **Rich Generators**: Integer, real, character, list, tuple, string, struct generators
+- **Automatic Shrinking**: Find minimal failing cases when tests fail
+- **Composable**: Map, chain, guard generators for complex data
+- **Framework Agnostic**: Returns t/nil for embedding in any test framework
+- **Regression Cases**: Automatically add deterministic tests for found failures
+
+**Best For:** Finding edge cases in algorithms, validating invariants, testing parsers, or complementing example-based tests with random exploration.
+
+**Note:** API may not be stable. Configure *num-trials*, *list-size*, *size* for test behavior. Destructive operations on test inputs may break shrinking. Supports custom generators.
 
 ---
 

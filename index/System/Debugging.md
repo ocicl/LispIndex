@@ -1,6 +1,6 @@
 # System: Debugging
 
-2 libraries
+1 libraries
 
 ---
 
@@ -19,24 +19,6 @@
 **Best For:** Error handling and debugging.
 
 **Note:** Repository moved to Codeberg.
-
----
-
-
-## trivial-backtrace
-
-**System Name:** `trivial-backtrace`
-
-**Purpose:** Portable simple API for backtraces.
-
-**Why Use It:**
-- **Portable Backtraces**: Unified API across implementations
-- **Simple**: Easy-to-use interface
-- **Debugging**: Essential for error reporting
-
-**Best For:** Portable backtrace capture and printing.
-
-**Note:** Unmaintained but still useful.
 
 ---
 
