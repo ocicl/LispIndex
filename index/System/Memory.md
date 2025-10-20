@@ -1,6 +1,6 @@
 # System: Memory
 
-3 libraries
+5 libraries
 
 ---
 
@@ -60,6 +60,43 @@
 **Best For:** Projects using other bodge libraries (bodge-gl, bodge-host, etc.) or requiring low-level memory operations for game engines and graphics programming.
 
 **Note:** Part of the bodge library collection. Minimal standalone use - primarily a dependency for other bodge components.
+
+---
+
+
+## memory-regions
+
+**System Name:** `memory-regions`
+
+**Purpose:** Implementation of a memory region abstraction for manual memory management.
+
+**Why Use It:**
+- **Manual Memory Management**: Fine-grained control over memory allocation
+- **Multiple Allocators**: Includes null-allocator, bump-allocator
+- **Sequence Support**: Memory-backed sequences via trivial-extensible-sequences
+- **Stream Support**: Gray streams over memory regions
+- **Object Support**: Allocate CLOS objects in memory regions
+- **Memory-Mapped Files**: Integration with mmap for file-backed regions
+
+**Best For:** High-performance applications, embedded systems, memory-constrained environments, custom allocators.
+
+---
+
+
+## mmap
+
+**System Name:** `mmap`
+
+**Purpose:** Portable memory-mapped file (mmap) utility library.
+
+**Why Use It:**
+- **Cross-Platform**: Works on Unix and Windows
+- **Efficient I/O**: Map files directly into memory
+- **Large Files**: Handle files larger than available RAM
+- **Zero-Copy**: Access file contents without copying
+- **CFFI-Based**: Uses CFFI for portability
+
+**Best For:** Large file processing, high-performance I/O, database implementations.
 
 ---
 

@@ -1,6 +1,6 @@
 # Compression: Decompression
 
-5 libraries
+4 libraries
 
 ---
 
@@ -81,26 +81,6 @@
 **Best For:** Applications requiring LZMA compression when cl-lzlib isn't suitable.
 
 **Note:** Based on official LZMA SDK from Igor Pavlov.
-
----
-
-
-## Deflate
-
-**System Name:** `deflate`
-
-**Purpose:** Implementation of Deflate decompression with ZLIB and gzip support.
-
-**Why Use It:**
-- **Deflate**: RFC 1951 Deflate decompression
-- **ZLIB**: RFC 1950 wrapper support
-- **Gzip**: RFC 1952 gzip wrapper support
-- **Portable**: Works across ANSI CL implementations
-- **Optimized**: Fast on SBCL, CMU CL, Lispworks
-
-**Best For:** Compression, gzip files, zip archives, data decompression.
-
-**Note:** MIT License. By Peter Mai. Decompression only currently.
 
 ---
 

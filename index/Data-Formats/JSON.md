@@ -1,6 +1,6 @@
 # Data-Formats: JSON
 
-7 libraries
+12 libraries
 
 ---
 
@@ -138,6 +138,105 @@
 **Best For:** Processing large JSONL datasets, log file analysis, streaming JSON data.
 
 **Note:** MIT licensed. Version 0.1.0.
+
+---
+
+
+## json-mop
+
+**System Name:** `json-mop`
+
+**Purpose:** Metaclass for bridging CLOS and JSON objects.
+
+**Why Use It:**
+- **CLOS-JSON Bridge**: Seamlessly convert between CLOS objects and JSON representations
+- **Declarative Mapping**: Define JSON keys and types directly in slot options
+- **Type Control**: Enforce types like :string, :number, :bool, :hash-table, :vector, :list
+- **Null Semantics**: JSON null maps to unbound slots, NIL maps to boolean false
+- **Nested Objects**: Support for nested CLOS objects and homogeneous sequences
+
+**Best For:** API clients/servers, JSON data modeling, REST services, data interchange.
+
+**Note:** Uses YASON for JSON encoding/decoding. MIT license.
+
+---
+
+
+## json-streams
+
+**System Name:** `json-streams`
+
+**Purpose:** Streaming JSON parser and writer for reading/writing JSON text.
+
+**Why Use It:**
+- **Streaming Design**: Process unlimited JSON size without buffering entire messages
+- **No Dependencies**: Pure Common Lisp implementation
+- **Validation**: Input and output validation
+- **Unicode Handling**: Proper UTF-16 handling and Unicode support
+- **Unambiguous Mapping**: Clear datatype mapping between Lisp and JSON
+- **Duplicate Detection**: Optional duplicate key checking
+
+**Best For:** Large JSON files, streaming parsers, low-memory JSON processing, building high-level JSON libraries.
+
+**Note:** No dependencies. Open source.
+
+---
+
+
+## jsown-utils
+
+**System Name:** `jsown-utils`
+
+**Purpose:** Utility functions for jsown JSON library including pretty printing.
+
+**Why Use It:**
+- **Pretty Printing**: Human-readable JSON output with indentation
+- **Accessor Utilities**: JavaScript-style nested access (json-vals, json-update-in)
+- **Value Extraction**: Convenient functions for getting/setting nested values
+- **Jsown Extension**: Enhances jsown with common utility functions
+
+**Best For:** JSON debugging, readable output, nested data manipulation, jsown users.
+
+**Note:** ISC license.
+
+---
+
+
+## monkeylib-json
+
+**System Name:** `com.gigamonkeys.json`
+
+**Purpose:** Library for reading and writing JSON-formatted data.
+
+**Why Use It:**
+- **JSON Parsing**: Parse JSON data structures
+- **JSON Generation**: Generate JSON from Lisp data
+- **Builder Pattern**: JSON builder for constructing complex structures
+- **Parser Integration**: Uses monkeylib-parser infrastructure
+
+**Best For:** JSON APIs, web services, configuration files, data interchange.
+
+**Note:** Peter Seibel's JSON library. Part of monkeylib collection.
+
+---
+
+
+## njson
+
+**System Name:** `njson`
+
+**Purpose:** JSON handling framework focused on convenience and brevity.
+
+**Why Use It:**
+- **Backend Agnostic**: Supports cl-json and jzon backends (njson/cl-json, njson/jzon)
+- **Convenient API**: Decode/encode with minimal keystrokes
+- **Multiple Inputs**: Parse from files, strings, streams, and other types
+- **Validation Support**: Built-in validation capabilities
+- **Destructuring**: Easy JSON data access and manipulation
+
+**Best For:** JSON parsing, web APIs, configuration files, data exchange.
+
+**Note:** BSD-3 Clause by Atlas Engineer LLC. Version 1.2.2. Provides njson/cl-json and njson/jzon subsystems for different backends.
 
 ---
 

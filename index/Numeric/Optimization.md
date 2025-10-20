@@ -1,6 +1,6 @@
 # Numeric: Optimization
 
-2 libraries
+3 libraries
 
 ---
 
@@ -39,6 +39,25 @@
 **Best For:** Numerical optimization, function minimization, scientific computing.
 
 **Note:** Standard license. See online documentation for algorithm details.
+
+---
+
+
+## linear-programming
+
+**System Name:** `linear-programming`
+
+**Purpose:** Library for solving linear programming problems.
+
+**Why Use It:**
+- **LP Solver**: Solve linear programming optimization problems
+- **Mathematical Optimization**: Find optimal solutions to constrained problems
+- **Clean API**: Simple interface for defining and solving LP problems
+- **Well-Documented**: Comprehensive documentation and examples
+
+**Best For:** Optimization problems, resource allocation, operations research, mathematical modeling.
+
+**Note:** MIT license.
 
 ---
 

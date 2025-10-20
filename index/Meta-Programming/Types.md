@@ -19,7 +19,7 @@
 
 **Best For:** Type-based dispatch, pattern matching, static analysis, type theory applications.
 
-**Note:** Includes several utility packages. External dependencies via quicklisp.
+**Note:** Includes several utility packages.
 
 ---
 

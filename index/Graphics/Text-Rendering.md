@@ -1,6 +1,6 @@
 # Graphics: Text-Rendering
 
-3 libraries
+4 libraries
 
 ---
 
@@ -57,6 +57,25 @@
 **Best For:** GUI applications, text rendering, PDF generation, complex typography.
 
 **Note:** MIT License. Requires Pango library installed.
+
+---
+
+
+## pango-markup
+
+**System Name:** `pango-markup`
+
+**Purpose:** Generate Pango-style text markup for GTK/Cairo text rendering.
+
+**Why Use It:**
+- **Markup DSL**: Lisp-based Pango markup generation
+- **Text Styling**: Bold, italic, underline, strikethrough, font attributes
+- **GTK Integration**: Compatible with GTK+ text rendering widgets
+- **Programmatic Generation**: Build markup strings from Lisp code
+
+**Best For:** GTK applications, Cairo text rendering, styled text display, GUI labels.
+
+**Note:** Zlib by Yukari Hafner. Version 1.0.0. Depends on documentation-utils.
 
 ---
 

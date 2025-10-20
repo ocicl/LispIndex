@@ -1,6 +1,6 @@
 # Concurrency: Parallelism
 
-2 libraries
+4 libraries
 
 ---
 
@@ -46,6 +46,43 @@
 **Best For:** CPU-bound computations, data processing, concurrent operations.
 
 **Note:** Standard license. Based on bordeaux-threads, tested on SBCL.
+
+---
+
+
+## lparallel
+
+**System Name:** `lparallel`
+
+**Purpose:** Parallelism for Common Lisp.
+
+**Why Use It:**
+- **Parallel Programming**: Comprehensive parallelism library
+- **Task Queue**: Simple task submission with receiving queue
+- **Parallel Constructs**: Parallel map, reduce, sort, and more
+- **Futures and Promises**: Asynchronous computation primitives
+
+**Best For:** Parallel computing, multi-core utilization, concurrent programming, performance optimization.
+
+**Note:** BSD license.
+
+---
+
+
+## parallel
+
+**System Name:** (Not found in ocicl)
+
+**Purpose:** Library not found in ocicl distribution (see cl-parallel, lparallel).
+
+**Why Use It:**
+- **Not Available**: This library was not found in the ocicl directory
+- **Alternatives Available**: Use lparallel or cl-parallel instead
+- **Verification Needed**: May be aliased to another library
+
+**Best For:** Unknown - library not documented. Consider lparallel for parallel processing.
+
+**Note:** Not found in ocicl distribution. See lparallel or cl-parallel.
 
 ---
 

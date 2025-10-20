@@ -1,6 +1,6 @@
 # Data-Formats: CSV
 
-6 libraries
+4 libraries
 
 ---
 
@@ -81,45 +81,6 @@
 **Best For:** Data science, statistical computing, CSV processing, data frames.
 
 **Note:** MS-PL License. By Steve Nunez. Part of Lisp-Stat project.
-
----
-
-
-## CSV
-
-**System Name:** `csv`
-
-**Purpose:** Simple CSV file reading and writing library.
-
-**Why Use It:**
-- **Easy CSV**: Read and write CSV files
-- **Excel Compatible**: Handles MS Excel CSV format
-- **Simple API**: Straightforward functions for CSV operations
-- **Utility Functions**: High-level conveniences included
-
-**Best For:** Data import/export, spreadsheet integration, data processing, CSV parsing.
-
-**Note:** Simple CSV library with minimal dependencies.
-
----
-
-
-## csv-parser
-
-**System Name:** `csv-parser`
-
-**Purpose:** CSV parsing and writing utilities with Excel compatibility.
-
-**Why Use It:**
-- **DOS Support**: Imports DOS formatted files without issues
-- **Empty Fields**: Handles empty trailing fields properly
-- **Test Suite**: Comes with comprehensive tests
-- **High-level API**: do-csv-file and map-csv-file macros
-- **CSV Writer**: Read and write CSV files
-
-**Best For:** Excel CSV files, DOS formatted files, data import/export, cross-platform CSV.
-
-**Note:** By Alain Picard. More robust than basic CSV readers.
 
 ---
 

@@ -1,26 +1,26 @@
 # Text Libraries
 
-This category contains 30 subcategories with 75 total libraries.
+This category contains 30 subcategories with 83 total libraries.
 
 ## Subcategories
 
 - [CJK](CJK.md) (1 library)
 - [Case-Conversion](Case-Conversion.md) (5 libraries)
 - [Completion](Completion.md) (1 library)
-- [Diff](Diff.md) (1 library)
+- [Diff](Diff.md) (2 libraries)
 - [Encoding](Encoding.md) (3 libraries)
 - [Encodings](Encodings.md) (7 libraries)
 - [Format-Conversion](Format-Conversion.md) (1 library)
-- [Formatting](Formatting.md) (6 libraries)
+- [Formatting](Formatting.md) (8 libraries)
 - [Generation](Generation.md) (1 library)
 - [HTML](HTML.md) (1 library)
-- [I18N](I18N.md) (7 libraries)
+- [I18N](I18N.md) (8 libraries)
 - [Japanese](Japanese.md) (1 library)
 - [L10N](L10N.md) (1 library)
 - [MIME](MIME.md) (1 library)
 - [Macro-Processing](Macro-Processing.md) (1 library)
 - [Manipulation](Manipulation.md) (4 libraries)
-- [Markdown](Markdown.md) (1 library)
+- [Markdown](Markdown.md) (2 libraries)
 - [NLP](NLP.md) (3 libraries)
 - [Natural-Language](Natural-Language.md) (4 libraries)
 - [Normalization](Normalization.md) (1 library)
@@ -29,8 +29,8 @@ This category contains 30 subcategories with 75 total libraries.
 - [Regex](Regex.md) (2 libraries)
 - [Search](Search.md) (2 libraries)
 - [Spell-Checking](Spell-Checking.md) (1 library)
-- [String-Literals](String-Literals.md) (1 library)
-- [String-Manipulation](String-Manipulation.md) (7 libraries)
-- [Templating](Templating.md) (2 libraries)
+- [String-Literals](String-Literals.md) (2 libraries)
+- [String-Manipulation](String-Manipulation.md) (8 libraries)
+- [Templating](Templating.md) (3 libraries)
 - [Terminal](Terminal.md) (4 libraries)
 - [Unicode](Unicode.md) (3 libraries)

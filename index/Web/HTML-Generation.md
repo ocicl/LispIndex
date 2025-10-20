@@ -1,6 +1,6 @@
 # Web: HTML-Generation
 
-7 libraries
+12 libraries
 
 ---
 
@@ -146,6 +146,105 @@
 **Best For:** Web applications, HTML generation, template systems, server-side rendering.
 
 **Note:** Licensed under LLGPL.
+
+---
+
+
+## horse-html
+
+**System Name:** `horse-html`
+
+**Purpose:** ParenScript extension to generate DOM elements (not HTML strings) for client-side JavaScript.
+
+**Why Use It:**
+- **DOM Elements Not Strings**: Returns DocumentFragment with real DOM elements instead of HTML strings
+- **No innerHTML**: Avoids deprecated innerHTML API
+- **Event Listeners**: Attach event handlers directly during element definition (like React/JSX)
+- **Closures Preserved**: State and callbacks work naturally without string conversion
+- **Modern Approach**: Uses createElement and appendChild for proper DOM manipulation
+- **Function Composition**: Elements returned from functions are automatically integrated
+
+**Best For:** ParenScript web apps, client-side DOM generation, React-like component patterns without frameworks.
+
+**Note:** Replacement for WHO-PS-HTML. MIT license.
+
+---
+
+
+## hsx
+
+**System Name:** `hsx`
+
+**Purpose:** Hypertext S-expression - JSX-inspired HTML generation library with components and props.
+
+**Why Use It:**
+- **JSX-Like Syntax**: Familiar React-style component model using native Lisp syntax
+- **Component System**: Define reusable components with create-element generic function
+- **Props and Children**: Consistent API for attributes and nested content
+- **Macro Transformation**: hsx macro transforms S-expressions to create-element calls
+- **Function Components**: Components are just functions returning HTML structures
+- **Modern Approach**: Follows React patterns for server-side rendering
+
+**Best For:** Server-side React-style rendering, component-based HTML, JSX patterns in Common Lisp.
+
+**Note:** Beta software - API may change. See release notes. MIT license.
+
+---
+
+
+## lsx
+
+**System Name:** `lsx`
+
+**Purpose:** Embeddable HTML templating engine with JSX-like syntax.
+
+**Why Use It:**
+- **JSX-Like Syntax**: Familiar syntax for React developers
+- **Type-Safe**: Compile-time template validation
+- **Embeddable**: Mix HTML templates in Lisp code
+
+**Best For:** Web templating, HTML generation, modern web apps.
+
+**Note:** By Eitaro Fukamachi. BSD 2-Clause license.
+
+---
+
+
+## macro-html
+
+**System Name:** `macro-html`
+
+**Purpose:** Fast HTML generation library using macros.
+
+**Why Use It:**
+- **Macro-Based**: Each tag expands to optimized code
+- **Fast**: Compile-time generation for performance
+- **DSL for Attributes**: Clean syntax for element attributes
+- **Cacheable**: Generated code can be cached
+
+**Best For:** High-performance web apps, server-side rendering, HTML generation.
+
+**Note:** By Max Rottenkolber. GNU AGPL license.
+
+---
+
+
+## monkeylib-html
+
+**System Name:** `monkeylib-html`
+
+**Purpose:** HTML generation library with S-expression syntax.
+
+**Why Use It:**
+- **HTML Generation**: Generate HTML from S-expressions
+- **XML Support**: Also handles XML generation
+- **String Escaping**: Proper HTML/XML string escaping
+- **Macro Utilities**: Convenient macros for markup generation
+- **Testing**: Includes test framework integration
+
+**Best For:** Web applications, HTML templating, dynamic HTML generation.
+
+**Note:** BSD License by Peter Seibel. Part of monkeylib ecosystem.
 
 ---
 

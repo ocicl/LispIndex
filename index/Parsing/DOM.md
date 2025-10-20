@@ -1,6 +1,6 @@
 # Parsing: DOM
 
-1 libraries
+2 libraries
 
 ---
 
@@ -19,6 +19,25 @@
 **Best For:** HTML/XML parsing and manipulation.
 
 **Note:** Repository moved to Codeberg.
+
+---
+
+
+## lquery
+
+**System Name:** `lquery`
+
+**Purpose:** Library to allow jQuery-like HTML/DOM manipulation.
+
+**Why Use It:**
+- **jQuery-style**: Familiar jQuery-like API for HTML manipulation
+- **CSS Selectors**: Use CSS selectors to query HTML elements
+- **DOM Manipulation**: Easy manipulation of HTML documents
+- **Plump Integration**: Built on Plump HTML parser
+
+**Best For:** Web scraping, HTML processing, DOM manipulation, web automation.
+
+**Note:** zlib license.
 
 ---
 

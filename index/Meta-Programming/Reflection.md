@@ -1,6 +1,6 @@
 # Meta-Programming: Reflection
 
-2 libraries
+1 libraries
 
 ---
 
@@ -20,25 +20,6 @@
 **Best For:** Domain modeling, MVC frameworks, form generation, data validation.
 
 **Note:** MIT License. By Mariano Montone. Inspired by Smalltalk Magritte and Lisp On Lines.
-
----
-
-
-## definitions
-
-**System Name:** `definitions`
-
-**Purpose:** General definitions reflection library.
-
-**Why Use It:**
-- **Reflection**: Query definitions in Lisp environment
-- **Definition Types**: Multiple definition types supported
-- **Introspection**: Inspect defined symbols
-- **Meta-programming**: Tools for code introspection
-
-**Best For:** Development tools, IDE support, code browsers, introspection utilities.
-
-**Note:** zlib License. By Shinmera. Reflection on definitions.
 
 ---
 

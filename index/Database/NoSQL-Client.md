@@ -1,6 +1,6 @@
 # Database: NoSQL-Client
 
-9 libraries
+10 libraries
 
 ---
 
@@ -175,6 +175,25 @@
 **Best For:** Cassandra database applications, NoSQL data storage, distributed database access.
 
 **Note:** BSD licensed. Supports CQL version 2 binary protocol.
+
+---
+
+
+## lredis
+
+**System Name:** `lredis`
+
+**Purpose:** Lisp Redis bindings.
+
+**Why Use It:**
+- **Redis Client**: Connect to Redis key-value store from Lisp
+- **Simple API**: Straightforward interface to Redis commands
+- **Network Support**: Built on usocket for reliable connections
+- **UTF-8 Support**: Proper string encoding with babel
+
+**Best For:** Caching, session storage, Redis integration, key-value data structures.
+
+**Note:** BSD license.
 
 ---
 

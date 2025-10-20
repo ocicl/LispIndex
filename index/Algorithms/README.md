@@ -1,6 +1,6 @@
 # Algorithms Libraries
 
-This category contains 16 subcategories with 22 total libraries.
+This category contains 17 subcategories with 23 total libraries.
 
 ## Subcategories
 
@@ -16,6 +16,7 @@ This category contains 16 subcategories with 22 total libraries.
 - [Pathfinding](Pathfinding.md) (2 libraries)
 - [Random-Number-Generation](Random-Number-Generation.md) (1 library)
 - [SAT-Solvers](SAT-Solvers.md) (4 libraries)
+- [Sorting](Sorting.md) (1 library)
 - [State-Machines](State-Machines.md) (1 library)
 - [String-Matching](String-Matching.md) (2 libraries)
 - [String-Similarity](String-Similarity.md) (2 libraries)

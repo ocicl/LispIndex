@@ -1,6 +1,6 @@
 # Web: Middleware
 
-6 libraries
+8 libraries
 
 ---
 
@@ -112,6 +112,44 @@
 **Best For:** Production web applications needing efficient static asset delivery, CDN integration, and automatic browser cache invalidation when assets change.
 
 **Note:** MIT license. Not optimized for direct file serving - use behind nginx or CDN. Works with Clack/Hunchentoot. Includes Djula template helpers in separate system.
+
+---
+
+
+## lack-compression-cache
+
+**System Name:** `lack-compression-cache`
+
+**Purpose:** Lack middleware for caching compressed responses.
+
+**Why Use It:**
+- **Response Compression**: Automatically compress HTTP responses
+- **Caching**: Cache compressed responses to avoid repeated compression
+- **Performance**: Reduce bandwidth and improve response times
+- **Lack Integration**: Seamless integration with Lack web framework
+
+**Best For:** Web applications, bandwidth optimization, Lack-based servers.
+
+**Note:** Part of the Lack ecosystem.
+
+---
+
+
+## lack-reroute
+
+**System Name:** `lack-rerouter`
+
+**Purpose:** Lack middleware for routing requests to different applications.
+
+**Why Use It:**
+- **Request Routing**: Route requests based on rules to different Lack applications
+- **URL Rewriting**: Change request paths before processing
+- **Multi-App**: Combine multiple Lack applications
+- **Flexible Routing**: Time-based and rule-based routing
+
+**Best For:** Multi-tenant applications, URL routing, Lack middleware stacks.
+
+**Note:** MIT license.
 
 ---
 

@@ -1,6 +1,6 @@
 # Utilities Libraries
 
-This category contains 36 subcategories with 87 total libraries.
+This category contains 36 subcategories with 92 total libraries.
 
 ## Subcategories
 
@@ -8,7 +8,7 @@ This category contains 36 subcategories with 87 total libraries.
 - [Array-Operations](Array-Operations.md) (1 library)
 - [Binary](Binary.md) (1 library)
 - [Bit-Manipulation](Bit-Manipulation.md) (3 libraries)
-- [Caching](Caching.md) (6 libraries)
+- [Caching](Caching.md) (7 libraries)
 - [Checksums](Checksums.md) (1 library)
 - [Comparison](Comparison.md) (1 library)
 - [Data-Access](Data-Access.md) (4 libraries)
@@ -18,13 +18,13 @@ This category contains 36 subcategories with 87 total libraries.
 - [Diff](Diff.md) (3 libraries)
 - [Distributions](Distributions.md) (1 library)
 - [Equality](Equality.md) (1 library)
-- [General](General.md) (21 libraries)
-- [Hash-Tables](Hash-Tables.md) (4 libraries)
+- [General](General.md) (25 libraries)
+- [Hash-Tables](Hash-Tables.md) (5 libraries)
 - [Hashing](Hashing.md) (2 libraries)
-- [Identifiers](Identifiers.md) (3 libraries)
+- [Identifiers](Identifiers.md) (2 libraries)
 - [Iteration](Iteration.md) (1 library)
 - [Legacy](Legacy.md) (1 library)
-- [Logging](Logging.md) (4 libraries)
+- [Logging](Logging.md) (5 libraries)
 - [Macros](Macros.md) (2 libraries)
 - [Numbers](Numbers.md) (1 library)
 - [Pattern-Matching](Pattern-Matching.md) (2 libraries)
@@ -37,6 +37,6 @@ This category contains 36 subcategories with 87 total libraries.
 - [Timing](Timing.md) (1 library)
 - [Types](Types.md) (2 libraries)
 - [UUID](UUID.md) (1 library)
-- [Validation](Validation.md) (3 libraries)
+- [Validation](Validation.md) (2 libraries)
 - [Versioning](Versioning.md) (1 library)
 - [Visualization](Visualization.md) (1 library)

@@ -1,6 +1,6 @@
 # Text: String-Manipulation
 
-7 libraries
+8 libraries
 
 ---
 
@@ -137,6 +137,28 @@
 **Best For:** Applications that concatenate many strings, building large strings incrementally, log aggregation, text processing.
 
 **Note:** BSD 3-clause license. Inspired by Java's StringBuilder. Can be more efficient than WITH-OUTPUT-TO-STRING for large concatenations.
+
+---
+
+
+## mnas-string
+
+**System Name:** `mnas-string`
+
+**Purpose:** String manipulation utilities including parsing, splitting, transliteration, and formatting.
+
+**Why Use It:**
+- **String Parsing**: Parse floating-point numbers from strings
+- **String Splitting**: Divide strings into substrings
+- **Pattern Replacement**: Replace substrings and consolidate repeated patterns
+- **SQL Support**: Prepare strings for SQL LIKE queries
+- **Date/Time Formatting**: Output date and time representations
+- **Transliteration**: Convert between character sets (e.g., Cyrillic to Latin)
+- **Framing**: Add prefixes and postfixes to strings
+
+**Best For:** Text processing, string manipulation, SQL query building, internationalization.
+
+**Note:** GNU GPL v3. Multiple subsystems for core, parsing, database, printing, and transliteration features.
 
 ---
 

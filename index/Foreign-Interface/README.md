@@ -1,12 +1,12 @@
 # Foreign-Interface Libraries
 
-This category contains 13 subcategories with 26 total libraries.
+This category contains 13 subcategories with 27 total libraries.
 
 ## Subcategories
 
 - [Bindings](Bindings.md) (8 libraries)
 - [C++](C++.md) (1 library)
-- [CFFI](CFFI.md) (3 libraries)
+- [CFFI](CFFI.md) (4 libraries)
 - [Erlang](Erlang.md) (1 library)
 - [GLib](GLib.md) (2 libraries)
 - [GObject](GObject.md) (2 libraries)

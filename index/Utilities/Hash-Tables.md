@@ -1,6 +1,6 @@
 # Utilities: Hash-Tables
 
-4 libraries
+5 libraries
 
 ---
 
@@ -74,5 +74,22 @@
 **Note:** Extends destructuring-bind to hash tables.
 
 ---
+
+
+## mnas-hash-table
+
+**System Name:** `mnas-hash-table`
+
+**Purpose:** Utility functions for working with hash tables.
+
+**Why Use It:**
+- **Hash Table Utilities**: Helper functions for common hash table operations
+- **Functional Interface**: Functional programming style operations
+- **Lightweight**: Minimal dependencies
+
+**Best For:** Projects using hash tables extensively, functional programming.
+
+---
+
 
 

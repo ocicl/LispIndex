@@ -1,6 +1,6 @@
 # Data-Structures: Arrays
 
-4 libraries
+3 libraries
 
 ---
 
@@ -55,26 +55,6 @@
 **Best For:** Numerical computing, array manipulation, data analysis, matrix operations.
 
 **Note:** Abandoned. Superseded by https://github.com/Lisp-Stat/select
-
----
-
-
-## dynamic-array
-
-**System Name:** `dynamic-array`
-
-**Purpose:** Optimized 1-dimensional array of fixnums with automatic resizing.
-
-**Why Use It:**
-- **Performance**: Specialized for fixnum storage with optimizations
-- **Auto-resize**: Automatically grows when pushing elements
-- **Low Overhead**: Efficient memory usage for integer arrays
-- **Fast Access**: Direct array access without boxing
-- **Stack-like**: Push/pop operations for dynamic growth
-
-**Best For:** Integer collections, performance-critical numeric arrays, growing sequences of fixnums.
-
-**Note:** Does not implement standard sequence protocol. MIT license.
 
 ---
 

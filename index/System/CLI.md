@@ -1,6 +1,6 @@
 # System: CLI
 
-13 libraries
+16 libraries
 
 ---
 
@@ -252,6 +252,62 @@
 **Best For:** Standalone applications, command-line tools, system utilities.
 
 **Note:** LRDE License. Feature-complete command-line parsing solution.
+
+---
+
+
+## lisp-gflags
+
+**System Name:** `com.google.flag`
+
+**Purpose:** Unix command line flag parsing.
+
+**Why Use It:**
+- **Google-style Flags**: Implementation of Google's gflags library for Lisp
+- **Command-line Parsing**: Clean API for defining and parsing command-line arguments
+- **Type-safe**: Strong typing for flag values
+- **Well-tested**: Battle-tested design from Google's C++ library
+
+**Best For:** Command-line applications, CLI tools, flag-based configuration.
+
+**Note:** New BSD license.
+
+---
+
+
+## net.didierverna.clon
+
+**System Name:** `net.didierverna.clon`
+
+**Purpose:** Command-Line Options Nuker - comprehensive command-line options management library.
+
+**Why Use It:**
+- **Powerful Option System**: Support for flags, switches, valued options, environment variables
+- **Automatic Help**: Generate formatted help strings with ISO6429 terminal coloring
+- **Option Completion**: Automatic completion of abbreviated option names
+- **Extensible**: Define custom option types
+
+**Best For:** Standalone applications, command-line tools, CLI utilities.
+
+**Note:** BSD licensed by Didier Verna. CLON = "The Command-Line Options Nuker". Full name highlights its comprehensive approach.
+
+---
+
+
+## net.didierverna.clon.setup
+
+**System Name:** `net.didierverna.clon.setup`
+
+**Purpose:** Preload setup library for Clon configuration parameters.
+
+**Why Use It:**
+- **Configuration Support**: Preload configuration and meta-utilities
+- **Build Configuration**: Setup parameters before loading main Clon system
+- **Version Management**: Centralized version information
+
+**Best For:** Clon library setup, build configuration, preload customization.
+
+**Note:** BSD licensed by Didier Verna. Required by the main net.didierverna.clon system.
 
 ---
 

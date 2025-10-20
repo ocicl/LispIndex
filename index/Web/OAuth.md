@@ -1,6 +1,6 @@
 # Web: OAuth
 
-2 libraries
+4 libraries
 
 ---
 
@@ -25,24 +25,58 @@
 ---
 
 
-## erjoalgo-webutil
+## north-core
 
-**System Name:** `erjoalgo-webutil`
+**System Name:** `north-core`
 
-**Purpose:** Framework for defining OAuth HTTP API clients and servers.
+**Purpose:** Core OAuth 1.0a functionality excluding HTTP backend.
 
 **Why Use It:**
-- **API Framework**: Structured approach to HTTP APIs
-- **OAuth Support**: Built-in OAuth authentication handling
-- **Client & Server**: Both sides of API communication
-- **Defendpoint**: Macro for defining API endpoints
-- **Site Integrations**: Pre-built integrations for common services
+- **Backend Independent**: Core OAuth logic without HTTP client dependency
+- **Request Signing**: HMAC-SHA1 signature generation
+- **Server/Client Support**: Both server and client OAuth flows
+- **UUID Generation**: Uses frugal-uuid for nonce generation
 
-**Best For:** REST API clients, OAuth integration, web service development.
+**Best For:** Custom OAuth implementations, backend abstraction, OAuth library building.
 
-**Note:** Includes Hunchentoot server support. GPLv3 license.
+**Note:** Zlib licensed by Yukari Hafner. Version 1.0.0. Depends on frugal-uuid, babel, ironclad, cl-base64, cl-ppcre, documentation-utils.
 
 ---
 
+
+## north-dexador
+
+**System Name:** `north-dexador`
+
+**Purpose:** Dexador HTTP backend for North OAuth library.
+
+**Why Use It:**
+- **Dexador Integration**: Use Dexador instead of Drakma for HTTP
+- **Modern HTTP Client**: Benefit from Dexador's features and performance
+- **Drop-in Backend**: Compatible with north-core interface
+
+**Best For:** Projects already using Dexador, modern HTTP client preference.
+
+**Note:** Zlib licensed by Yukari Hafner. Version 1.0.0. Depends on dexador and north-core.
+
+---
+
+
+## oauth
+
+**System Name:** `cl-oauth`
+
+**Purpose:** OAuth 1.0a authentication protocol implementation for Common Lisp.
+
+**Why Use It:**
+- **Service Provider & Consumer**: Both server and client OAuth flows
+- **HMAC-SHA1 Signatures**: Secure request signing with Ironclad
+- **Token Management**: Request token, access token, and authorization flows
+
+**Best For:** Twitter/OAuth 1.0a APIs, third-party authentication, protected resource access.
+
+**Note:** LLGPL by Leslie P. Polzer. Version 3. Depends on ironclad, cl-base64, babel, drakma, hunchentoot.
+
+---
 
 

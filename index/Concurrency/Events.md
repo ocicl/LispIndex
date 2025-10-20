@@ -1,6 +1,6 @@
 # Concurrency: Events
 
-4 libraries
+3 libraries
 
 ---
 
@@ -60,26 +60,6 @@
 **Best For:** Event-driven architectures, pub-sub patterns, reactive programming.
 
 **Note:** MIT License.
-
----
-
-
-## deeds
-
-**System Name:** `deeds`
-
-**Purpose:** Deeds Extensible Event Delivery System.
-
-**Why Use It:**
-- **Event System**: Flexible event handling framework
-- **Event Loop**: Built-in event loop support
-- **Event Classes**: CLOS-based event system
-- **Event Delivery**: Sophisticated event routing
-- **Extensible**: Easily extended for custom events
-
-**Best For:** Event-driven programming, game engines, GUI frameworks, reactive systems.
-
-**Note:** zlib License. By Shinmera. Extensible event delivery.
 
 ---
 

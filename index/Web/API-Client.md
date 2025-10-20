@@ -1,6 +1,6 @@
 # Web: API-Client
 
-32 libraries
+31 libraries
 
 ---
 
@@ -601,27 +601,6 @@
 **Best For:** SMS notifications, alerts, two-factor auth, messaging integrations.
 
 **Note:** MIT License. Simple wrapper for TextMagic SMS service.
-
----
-
-
-## datamuse
-
-**System Name:** `datamuse`
-
-**Purpose:** Common Lisp wrapper for Datamuse word-finding API.
-
-**Why Use It:**
-- **Word Finding**: Find words matching constraints
-- **Rhymes**: RhymeZone integration
-- **Context**: Words likely in given context
-- **No API Key**: 100,000 queries/day without key
-- **Spelling/Sound**: Constraints on meaning, spelling, sound
-- **Suggestions**: Word suggestions and completions
-
-**Best For:** Word games, writing tools, rhyme finders, creative apps, linguistics.
-
-**Note:** Wraps Datamuse API v1.1. No setup needed.
 
 ---
 

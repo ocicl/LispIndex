@@ -101,22 +101,20 @@
 ---
 
 
-## epigraph
+## mnas-graph
 
-**System Name:** `epigraph`
+**System Name:** `mnas-graph`
 
-**Purpose:** Library for representing and processing graphs (nodes and edges).
+**Purpose:** Graph data structure library with Graphviz visualization support.
 
 **Why Use It:**
-- **Graph Structures**: Generic node and edge representation
-- **Flexible Nodes**: Customizable node comparison with node-test
-- **Edge Management**: Add and query edges between nodes
-- **Graph Algorithms**: Foundation for pathfinding and analysis
-- **Simple API**: Straightforward graph construction
+- **Graph Data Structures**: Nodes, edges, directed/undirected graphs
+- **Graphviz Integration**: Visualize graphs via Graphviz
+- **Graph Algorithms**: Find connected nodes, isolated nodes, paths
+- **Filtering**: Filter graph views
+- **Hash Table Based**: Uses mnas-hash-table for storage
 
-**Best For:** Graph algorithms, network analysis, dependency graphs, path finding.
-
-**Note:** Basic graph data structure. BSD license.
+**Best For:** Graph algorithms, network analysis, workflow visualization.
 
 ---
 

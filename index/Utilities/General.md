@@ -1,6 +1,6 @@
 # Utilities: General
 
-21 libraries
+25 libraries
 
 ---
 
@@ -380,22 +380,102 @@
 ---
 
 
-## DartsCLTools
+## metatilities
 
-**System Name:** `darts.lib.tools`
+**System Name:** `metatilities`
 
-**Purpose:** Small library of utilities for property lists, iteration, and events.
+**Purpose:** Collection of metabang.com's Common Lisp utilities.
 
 **Why Use It:**
-- **Property Lists**: Generic property support for objects
-- **Event Notification**: Observer pattern implementation
-- **Iteration Macros**: Named-loop and other helpers
-- **CLOS/Struct**: Works with both CLOS and structures
-- **Atomic Updates**: Thread-safe property updates
+- **Comprehensive Utilities**: Date/time, file operations, sequences, strings
+- **Macros**: Useful macro definitions
+- **Search Functions**: Enhanced searching capabilities
+- **Platform Abstraction**: Generic interface for implementation-specific features
+- **Graham's Utilities**: Includes utilities from Paul Graham
 
-**Best For:** Object properties, event systems, observer pattern, utilities, mixins.
+**Best For:** General-purpose utility library, rapid development.
 
-**Note:** MIT License. By Dirk Esser. Utilities from multiple projects.
+**Note:** Depends on metatilities-base, moptilities, cl-containers, metabang-bind. Unmaintained.
+
+---
+
+
+## metatilities-base
+
+**System Name:** `metatilities-base`
+
+**Purpose:** Basic metabang.com Common Lisp utilities (foundation layer).
+
+**Why Use It:**
+- **Minimal Dependencies**: No dependencies, pure CL
+- **Core Utilities**: String, array, file, time utilities
+- **CLOS Utilities**: defclass-star, generic interfaces
+- **Low-Level Macros**: Foundation for other metabang libraries
+- **set-equal**: Set comparison functions
+
+**Best For:** Foundation utilities, projects wanting minimal dependencies.
+
+**Note:** Base layer for metatilities. Unmaintained.
+
+---
+
+
+## millet
+
+**System Name:** `millet`
+
+**Purpose:** Wrapper for implementation-dependent tiny utilities.
+
+**Why Use It:**
+- **Function Introspection**: Get function names and lambda lists portably
+- **Type Utilities**: Type-specifier-p, type-expand across implementations
+- **Symbol Queries**: Check if symbols are global or special
+- **Multi-Implementation**: SBCL, CCL, ECL, CLISP, Allegro, CMUCL, ABCL, LispWorks
+- **Lightweight**: Small, focused utility library
+
+**Best For:** Portable introspection, development tools, autodoc generation.
+
+---
+
+
+## monkeylib-utilities
+
+**System Name:** `com.gigamonkeys.utilities`
+
+**Purpose:** Peter Seibel's collection of general-purpose utilities.
+
+**Why Use It:**
+- **Heap**: Heap data structure implementation
+- **CLOS Utilities**: CLOS helper functions
+- **Date Handling**: Date and time utilities
+- **File Operations**: File manipulation utilities
+- **List Processing**: List utilities
+- **Symbol Utilities**: Symbol manipulation
+- **Math Functions**: Mathematical utilities
+- **Randomization**: Random number utilities
+
+**Best For:** General-purpose programming, utility functions.
+
+**Note:** Peter Seibel's utility collection. Depends on Alexandria and split-sequence.
+
+---
+
+
+## mutility
+
+**System Name:** `mutility`
+
+**Purpose:** Collection of miscellaneous utility functions and macros.
+
+**Why Use It:**
+- **Sugar Macros**: `a` macro for quick list generation, `fn` macro for concise lambdas
+- **Data Structures**: Ring buffer and queue implementations
+- **Loopy Extensions**: Additional looping constructs via mutility/loopy subsystem
+- **File Utilities**: File system operations via mutility/files subsystem
+
+**Best For:** General utility functions, syntactic sugar, data structure support.
+
+**Note:** MIT licensed by modula t. Version 0.5. Multiple subsystems: mutility, mutility/loopy, mutility/files. Depends on Alexandria, local-time, closer-mop.
 
 ---
 

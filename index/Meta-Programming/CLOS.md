@@ -1,6 +1,6 @@
 # Meta-Programming: CLOS
 
-14 libraries
+15 libraries
 
 ---
 
@@ -191,7 +191,6 @@
 - **MOP Extension**: Extends CLOS generic functions
 - **Research-Based**: Based on published paper
 - **Closer-MOP**: Portable across implementations
-- **QuickLisp**: Available in QuickLisp
 
 **Best For:** Advanced method dispatch, predicate-based selection, CLOS extension.
 
@@ -276,6 +275,24 @@
 **Best For:** Context-aware applications, behavior adaptation, configuration-dependent dispatch.
 
 **Note:** MIT licensed. Requires closer-mop.
+
+---
+
+
+## method-hooks
+
+**System Name:** `method-hooks`
+
+**Purpose:** Simple qualifiable hooks defined like methods with customizable dispatch.
+
+**Why Use It:**
+- **Method-Like Syntax**: Define hooks using familiar method syntax
+- **Qualifiers**: Support for :before, :after, :around qualifiers
+- **Custom Dispatch**: Modify dispatch method and behavior
+- **Flexible Combination**: Control how hooks are combined
+- **Known Dispatchers**: Pre-defined dispatch strategies
+
+**Best For:** Plugin systems, extensible applications, event handling.
 
 ---
 

@@ -1,6 +1,6 @@
 # Parsing: Grammar
 
-4 libraries
+7 libraries
 
 ---
 
@@ -78,6 +78,63 @@
 **Best For:** Natural language processing, computational linguistics, grammar parsing, language tools.
 
 **Note:** MIT license. By Oyvin Halfdan Thuv. Implements classic Earley parsing algorithm for NLP tasks.
+
+---
+
+
+## meta-sexp
+
+**System Name:** `meta-sexp`
+
+**Purpose:** META parser generator using LL(1) grammars with s-expressions.
+
+**Why Use It:**
+- **Lisp-Native Parsing**: Define grammars using s-expressions
+- **Efficient**: Uses in-memory string vectors for fast forward/backward navigation
+- **Extensible**: Add custom transformation methods
+- **Built-in Transformations**: Regex-like operators (*, +, ?), type checking, rendering
+- **Attachment Support**: Thread-safe state management between parser passes
+- **Based on META**: Implements ideas from Henry G. Baker's Pragmatic Parsing paper
+
+**Best For:** Custom parsers, DSL implementation, text processing, markup languages.
+
+---
+
+
+## monkeylib-parser
+
+**System Name:** `com.gigamonkeys.parser`
+
+**Purpose:** Parser generator loosely based on Henry Baker's META paper.
+
+**Why Use It:**
+- **Parser Generation**: Create parsers from declarative specifications
+- **META-based**: Inspired by Henry Baker's META parsing technique
+- **Macro Support**: Uses macro utilities for parser construction
+
+**Best For:** Language parsing, DSL implementation, text processing.
+
+**Note:** Peter Seibel's parser generator. Part of monkeylib collection.
+
+---
+
+
+## parser.common-rules
+
+**System Name:** `parser.common-rules`
+
+**Purpose:** Common parsing rules for Esrap-based grammars.
+
+**Why Use It:**
+- **Reusable Rules**: Whitespace, comments, anchors, literals for any grammar
+- **Esrap Integration**: Works with Esrap parser combinator library
+- **Tokenization Macros**: Helper macros for building tokenizers
+- **Anchors**: Start/end of line, word boundaries
+- **Comment Parsing**: C-style, shell-style, and custom comment rules
+
+**Best For:** Building parsers, DSL implementation, configuration file parsers, language tooling.
+
+**Note:** MIT by Jan Moringen. Depends on alexandria, split-sequence, let-plus, esrap 0.16+.
 
 ---
 

@@ -1,6 +1,6 @@
 # Text: Formatting
 
-6 libraries
+8 libraries
 
 ---
 
@@ -119,6 +119,43 @@
 **Best For:** Documentation generation, code blogs, syntax highlighting, literate programming, code display.
 
 **Note:** API: colorize-file, colorize-file-to-stream, html-colorization. *coloring-css* variable for styles.
+
+---
+
+
+## monkeylib-text-output
+
+**System Name:** `monkeylib-text-output`
+
+**Purpose:** Formatted text output utilities.
+
+**Why Use It:**
+- **Formatted Output**: Utilities for formatted text generation
+- **Text Rendering**: Control text output formatting
+- **Macro Support**: Convenient macros for text output
+
+**Best For:** Report generation, formatted text output, pretty printing.
+
+**Note:** BSD License by Peter Seibel. Version 1.0. Part of monkeylib collection.
+
+---
+
+
+## net.didierverna.focus
+
+**System Name:** `net.didierverna.focus`
+
+**Purpose:** FORMAT Customizations - customize FORMAT with new directives and format tables.
+
+**Why Use It:**
+- **Custom Directives**: Add new FORMAT directive characters
+- **Format Tables**: Readtable-like concept for FORMAT strings
+- **Modify Standard Directives**: Change behavior of existing directives
+- **Composable**: Translations to regular FORMAT calls
+
+**Best For:** DSL creation, custom formatting, domain-specific output formatting.
+
+**Note:** BSD licensed by Didier Verna. FoCus wraps FORMAT to provide customizable format directive tables.
 
 ---
 

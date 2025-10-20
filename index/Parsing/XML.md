@@ -1,6 +1,6 @@
 # Parsing: XML
 
-10 libraries
+8 libraries
 
 ---
 
@@ -193,46 +193,6 @@
 **Best For:** XML processing, document transformation, XML parsing, web scraping.
 
 **Note:** S-expression approach to XML more natural for Lisp. Preserves all whitespace.
-
----
-
-
-## cxml-rng
-
-**System Name:** `cxml-rng`
-
-**Purpose:** Relax NG schema validation for Closure XML.
-
-**Why Use It:**
-- **Schema Validation**: Validate XML with Relax NG schemas
-- **Compact Syntax**: Support for compact Relax NG syntax
-- **DTD Compatibility**: DTD compatibility features
-- **XSD Types**: XSD type library support
-- **CXML Integration**: Add-on for Closure XML
-
-**Best For:** XML validation, schema checking, document validation, XML processing.
-
-**Note:** X11 License. By David Lichteblau. Relax NG for CXML.
-
----
-
-
-## cxml-stp
-
-**System Name:** `cxml-stp`
-
-**Purpose:** Data structure for well-formed XML documents, inspired by XOM.
-
-**Why Use It:**
-- **DOM Alternative**: Alternative to W3C DOM
-- **XOM-inspired**: Based on XOM design for Common Lisp
-- **Well-formed XML**: Data structure for XML documents
-- **CXML Add-on**: Integrates with Closure XML
-- **Lisp-friendly**: Designed for Common Lisp idioms
-
-**Best For:** XML processing, document manipulation, XML parsing, DOM alternative.
-
-**Note:** X11 License. By David Lichteblau. Alternative to DOM for CXML.
 
 ---
 

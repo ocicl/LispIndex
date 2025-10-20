@@ -1,6 +1,6 @@
 # Numeric: Statistics
 
-5 libraries
+6 libraries
 
 ---
 
@@ -92,6 +92,25 @@
 **Best For:** Statistical computing, probability theory, data science, simulations.
 
 **Note:** MS-PL License. Part of Lisp-Stat project. Rich distribution collection.
+
+---
+
+
+## lisp-stat
+
+**System Name:** `lisp-stat`
+
+**Purpose:** Statistical computing environment for Common Lisp.
+
+**Why Use It:**
+- **Statistical Analysis**: Comprehensive statistical computing platform
+- **Data Frames**: Built-in data frame support for data analysis
+- **Distributions**: Statistical distributions and analysis functions
+- **Ecosystem**: Integrates array-operations, num-utils, and more
+
+**Best For:** Statistical analysis, data science, scientific computing, research applications.
+
+**Note:** MS-PL license.
 
 ---
 

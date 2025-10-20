@@ -1,6 +1,6 @@
 # Data-Structures: Sets
 
-4 libraries
+5 libraries
 
 ---
 
@@ -79,6 +79,25 @@
 **Best For:** Sparse integer sets, range-based data, ID collections.
 
 **Note:** MIT license. Specialized for clustered integer data.
+
+---
+
+
+## map-set
+
+**System Name:** `map-set`
+
+**Purpose:** Set-like data structure implemented using maps.
+
+**Why Use It:**
+- **Set Operations**: Union, intersection, difference
+- **Map-Based**: Leverages hash table efficiency
+- **Mathematical Sets**: Pure set abstraction
+- **Simple API**: Clean set interface
+
+**Best For:** Set operations, collection management, mathematical computations.
+
+**Note:** BSD 3-clause license.
 
 ---
 

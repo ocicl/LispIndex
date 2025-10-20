@@ -1,6 +1,6 @@
 # Development: REPL
 
-4 libraries
+5 libraries
 
 ---
 
@@ -39,7 +39,7 @@
 - **Trace Dialog**: Interactive trace debugging
 - **Multiple REPLs/Inspectors**: Support for multiple simultaneous sessions
 - **Modern UX**: Improved overall user experience over SLIME
-- **Named-Readtables**: Support for macrostep.el and quicklisp integration
+- **Named-Readtables**: Support for macrostep.el integration
 - **Annotation-Based Stepper**: Portable stepper in functional prototype stage
 
 **Best For:** Emacs-based Lisp development, interactive debugging, modern IDE experience.
@@ -85,6 +85,25 @@
 **Best For:** IDE tool development, SLIME/Swank integration, development environment customization.
 
 **Note:** Low-level library for IDE integration. Implementation-specific features.
+
+---
+
+
+## linedit
+
+**System Name:** `linedit`
+
+**Purpose:** Readline-style library.
+
+**Why Use It:**
+- **Line Editing**: Full-featured line editing for REPL and CLI applications
+- **Smart Terminal**: Intelligent terminal handling with command completion
+- **Cross-Platform**: Works across multiple Common Lisp implementations
+- **Customizable**: Extensible command keys and editor functions
+
+**Best For:** REPL enhancements, command-line interfaces, interactive applications.
+
+**Note:** MIT license.
 
 ---
 

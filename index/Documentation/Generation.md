@@ -1,6 +1,6 @@
 # Documentation: Generation
 
-14 libraries
+16 libraries
 
 ---
 
@@ -259,23 +259,60 @@
 ---
 
 
-## declt
+## mnas-package
+
+**System Name:** `mnas-package`
+
+**Purpose:** Extract information from ASDF systems and generate documentation with Codex.
+
+**Why Use It:**
+- **Documentation Generation**: Automatically generate Codex documentation templates
+- **Dependency Graphs**: Build system dependency graphs
+- **Call Graphs**: Visualize function call relationships
+- **Class Hierarchies**: Generate class inheritance graphs
+- **Variable Tracking**: Track variable usage across systems
+- **Automated Templates**: Auto-generate documentation structure for packages, classes, functions
+
+**Best For:** Project documentation, system analysis, dependency visualization, automated documentation generation.
+
+**Note:** GNU GPL v3. Designed to work with Codex documentation system. Includes multiple subsystems for different aspects of analysis.
+
+---
+
+
+## net.didierverna.declt
 
 **System Name:** `net.didierverna.declt`
 
-**Purpose:** Reference manual generator for Common Lisp libraries.
+**Purpose:** Documentation Extractor from Common Lisp to Texinfo - reference manual generator.
 
 **Why Use It:**
-- **Documentation**: Auto-generate reference manuals
-- **Introspection**: Load and introspect Lisp environment
-- **Texinfo**: Output in Texinfo format
-- **Complete**: Documents ASDF and programmatic components
-- **Cross-references**: Full cross-reference support
-- **Multiple Formats**: Info, HTML, PDF output
+- **Automatic Documentation**: Extract documentation from ASDF systems
+- **Texinfo Output**: Generate professional documentation in Texinfo format
+- **Full Indexing**: Complete cross-references and indices
+- **Comprehensive Coverage**: Documents systems, packages, functions, variables, classes, and more
 
-**Best For:** Library documentation, reference manuals, API docs, project documentation.
+**Best For:** Library documentation, API reference generation, technical documentation.
 
-**Note:** Generates manuals by introspecting loaded systems. Since 2010.
+**Note:** BSD licensed by Didier Verna. Generates documentation from ASDF systems with full indexing. Can convert to info, HTML, DVI, PostScript, or PDF.
+
+---
+
+
+## net.didierverna.declt.setup
+
+**System Name:** `net.didierverna.declt.setup`
+
+**Purpose:** Preload setup library for Declt configuration.
+
+**Why Use It:**
+- **Preload Configuration**: Setup parameters and meta-utilities
+- **Version Management**: Centralized version information
+- **Build Support**: Required for Declt main system
+
+**Best For:** Declt library setup, build configuration.
+
+**Note:** BSD licensed by Didier Verna. Required by the main net.didierverna.declt system.
 
 ---
 

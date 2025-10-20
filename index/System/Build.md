@@ -1,6 +1,6 @@
 # System: Build
 
-16 libraries
+17 libraries
 
 ---
 
@@ -305,6 +305,24 @@
 **Best For:** Dependency management, system analysis, deployment, archiving.
 
 **Note:** MIT License. By Eugene Zaikonnikov. For ASDF dependency management.
+
+---
+
+
+## hu.dwim.asdf
+
+**System Name:** `hu.dwim.asdf`
+
+**Purpose:** ASDF extensions and utilities from the hu.dwim project suite.
+
+**Why Use It:**
+- **ASDF Enhancements**: Additional utilities for ASDF system definitions
+- **hu.dwim Integration**: Part of the larger hu.dwim project ecosystem
+- **Build System Utilities**: Helper functions for system management
+
+**Best For:** Projects using hu.dwim libraries, advanced ASDF customization.
+
+**Note:** Part of hu.dwim.hu project. See http://dwim.hu/project/hu.dwim.asdf
 
 ---
 

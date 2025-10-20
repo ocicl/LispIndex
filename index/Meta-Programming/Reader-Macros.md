@@ -162,22 +162,21 @@
 ---
 
 
-## datum-comments
+## lambda-reader
 
-**System Name:** `datum-comments`
+**System Name:** `lambda-reader`, `lambda-reader-8bit`
 
-**Purpose:** Racket-style datum comments for Common Lisp.
+**Purpose:** Use Unicode character λ for LAMBDA in reader and printer.
 
 **Why Use It:**
-- **Reader Macro**: #; dispatch macro skips next datum
-- **Inline Comments**: Skip expressions inline, not just lines
-- **Racket Style**: Same as Racket's datum comments
-- **Easy Setup**: Automatic registration
-- **Universal**: Works on any CL with ASDF
+- **Unicode Lambda**: Write λ instead of LAMBDA for concise code
+- **Reader Macro**: Integrates with named-readtables
+- **Printer Support**: Print functions with λ character
+- **8-bit Version**: Version specifically for 8-bit encodings
 
-**Best For:** Commenting out code, debugging, reader macros, syntax extensions.
+**Best For:** Concise code, Unicode-enabled editors, functional programming aesthetics.
 
-**Note:** Simple implementation. Travis CI tested across implementations.
+**Note:** MIT license. Requires named-readtables.
 
 ---
 

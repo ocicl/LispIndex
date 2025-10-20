@@ -1,6 +1,6 @@
 # Data-Structures: Trees
 
-14 libraries
+13 libraries
 
 ---
 
@@ -256,26 +256,6 @@
 **Best For:** Implementing search trees, ordered sequences, custom data structures.
 
 **Note:** Part of Second Climacs. Provides foundation for other tree-based structures.
-
----
-
-
-## DartsCLHashTree
-
-**System Name:** `darts.lib.wbtree` / `darts.lib.hashtrie`
-
-**Purpose:** Functional maps and trees - hash tries and weight-balanced trees.
-
-**Why Use It:**
-- **Purely Functional**: Immutable data structures
-- **Hash Tries**: Based on Ideal Hash Trees paper
-- **Weight-balanced Trees**: Sorted maps from strings to values
-- **Persistent**: Copy-on-write semantics
-- **Efficient**: Share structure between versions
-
-**Best For:** Functional programming, persistent data, immutable structures, concurrent code.
-
-**Note:** Implements purely functional maps and trees.
 
 ---
 

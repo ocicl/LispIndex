@@ -1,6 +1,6 @@
 # Foreign-Interface: CFFI
 
-3 libraries
+4 libraries
 
 ---
 
@@ -63,6 +63,27 @@
 **Best For:** FFI-intensive applications, C library bindings, performance-critical foreign function calls, reducing CFFI boilerplate.
 
 **Note:** Requires implementations providing macroexpand-all. Compile-time only, no runtime overhead.
+
+---
+
+
+## more-cffi
+
+**System Name:** `affinity`
+
+**Purpose:** Higher layer of abstraction over CFFI (formerly called more-cffi).
+
+**Why Use It:**
+- **Simplified FFI**: Easier foreign function interface than raw CFFI
+- **Structure Support**: Enhanced structure definitions with defaults
+- **Function Wrappers**: Simplified function and callback definitions
+- **Pointer Management**: Better pointer and memory management
+- **String Handling**: Improved string array and pointer handling
+- **List Integration**: Convert between Lisp lists and C arrays/pointers
+
+**Best For:** Creating CFFI bindings, foreign library interfaces, C interoperability.
+
+**Note:** MIT License by Hector Galbis Sanchis. Work in progress - API may change. Prioritizes ease of use over efficiency.
 
 ---
 

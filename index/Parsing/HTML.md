@@ -1,6 +1,6 @@
 # Parsing: HTML
 
-11 libraries
+12 libraries
 
 ---
 
@@ -208,6 +208,24 @@
 **Best For:** HTML processing, web scraping, HTML validation, markup cleanup.
 
 **Note:** MIT License. Wraps the standard HTML Tidy library for HTML cleaning.
+
+---
+
+
+## parsnip
+
+**System Name:** (Not found in ocicl)
+
+**Purpose:** Library not found in ocicl distribution.
+
+**Why Use It:**
+- **Not Available**: This library was not found in the ocicl directory
+- **Possible Parser Library**: Name suggests parsing utility
+- **Verification Needed**: Check alternative package sources
+
+**Best For:** Unknown - library not documented.
+
+**Note:** Not found in ocicl distribution.
 
 ---
 

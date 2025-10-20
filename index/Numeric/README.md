@@ -1,11 +1,11 @@
 # Numeric Libraries
 
-This category contains 20 subcategories with 39 total libraries.
+This category contains 21 subcategories with 43 total libraries.
 
 ## Subcategories
 
 - [Arbitrary-Precision](Arbitrary-Precision.md) (1 library)
-- [Arrays](Arrays.md) (2 libraries)
+- [Arrays](Arrays.md) (3 libraries)
 - [Computer-Algebra](Computer-Algebra.md) (1 library)
 - [Data-Analysis](Data-Analysis.md) (1 library)
 - [Decimal-Arithmetic](Decimal-Arithmetic.md) (2 libraries)
@@ -18,9 +18,10 @@ This category contains 20 subcategories with 39 total libraries.
 - [Linear-Algebra](Linear-Algebra.md) (5 libraries)
 - [Matrix](Matrix.md) (1 library)
 - [Number-Theory](Number-Theory.md) (2 libraries)
-- [Optimization](Optimization.md) (2 libraries)
+- [Optimization](Optimization.md) (3 libraries)
+- [Polynomials](Polynomials.md) (1 library)
 - [Scientific](Scientific.md) (4 libraries)
 - [Signal-Processing](Signal-Processing.md) (2 libraries)
 - [Special-Functions](Special-Functions.md) (1 library)
-- [Statistics](Statistics.md) (5 libraries)
+- [Statistics](Statistics.md) (6 libraries)
 - [Tuples](Tuples.md) (1 library)

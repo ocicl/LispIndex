@@ -1,6 +1,6 @@
 # Database: Migrations
 
-3 libraries
+2 libraries
 
 ---
 
@@ -39,26 +39,6 @@
 **Best For:** Database schema management, version control for database structure, deployment automation.
 
 **Note:** Licensed under BSD License.
-
----
-
-
-## database-migrations
-
-**System Name:** `database-migrations`
-
-**Purpose:** Rails-style database migrations for Common Lisp.
-
-**Why Use It:**
-- **Version Control**: Migrate database versions
-- **Upgrade/Downgrade**: Both directions supported
-- **Easy Syntax**: def-query-migration macro
-- **PostgreSQL**: Works with PostgreSQL databases
-- **Simple**: Straightforward migration system
-
-**Best For:** Database versioning, schema changes, migrations, database evolution.
-
-**Note:** Equivalent to Rails migrations for Common Lisp.
 
 ---
 

@@ -1,6 +1,6 @@
 # Data-Formats: Binary
 
-8 libraries
+9 libraries
 
 ---
 
@@ -141,22 +141,40 @@
 ---
 
 
-## DartsCLMessagePack
+## lisp-binary
 
-**System Name:** `darts.lib.messagepack`
+**System Name:** `lisp-binary`
 
-**Purpose:** Simple encoder/decoder for MsgPack binary format.
+**Purpose:** Declare binary formats as structs and then read and write them.
 
 **Why Use It:**
-- **MsgPack**: Implements MessagePack binary serialization
-- **All Opcodes**: Supports all MessagePack specification opcodes
-- **Low-level**: Application controls type representation
-- **No Guessing**: Refuses to guess object types
-- **Case-by-case**: Choose representation per value
+- **Binary Formats**: Define binary data structures declaratively
+- **Serialization**: Read and write binary data with struct-like syntax
+- **Type Safety**: Strong typing for binary data fields
+- **Stream Support**: Works with flexi-streams for flexible I/O
 
-**Best For:** Binary serialization, data exchange, network protocols, efficient encoding.
+**Best For:** Binary file formats, network protocols, data serialization, binary I/O.
 
-**Note:** Lower level than cl-messagepack. No Ext opcodes.
+**Note:** GPLv3 license.
+
+---
+
+
+## monkeylib-binary-data
+
+**System Name:** `com.gigamonkeys.binary-data`
+
+**Purpose:** Library for reading and writing binary data with declarative schemas.
+
+**Why Use It:**
+- **Binary Parsing**: Declarative binary data structure definitions
+- **Read/Write**: Bidirectional binary data processing
+- **Common Datatypes**: Pre-defined parsers for common binary formats
+- **Schema-based**: Define data structures as schemas
+
+**Best For:** Binary file parsing, network protocol implementation, binary data serialization.
+
+**Note:** Peter Seibel's library. Part of the monkeylib collection.
 
 ---
 

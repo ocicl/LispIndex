@@ -1,6 +1,6 @@
 # Networking Libraries
 
-This category contains 13 subcategories with 26 total libraries.
+This category contains 13 subcategories with 27 total libraries.
 
 ## Subcategories
 
@@ -9,7 +9,7 @@ This category contains 13 subcategories with 26 total libraries.
 - [Erlang](Erlang.md) (1 library)
 - [Geolocation](Geolocation.md) (1 library)
 - [IO](IO.md) (1 library)
-- [Message-Queue](Message-Queue.md) (3 libraries)
+- [Message-Queue](Message-Queue.md) (4 libraries)
 - [Pooling](Pooling.md) (1 library)
 - [Protocols](Protocols.md) (5 libraries)
 - [RPC](RPC.md) (3 libraries)

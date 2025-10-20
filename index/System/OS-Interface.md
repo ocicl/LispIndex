@@ -1,6 +1,6 @@
 # System: OS-Interface
 
-3 libraries
+4 libraries
 
 ---
 
@@ -60,6 +60,27 @@
 **Best For:** Process management, resource control, system programming, sandboxing.
 
 **Note:** Provides constants for all standard rlimit resources. Returns rusage structures.
+
+---
+
+
+## osicat
+
+**System Name:** `osicat`
+
+**Purpose:** Lightweight operating system interface providing POSIX and Windows system calls.
+
+**Why Use It:**
+- **Cross-Platform**: Unix/Linux/macOS (POSIX) and Windows support
+- **File Descriptors**: Low-level fd-streams for fine-grained I/O
+- **POSIX Bindings**: Direct access to Unix system calls
+- **Windows Support**: Native Windows API bindings where available
+- **Darwin/Mach**: Special support for macOS-specific features
+- **CFFI-Based**: Uses CFFI grovel for portable system definitions
+
+**Best For:** System programming, file operations, process control, Unix utilities, portable system access.
+
+**Note:** MIT by Nikodemus Siivola. Requires ASDF 3.1+. Depends on alexandria, cffi, trivial-features.
 
 ---
 

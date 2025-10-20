@@ -1,6 +1,6 @@
 # Networking: Message-Queue
 
-3 libraries
+4 libraries
 
 ---
 
@@ -58,6 +58,25 @@
 **Best For:** Message queue integration, microservices, async processing, enterprise messaging.
 
 **Note:** MIT License. Based on original code by Keith Irwin, maintained by ITA Software.
+
+---
+
+
+## lisp-zmq
+
+**System Name:** `pzmq`
+
+**Purpose:** ZeroMQ 3.2+ bindings.
+
+**Why Use It:**
+- **ZeroMQ Integration**: CFFI bindings to ZeroMQ messaging library
+- **Messaging Patterns**: Support for pub/sub, req/rep, push/pull patterns
+- **High Performance**: Leverage ZeroMQ's efficient messaging
+- **Multiple APIs**: Both C-style and Lisp-friendly APIs provided
+
+**Best For:** Distributed systems, message queues, inter-process communication, microservices.
+
+**Note:** Unlicense (public domain).
 
 ---
 

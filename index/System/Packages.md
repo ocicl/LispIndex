@@ -1,6 +1,6 @@
 # System: Packages
 
-6 libraries
+7 libraries
 
 ---
 
@@ -117,6 +117,25 @@
 **Best For:** Library API design, package interface management, creating variant Common Lisp environments.
 
 **Note:** Predates UIOP's define-package by a decade. Portable CL. Active since 1998.
+
+---
+
+
+## local-package-aliases
+
+**System Name:** `local-package-aliases`
+
+**Purpose:** Allows defining inside a package aliases to refer to other packages.
+
+**Why Use It:**
+- **Package Aliases**: Create local package name aliases within packages
+- **Reader Macro**: Provides $ reader macro for using aliases
+- **Non-invasive**: Only active in packages with alias mappings
+- **Portable**: Works across all Common Lisp implementations
+
+**Best For:** Large codebases, package naming conflicts, namespace management, code organization.
+
+**Note:** MIT license.
 
 ---
 

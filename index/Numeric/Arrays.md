@@ -1,6 +1,6 @@
 # Numeric: Arrays
 
-2 libraries
+3 libraries
 
 ---
 
@@ -44,6 +44,25 @@
 **Best For:** Numerical computing, scientific computing, matrix operations, NumPy-like workflows.
 
 **Note:** Not a drop-in replacement for built-in arrays. See dense-arrays-plus for extras.
+
+---
+
+
+## mgl-mat
+
+**System Name:** `mgl-mat`
+
+**Purpose:** Multi-dimensional array library with BLAS, CUBLAS, and CUDA support.
+
+**Why Use It:**
+- **BLAS Integration**: Efficient linear algebra via BLAS/CUBLAS
+- **CUDA Support**: GPU acceleration for matrix operations
+- **Foreign Interface**: Efficient interfacing to C/CUDA code
+- **Convolution**: Neural network convolution operations
+- **Max Pooling**: Pooling operations for neural networks
+- **Static Vectors**: Integration with static-vectors for stable memory
+
+**Best For:** Machine learning, numerical computing, GPU-accelerated applications.
 
 ---
 

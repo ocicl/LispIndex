@@ -1,6 +1,6 @@
 # AI: Machine-Learning
 
-8 libraries
+10 libraries
 
 ---
 
@@ -155,6 +155,45 @@
 **Best For:** Machine learning, data analysis, pattern recognition, unsupervised learning.
 
 **Note:** BSD simplified license. Modern clustering library for CL.
+
+---
+
+
+## libsvm
+
+**System Name:** `cl-libsvm-format`
+
+**Purpose:** Fast LibSVM data format reader for machine learning datasets.
+
+**Why Use It:**
+- **LibSVM Format**: Parse LibSVM sparse format data files
+- **Fast Reading**: Optimized parser for large datasets
+- **Machine Learning**: Read SVM training/test data
+- **Sparse Data**: Efficient handling of sparse feature vectors
+
+**Best For:** Machine learning, SVM applications, sparse data processing.
+
+**Note:** MIT license.
+
+---
+
+
+## mgl
+
+**System Name:** `mgl`
+
+**Purpose:** Machine learning library for neural networks, Boltzmann machines, Gaussian processes.
+
+**Why Use It:**
+- **Neural Networks**: Backpropagation neural networks, deep learning
+- **Boltzmann Machines**: RBMs, deep belief networks
+- **Gaussian Processes**: GP regression and classification
+- **Optimization**: Gradient descent, conjugate gradient
+- **NLP Support**: Natural language processing utilities
+- **CUDA Support**: GPU acceleration via mgl-mat
+- **Documentation**: Extensive PAX documentation
+
+**Best For:** Machine learning research, deep learning, statistical modeling.
 
 ---
 

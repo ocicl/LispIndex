@@ -1,6 +1,6 @@
 # Graphics: Fonts
 
-6 libraries
+8 libraries
 
 ---
 
@@ -114,6 +114,43 @@
 **Best For:** Text rendering, graphics applications, font utilities, game engines.
 
 **Note:** No explicit license in README. Works on SBCL, CCL, CLISP.
+
+---
+
+
+## net.didierverna.tfm
+
+**System Name:** `net.didierverna.tfm`
+
+**Purpose:** TeX Font Metric format parser and decoder for Common Lisp.
+
+**Why Use It:**
+- **TFM Parsing**: Parse and decode TeX Font Metric files
+- **Omega Support**: Level 0 Omega (OFM) font support
+- **Font Information**: Access font metrics, character info, kerning, ligatures
+- **TeX Integration**: Work with TeX fonts in Common Lisp
+
+**Best For:** Typesetting systems, TeX integration, font metric analysis.
+
+**Note:** BSD licensed by Didier Verna. Provides Common Lisp interface to TFM and OFM font formats. Depends on net.didierverna.tfm.core.
+
+---
+
+
+## net.didierverna.tfm.setup
+
+**System Name:** `net.didierverna.tfm.setup`
+
+**Purpose:** Preload setup library for TFM configuration.
+
+**Why Use It:**
+- **Preload Configuration**: Setup parameters for TFM library
+- **Version Management**: Centralized version information
+- **Build Support**: Required for TFM main system
+
+**Best For:** TFM library setup, build configuration.
+
+**Note:** BSD licensed by Didier Verna. Required by the main net.didierverna.tfm system.
 
 ---
 

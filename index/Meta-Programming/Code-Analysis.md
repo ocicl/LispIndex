@@ -1,6 +1,6 @@
 # Meta-Programming: Code-Analysis
 
-7 libraries
+6 libraries
 
 ---
 
@@ -120,26 +120,6 @@
 **Best For:** IDE development, code analysis tools, refactoring tools, advanced macro systems, compiler development.
 
 **Note:** Use with Eclector library for reading source code into CSTs. Extensive documentation included.
-
----
-
-
-## Ecclesia
-
-**System Name:** `ecclesia`
-
-**Purpose:** Utilities for parsing and manipulating Common Lisp code.
-
-**Why Use It:**
-- **Code Analysis**: Parse CL source for inspection
-- **AST Utilities**: Work with abstract syntax trees
-- **Compiler Tools**: Building blocks for compilers
-- **Code Walking**: Traverse code structures programmatically
-- **Cleavir Heritage**: Formerly cleavir-code-utilities
-
-**Best For:** Compiler development, code analysis tools, refactoring utilities, linters.
-
-**Note:** Extracted from Cleavir compiler infrastructure. FreeBSD license.
 
 ---
 

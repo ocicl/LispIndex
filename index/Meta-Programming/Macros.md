@@ -1,6 +1,6 @@
 # Meta-Programming: Macros
 
-18 libraries
+20 libraries
 
 ---
 
@@ -335,21 +335,61 @@
 ---
 
 
-## definer
+## let-over-lambda
 
-**System Name:** `definer`
+**System Name:** `let-over-lambda`
 
-**Purpose:** Simple DEF macro to replace various def* forms.
+**Purpose:** Production code from letoverlambda.com book with advanced Lisp macros.
 
 **Why Use It:**
-- **Unified Syntax**: Single def macro for definitions
-- **Extensible**: Can be extended for custom forms
-- **Elegant**: Simplifies definition syntax
-- **Less Typing**: Shorter than separate def* forms
+- **Advanced Macros**: Techniques from "Let Over Lambda" book by Doug Hoyte
+- **Closure Patterns**: Advanced closure and macro patterns
+- **Code from Book**: Production-ready code from the book
+- **Reader Macros**: Named readtables support for custom syntax
+- **Defmacro Utilities**: Powerful macro-writing tools
 
-**Best For:** Code style, elegant syntax, reducing definition boilerplate.
+**Best For:** Advanced macro programming, closure techniques, metaprogramming.
 
-**Note:** By Marco Antoniotti. Simple hack adding elegance to CL.
+**Note:** BSD Simplified license. Requires named-readtables, fare-quasiquote-extras.
+
+---
+
+
+## let-plus
+
+**System Name:** `let-plus`, `let+`
+
+**Purpose:** Destructuring extension of let* with clean, consistent syntax.
+
+**Why Use It:**
+- **Extended Destructuring**: More powerful than standard destructuring-bind
+- **Slots/Accessors**: Bind to object slots and accessors with &slots, &accessors
+- **Arrays/Vectors**: Destructure arrays and vectors
+- **Multiple Values**: Bind multiple return values
+- **Read-Only Forms**: -r/o suffix for read-only bindings
+- **Placeholder Macros**: Editor hints and syntax highlighting
+- **Easy Extension**: Simple to add new destructuring forms
+
+**Best For:** Complex destructuring, working with CLOS objects, cleaner binding syntax.
+
+**Note:** Less than 300 LOC. Inspired by metabang-bind but cleaner syntax.
+
+---
+
+
+## monkeylib-macro-utilities
+
+**System Name:** `com.gigamonkeys.macro-utilities`
+
+**Purpose:** Standard macro-writing macros (deprecated, use Alexandria instead).
+
+**Why Use It:**
+- **Macro Helpers**: Utilities for writing macros
+- **Historical**: Legacy library from Peter Seibel
+
+**Best For:** Legacy code maintenance.
+
+**Note:** Deprecated. Peter Seibel recommends using Alexandria instead for new code.
 
 ---
 

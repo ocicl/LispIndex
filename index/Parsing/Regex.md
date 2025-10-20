@@ -1,6 +1,6 @@
 # Parsing: Regex
 
-3 libraries
+4 libraries
 
 ---
 
@@ -59,6 +59,27 @@
 **Best For:** Regex operations for Clojure developers, pattern matching.
 
 **Note:** Wraps cl-ppcre with Clojure-compatible API.
+
+---
+
+
+## one-more-re-nightmare
+
+**System Name:** `one-more-re-nightmare`
+
+**Purpose:** High-performance regular expression compiler using derivative-based DFA construction.
+
+**Why Use It:**
+- **Brzozowski Derivatives**: Elegant DFA construction algorithm
+- **Native Compilation**: Compiles regexes to optimized machine code
+- **Thread-Safe**: Parallel matching with bordeaux-threads
+- **SIMD Support**: Optional SIMD acceleration for character matching
+- **Advanced Features**: Backreferences, lookahead/lookbehind, captures
+- **Type Inference**: Uses Trivia pattern matching for optimization
+
+**Best For:** Performance-critical text processing, parsers, lexers, high-throughput log analysis.
+
+**Note:** BSD 2-clause by Hayley Patton. Depends on trivia, alexandria, babel, esrap, bordeaux-threads.
 
 ---
 

@@ -1,6 +1,6 @@
 # Database: Query-Builder
 
-5 libraries
+4 libraries
 
 ---
 
@@ -83,26 +83,5 @@
 ---
 
 
-
-
-## datafly
-
-**System Name:** `datafly`
-
-**Purpose:** Lightweight database library wrapping CL-DBI with SxQL.
-
-**Why Use It:**
-- **Lightweight**: Simple database access layer
-- **SxQL**: Uses SxQL for queries
-- **Model Definitions**: defmodel macro with inflation
-- **Associations**: :has-a and :has-many relationships
-- **Type Conversion**: Inflate functions for data types
-- **Struct/CLOS**: Return results as structures or objects
-
-**Best For:** Database access, ORM-lite, SQL generation, web apps, data mapping.
-
-**Note:** BSD License. By Eitaro Fukamachi. Wraps CL-DBI with convenience layer.
-
----
 
 

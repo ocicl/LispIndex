@@ -1,6 +1,6 @@
 # Database: Key-Value
 
-3 libraries
+5 libraries
 
 ---
 
@@ -57,6 +57,44 @@
 **Best For:** Embedded databases, persistent storage, caching, local data storage.
 
 **Note:** Bindings to Facebook's RocksDB. Examples for both read-write and read-only usage.
+
+---
+
+
+## liblmdb
+
+**System Name:** `liblmdb`
+
+**Purpose:** Low-level CFFI bindings to LMDB (Lightning Memory-Mapped Database).
+
+**Why Use It:**
+- **Pure CFFI**: Direct bindings to LMDB C library
+- **High Performance**: Memory-mapped database with ACID properties
+- **No Wrappers**: Raw access to LMDB API for maximum control
+- **Foundation Library**: Build higher-level interfaces on top
+
+**Best For:** Building LMDB interfaces, high-performance key-value storage, embedded databases.
+
+**Note:** MIT license. For higher-level interface see cl-lmdb.
+
+---
+
+
+## lmdb
+
+**System Name:** `lmdb`
+
+**Purpose:** Bindings to LMDB, the Lightning Memory-mapped Database.
+
+**Why Use It:**
+- **Embedded Database**: Fast, memory-mapped key-value store
+- **ACID Transactions**: Full ACID compliance with MVCC
+- **High Performance**: Extremely fast reads, efficient writes
+- **Zero-copy**: Memory-mapped architecture for maximum speed
+
+**Best For:** Embedded databases, key-value stores, high-performance storage, data persistence.
+
+**Note:** MIT license.
 
 ---
 

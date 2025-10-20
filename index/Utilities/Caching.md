@@ -1,6 +1,6 @@
 # Utilities: Caching
 
-6 libraries
+7 libraries
 
 ---
 
@@ -124,6 +124,24 @@
 **Best For:** Web applications needing response caching, expensive computation results, API response caching, and session storage.
 
 **Note:** License unspecified. Works on Allegro CL, SBCL, CMUCL, CCL, ECL, and CLISP. Storage values may be type-limited depending on backend.
+
+---
+
+
+## lru-cache
+
+**System Name:** `lru-cache`
+
+**Purpose:** Least-recently-used cache data structure implementation.
+
+**Why Use It:**
+- **LRU Eviction**: Automatically removes least-recently-used items when full
+- **Size Control**: Configure maximum cache size
+- **Simple API**: Easy-to-use cache interface
+
+**Best For:** Caching expensive computations, limiting memory usage, memoization.
+
+**Note:** By Yukari Hafner. zlib license.
 
 ---
 

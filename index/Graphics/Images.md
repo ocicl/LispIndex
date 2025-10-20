@@ -1,6 +1,6 @@
 # Graphics: Images
 
-15 libraries
+17 libraries
 
 ---
 
@@ -294,6 +294,45 @@
 **Best For:** Image processing, photo applications, thumbnails, web images, games.
 
 **Note:** zlib license. By Shinmera. Up-to-date bindings to JPEG Turbo library.
+
+---
+
+
+## opticl
+
+**System Name:** `opticl`
+
+**Purpose:** High-performance library for representing and processing 2D pixel-based images.
+
+**Why Use It:**
+- **Multiple Formats**: Read/write TIFF, JPEG, PNG, GIF, PNM, TGA
+- **Type-Specialized Arrays**: Optimized 8-bit/16-bit RGB, RGBA, grayscale images
+- **Image Operations**: Convolution, morphology, thresholding, gamma correction
+- **Geometric Transforms**: Rotation, scaling, affine transformations
+- **Shape Drawing**: Built-in primitive drawing functions
+- **Clustering**: K-means and image segmentation
+
+**Best For:** Computer vision, image processing pipelines, thumbnail generation, batch processing.
+
+**Note:** BSD by Cyrus Harmon. Depends on retrospectiff, zpng, pngload, cl-jpeg, skippy, opticl-core.
+
+---
+
+
+## opticl-core
+
+**System Name:** `opticl-core`
+
+**Purpose:** Core image representation types and utilities for opticl.
+
+**Why Use It:**
+- **Lightweight Core**: Minimal dependencies (only alexandria)
+- **Type Definitions**: Base image array types and protocols
+- **Separation of Concerns**: Core types separate from I/O and processing
+
+**Best For:** Building custom image libraries, minimal image type support, opticl foundation.
+
+**Note:** BSD by Cyrus Harmon. Required by opticl. Depends only on alexandria.
 
 ---
 

@@ -1,6 +1,6 @@
 # Documentation: Literate-Programming
 
-1 libraries
+2 libraries
 
 ---
 
@@ -19,6 +19,25 @@
 **Best For:** Literate programming, documented code, teaching materials, technical writing.
 
 **Note:** MIT license. Version 1.0. Requires ASDF 3.1.2+.
+
+---
+
+
+## papyrus
+
+**System Name:** `papyrus`
+
+**Purpose:** Literate programming tool for weaving code and documentation.
+
+**Why Use It:**
+- **Literate Programming**: Donald Knuth-style code documentation
+- **Named Readtables**: Custom reader syntax for literate blocks
+- **Package-Inferred**: Modern ASDF package-inferred-system
+- **Documentation Focus**: Write documentation first, extract code
+
+**Best For:** Academic papers with code, tutorial creation, documentation-heavy projects, teaching.
+
+**Note:** MIT by TANIGUCHI Masaya. Version 2.0.0. Depends on named-readtables.
 
 ---
 

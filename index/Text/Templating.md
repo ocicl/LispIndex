@@ -1,6 +1,6 @@
 # Text: Templating
 
-2 libraries
+3 libraries
 
 ---
 
@@ -39,6 +39,25 @@
 **Best For:** Web development, HTML generation, text templating, report generation.
 
 **Note:** MIT License. Can generate any text format, not just HTML.
+
+---
+
+
+## lisp-preprocessor
+
+**System Name:** `lisp-preprocessor`
+
+**Purpose:** Common Lisp embedded template engine.
+
+**Why Use It:**
+- **Template Engine**: Embed Lisp code in text templates
+- **Stream-based**: Built on trivial-gray-streams for flexibility
+- **Pattern Matching**: Uses Trivia for powerful matching capabilities
+- **Lightweight**: Simple and focused template system
+
+**Best For:** Code generation, text templating, web templates, document generation.
+
+**Note:** MIT license.
 
 ---
 

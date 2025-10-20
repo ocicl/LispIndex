@@ -1,6 +1,6 @@
 # Meta-Programming: Iteration
 
-7 libraries
+8 libraries
 
 ---
 
@@ -139,6 +139,26 @@
 **Best For:** Implementing iteration for custom types, lazy evaluation, resource cleanup, generic iteration.
 
 **Note:** Intentionally minimal. Do-iterator macro like dolist. Iterators are stateful and should have dynamic extent.
+
+---
+
+
+## Khazern
+
+**System Name:** `khazern`, `khazern-intrinsic`, `khazern-extrinsic`
+
+**Purpose:** Portable and extensible Common Lisp LOOP implementation.
+
+**Why Use It:**
+- **LOOP Replacement**: Can replace built-in LOOP in existing implementations
+- **Portable**: Works across multiple Common Lisp implementations
+- **Extensible**: Highly customizable LOOP facility
+- **Intrinsic/Extrinsic**: Load as replacement or coexist with native LOOP
+- **S-Expressions Project**: Part of the S-Expressionists project
+
+**Best For:** Custom LOOP extensions, portable LOOP implementation, LOOP research.
+
+**Note:** BSD license. Originally from SICL.
 
 ---
 

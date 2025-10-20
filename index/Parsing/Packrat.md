@@ -1,6 +1,6 @@
 # Parsing: Packrat
 
-3 libraries
+4 libraries
 
 ---
 
@@ -63,5 +63,24 @@
 **Note:** Monotone repository mirror.
 
 ---
+
+
+## parser-packrat
+
+**System Name:** (Not found in ocicl)
+
+**Purpose:** Library not found in ocicl distribution.
+
+**Why Use It:**
+- **Not Available**: This library was not found in the ocicl directory
+- **Possible Packrat Parser**: Likely memoizing parser implementation
+- **Verification Needed**: Check alternative package sources or use parser-combinators
+
+**Best For:** Unknown - library not documented. Consider parser-combinators.
+
+**Note:** Not found in ocicl distribution.
+
+---
+
 
 

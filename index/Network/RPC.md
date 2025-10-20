@@ -4,22 +4,22 @@
 
 ---
 
-## cxml-rpc
+## jsonrpc
 
-**System Name:** `cxml-rpc`
+**System Name:** `jsonrpc`
 
-**Purpose:** XML-RPC client and server implementation.
+**Purpose:** JSON-RPC 2.0 server/client implementation.
 
 **Why Use It:**
-- **Client/Server**: Both XML-RPC client and server
-- **Hunchentoot**: Server via Hunchentoot integration
-- **Drakma**: Client using Drakma HTTP
-- **Introspection**: system.getCapabilities support
-- **Type Hints**: Explicit type hints for arguments
+- **JSON-RPC 2.0**: Full implementation of JSON-RPC 2.0 specification
+- **Server and Client**: Complete client and server implementations
+- **Multiple Transports**: TCP, stdio, HTTP, and WebSocket support
+- **Timeout Support**: Call methods with configurable timeouts
+- **Debugging**: Interactive debugger on errors via *debug-on-error*
 
-**Best For:** XML-RPC services, remote procedure calls, web APIs, legacy integrations.
+**Best For:** RPC services, distributed systems, LSP implementations, remote procedure calls.
 
-**Note:** Uses CXML, Drakma, Hunchentoot. By Andreas Fuchs.
+**Note:** BSD 2-Clause license.
 
 ---
 

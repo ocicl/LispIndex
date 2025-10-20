@@ -1,6 +1,6 @@
 # Data-Structures: Hash-Tables
 
-3 libraries
+4 libraries
 
 ---
 
@@ -63,6 +63,25 @@
 **Best For:** Hash table construction, reducing boilerplate, functional style.
 
 **Note:** Much more concise than repeated setf (gethash ...). Supports reader macros.
+
+---
+
+
+## make-hash
+
+**System Name:** `make-hash`
+
+**Purpose:** Concise hash table constructor with flexible initialization.
+
+**Why Use It:**
+- **Concise Syntax**: Less verbose hash table creation
+- **Flexible Init**: Multiple initialization formats
+- **Hash Factories**: Define custom hash table constructors
+- **Reader Syntax**: Optional reader macro for literals
+
+**Best For:** Hash table creation, cleaner code, custom constructors.
+
+**Note:** Simplifies Common Lisp hash table initialization.
 
 ---
 

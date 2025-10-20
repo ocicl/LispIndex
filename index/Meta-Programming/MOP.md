@@ -1,6 +1,6 @@
 # Meta-Programming: MOP
 
-2 libraries
+3 libraries
 
 ---
 
@@ -41,6 +41,26 @@
 **Best For:** Portable metaprogramming, custom metaclasses, MOP-based libraries, reflective programming.
 
 **Note:** Shadows some CL/MOP symbols. See features.txt for details. C2MOP short name.
+
+---
+
+
+## moptilities
+
+**System Name:** `moptilities`
+
+**Purpose:** Common Lisp MOP (MetaObject Protocol) utilities providing cross-implementation abstraction.
+
+**Why Use It:**
+- **MOP Abstraction**: Common interface across different Lisp implementations
+- **Easier MOP**: Simplifies working with the MetaObject Protocol
+- **Introspection**: Enhanced introspection capabilities
+- **Portability**: Write portable MOP code
+- **Function Arguments**: Get function argument lists portably (uses sb-introspect on SBCL)
+
+**Best For:** Metaprogramming, CLOS introspection, portable MOP code, framework development.
+
+**Note:** MIT License by Gary Warren King. Depends on closer-mop for cross-implementation compatibility.
 
 ---
 

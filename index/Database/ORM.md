@@ -1,6 +1,6 @@
 # Database: ORM
 
-6 libraries
+9 libraries
 
 ---
 
@@ -119,6 +119,62 @@
 **Best For:** Database-backed applications, web frameworks, data persistence.
 
 **Note:** By Fukamachi. Successor to Integral. Alpha quality but production-ready.
+
+---
+
+
+## mito-auth
+
+**System Name:** `mito-auth`
+
+**Purpose:** User authorization for Mito ORM classes.
+
+**Why Use It:**
+- **Password Hashing**: Secure password storage with Ironclad
+- **Mito Integration**: Seamless integration with Mito models
+- **Simple API**: Easy-to-use authentication helpers
+- **Encoding Support**: Babel for character encoding
+
+**Best For:** Web application authentication, user management.
+
+---
+
+
+## mito-attachment
+
+**System Name:** `mito-attachment`
+
+**Purpose:** Mito mixin class for file attachment management.
+
+**Why Use It:**
+- **File Uploads**: Handle file attachments on Mito models
+- **Multiple Storage**: Local disk and Amazon S3 storage backends
+- **S3 Integration**: AWS S3 via zs3 and aws-sign4
+- **MIME Type Detection**: Automatic media type detection
+- **UUID Generation**: Unique file identifiers
+- **Lack Component**: Web framework integration
+
+**Best For:** Web applications with file uploads, user-generated content, cloud storage.
+
+---
+
+
+## oook
+
+**System Name:** `oook`
+
+**Purpose:** Magic ORM layer built on CLSQL with automatic HTML/JSON serialization.
+
+**Why Use It:**
+- **CLSQL Extension**: ORM features on top of CLSQL SQL backend
+- **JSON Serialization**: Automatic JSON export via jonathan
+- **Semantic UI HTML**: HTML generation with semantic-spinneret
+- **Pluralization**: Automatic table name pluralization via cl-inflector
+- **MOP Integration**: Uses closer-mop for object introspection
+
+**Best For:** Web applications with databases, REST APIs, rapid CRUD interfaces, admin dashboards.
+
+**Note:** MIT by Ric da Silva. Version 0.2.0. Depends on clsql, jonathan, semantic-spinneret, spinneret.
 
 ---
 

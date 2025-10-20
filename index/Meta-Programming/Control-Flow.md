@@ -23,22 +23,21 @@
 ---
 
 
-## enhanced-unwind-protect
+## matrix-case
 
-**System Name:** `enhanced-unwind-protect`
+**System Name:** `matrix-case`
 
-**Purpose:** Enhanced UNWIND-PROTECT with normal/non-local exit detection.
+**Purpose:** Control flow macros for writing nested CASE statements easily.
 
 **Why Use It:**
-- **Exit Detection**: Know if protected form returned normally or via throw
-- **Cleanup Control**: Different cleanup paths for different exits
-- **Simple API**: Drop-in enhancement to standard unwind-protect
-- **No Dependencies**: Minimal standalone implementation
-- **Public Domain**: Unrestricted use
+- **Nested Dispatch**: Simplify multi-dimensional case logic
+- **Cleaner Code**: Reduce nested CASE statement complexity
+- **Matrix Patterns**: Pattern matching on multiple values
+- **Macro Utilities**: Convenient control flow abstractions
 
-**Best For:** Resource management, error handling, transaction control, cleanup logic.
+**Best For:** Multi-way dispatch, complex case logic, pattern matching.
 
-**Note:** From hexstreamsoft. Public Domain (Unlicense).
+**Note:** Public domain.
 
 ---
 

@@ -1,6 +1,6 @@
 # Languages: Transpilers
 
-2 libraries
+3 libraries
 
 ---
 
@@ -45,6 +45,27 @@
 **Best For:** Web development, full-stack Lisp applications, JavaScript generation.
 
 **Note:** Different from most language-to-JS translators. Zero runtime overhead.
+
+---
+
+
+## parenscript
+
+**System Name:** `parenscript`
+
+**Purpose:** Lisp-to-JavaScript transpiler for writing client-side code in Common Lisp.
+
+**Why Use It:**
+- **Lisp Syntax for JavaScript**: Write JS using Lisp s-expressions
+- **Macros**: Full macro system for JavaScript generation
+- **DOM Library**: Built-in ps-dom for DOM manipulation
+- **Loop Support**: Lisp-style loop macro for JavaScript
+- **PS-HTML**: Inline HTML generation within JavaScript
+- **Named Readtables**: Reader syntax customization
+
+**Best For:** Web development, full-stack Lisp apps, JavaScript generation, client-side scripting.
+
+**Note:** BSD-3-Clause by Manuel Odendahl, maintained by Vladimir Sedach. Depends on cl-ppcre, anaphora, named-readtables.
 
 ---
 

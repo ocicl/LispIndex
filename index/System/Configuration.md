@@ -1,6 +1,6 @@
 # System: Configuration
 
-7 libraries
+6 libraries
 
 ---
 
@@ -117,27 +117,6 @@
 **Best For:** Configuration management, environment variables, 12-factor apps.
 
 **Note:** Standard dotenv file support for Common Lisp applications.
-
----
-
-
-## defconfig
-
-**System Name:** `defconfig`
-
-**Purpose:** Customization and validation framework for places in Common Lisp.
-
-**Why Use It:**
-- **Validation**: Validate values before setting
-- **Coercion**: Automatic type coercion
-- **Atomic**: Atomic setv with rollback on error
-- **User Variables**: Protect user-exposed variables
-- **Restarts**: Helpful restarts on invalid values
-- **Documentation**: Well-documented configuration objects
-
-**Best For:** User settings, configuration, validated variables, user-exposed APIs.
-
-**Note:** Coexists with setf. Travis CI tested. By szos.
 
 ---
 

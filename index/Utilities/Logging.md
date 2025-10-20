@@ -1,6 +1,6 @@
 # Utilities: Logging
 
-4 libraries
+5 libraries
 
 ---
 
@@ -80,6 +80,25 @@
 **Best For:** Log aggregation, distributed logging, observability, production monitoring.
 
 **Note:** BSD 3-Clause License.
+
+---
+
+
+## log4cl
+
+**System Name:** `log4cl`
+
+**Purpose:** Logging framework modeled after Log4J.
+
+**Why Use It:**
+- **Hierarchical Logging**: Organized logger hierarchy for flexible control
+- **Multiple Appenders**: File, console, syslog, and custom appenders
+- **Pattern Layouts**: Configurable log message formatting
+- **Performance**: Efficient logging with minimal overhead
+
+**Best For:** Application logging, debugging, production monitoring, log management.
+
+**Note:** Apache License 2.0.
 
 ---
 

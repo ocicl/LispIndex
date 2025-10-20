@@ -1,6 +1,6 @@
 # Development: Editors
 
-1 libraries
+2 libraries
 
 ---
 
@@ -20,6 +20,24 @@
 **Best For:** Lem editor development, custom SLIME-like tools.
 
 **Note:** Created due to SLIME's tight Emacs coupling and breaking changes.
+
+---
+
+
+## magic-ed
+
+**System Name:** `magic-ed`
+
+**Purpose:** Edit code directly from the REPL.
+
+**Why Use It:**
+- **REPL Integration**: Edit functions without leaving REPL
+- **Quick Edits**: Fast iteration during development
+- **Simple Interface**: Easy to use
+
+**Best For:** Interactive development, REPL-driven workflow, quick fixes.
+
+**Note:** By Sanel Zukan. MIT license.
 
 ---
 

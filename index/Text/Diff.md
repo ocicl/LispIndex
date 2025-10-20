@@ -1,6 +1,6 @@
 # Text: Diff
 
-1 libraries
+2 libraries
 
 ---
 
@@ -19,6 +19,26 @@
 **Best For:** Document comparison, web content versioning, change tracking.
 
 **Note:** MIT license by John Wiseman. Depends on cl-difflib.
+
+---
+
+
+## monkeylib-prose-diff
+
+**System Name:** `com.gigamonkeys.prose-diff`
+
+**Purpose:** Diff tool for prose text with HTML output.
+
+**Why Use It:**
+- **Prose Diffing**: Specialized diffing for natural language text
+- **Longest Common Subsequence**: LCS algorithm implementation
+- **Tokenization**: Smart tokenization for prose text
+- **HTML Output**: Generate HTML diff visualizations
+- **Text Utilities**: Utilities for text comparison
+
+**Best For:** Document comparison, prose version control, change visualization.
+
+**Note:** Peter Seibel's prose diff tool. Uses cl-ppcre and markup libraries.
 
 ---
 

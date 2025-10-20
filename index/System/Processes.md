@@ -1,6 +1,6 @@
 # System: Processes
 
-6 libraries
+7 libraries
 
 ---
 
@@ -120,6 +120,25 @@
 **Best For:** System administration, build scripts, UNIX tool integration, subprocess management.
 
 **Note:** MIT License. Currently SBCL-only. Documentation available in PDF, HTML, and INFO formats.
+
+---
+
+
+## lisp-invocation
+
+**System Name:** `lisp-invocation`
+
+**Purpose:** Invoking Lisp subprocesses from Lisp.
+
+**Why Use It:**
+- **Subprocess Control**: Portably execute Lisp code in subprocesses
+- **Multi-implementation**: Supports all major Common Lisp implementations
+- **Build Tool**: Useful for build systems and scripting
+- **Portable**: Works across different Lisp implementations
+
+**Best For:** Build systems, testing frameworks, Lisp scripting, process management.
+
+**Note:** MIT license.
 
 ---
 

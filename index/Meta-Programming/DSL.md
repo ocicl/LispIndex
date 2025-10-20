@@ -1,6 +1,6 @@
 # Meta-Programming: DSL
 
-2 libraries
+3 libraries
 
 ---
 
@@ -38,6 +38,25 @@
 **Best For:** Business rules engines, configuration-driven logic, expert systems, tariff systems.
 
 **Note:** MIT License. Useful when logic changes frequently without code deployment.
+
+---
+
+
+## monkeylib-text-languages
+
+**System Name:** `monkeylib-text-languages`
+
+**Purpose:** Compiler for text-based domain-specific languages.
+
+**Why Use It:**
+- **DSL Compiler**: Compile text-based languages
+- **File Compiler**: Process files in custom text languages
+- **Language Definition**: Framework for defining text languages
+- **Text Output**: Integration with text output system
+
+**Best For:** DSL implementation, text processing languages, custom file formats.
+
+**Note:** BSD License by Peter Seibel. Version 1.0.
 
 ---
 

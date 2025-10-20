@@ -1,6 +1,6 @@
 # Development: Debugging
 
-7 libraries
+8 libraries
 
 ---
 
@@ -132,6 +132,24 @@
 **Best For:** Bug minimization, test case reduction, debugging, automated testing.
 
 **Note:** Public domain. By Eric Schulte. Implements Zeller's delta debugging.
+
+---
+
+
+## html-inspector-views
+
+**System Name:** `html-inspector-views`
+
+**Purpose:** HTML-based views for inspecting Common Lisp objects in REPL or web interfaces.
+
+**Why Use It:**
+- **Visual Inspection**: Render Lisp objects as formatted HTML for easier reading
+- **Array Views**: Specialized views showing array properties (dimensions, element-type, fill-pointer, displacement)
+- **Enumerated Lists**: Display vector contents as indexed lists
+- **Customizable Views**: Generic function-based extension system
+- **Web-Based Debugging**: Use in web REPL or debugging interfaces
+
+**Best For:** Web-based REPLs, remote debugging, HTML inspection interfaces, object visualization.
 
 ---
 

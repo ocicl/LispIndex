@@ -25,22 +25,23 @@
 ---
 
 
-## curly
+## modf
 
-**System Name:** `curly`
+**System Name:** `modf`
 
-**Purpose:** Reader macros for easy function currying and composition.
+**Purpose:** Functional programming macro similar to setf but for immutable data structures.
 
 **Why Use It:**
-- **Square Brackets**: Currying syntax with [foo bar]
-- **Curly Braces**: Function composition with {foo bar}
-- **Blank Arguments**: Place arguments with * symbol
-- **Arc-inspired**: Inspired by Arc's currying syntax
-- **Literal Composition**: Compiler can optimize generated code
+- **Immutable Updates**: Create modified copies instead of mutating data
+- **Setf-like Syntax**: Familiar syntax similar to setf
+- **Deep Updates**: Modify nested data structures functionally
+- **Extensible**: Define custom modf expansions for your types
+- **CLOS Support**: Works with class slots via Closer-MOP
+- **Structure Support**: Heuristics for structure modification
 
-**Best For:** Functional programming, point-free style, concise code, functional composition.
+**Best For:** Functional programming, immutable data structures, pure functions, avoiding side effects.
 
-**Note:** By Maciej Pasternacki. Enables Arc-style functional syntax.
+**Note:** BSD 3-Clause License. Supports lists, arrays, hash tables, CLOS instances, and custom types.
 
 ---
 

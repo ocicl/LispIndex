@@ -1,6 +1,6 @@
 # Web: CSS
 
-3 libraries
+4 libraries
 
 ---
 
@@ -56,6 +56,26 @@
 **Best For:** Web development, dynamic CSS generation, Parenscript projects.
 
 **Note:** Depends on Parenscript. Version 0.01.
+
+---
+
+
+## LASS
+
+**System Name:** `lass`
+
+**Purpose:** Lisp Augmented Style Sheets - compiles LASS to CSS.
+
+**Why Use It:**
+- **Lisp Syntax CSS**: Write CSS with Lisp syntax and macros
+- **CSS Compilation**: Compile LASS expressions to standard CSS
+- **Property Functions**: Helper functions for CSS properties
+- **Nesting**: Support for nested CSS rules
+- **ASDF Integration**: Compile LASS files as part of build process
+
+**Best For:** Web development, CSS generation, style sheet programming.
+
+**Note:** zlib license. Repository moved to Codeberg.
 
 ---
 

@@ -1,6 +1,6 @@
 # Testing: Frameworks
 
-18 libraries
+20 libraries
 
 ---
 
@@ -121,7 +121,6 @@
 - **Fork of Stefil**: Maintained continuation of Stefil
 - **Simple API**: `deftest`, `is` macros
 - **Package Tests**: `run-package-tests` convenience
-- **QuickLisp Ready**: Easy installation
 - **Clear Output**: Readable test results
 - **Active Maintenance**: Unlike abandoned Stefil
 
@@ -354,22 +353,58 @@
 ---
 
 
-## Eos
+## lisp-unit
 
-**System Name:** `Eos`
+**System Name:** `lisp-unit`
 
-**Purpose:** DEPRECATED unit testing framework (fork of FiveAM).
+**Purpose:** Common Lisp library that supports unit testing.
 
 **Why Use It:**
-- **Historical**: For maintaining legacy codebases
-- **FiveAM-like**: Similar API to current FiveAM
-- **Not Recommended**: Use FiveAM instead for new projects
-- **Unmaintained**: No active development
-- **Migration Path**: Easy to switch to FiveAM
+- **Unit Testing**: Simple and effective unit testing framework
+- **TAP Support**: Test Anything Protocol support for CI integration
+- **Floating-point**: Special support for floating-point comparisons
+- **Lightweight**: Minimal dependencies, easy to use
 
-**Best For:** Legacy code maintenance only - use FiveAM for new projects.
+**Best For:** Unit testing, test-driven development, quality assurance, regression testing.
 
-**Note:** DEPRECATED - use FiveAM instead. MIT license.
+**Note:** MIT license.
+
+---
+
+
+## lisp-unit2
+
+**System Name:** `lisp-unit2`
+
+**Purpose:** Common Lisp library that supports unit testing.
+
+**Why Use It:**
+- **Enhanced Testing**: Improved version of lisp-unit with more features
+- **Better Assertions**: Enhanced assertion macros and collectors
+- **TAP Support**: Test Anything Protocol for CI/CD integration
+- **Rich Output**: Multiple output formats and summarization
+
+**Best For:** Advanced unit testing, test suites, continuous integration, test reporting.
+
+**Note:** MIT license.
+
+---
+
+
+## parachute
+
+**System Name:** (Not found in ocicl)
+
+**Purpose:** Library not found in ocicl distribution.
+
+**Why Use It:**
+- **Not Available**: This library was not found in the ocicl directory
+- **Possible Test Framework**: Likely a testing library by Yukari Hafner
+- **Verification Needed**: Check alternative package sources
+
+**Best For:** Unknown - library not documented.
+
+**Note:** Not found in ocicl distribution.
 
 ---
 

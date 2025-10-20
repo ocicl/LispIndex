@@ -1,6 +1,6 @@
 # Concurrency: Promises
 
-3 libraries
+2 libraries
 
 ---
 
@@ -39,25 +39,6 @@
 **Best For:** Async I/O drivers, promise-based concurrency, threading with delayed results.
 
 **Note:** MIT license. Successor to cl-async-future. See http://orthecreedence.github.io/blackbird.
-
----
-
-
-## deferred
-
-**System Name:** `deferred`
-
-**Purpose:** Deferred/promise-style asynchronous operations.
-
-**Why Use It:**
-- **Promises**: Deferred computation patterns
-- **Async Operations**: Handle asynchronous results
-- **Chaining**: Chain operations on futures
-- **Error Handling**: Handle errors in async chains
-
-**Best For:** Asynchronous programming, futures, promises, callbacks, async chains.
-
-**Note:** zlib License. By Shinmera. Promise-style async operations.
 
 ---
 

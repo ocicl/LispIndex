@@ -1,6 +1,6 @@
 # Meta-Programming: Pattern-Matching
 
-4 libraries
+6 libraries
 
 ---
 
@@ -81,6 +81,45 @@
 **Best For:** Macro development, pattern matching, DSL implementation, code analysis.
 
 **Note:** By Tim Bradshaw. Pattern matching for lambda lists and source code structures.
+
+---
+
+
+## optima
+
+**System Name:** `optima`
+
+**Purpose:** Optimized pattern matching library using ML-style match expressions.
+
+**Why Use It:**
+- **Pattern Compilation**: Optimizes patterns using decision trees
+- **Rich Pattern Language**: cons, vector, class, struct, guard, place patterns
+- **Extensible**: Define custom patterns with DEFPATTERN
+- **Derived Patterns**: Built-in list, satisfies, eq, eql, equal, type patterns
+- **Place Patterns**: Destructuring with setf-able bindings
+- **Fast Dispatch**: Generates efficient branching code
+
+**Best For:** Functional programming, data structure destructuring, parser implementations, complex conditionals.
+
+**Note:** LLGPL by Tomohiro Matsuyama. Version 1.0. Depends on alexandria, closer-mop.
+
+---
+
+
+## optima.ppcre
+
+**System Name:** `optima.ppcre`
+
+**Purpose:** CL-PPCRE regular expression pattern support for optima.
+
+**Why Use It:**
+- **Regex Patterns**: Match strings with regular expressions in optima
+- **Capture Groups**: Bind regex captures to variables
+- **Integration**: Seamlessly combines pattern matching with regex
+
+**Best For:** Text parsing with pattern matching, regex + destructuring, parsers.
+
+**Note:** LLGPL by Tomohiro Matsuyama. Version 1.0. Depends on optima, alexandria, cl-ppcre.
 
 ---
 

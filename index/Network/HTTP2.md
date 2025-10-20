@@ -1,6 +1,6 @@
 # Network: HTTP2
 
-2 libraries
+3 libraries
 
 ---
 
@@ -36,6 +36,28 @@
 **Best For:** Modern web servers/clients, high-performance HTTP, web APIs.
 
 **Note:** HTTP/2 protocol (RFC 7540) implementation.
+
+---
+
+
+## http2
+
+**System Name:** `http2`, `http2/client`, `http2/server`
+
+**Purpose:** Complete HTTP/2 protocol implementation (RFC9113, RFC7541) with both client and server.
+
+**Why Use It:**
+- **Full HTTP/2 Support**: Implements RFC9113 (HTTP/2) and RFC7541 (HPACK header compression)
+- **Client and Server**: Both high-level interfaces and low-level customization
+- **Multiple Server Backends**: Thread-per-client and poll-based single-threaded servers
+- **TLS Support**: HTTPS with automatic ALPN negotiation
+- **Stream Multiplexing**: Multiple requests over single connection
+- **Flow Control**: Proper HTTP/2 flow control and priority (RFC9218 settings)
+- **Handler System**: Define exact and pattern-based request handlers
+
+**Best For:** Modern HTTP clients/servers, high-performance web services, HTTP/2 APIs, multiplexed connections.
+
+**Note:** Tested on SBCL, occasionally ECL. Comprehensive tutorials available. MIT license.
 
 ---
 

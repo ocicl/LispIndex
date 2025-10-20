@@ -1,6 +1,6 @@
 # Audio: Metadata
 
-4 libraries
+3 libraries
 
 ---
 
@@ -60,25 +60,6 @@
 **Best For:** Audio applications, music libraries, metadata extraction.
 
 **Note:** Requires libFLAC 1.4+.
-
----
-
-
-## cue-parser
-
-**System Name:** `cue-parser`
-
-**Purpose:** Parser for cue sheet files with metadata extraction.
-
-**Why Use It:**
-- **Cue Sheets**: Parse cue sheet files
-- **Metadata**: Extract performer, title, indices
-- **S-expr Tree**: Output as simple s-expression tree
-- **Audio Metadata**: Get track and album information
-
-**Best For:** Audio applications, CD ripping, music libraries, metadata extraction.
-
-**Note:** Simple library for parsing cue sheet files into s-expressions.
 
 ---
 

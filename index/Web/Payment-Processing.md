@@ -1,6 +1,6 @@
 # Web: Payment-Processing
 
-2 libraries
+3 libraries
 
 ---
 
@@ -41,6 +41,25 @@
 **Best For:** E-commerce, subscription billing, payment processing.
 
 **Note:** Use at your own risk. Requires Drakma, ST-JSON, CL+SSL. Test with test keys.
+
+---
+
+
+## lisp-pay
+
+**System Name:** `lisp-pay`
+
+**Purpose:** Wrappers over multiple Payment Processor APIs.
+
+**Why Use It:**
+- **Payment Integration**: Unified API for multiple payment processors
+- **Multi-provider**: Supports BTCPay, Stripe, PayPal, CoinPayments
+- **Webhook Support**: Built-in webhook handling for payment events
+- **Comprehensive**: Complete payment processing workflows
+
+**Best For:** E-commerce applications, payment processing, cryptocurrency payments, multi-provider support.
+
+**Note:** MIT license.
 
 ---
 

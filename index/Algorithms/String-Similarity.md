@@ -22,22 +22,19 @@
 ---
 
 
-## DartsCLSequenceMetrics
+## mk-string-metrics
 
-**System Name:** `darts.lib.sequence-metrics`
+**System Name:** `mk-string-metrics`
 
-**Purpose:** Distance metrics on sequences and strings.
+**Purpose:** Efficient implementations of string metric algorithms.
 
 **Why Use It:**
-- **String Distance**: Hamming, Levenshtein, Jaro, Jaro-Winkler
-- **Sequence Metrics**: Works on general sequences
-- **Substring Matching**: Longest common substring/subsequence
-- **N-grams**: N-gram generation and mapping
-- **Case Control**: Case-sensitive and case-insensitive options
+- **Multiple Metrics**: Levenshtein, Damerau-Levenshtein, Hamming, Jaro, etc.
+- **Optimized**: Efficient implementations
+- **String Similarity**: Measure similarity between strings
+- **Fuzzy Matching**: Find similar strings
 
-**Best For:** String matching, fuzzy search, spell checking, data deduplication, similarity.
-
-**Note:** Multiple distance algorithms for strings and sequences.
+**Best For:** Spell checking, fuzzy search, string matching, autocomplete.
 
 ---
 
