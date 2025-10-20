@@ -1,6 +1,6 @@
 # Meta-Programming: Reader-Macros
 
-6 libraries
+9 libraries
 
 ---
 
@@ -118,6 +118,66 @@
 **Best For:** Reader macros, custom syntax, DSLs, readtable management.
 
 **Note:** By Tobias Rittweiler. Static inheritance, compile-time definition.
+
+---
+
+
+## cl-extended-comma
+
+**System Name:** `cl-extended-comma`
+
+**Purpose:** Extend the comma reader macro with dispatch-like functionality.
+
+**Why Use It:**
+- **Reader Extension**: Add two-character comma sequences
+- **Dispatch Style**: Like dispatch reader macros but for comma
+- **Custom Macros**: Define new comma reader behaviors
+- **Backward Compatible**: Standard comma still works
+
+**Best For:** Reader macro experimentation, DSL development.
+
+**Note:** SBCL, ABCL, and ECL supported.
+
+---
+
+
+## cl-syntax
+
+**System Name:** `cl-syntax`
+
+**Purpose:** Reader Syntax Conventions for Common Lisp and SLIME.
+
+**Why Use It:**
+- **Reader Macros**: Declarative syntax definition
+- **SLIME Compatible**: Properly handle reader macros in SLIME
+- **Syntax Extension**: Extend Common Lisp syntax cleanly
+- **Composable**: Combine multiple syntax extensions
+- **Declarative**: Define syntax with defsyntax macro
+- **Portable**: Works across implementations
+
+**Best For:** DSL creation, syntax extensions, metaprogramming, improving code readability.
+
+**Note:** Solves reader macro compatibility issues with SLIME.
+
+---
+
+
+## datum-comments
+
+**System Name:** `datum-comments`
+
+**Purpose:** Racket-style datum comments for Common Lisp.
+
+**Why Use It:**
+- **Reader Macro**: #; dispatch macro skips next datum
+- **Inline Comments**: Skip expressions inline, not just lines
+- **Racket Style**: Same as Racket's datum comments
+- **Easy Setup**: Automatic registration
+- **Universal**: Works on any CL with ASDF
+
+**Best For:** Commenting out code, debugging, reader macros, syntax extensions.
+
+**Note:** Simple implementation. Travis CI tested across implementations.
 
 ---
 

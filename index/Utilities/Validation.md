@@ -1,6 +1,6 @@
 # Utilities: Validation
 
-2 libraries
+3 libraries
 
 ---
 
@@ -35,6 +35,26 @@
 **Best For:** Form validation, API input sanitization, and data interchange layers.
 
 **Note:** GPL v3 license. Version 0.2.0. By Dr. John A.R. Williams. Uses cl-ppcre for pattern matching.
+
+---
+
+
+## data-sift
+
+**System Name:** `data-sift`
+
+**Purpose:** Data validation and transformation library.
+
+**Why Use It:**
+- **Validation**: Validate and transform data
+- **Built-in Validators**: String, integer, number, email, IP, regexp
+- **Type Coercion**: Transform data to target types
+- **Compiled Rules**: Compile validation rules for reuse
+- **Range Checking**: Min/max value validation
+
+**Best For:** Form validation, input sanitization, data cleaning, web forms, APIs.
+
+**Note:** Inspired by WTForms validators and cl-data-format-validation.
 
 ---
 

@@ -1,6 +1,6 @@
 # Text: Formatting
 
-5 libraries
+6 libraries
 
 ---
 
@@ -99,6 +99,26 @@
 **Best For:** Terminal output formatting, text formatting for display, CLI applications, generating formatted reports.
 
 **Note:** MIT License. Not optimized for high performance, but reliable for typical use cases.
+
+---
+
+
+## colorize
+
+**System Name:** `colorize`
+
+**Purpose:** Syntax highlighting for multiple programming languages to HTML.
+
+**Why Use It:**
+- **Multi-Language**: Lisp dialects, C/C++, Java, Python, Haskell, Erlang, more
+- **HTML Output**: Generate syntax-highlighted HTML from source code
+- **File or String**: Process files or code strings
+- **CSS Included**: Provides suggested CSS for styling
+- **Stream Output**: Write directly to streams or get strings
+
+**Best For:** Documentation generation, code blogs, syntax highlighting, literate programming, code display.
+
+**Note:** API: colorize-file, colorize-file-to-stream, html-colorization. *coloring-css* variable for styles.
 
 ---
 

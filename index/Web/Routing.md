@@ -1,6 +1,6 @@
 # Web: Routing
 
-4 libraries
+5 libraries
 
 ---
 
@@ -81,6 +81,24 @@
 **Best For:** Web applications needing organized routing, sites requiring breadcrumbs, RESTful APIs.
 
 **Note:** Inspired by Django's URL routing system.
+
+---
+
+
+## cl-routes
+
+**System Name:** `routes`
+
+**Purpose:** URL routing library for web applications.
+
+**Why Use It:**
+- **URL Routing**: Map URLs to handlers
+- **Pattern Matching**: Route patterns with variables
+- **Web Frameworks**: Used by various CL web frameworks
+
+**Best For:** Web applications, REST APIs, URL dispatching.
+
+**Note:** Common routing library used in CL web development.
 
 ---
 

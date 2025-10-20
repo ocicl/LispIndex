@@ -1,6 +1,6 @@
 # Parsing: Lexers
 
-1 libraries
+2 libraries
 
 ---
 
@@ -18,6 +18,26 @@
 - **Macro-Based**: Clean macro interface for lexer definition
 
 **Best For:** Building lexical analyzers for parsers and language processing.
+
+---
+
+
+## cl-shlex
+
+**System Name:** `shlex`
+
+**Purpose:** Lexical analyzer for shell-like syntax.
+
+**Why Use It:**
+- **Shell Lexing**: Parse shell-like quoted strings
+- **Python shlex Port**: Common Lisp port of Python's shlex module
+- **Punctuation Chars**: Optional shell-like punctuation splitting
+- **Token Iteration**: Map or iterate over tokens incrementally
+- **Quoting Support**: Handles single quotes, double quotes, and escaping
+
+**Best For:** Configuration file parsing, shell-like DSLs, command parsing.
+
+**Note:** MIT License. Closer to shell behavior with punctuation-chars option.
 
 ---
 

@@ -1,6 +1,6 @@
 # Graphics: Plotting
 
-2 libraries
+4 libraries
 
 ---
 
@@ -44,6 +44,45 @@
 **Best For:** Quick plotting and data visualization.
 
 **Note:** Alternative gnuplot interface; compare with eazy-gnuplot.
+
+---
+
+
+## clgplot
+
+**System Name:** `clgplot`
+
+**Purpose:** Gnuplot front-end for Common Lisp plotting and visualization.
+
+**Why Use It:**
+- **Easy Plotting**: Simple interface for 2D and 3D plots
+- **Multiple Formats**: Output to PNG, PDF, EPS formats
+- **Rich Features**: Histograms, surface plots, multiplots
+- **Gnuplot Power**: Full Gnuplot capabilities from Lisp
+
+**Best For:** Data visualization, scientific plotting, graph generation.
+
+**Note:** Requires Gnuplot 4 or higher installed. MIT license.
+
+---
+
+
+## clnuplot
+
+**System Name:** `clnuplot`
+
+**Purpose:** Common Lisp interface to GNUPlot for plotting and visualization.
+
+**Why Use It:**
+- **GNUPlot Integration**: Control GNUPlot from Common Lisp
+- **Plotting**: Generate 2D and 3D plots programmatically
+- **ROC Curves**: Built-in support for ROC curve generation
+- **Data Visualization**: Visualize mathematical and statistical data
+- **Shell Interface**: Uses trivial-shell to communicate with GNUPlot
+
+**Best For:** Scientific computing, data visualization, statistics, mathematical plotting.
+
+**Note:** MIT License.
 
 ---
 

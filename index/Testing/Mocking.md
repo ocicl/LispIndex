@@ -1,6 +1,6 @@
 # Testing: Mocking
 
-3 libraries
+4 libraries
 
 ---
 
@@ -60,6 +60,25 @@
 **Best For:** Unit testing, test isolation, mocking dependencies, behavioral testing.
 
 **Note:** Cannot mock functions in locked packages. Compiler may inline function calls, bypassing mocks.
+
+---
+
+
+## de-mock-racy
+
+**System Name:** `de-mock-racy`
+
+**Purpose:** Mocking library for unit tests.
+
+**Why Use It:**
+- **Mockable Blocks**: Replace code blocks for testing
+- **Filter Support**: Control when mocks are applied
+- **Generic Dispatch**: Uses generic functions for extensibility
+- **Easy Mocking**: Simple API for test doubles
+
+**Best For:** Unit testing, mocking, test doubles, test isolation.
+
+**Note:** Performance overhead via generic functions. See example.lisp for usage.
 
 ---
 

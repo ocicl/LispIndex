@@ -1,6 +1,6 @@
 # Networking: WebSockets
 
-2 libraries
+3 libraries
 
 ---
 
@@ -40,6 +40,26 @@
 **Best For:** WebSocket servers, real-time web applications.
 
 **Note:** Companion to fast-http for WebSocket support.
+
+---
+
+
+## clws
+
+**System Name:** `clws`
+
+**Purpose:** WebSocket server implementation for Common Lisp.
+
+**Why Use It:**
+- **Protocol Support**: Drafts 0, 7, 8, and 13 of WebSocket protocol
+- **Resource-Based**: Define resources with client connection/disconnection handlers
+- **Binary and Text**: Support both text and binary WebSocket frames
+- **Origin Validation**: Control which origins can connect
+- **Concurrent**: Multi-threaded with separate resource listeners
+
+**Best For:** Real-time web applications, chat servers, live data feeds, browser-server communication.
+
+**Note:** Requires SBCL or CCL. Uses IOlib. TLS support via proxy (stud/stunnel). Configuration via special variables.
 
 ---
 

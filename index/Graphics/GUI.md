@@ -1,6 +1,6 @@
 # Graphics: GUI
 
-3 libraries
+4 libraries
 
 ---
 
@@ -56,6 +56,25 @@
 **Best For:** Desktop application development, GUI programming, GNOME applications.
 
 **Note:** GTK 4 bindings via GObject Introspection.
+
+---
+
+
+## cl-tk
+
+**System Name:** `cl-tk`
+
+**Purpose:** Minimal bridge to Tcl/Tk for GUI programming.
+
+**Why Use It:**
+- **Tcl/Tk GUI**: Access Tcl/Tk windowing toolkit
+- **Minimal Bridge**: Lightweight interface
+- **CFFI/FFI**: Foreign function interface support
+- **Cross-platform**: Tk's portability
+
+**Best For:** Quick GUIs, prototyping, simple windowed applications, Tk integration.
+
+**Note:** BSD License. Minimal but functional Tk bridge. Supports CFFI and Allegro.
 
 ---
 

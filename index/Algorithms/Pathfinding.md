@@ -1,6 +1,6 @@
 # Algorithms: Pathfinding
 
-1 libraries
+2 libraries
 
 ---
 
@@ -22,6 +22,26 @@
 **Best For:** Game development, robotics, pathfinding applications.
 
 **Note:** See Amit's A* Pages for algorithm details.
+
+---
+
+
+## cl-rrt
+
+**System Name:** `cl-rrt`
+
+**Purpose:** Rapidly-exploring Random Tree (RRT) path planning algorithm implementation.
+
+**Why Use It:**
+- **Path Planning**: Probabilistic multidimensional pathfinding
+- **Fast Computation**: Sacrifices optimality for speed
+- **Obstacle Avoidance**: Collision detection support
+- **R-tree Search**: Efficient nearest neighbor lookup
+- **Robotics**: Used in autonomous systems
+
+**Best For:** Robot motion planning, autonomous navigation, game AI, pathfinding.
+
+**Note:** Implementation of LaValle's RRT algorithm. Extensible for various RRT variants.
 
 ---
 

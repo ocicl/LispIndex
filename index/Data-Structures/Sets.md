@@ -1,6 +1,6 @@
 # Data-Structures: Sets
 
-2 libraries
+4 libraries
 
 ---
 
@@ -41,6 +41,44 @@
 **Best For:** Sets needing random selection, sampling, efficient set operations.
 
 **Note:** By Robert Smith. Useful when you need to randomly pick from a set.
+
+---
+
+
+## cl-union-find
+
+**System Name:** `cl-union-find`
+
+**Purpose:** Implementation of union-find data structure with weighted path compression.
+
+**Why Use It:**
+- **Efficient Operations**: Near-constant time union and find
+- **Path Compression**: Optimized for repeated queries
+- **Classic Algorithm**: Well-known and proven approach
+- **Simple API**: Easy to integrate
+
+**Best For:** Graph algorithms, connected components, equivalence relations, clustering.
+
+**Note:** LGPL license. Fundamental data structure for disjoint set operations.
+
+---
+
+
+## clustered-intset
+
+**System Name:** `clustered-intset`
+
+**Purpose:** Set data structure for non-negative integers optimized for clustered keys.
+
+**Why Use It:**
+- **Clustered Optimization**: Efficient for ranges of consecutive integers
+- **Memory Efficient**: Compressed representation for clusters
+- **Fast Operations**: Optimized set operations
+- **Simple Interface**: Standard set API
+
+**Best For:** Sparse integer sets, range-based data, ID collections.
+
+**Note:** MIT license. Specialized for clustered integer data.
 
 ---
 

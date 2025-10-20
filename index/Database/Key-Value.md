@@ -1,6 +1,6 @@
 # Database: Key-Value
 
-1 libraries
+3 libraries
 
 ---
 
@@ -18,6 +18,45 @@
 **Best For:** Small databases, caching, configuration storage, prototyping.
 
 **Note:** MIT License by Phil Marneweck.
+
+---
+
+
+## cl-mdb
+
+**System Name:** `cl-mdb`
+
+**Purpose:** Simple in-memory key-value database.
+
+**Why Use It:**
+- **In-Memory Storage**: Fast key-value storage in memory
+- **MurmurHash**: Uses MurmurHash3 for key hashing
+- **Snowflake IDs**: Built-in Snowflake ID generation
+- **Lightweight**: Minimal dependencies (only CFFI)
+
+**Best For:** Caching, session storage, temporary data storage, prototyping.
+
+**Note:** Licensed under MulanPubL-2.0.
+
+---
+
+
+## cl-rocksdb
+
+**System Name:** `cl-rocksdb`
+
+**Purpose:** RocksDB binding for Common Lisp providing embedded key-value storage.
+
+**Why Use It:**
+- **Embedded Database**: High-performance key-value store
+- **Iteration**: Full iterator support for scanning
+- **Read-only Mode**: Open databases without write access
+- **Background Work**: Cancel operations before closing
+- **String/Binary**: Both string and binary key-value operations
+
+**Best For:** Embedded databases, persistent storage, caching, local data storage.
+
+**Note:** Bindings to Facebook's RocksDB. Examples for both read-write and read-only usage.
 
 ---
 

@@ -1,6 +1,6 @@
 # Data-Structures: General
 
-1 libraries
+3 libraries
 
 ---
 
@@ -17,6 +17,46 @@
 - **Comprehensive**: Wide variety of data structures
 
 **Best For:** Functional programming and applications requiring persistent data structures.
+
+---
+
+
+## colliflower
+
+**System Name:** `colliflower`
+
+**Purpose:** Generic collection interfaces with iterators, builders, and accessors.
+
+**Why Use It:**
+- **Unified Interface**: Common protocol across different collection types
+- **Liter Iterators**: Abstract iterator system for sequences
+- **Garten Builders**: Generic collection construction (like COLLECTING)
+- **Silo Access**: Generic key-based access to data structures
+- **Python-Style**: Iterator tools similar to Python's itertools
+
+**Best For:** Generic collection code, library implementors, functional programming, data processing pipelines.
+
+**Note:** Four components: liter, garten, silo, and colliflower main package. Iterate integration included.
+
+---
+
+
+## com.clearly-useful.generic-collection-interface
+
+**System Name:** `com.clearly-useful.generic-collection-interface`
+
+**Purpose:** Generic protocols for collection manipulation inspired by Clojure.
+
+**Why Use It:**
+- **Multiple Protocols**: Collection, seqable, seq, associative, countable, indexable
+- **Reducers**: Clojure-style reducers and foldable protocol
+- **Built-in Support**: Implementations for lists, vectors, hash-tables, arrays
+- **Clean Interface**: No symbol clashes with Common Lisp
+- **Modular**: Interface packages for each protocol separately
+
+**Best For:** Generic data structure code, swappable collections, library implementors, functional programming.
+
+**Note:** Pre-1.0 APIs may change. Not for end-user utilities, designed for library implementors. CL naming conventions.
 
 ---
 

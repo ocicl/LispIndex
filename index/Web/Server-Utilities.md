@@ -4,20 +4,21 @@
 
 ---
 
-## cl-cheshire-cat
+## cl-webdav
 
-**System Name:** `cl-cheshire-cat`
+**System Name:** `cl-webdav`
 
-**Purpose:** HTTP redirection server.
+**Purpose:** WebDAV server and protocol implementation by Edi Weitz.
 
 **Why Use It:**
-- **Redirection Server**: Dedicated HTTP redirection service
-- **Hunchentoot-Based**: Built on Hunchentoot web server
-- **Persistence**: Uses CL-STORE for persistence
-- **Daemon Support**: Can run as a daemon (via sb-daemon)
-- **URL Shortening**: Suitable for URL shortening services
+- **WebDAV Protocol**: Full WebDAV server support
+- **Hunchentoot Integration**: Works with Hunchentoot web server
+- **File Operations**: Remote file access and manipulation
+- **Standards Compliant**: Follows WebDAV RFC
 
-**Best For:** URL redirection and shortening services.
+**Best For:** File sharing servers, remote storage, cloud storage backends.
+
+**Note:** BSD license by Edi Weitz. Production-ready WebDAV implementation.
 
 ---
 

@@ -1,6 +1,6 @@
 # Text: Unicode
 
-2 libraries
+3 libraries
 
 ---
 
@@ -38,6 +38,25 @@
 **Best For:** Chat applications, social media tools, text processing with emoji.
 
 **Note:** MIT License (src), Unicode License (data).
+
+---
+
+
+## cl-unicode
+
+**System Name:** `cl-unicode`
+
+**Purpose:** Portable Unicode library providing character properties and case mapping.
+
+**Why Use It:**
+- **Complete Unicode Support**: Full Unicode character database
+- **Character Properties**: Access to all Unicode properties
+- **Case Mapping**: Proper Unicode-aware case conversion
+- **Portable**: Works across CL implementations
+
+**Best For:** Unicode text processing, internationalization, character analysis.
+
+**Note:** BSD license by Edi Weitz. Comprehensive Unicode utilities.
 
 ---
 

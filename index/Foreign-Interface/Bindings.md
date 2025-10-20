@@ -1,6 +1,6 @@
 # Foreign-Interface: Bindings
 
-6 libraries
+8 libraries
 
 ---
 
@@ -116,6 +116,44 @@
 **Best For:** Creating Common Lisp bindings to C/C++ libraries.
 
 **Note:** BETA quality. Recommended to use CCL for generation.
+
+---
+
+
+## cl-libxml2
+
+**System Name:** `cl-libxml2`, `cl-libxslt`, `xfactory`, `xoverlay`
+
+**Purpose:** CFFI bindings to libxml2 XML parsing library.
+
+**Why Use It:**
+- **XML/HTML Parsing**: Parse XML and HTML documents
+- **XPath Support**: Query documents with XPath expressions
+- **XSLT Transformation**: Transform XML with XSLT stylesheets
+- **Namespace Handling**: Full XML namespace support
+- **Entity Resolution**: Handle XML entities and external references
+- **Streaming Parser**: Memory-efficient parsing for large documents
+
+**Best For:** XML processing, web scraping, document transformation, data extraction.
+
+**Note:** Licensed under Lisp-LGPL.
+
+---
+
+
+## cl-resect
+
+**System Name:** `cl-resect`
+
+**Purpose:** Common Lisp bindings to libresect library for claw.
+
+**Why Use It:**
+- **Libresect Integration**: Access to libresect functionality
+- **Claw Bindings**: Generated with claw binding generator
+
+**Best For:** Projects using libresect, claw-based bindings.
+
+**Note:** Minimal bindings library for libresect integration.
 
 ---
 

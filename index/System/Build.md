@@ -1,6 +1,6 @@
 # System: Build
 
-14 libraries
+16 libraries
 
 ---
 
@@ -267,6 +267,44 @@
 **Best For:** Projects requiring automated documentation generation, ASDF system extensions, documentation workflow automation.
 
 **Note:** Provides two packages: bytecurry.asdf-ext/doc-op and bytecurry.asdf-ext/atdoc.
+
+---
+
+
+## deoxybyte-systems
+
+**System Name:** `deoxybyte-systems`
+
+**Purpose:** ASDF system utilities and enhancements.
+
+**Why Use It:**
+- **System Utilities**: Helper functions for ASDF systems
+- **Load/Test Helpers**: Convenience functions for loading and testing
+- **Documentation Generation**: Integration with CLDOC
+- **Deoxybyte Foundation**: Base system for deoxybyte libraries
+
+**Best For:** ASDF system management, build utilities, library development.
+
+**Note:** BSD License. By Keith James. Foundation for deoxybyte library suite.
+
+---
+
+
+## deptree
+
+**System Name:** `deptree`
+
+**Purpose:** ASDF systems dependency listing and archiving tool.
+
+**Why Use It:**
+- **Dependency Analysis**: List ASDF system dependencies
+- **Archiving**: Create archives of dependencies
+- **Dependency Tree**: Visualize system dependency trees
+- **TAR Support**: Create tar archives of dependencies
+
+**Best For:** Dependency management, system analysis, deployment, archiving.
+
+**Note:** MIT License. By Eugene Zaikonnikov. For ASDF dependency management.
 
 ---
 

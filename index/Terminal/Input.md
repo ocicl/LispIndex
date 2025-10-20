@@ -1,6 +1,6 @@
 # Terminal: Input
 
-1 libraries
+2 libraries
 
 ---
 
@@ -20,6 +20,25 @@
 **Best For:** Interactive command-line applications requiring line editing.
 
 **Note:** GPL 3 licensed.
+
+---
+
+
+## clinenoise
+
+**System Name:** `clinenoise`
+
+**Purpose:** Linenoise line editing library bindings for Common Lisp.
+
+**Why Use It:**
+- **Line Editing**: Readline-like functionality
+- **Lightweight**: Minimal alternative to readline
+- **History**: Command history support
+- **Cross-Platform**: Works across platforms
+
+**Best For:** REPL applications, command-line tools, interactive programs.
+
+**Note:** Bindings to linenoise library for line editing.
 
 ---
 

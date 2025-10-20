@@ -1,6 +1,6 @@
 # Utilities: Diff
 
-1 libraries
+3 libraries
 
 ---
 
@@ -22,6 +22,47 @@
 **Best For:** Diff generation, version control tools, similarity detection, fuzzy string matching.
 
 **Note:** MIT license. Transcription of Python difflib. Portable CL. Available via ASDF-INSTALL.
+
+---
+
+
+## clos-diff
+
+**System Name:** `clos-diff`
+
+**Purpose:** Create and apply diffs of CLOS objects in compact representation.
+
+**Why Use It:**
+- **Object Diffs**: Track changes between CLOS object states
+- **Compact Storage**: Efficient representation using minimal space
+- **Recursive**: Handle infinite layers of nested objects
+- **Apply/Create**: Both diff creation and application
+- **Customizable Test**: Configurable equality test function
+- **MOP Integration**: Uses closer-mop for introspection
+
+**Best For:** Object versioning, change tracking, undo/redo systems, state synchronization.
+
+**Note:** GPL License. Minimal dependencies (closer-mop only).
+
+---
+
+
+## diff
+
+**System Name:** `diff`
+
+**Purpose:** Diff and patch algorithms for text and binary data.
+
+**Why Use It:**
+- **Text Diff**: Compute differences between text sequences
+- **Patch Support**: Apply patches to data
+- **VDelta**: Variable-length delta encoding
+- **SVNDiff**: Subversion diff format support
+- **Gray Streams**: Stream-based diff operations
+
+**Best For:** Version control, file comparison, patch generation, delta compression.
+
+**Note:** By Nathan Froyd. Implements diff, patch, vdelta, and svndiff algorithms.
 
 ---
 

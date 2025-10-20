@@ -1,6 +1,6 @@
 # Web: OAuth
 
-1 libraries
+2 libraries
 
 ---
 
@@ -23,5 +23,26 @@
 **Note:** LGPL v3 license. Port of Racket's OAuth 2.0 Client library. Requires hunchentoot, dexador, cl-json, and trivial-open-browser dependencies.
 
 ---
+
+
+## erjoalgo-webutil
+
+**System Name:** `erjoalgo-webutil`
+
+**Purpose:** Framework for defining OAuth HTTP API clients and servers.
+
+**Why Use It:**
+- **API Framework**: Structured approach to HTTP APIs
+- **OAuth Support**: Built-in OAuth authentication handling
+- **Client & Server**: Both sides of API communication
+- **Defendpoint**: Macro for defining API endpoints
+- **Site Integrations**: Pre-built integrations for common services
+
+**Best For:** REST API clients, OAuth integration, web service development.
+
+**Note:** Includes Hunchentoot server support. GPLv3 license.
+
+---
+
 
 

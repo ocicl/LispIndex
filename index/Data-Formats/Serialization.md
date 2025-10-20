@@ -1,6 +1,6 @@
 # Data-Formats: Serialization
 
-3 libraries
+4 libraries
 
 ---
 
@@ -63,6 +63,26 @@
 **Best For:** Wire protocol, serialization with references, CLOS object persistence.
 
 **Note:** More feature-rich than MessagePack; handles Lisp data structures well.
+
+---
+
+
+## cl-transit
+
+**System Name:** `cl-transit`
+
+**Purpose:** Transit format encoder/decoder for data interchange.
+
+**Why Use It:**
+- **Transit Format**: Cognitect's extensible data notation
+- **Multiple Formats**: JSON, JSON-VERBOSE, MessagePack
+- **Clojure Interop**: Data exchange with Clojure systems
+- **Rich Types**: Beyond JSON - dates, UUIDs, sets, more
+- **Official Tests**: Passes Transit official test suite
+
+**Best For:** Data interchange, Clojure integration, API serialization, microservices.
+
+**Note:** Decodes all three Transit formats. Encoding does not support JSON-VERBOSE.
 
 ---
 

@@ -1,6 +1,6 @@
 # Graphics: OpenGL
 
-2 libraries
+3 libraries
 
 ---
 
@@ -43,6 +43,25 @@
 **Best For:** OpenGL graphics programming, 3D rendering, game development, visualization.
 
 **Note:** Build-time config via *features* for :cl-opengl-no-check-error, :cl-opengl-no-masked-traps.
+
+---
+
+
+## cl-egl
+
+**System Name:** `cl-egl`
+
+**Purpose:** Common Lisp wrapper for LibEGL (OpenGL/platform interface).
+
+**Why Use It:**
+- **OpenGL Bridge**: Interface between OpenGL and windowing systems
+- **Cross-Platform**: Platform-independent OpenGL setup
+- **No X Required**: Use OpenGL without X on Linux
+- **ES Support**: OpenGL ES support
+
+**Best For:** OpenGL applications, Wayland compositors, embedded OpenGL.
+
+**Note:** Developed for ulubis Wayland compositor. Linux focused.
 
 ---
 

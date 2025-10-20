@@ -1,6 +1,6 @@
 # Web: Frameworks
 
-4 libraries
+7 libraries
 
 ---
 
@@ -89,6 +89,65 @@
 **Best For:** Web applications needing database support, practical web development, growing beyond micro-frameworks.
 
 **Note:** Written from scratch (not micro anymore). Successor to Caveman 1.
+
+---
+
+
+## cl-jingle
+
+**System Name:** `jingle`
+
+**Purpose:** Ningle web framework with batteries included (bells and whistles).
+
+**Why Use It:**
+- **Enhanced Ningle**: Ningle plus OpenAPI, Swagger UI, middleware
+- **OpenAPI Support**: Built-in OpenAPI 3.x spec generation
+- **Error Handling**: Structured error handling with conditions
+- **Testing**: Test framework for HTTP handlers
+
+**Best For:** REST API development, web services, OpenAPI-first development.
+
+**Note:** BSD licensed. Built on Ningle, Lack, and Hunchentoot.
+
+---
+
+
+## cl-webmachine
+
+**System Name:** `org.melusina.webmachine`
+
+**Purpose:** HTTP semantic awareness layer on top of Hunchentoot.
+
+**Why Use It:**
+- **Resource-oriented**: Model HTTP as state machine
+- **Decision Graph**: Explicit HTTP decision flow
+- **Content Negotiation**: Built-in content type handling
+- **RESTful**: Natural REST API development
+
+**Best For:** RESTful web services, HTTP APIs, resource-oriented applications.
+
+**Note:** MIT license. Brings Webmachine pattern to Common Lisp.
+
+---
+
+
+## defrest
+
+**System Name:** `defrest`
+
+**Purpose:** Export functions via REST webservices with Hunchentoot easily.
+
+**Why Use It:**
+- **Easy REST APIs**: Simple macro to expose REST endpoints
+- **Path Parameters**: Template-based path parameters {var:regex}
+- **Query Parameters**: Built-in query parameter parsing and validation
+- **HTTP Methods**: Support for GET, POST, PUT, DELETE
+- **Hunchentoot Integration**: Seamless integration with Hunchentoot dispatcher
+- **Validation**: Mandatory parameters and regex pattern validation
+
+**Best For:** REST APIs, web services, microservices, HTTP endpoints.
+
+**Note:** By Mathias Menzel-Nielsen. Formerly called defajax.
 
 ---
 

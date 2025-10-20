@@ -4,23 +4,21 @@
 
 ---
 
-## cl-async
+## cl-ev
 
-**System Name:** `cl-async`
+**System Name:** `cl-ev`
 
-**Purpose:** General-purpose asynchronous/non-blocking programming library using libuv.
+**Purpose:** CFFI bindings for libev event loop library.
 
 **Why Use It:**
-- **Libuv Backend**: Fast, stable, portable async IO (same as Node.js)
-- **Complete Async**: Timers, DNS, TCP, SSL, signals, file polling
-- **Futures**: Promise-based async programming
-- **Threading Integration**: Mix async and threaded code
-- **Drivers Available**: Ecosystem of drivers built on cl-async
-- **Well Documented**: Comprehensive documentation with examples
+- **Event Loop**: High-performance event-driven programming
+- **Watchers**: IO, timer, periodic, idle watchers
+- **Efficient**: Fast event notification
+- **Async I/O**: Non-blocking I/O operations
 
-**Best For:** High-performance async applications requiring non-blocking IO.
+**Best For:** Network servers, async I/O, event-driven applications.
 
-**Note:** Requires libuv v1.x (not v0.10.x).
+**Note:** CFFI bindings to libev. Partial API coverage.
 
 ---
 

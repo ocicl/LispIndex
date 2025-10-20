@@ -1,6 +1,6 @@
 # Web: CSS
 
-1 libraries
+3 libraries
 
 ---
 
@@ -18,6 +18,44 @@
 **Best For:** Web frameworks, dynamic styling, CSS generation tools, and Lisp-based web development.
 
 **Note:** MIT-style license. Version 0.1. By leo.zovic@gmail.com. Includes 3D transforms.
+
+---
+
+
+## cl-minify-css
+
+**System Name:** `cl-minify-css`
+
+**Purpose:** Minify CSS with Common Lisp.
+
+**Why Use It:**
+- **No Dependencies**: Pure Lisp implementation without cl-ppcre
+- **License Preservation**: Optional preservation of license comments
+- **Size Reduction**: Remove whitespace, comments, and optimize CSS
+- **Build Integration**: Integrate CSS minification into Lisp build systems
+
+**Best For:** Web development, asset pipelines, static site generators, CSS optimization.
+
+**Note:** MIT License.
+
+---
+
+
+## css-lite
+
+**System Name:** `css-lite`
+
+**Purpose:** CSS generation library with Parenscript integration.
+
+**Why Use It:**
+- **Lispy CSS**: Generate CSS from Lisp s-expressions
+- **Parenscript Integration**: Write CSS alongside Parenscript JavaScript
+- **Programmatic Stylesheets**: Generate CSS dynamically in code
+- **Utility Functions**: Helper functions for common CSS patterns
+
+**Best For:** Web development, dynamic CSS generation, Parenscript projects.
+
+**Note:** Depends on Parenscript. Version 0.01.
 
 ---
 

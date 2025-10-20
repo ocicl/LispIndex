@@ -1,6 +1,6 @@
 # Networking: RPC
 
-2 libraries
+3 libraries
 
 ---
 
@@ -42,6 +42,27 @@
 **Best For:** Building RPC services, NFS clients/servers, legacy RPC integration.
 
 **Note:** MIT licensed. Created by Frank James. Production-ready with comprehensive features.
+
+---
+
+
+## cl-mtgnet
+
+**System Name:** `cl-mtgnet-sync`, `cl-mtgnet-async`
+
+**Purpose:** Client library for the MTGNet RPC protocol.
+
+**Why Use It:**
+- **RPC Protocol**: Implement MTGNet remote procedure calls
+- **Marshalling**: Automatic request/response marshalling and unmarshalling
+- **Out-of-Order Responses**: Matches responses to requests even when out of order
+- **FFI-Style**: Define remote methods like FFI calls
+- **Batch Calls**: Send multiple calls in a batch with guaranteed response ordering
+- **Future Objects**: Asynchronous result handling with futures
+
+**Best For:** Distributed systems, RPC clients, networked game backends.
+
+**Note:** MIT License.
 
 ---
 

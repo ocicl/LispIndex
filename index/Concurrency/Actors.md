@@ -1,6 +1,6 @@
 # Concurrency: Actors
 
-2 libraries
+5 libraries
 
 ---
 
@@ -39,6 +39,66 @@
 **Best For:** Concurrent applications, distributed systems, reactive programming.
 
 **Note:** Version 3.4.2, Erlang-inspired actor framework.
+
+---
+
+
+## cl-gserver
+
+**System Name:** `cl-gserver`
+
+**Purpose:** Actor framework (Sento) featuring actors, agents, and message passing.
+
+**Why Use It:**
+- **Actor Model**: Erlang/Akka-style message passing
+- **Agents**: Specialized actors for state management
+- **Async/Sync**: Both ask and tell operations
+- **Rich Features**: FSM, router, event-stream, futures
+
+**Best For:** Reactive systems, parallel computing, event-based systems.
+
+**Note:** Formerly cl-gserver, now called Sento. Includes comprehensive documentation.
+
+---
+
+
+## cl-myriam
+
+**System Name:** `cl-myriam`
+
+**Purpose:** Actor model implementation for secure, distributed programming.
+
+**Why Use It:**
+- **Actor Model**: Implement concurrent systems using actors
+- **Encryption**: Built-in CurveZMQ encryption via ZeroMQ and libsodium
+- **Authentication**: Spawn authenticators to filter connections by host/identity
+- **Distributed**: Send messages between actors across network
+- **Identity Management**: Separate encryption keys for actors
+- **Contexts**: Isolate actor groups with different authentication rules
+
+**Best For:** Distributed systems, concurrent applications, secure messaging systems.
+
+**Note:** MIT License. Port of Chicken Scheme myriam egg.
+
+---
+
+
+## Common-Lisp-Actors
+
+**System Name:** `cl-actors`
+
+**Purpose:** Simple actor-based concurrency system for message passing.
+
+**Why Use It:**
+- **Actor Model**: Concurrency via isolated actors with message passing
+- **Easy API**: defactor macro for actor templates, send for messaging
+- **Dynamic Behavior**: Actors can change behavior at runtime
+- **Simple Syntax**: Clean DSL for defining actor classes
+- **Bordeaux Threads**: Cross-implementation threading
+
+**Best For:** Concurrent systems, message-passing architectures, parallel processing, reactive systems.
+
+**Note:** Based on actor model. Manual at cs.rpi.edu/~govinn/actors.pdf. Examples include ticker, factorial, print actors.
 
 ---
 

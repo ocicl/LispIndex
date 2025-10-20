@@ -1,6 +1,6 @@
 # Graphics: Windowing
 
-4 libraries
+5 libraries
 
 ---
 
@@ -84,6 +84,25 @@
 **Best For:** OpenGL applications, game development, graphics programming.
 
 **Note:** Public Domain by William Robinson.
+
+---
+
+
+## cl-wayland
+
+**System Name:** `cl-wayland`
+
+**Purpose:** CFFI bindings to libwayland for Wayland compositor protocol.
+
+**Why Use It:**
+- **Wayland Support**: Build Wayland compositors in Lisp
+- **Server Protocol**: Full wayland-server bindings
+- **XDG Shell**: Modern desktop shell protocol support
+- **Direct Control**: Low-level Wayland access
+
+**Best For:** Wayland compositors, window managers, display servers.
+
+**Note:** BSD 3-Clause license. Requires libwayland. For advanced Wayland development.
 
 ---
 

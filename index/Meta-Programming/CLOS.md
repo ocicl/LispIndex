@@ -1,6 +1,6 @@
 # Meta-Programming: CLOS
 
-12 libraries
+14 libraries
 
 ---
 
@@ -237,6 +237,45 @@
 **Best For:** Large object hierarchies, framework design, API design with abstract base classes.
 
 **Note:** Simple focused library for enforcing abstract class semantics in CLOS.
+
+---
+
+
+## clos-encounters
+
+**System Name:** `clos-encounters`
+
+**Purpose:** Common object-oriented patterns including abstract and singleton classes.
+
+**Why Use It:**
+- **Abstract Classes**: Prevent instantiation of base classes
+- **Singleton Pattern**: Ensure only one instance exists
+- **Metaclass-Based**: Implemented via CLOS metaclasses
+- **Lightweight**: Minimal implementation with clear API
+- **Build-Friendly**: Compatible with various build systems
+
+**Best For:** Design patterns, object-oriented architecture, global state management.
+
+**Note:** Standard license. Reimplementation of tfeb-lisp-hax subset for build compatibility.
+
+---
+
+
+## context-lite
+
+**System Name:** `context-lite`
+
+**Purpose:** CLOS extension to support specializing methods on special/dynamic variables.
+
+**Why Use It:**
+- **Dynamic Variable Dispatch**: Specialize methods based on special variable values
+- **Context-Oriented Programming**: Implement context-aware behavior
+- **CLOS Integration**: Seamless integration with standard CLOS
+- **Lightweight**: Minimal overhead with closer-mop
+
+**Best For:** Context-aware applications, behavior adaptation, configuration-dependent dispatch.
+
+**Note:** MIT licensed. Requires closer-mop.
 
 ---
 

@@ -1,6 +1,6 @@
 # Numeric: Statistics
 
-2 libraries
+5 libraries
 
 ---
 
@@ -35,6 +35,63 @@
 **Best For:** Statistical analysis, data exploration, probability distributions.
 
 **Note:** Histogram data structure and operations.
+
+---
+
+
+## cl-randist
+
+**System Name:** `cl-randist`
+
+**Purpose:** Random distributions library for Common Lisp.
+
+**Why Use It:**
+- **Statistical Distributions**: Various probability distributions
+- **Random Sampling**: Generate random samples from distributions
+- **Statistical Analysis**: Tools for probabilistic computations
+
+**Best For:** Statistical computing, simulations, Monte Carlo methods, probabilistic algorithms.
+
+**Note:** Provides common random distribution functions for scientific computing.
+
+---
+
+
+## cl-variates
+
+**System Name:** `cl-variates`
+
+**Purpose:** Portable random number generation with multiple distributions.
+
+**Why Use It:**
+- **Multiple Distributions**: Normal, uniform, exponential, and more
+- **Portable**: Works across CL implementations
+- **Reproducible**: Seedable random number generators
+- **Statistical Quality**: High-quality random number generation
+
+**Best For:** Statistical simulation, Monte Carlo methods, random testing, scientific computing.
+
+**Note:** MIT license. Version 0.9.0. Production-ready random variate generation.
+
+---
+
+
+## distributions
+
+**System Name:** `distributions`
+
+**Purpose:** Collection of probabilistic distributions and related functions.
+
+**Why Use It:**
+- **Statistical Distributions**: Many probability distributions
+- **Random Sampling**: Generate random variates from distributions
+- **PDF/CDF**: Probability and cumulative distribution functions
+- **Lisp-Stat Integration**: Part of Lisp-Stat ecosystem
+- **Quantile Functions**: Inverse CDF functions
+
+**Best For:** Statistical computing, probability theory, data science, simulations.
+
+**Note:** MS-PL License. Part of Lisp-Stat project. Rich distribution collection.
 
 ---
 

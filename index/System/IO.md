@@ -1,6 +1,6 @@
 # System: IO
 
-2 libraries
+3 libraries
 
 ---
 
@@ -42,6 +42,25 @@
 **Best For:** Network protocols, binary formats, performance-critical I/O.
 
 **Note:** Essential for high-performance binary I/O in Common Lisp.
+
+---
+
+
+## deoxybyte-io
+
+**System Name:** `deoxybyte-io`
+
+**Purpose:** I/O utilities for Common Lisp.
+
+**Why Use It:**
+- **I/O Utilities**: Collection of I/O helper functions
+- **File Operations**: Enhanced file handling capabilities
+- **Stream Support**: Gray streams utilities
+- **Deoxybyte Suite**: Part of deoxybyte library collection
+
+**Best For:** File I/O, stream processing, I/O utilities.
+
+**Note:** GPL v3. By Keith James. Part of deoxybyte systems suite.
 
 ---
 

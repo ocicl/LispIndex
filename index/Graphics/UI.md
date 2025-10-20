@@ -1,6 +1,6 @@
 # Graphics: UI
 
-3 libraries
+7 libraries
 
 ---
 
@@ -57,6 +57,83 @@
 **Best For:** Data filtering UIs, search interfaces, query builders.
 
 **Note:** CLIM-based GUI may need styling improvements (author's admission).
+
+---
+
+
+## clim-widgets
+
+**System Name:** `clim-widgets`
+
+**Purpose:** Collection of CLIM widgets including calendar, clock, and treeview.
+
+**Why Use It:**
+- **Calendar Widget**: Display calendars
+- **Clock Widgets**: Analog and digital clocks
+- **Treeview**: Flexible tree display widget
+- **Ready-to-Use**: Pre-built CLIM components
+
+**Best For:** CLIM applications, GUI development, widget libraries.
+
+**Note:** Includes customizable treeview with icons and grid options.
+
+---
+
+
+## cl-liballegro-nuklear
+
+**System Name:** `cl-liballegro-nuklear`
+
+**Purpose:** CFFI wrapper for Nuklear immediate-mode GUI library with Allegro backend.
+
+**Why Use It:**
+- **Immediate Mode GUI**: Minimal IM GUI toolkit for game development
+- **Allegro Integration**: Works seamlessly with cl-liballegro
+- **Auto-Build**: Automatically builds native library on load
+- **Declarative Interface**: High-level declarative API via defwindow macro
+- **Cross-Platform**: Tested on Windows, macOS, Linux, FreeBSD
+- **Multiple Lisps**: Works on SBCL, CCL, ECL, ACL, LispWorks
+
+**Best For:** Game development, interactive applications requiring lightweight GUI with Allegro graphics.
+
+---
+
+
+## cl-xul
+
+**System Name:** `cl-xul`
+
+**Purpose:** Create Mozilla XUL user interfaces from Common Lisp.
+
+**Why Use It:**
+- **Component Architecture**: Widget-based GUI with standard components
+- **WebSocket Communication**: Real-time client-server communication via clws
+- **Automatic Updates**: View updates automatically on state changes
+- **Lisp-Based UI**: Define interfaces directly in Lisp, no external XML
+- **Rich Widgets**: Standard XUL widget support with server-side logic
+
+**Best For:** Desktop applications with web technology, cross-platform GUIs, rapid UI development.
+
+**Note:** Linux/SBCL only (IOlib limitation). Requires XULRunner. Similar to Phobos framework.
+
+---
+
+
+## cl-webkit
+
+**System Name:** `cl-webkit2`
+
+**Purpose:** FFI bindings to WebKit2GTK+ for embedding web browsers.
+
+**Why Use It:**
+- **Browser Embedding**: Embed WebKit browser in applications
+- **GTK Integration**: Works with GTK+ GUI toolkit
+- **Modern WebKit**: Uses WebKit2 API
+- **Full-featured**: Complete browser engine
+
+**Best For:** GUI applications with web views, documentation browsers, hybrid apps.
+
+**Note:** MIT license. Version 3.5.9. Requires WebKit2GTK+ and GTK.
 
 ---
 

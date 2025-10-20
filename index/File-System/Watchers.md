@@ -1,6 +1,6 @@
 # File-System: Watchers
 
-3 libraries
+4 libraries
 
 ---
 
@@ -61,6 +61,25 @@
 **Best For:** File system monitoring, auto-reload, build tools, Linux applications.
 
 **Note:** Linux-only. Use iolib or OS-specific alternatives for other platforms.
+
+---
+
+
+## cl-inotify
+
+**System Name:** `cl-inotify`
+
+**Purpose:** Common Lisp binding to the Linux inotify(7) API for filesystem event monitoring.
+
+**Why Use It:**
+- **File Monitoring**: Watch files and directories for modifications, creation, deletion
+- **Event-Based**: Receive notifications when filesystem events occur
+- **Non-Blocking**: Support for both blocking and non-blocking operations
+- **CFFI-Based**: Uses CFFI for efficient C interface
+
+**Best For:** File monitoring applications, hot-reloading systems, file synchronization tools.
+
+**Note:** Linux only. BSD licensed. Uses cffi, binary-types, trivial-utf-8.
 
 ---
 

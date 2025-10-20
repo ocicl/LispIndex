@@ -1,6 +1,6 @@
 # Utilities: General
 
-15 libraries
+21 libraries
 
 ---
 
@@ -282,6 +282,120 @@
 **Best For:** Projects already using bodge libraries that need access to shared utility functions.
 
 **Note:** WARNING: API is unstable and intended only for bodge libraries. Not recommended for external projects - copy relevant code instead. Subject to change without notice.
+
+---
+
+
+## clj
+
+**System Name:** `clj`
+
+**Purpose:** Port of convenient Clojure idioms and functions to Common Lisp.
+
+**Why Use It:**
+- **Clojure Style**: Bring Clojure conveniences to Common Lisp
+- **Functional Tools**: Threading macros and functional utilities
+- **MIT Licensed**: Unlike Clojure's EPL license
+- **Idiomatic CL**: Adapted to Common Lisp conventions
+
+**Best For:** Developers familiar with Clojure, functional programming patterns.
+
+**Note:** MIT licensed. Implements Clojure conveniences in Common Lisp style.
+
+---
+
+
+## cl-jpl-util
+
+**System Name:** `jpl-util`
+
+**Purpose:** Sundry utilities collection by J.P. Larocque.
+
+**Why Use It:**
+- **General Utilities**: Gensyms, types, iterators, accumulators
+- **Data Structures**: Alists, plists helpers
+- **Macros**: defclass-star, subtypecase, option-clause
+- **Order Operations**: Comparison and ordering utilities
+
+**Best For:** General utility needs, macro writing, data structure manipulation.
+
+**Note:** ISC-style permissive license. Version 0.4.
+
+---
+
+
+## cl-why
+
+**System Name:** `cl-why`
+
+**Purpose:** Non-standard library utilities by Edi Weitz.
+
+**Why Use It:**
+- **Utility Collection**: Various helper functions
+- **Edi Weitz Quality**: From prolific CL library author
+- **Tested**: Production-tested utilities
+- **General Purpose**: Wide range of utilities
+
+**Best For:** General utility functions, helper tools, common patterns.
+
+**Note:** BSD license by Edi Weitz. Personal utility collection.
+
+---
+
+
+## cl-stdutils
+
+**System Name:** `stdutils`
+
+**Purpose:** Standard utilities library with common helper functions.
+
+**Why Use It:**
+- **Utility Functions**: Collection of general-purpose utilities
+- **Foundation Library**: Used by langutils and registry projects
+- **Practical Helpers**: Day-to-day programming conveniences
+
+**Best For:** General Common Lisp projects, reducing boilerplate, common patterns.
+
+**Note:** Home-grown utilities library. Documentation is minimal but code is public.
+
+---
+
+
+## deoxybyte-utilities
+
+**System Name:** `deoxybyte-utilities`
+
+**Purpose:** General utility functions and macros.
+
+**Why Use It:**
+- **Utility Collection**: General-purpose utilities
+- **Helper Functions**: Common utility patterns
+- **Deoxybyte Suite**: Part of deoxybyte library ecosystem
+- **Productivity**: Time-saving utility functions
+
+**Best For:** General programming, utility functions, helper libraries.
+
+**Note:** GPL v3. By Keith James. Part of deoxybyte systems suite.
+
+---
+
+
+## DartsCLTools
+
+**System Name:** `darts.lib.tools`
+
+**Purpose:** Small library of utilities for property lists, iteration, and events.
+
+**Why Use It:**
+- **Property Lists**: Generic property support for objects
+- **Event Notification**: Observer pattern implementation
+- **Iteration Macros**: Named-loop and other helpers
+- **CLOS/Struct**: Works with both CLOS and structures
+- **Atomic Updates**: Thread-safe property updates
+
+**Best For:** Object properties, event systems, observer pattern, utilities, mixins.
+
+**Note:** MIT License. By Dirk Esser. Utilities from multiple projects.
 
 ---
 

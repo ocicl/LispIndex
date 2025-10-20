@@ -1,6 +1,6 @@
 # Web: HTTP-Client
 
-3 libraries
+4 libraries
 
 ---
 
@@ -58,6 +58,26 @@
 - **Same Behavior**: Attempts exact same behavior as drakma
 
 **Best For:** Async HTTP requests with familiar drakma API.
+
+---
+
+
+## cl-mechanize
+
+**System Name:** `cl-mechanize`
+
+**Purpose:** WWW::Mechanize work-alike for Common Lisp web automation.
+
+**Why Use It:**
+- **Web Automation**: Programmatic web browsing and form submission
+- **Form Handling**: Parse and submit web forms
+- **Link Extraction**: Extract and follow links
+- **DOM Traversal**: Navigate and query HTML DOM
+- **Drakma Backend**: Built on robust Drakma HTTP client
+
+**Best For:** Web scraping, automated testing, form automation, content extraction.
+
+**Note:** Early development stage. Read source before using.
 
 ---
 

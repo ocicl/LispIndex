@@ -1,6 +1,6 @@
 # Graphics: Text-Rendering
 
-2 libraries
+3 libraries
 
 ---
 
@@ -37,6 +37,26 @@
 **Best For:** Game development, OpenGL applications, graphical user interfaces.
 
 **Note:** zlib license by Yukari Hafner (Shinmera).
+
+---
+
+
+## cl-pango
+
+**System Name:** `cl-pango`
+
+**Purpose:** CFFI bindings to the Pango text layout library.
+
+**Why Use It:**
+- **Text Layout**: Advanced text layout and rendering
+- **Cairo Integration**: Works with cl-cairo2
+- **Font Support**: Complex font handling
+- **Internationalization**: Full Unicode and bidirectional text support
+- **XML Markup**: Parse and render Pango markup
+
+**Best For:** GUI applications, text rendering, PDF generation, complex typography.
+
+**Note:** MIT License. Requires Pango library installed.
 
 ---
 

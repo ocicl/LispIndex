@@ -1,6 +1,6 @@
 # Data-Structures: Trees
 
-10 libraries
+14 libraries
 
 ---
 
@@ -198,6 +198,84 @@
 **Best For:** Merkle trees, binary heap implementations, tree-based data structures.
 
 **Note:** MIT License by noffle.
+
+---
+
+
+## cl-naive-ptrees
+
+**System Name:** `cl-naive-ptrees`
+
+**Purpose:** Functions to work with plist trees treating pairs as units.
+
+**Why Use It:**
+- **Plist Operations**: Treat plist pairs as units rather than individual items
+- **Tree Manipulation**: Work with nested plist structures
+- **No Dependencies**: Pure Common Lisp implementation
+- **Property Trees**: Navigate and modify hierarchical property lists
+
+**Best For:** Configuration management, structured data manipulation, property-based data structures.
+
+**Note:** MIT License.
+
+---
+
+
+## cl-skip-list
+
+**System Name:** `cl-skip-list`
+
+**Purpose:** Concurrent lockless skip lists.
+
+**Why Use It:**
+- **Concurrent Access**: Lock-free data structure for multi-threaded use
+- **Skip List Structure**: Probabilistic balanced tree alternative
+- **MCAS Operations**: Multi-word compare-and-swap support
+- **Priority Queue**: Includes skip-list-based priority queue
+- **SBCL Optimized**: Uses SBCL's compare-and-swap and memory barriers
+
+**Best For:** Concurrent data structures, priority queues, sorted sets, lock-free programming.
+
+**Note:** BSD License. Currently SBCL-specific (1.0.42+).
+
+---
+
+
+## Clump
+
+**System Name:** `clump-2-3-tree`
+
+**Purpose:** Collection of tree implementations including 2-3 trees with stratified design.
+
+**Why Use It:**
+- **Multiple Abstractions**: Low-level and high-level interfaces
+- **Flexible Design**: Use as search trees or sequence containers
+- **Exposed Representation**: Direct access when needed
+- **Well-tested**: Production-ready tree structures
+
+**Best For:** Implementing search trees, ordered sequences, custom data structures.
+
+**Note:** Part of Second Climacs. Provides foundation for other tree-based structures.
+
+---
+
+
+## DartsCLHashTree
+
+**System Name:** `darts.lib.wbtree` / `darts.lib.hashtrie`
+
+**Purpose:** Functional maps and trees - hash tries and weight-balanced trees.
+
+**Why Use It:**
+- **Purely Functional**: Immutable data structures
+- **Hash Tries**: Based on Ideal Hash Trees paper
+- **Weight-balanced Trees**: Sorted maps from strings to values
+- **Persistent**: Copy-on-write semantics
+- **Efficient**: Share structure between versions
+
+**Best For:** Functional programming, persistent data, immutable structures, concurrent code.
+
+**Note:** Implements purely functional maps and trees.
 
 ---
 

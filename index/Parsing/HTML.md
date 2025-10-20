@@ -1,6 +1,6 @@
 # Parsing: HTML
 
-9 libraries
+11 libraries
 
 ---
 
@@ -169,6 +169,45 @@
 **Best For:** Web scraping, HTML analysis, document processing.
 
 **Note:** Classic HTML parser implementation.
+
+---
+
+
+## common-html
+
+**System Name:** `common-html`
+
+**Purpose:** HTML parser and emitter for CommonDoc documents.
+
+**Why Use It:**
+- **HTML Output**: Emit CommonDoc as clean HTML
+- **Metadata Attributes**: Add HTML attributes via node metadata (html:class, etc.)
+- **Multi-File Emission**: Split documents into multiple HTML files by section
+- **Depth Control**: Configure section depth for file splitting
+- **Parser/Emitter**: Both parse HTML to CommonDoc and emit back
+
+**Best For:** Documentation generation, static site generation, multi-page documentation, HTML publishing.
+
+**Note:** MIT License. By Fernando Borretti. Texinfo/Sphinx-style multi-file output. Slug-based filenames.
+
+---
+
+
+## cl-tidy
+
+**System Name:** `cl-tidy`
+
+**Purpose:** FFI bindings to HTML Tidy for HTML validation and cleanup.
+
+**Why Use It:**
+- **HTML Cleanup**: Fix malformed HTML automatically
+- **Validation**: Check HTML for errors
+- **HTML Tidy**: Leverage battle-tested HTML Tidy library
+- **CFFI**: Foreign function interface to libtidy
+
+**Best For:** HTML processing, web scraping, HTML validation, markup cleanup.
+
+**Note:** MIT License. Wraps the standard HTML Tidy library for HTML cleaning.
 
 ---
 

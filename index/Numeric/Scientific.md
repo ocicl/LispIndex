@@ -1,6 +1,6 @@
 # Numeric: Scientific
 
-2 libraries
+4 libraries
 
 ---
 
@@ -37,6 +37,46 @@
 **Best For:** Scientific computing, engineering simulations, PDE solving.
 
 **Note:** Full-featured finite element analysis system in Common Lisp.
+
+---
+
+
+## cl-opsresearch
+
+**System Name:** `cl-opsresearch`
+
+**Purpose:** Distributed processing with native machine learning and analytics packages.
+
+**Why Use It:**
+- **FANN Integration**: Fast Artificial Neural Networking
+- **GLPK Support**: GNU Linear Programming Kit
+- **GSL Bindings**: GNU Scientific Library access
+- **Distributed Processing**: Built for distributed computation
+- **Multiple Implementations**: Tested on SBCL and ABCL
+
+**Best For:** Operations research, linear programming, neural networks, scientific computing.
+
+**Note:** Standard license. Requires native libraries (FANN, GLPK, GSL).
+
+---
+
+
+## codata-recommended-values
+
+**System Name:** `codata-recommended-values`
+
+**Purpose:** CODATA recommended physical constants with uncertainties.
+
+**Why Use It:**
+- **Authoritative Values**: Official NIST/CODATA physical constants
+- **Multiple Years**: Packages for 2010, 2014, 2018, 2022 values
+- **Uncertainty Data**: Returns value, standard uncertainty, relative uncertainty
+- **Long-Float Precision**: Uses long-float for maximum accuracy
+- **Symbol Macros**: Easy integration as constant values
+
+**Best For:** Scientific computing, physics simulations, unit conversions, educational software.
+
+**Note:** All constants defined as both constant and function. Latest values in main package, historical in year-specific packages.
 
 ---
 

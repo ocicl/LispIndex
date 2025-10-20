@@ -1,6 +1,6 @@
 # Game-Dev: Frameworks
 
-3 libraries
+4 libraries
 
 ---
 
@@ -61,6 +61,26 @@
 **Best For:** 2D game development, game prototyping, learning game programming.
 
 **Note:** Works with glop or lispbuilder-sdl for windowing.
+
+---
+
+
+## cl-raylib
+
+**System Name:** `cl-raylib`
+
+**Purpose:** Common Lisp binding for raylib game development library.
+
+**Why Use It:**
+- **Complete Raylib**: Full access to raylib's game development features
+- **CFFI-based**: Uses CFFI for library loading
+- **Graphics**: 2D/3D rendering capabilities
+- **Input Handling**: Keyboard, mouse, gamepad support
+- **Audio**: Sound and music playback
+
+**Best For:** Game development, graphics programming, interactive applications, multimedia projects.
+
+**Note:** Requires raylib dynamic library installed separately. Examples provided.
 
 ---
 

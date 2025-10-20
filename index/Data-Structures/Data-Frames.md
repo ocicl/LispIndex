@@ -1,6 +1,6 @@
 # Data-Structures: Data-Frames
 
-2 libraries
+3 libraries
 
 ---
 
@@ -39,6 +39,27 @@
 - **Format Conversion**: Convert to/from lists of alists/plists
 
 **Best For:** Working with tabular data from databases or spreadsheets.
+
+---
+
+
+## cl-simple-table
+
+**System Name:** `cl-simple-table`
+
+**Purpose:** Simple in-memory table operations and CSV/TSV support.
+
+**Why Use It:**
+- **Tabular Data**: Arrays-based table and row abstractions
+- **CSV/TSV Import**: Read comma and tab-separated files
+- **SQL-Like Queries**: Select, distinct, where, order-by, top operations
+- **Filter Combinators**: where-filter, where-and, where-or for complex filtering
+- **No Dependencies**: Pure Common Lisp implementation
+- **File I/O**: Direct CSV/TSV file reading and parsing
+
+**Best For:** Data analysis, CSV processing, simple database operations, data exploration.
+
+**Note:** MIT License. Perfect for quick tabular data manipulation.
 
 ---
 

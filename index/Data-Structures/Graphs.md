@@ -1,6 +1,6 @@
 # Data-Structures: Graphs
 
-3 libraries
+6 libraries
 
 ---
 
@@ -61,5 +61,63 @@
 ---
 
 
+
+
+## cl-graph
+
+**System Name:** `cl-graph`
+
+**Purpose:** Common Lisp library for manipulating graphs and running graph algorithms.
+
+**Why Use It:**
+- **Graph Data Structure**: Flexible graph representation
+- **Algorithms**: Standard graph algorithms included
+- **Graphviz Integration**: Optional visualization support
+- **Well-Established**: Mature library for graph operations
+
+**Best For:** Graph algorithms, network analysis, data structures.
+
+**Note:** Supports integration with hu.dwim.graphviz for visualization.
+
+---
+
+
+## cl-grph
+
+**System Name:** `cl-grph`
+
+**Purpose:** Immutable in-memory graph structure with Datalog query language.
+
+**Why Use It:**
+- **Immutable**: Based on fset, enables easy transactions
+- **Datalog Queries**: Pattern matching with and/or/not operations
+- **Spatial Separation**: Graph topology separate from spatial data
+- **Edge Properties**: Native support for edge properties
+
+**Best For:** Generative art, graph databases, immutable data structures.
+
+**Note:** Includes xgrph for spatial information. Supports fixed-point iteration.
+
+---
+
+
+## epigraph
+
+**System Name:** `epigraph`
+
+**Purpose:** Library for representing and processing graphs (nodes and edges).
+
+**Why Use It:**
+- **Graph Structures**: Generic node and edge representation
+- **Flexible Nodes**: Customizable node comparison with node-test
+- **Edge Management**: Add and query edges between nodes
+- **Graph Algorithms**: Foundation for pathfinding and analysis
+- **Simple API**: Straightforward graph construction
+
+**Best For:** Graph algorithms, network analysis, dependency graphs, path finding.
+
+**Note:** Basic graph data structure. BSD license.
+
+---
 
 

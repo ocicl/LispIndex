@@ -1,6 +1,6 @@
 # System: Packages
 
-3 libraries
+6 libraries
 
 ---
 
@@ -57,6 +57,66 @@
 **Best For:** Rapid prototyping, reducing boilerplate in library development, projects with many exported symbols, and avoiding desynchronization between definitions and export lists.
 
 **Note:** BSD-3-Clause License. Author: fami-com (Vladimir Ivanov). Dependencies: closer-mop, alexandria. Use pub in place of standard definition macros (defun, defclass, etc.) to enable automatic exporting.
+
+---
+
+
+## cl-package-locks
+
+**System Name:** `cl-package-locks`
+
+**Purpose:** Uniform interface for dealing with package locks across implementations.
+
+**Why Use It:**
+- **Cross-Implementation**: Works across multiple Common Lisp implementations
+- **Lock/Unlock**: Lock and unlock packages programmatically
+- **Temporary Unlocking**: with-packages-unlocked macro
+- **Query**: Test if packages are locked
+- **Batch Operations**: Work with lists of packages
+- **Restart Support**: Implementation-agnostic error handling
+
+**Best For:** Package modification, metaprogramming, avoiding package lock violations.
+
+**Note:** Standard license. No-op on implementations without package locks.
+
+---
+
+
+## cl-reexport
+
+**System Name:** `cl-reexport`
+
+**Purpose:** Reexport symbols from other packages to create hierarchical package structures.
+
+**Why Use It:**
+- **Package Hierarchies**: Create virtual hierarchical package structures
+- **Symbol Reexporting**: Export external symbols from other packages
+- **Include/Exclude Options**: Selective symbol reexporting
+- **Clean Namespaces**: Organize large systems with subpackages
+
+**Best For:** Large projects with hierarchical organization, API facade creation, namespace management.
+
+**Note:** Useful for managing complex package structures and creating clean public APIs.
+
+---
+
+
+## conduit-packages
+
+**System Name:** `org.tfeb.conduit-packages`
+
+**Purpose:** Manage conduit packages that reexport symbols from multiple implementation packages.
+
+**Why Use It:**
+- **Package Composition**: Create packages that combine and reexport symbols from multiple packages
+- **Dynamic Updates**: Conduits automatically update when underlying packages change
+- **Selective Export**: Include or exclude specific symbols when reexporting
+- **Extensible defpackage**: Add custom clauses to package definitions
+- **Variant CL Creation**: Create CL-like packages with modifications
+
+**Best For:** Library API design, package interface management, creating variant Common Lisp environments.
+
+**Note:** Predates UIOP's define-package by a decade. Portable CL. Active since 1998.
 
 ---
 

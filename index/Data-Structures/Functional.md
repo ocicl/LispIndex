@@ -1,6 +1,6 @@
 # Data-Structures: Functional
 
-8 libraries
+9 libraries
 
 ---
 
@@ -169,6 +169,26 @@
 **Best For:** Concurrent programming, functional programming, immutable data.
 
 **Note:** Uses sxhash and equal. Local nicknames recommended.
+
+---
+
+
+## cl-zipper
+
+**System Name:** `cl-zipper`
+
+**Purpose:** Zipper data structure for tree navigation and editing.
+
+**Why Use It:**
+- **Functional Navigation**: Navigate and edit trees functionally
+- **Huet Paper**: Based on classic zipper paper by Gérard Huet
+- **Clojure-Inspired**: API similar to Clojure's zipper implementation
+- **Head/Tail Operations**: List-like navigation through trees
+- **Immutable Updates**: Non-destructive tree modifications
+
+**Best For:** Tree manipulation, functional programming, AST traversal, data structure navigation.
+
+**Note:** MIT License. Implements classic zipper data structure for efficient tree operations.
 
 ---
 

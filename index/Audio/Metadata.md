@@ -1,6 +1,6 @@
 # Audio: Metadata
 
-2 libraries
+4 libraries
 
 ---
 
@@ -41,6 +41,44 @@
 **Best For:** Audio file processing, metadata extraction, music libraries.
 
 **Note:** Comprehensive FLAC metadata parser for Common Lisp.
+
+---
+
+
+## cl-flac-metadata-bindings
+
+**System Name:** `cl-flac-metadata-bindings`
+
+**Purpose:** Read FLAC audio file metadata tags.
+
+**Why Use It:**
+- **FLAC Files**: Parse FLAC file metadata
+- **Tag Reading**: Extract artist, album, title, etc.
+- **Audio Metadata**: Complete tag information
+- **libFLAC**: Uses official FLAC library
+
+**Best For:** Audio applications, music libraries, metadata extraction.
+
+**Note:** Requires libFLAC 1.4+.
+
+---
+
+
+## cue-parser
+
+**System Name:** `cue-parser`
+
+**Purpose:** Parser for cue sheet files with metadata extraction.
+
+**Why Use It:**
+- **Cue Sheets**: Parse cue sheet files
+- **Metadata**: Extract performer, title, indices
+- **S-expr Tree**: Output as simple s-expression tree
+- **Audio Metadata**: Get track and album information
+
+**Best For:** Audio applications, CD ripping, music libraries, metadata extraction.
+
+**Note:** Simple library for parsing cue sheet files into s-expressions.
 
 ---
 

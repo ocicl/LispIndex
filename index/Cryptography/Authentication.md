@@ -1,6 +1,6 @@
 # Cryptography: Authentication
 
-2 libraries
+3 libraries
 
 ---
 
@@ -42,6 +42,26 @@
 **Best For:** Enterprise authentication, Kerberos integration, Windows interop.
 
 **Note:** Created by Frank James. Works with cerberus, ntlm, and spnego libraries.
+
+---
+
+
+## cl-sasl
+
+**System Name:** `cl-sasl`
+
+**Purpose:** SASL (Simple Authentication and Security Layer) client library per RFC 2222.
+
+**Why Use It:**
+- **Multiple Mechanisms**: PLAIN, DIGEST-MD5, ANONYMOUS support
+- **Mechanism Selection**: Choose best mechanism from server list
+- **Security Options**: Control cleartext and anonymous authentication
+- **Ironclad Integration**: Uses Ironclad for cryptography
+- **Standard API**: Common initargs for authentication
+
+**Best For:** Email clients, XMPP clients, authentication protocols, network services.
+
+**Note:** Depends on Ironclad. Supports standard SASL mechanisms for client authentication.
 
 ---
 

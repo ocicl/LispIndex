@@ -1,6 +1,6 @@
 # Data-Structures: Arrays
 
-2 libraries
+4 libraries
 
 ---
 
@@ -34,6 +34,47 @@
 - **Shinmera Ecosystem**: Consistent with other Shinmera libraries
 
 **Best For:** Projects using Shinmera libraries needing additional array utilities.
+
+---
+
+
+## cl-slice
+
+**System Name:** `cl-slice`
+
+**Purpose:** Array slicing DSL for Common Lisp.
+
+**Why Use It:**
+- **Array Slicing**: Pythonic array slicing for Common Lisp
+- **Range Syntax**: cons, including, head, tail slice specifications
+- **Dimension Dropping**: Singleton slices drop dimensions
+- **Bit Vector Masks**: Use bit vectors as selection masks
+- **Negative Indexing**: Python-style negative indices from end
+- **Extensible DSL**: Define custom slice semantics via canonical-representation
+
+**Best For:** Numerical computing, array manipulation, data analysis, matrix operations.
+
+**Note:** Abandoned. Superseded by https://github.com/Lisp-Stat/select
+
+---
+
+
+## dynamic-array
+
+**System Name:** `dynamic-array`
+
+**Purpose:** Optimized 1-dimensional array of fixnums with automatic resizing.
+
+**Why Use It:**
+- **Performance**: Specialized for fixnum storage with optimizations
+- **Auto-resize**: Automatically grows when pushing elements
+- **Low Overhead**: Efficient memory usage for integer arrays
+- **Fast Access**: Direct array access without boxing
+- **Stack-like**: Push/pop operations for dynamic growth
+
+**Best For:** Integer collections, performance-critical numeric arrays, growing sequences of fixnums.
+
+**Note:** Does not implement standard sequence protocol. MIT license.
 
 ---
 

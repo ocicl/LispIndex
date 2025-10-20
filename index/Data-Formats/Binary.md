@@ -1,6 +1,6 @@
 # Data-Formats: Binary
 
-2 libraries
+8 libraries
 
 ---
 
@@ -38,6 +38,125 @@
 **Best For:** Network protocols, file formats, binary data processing.
 
 **Note:** Centralizes binary I/O facilities. Comprehensive and efficient.
+
+---
+
+
+## cl-ixf
+
+**System Name:** `cl-ixf`
+
+**Purpose:** Tools to handle IBM PC version of IXF (Integration Exchange Format) file format.
+
+**Why Use It:**
+- **IBM Format**: Read and write IBM IXF files
+- **Data Exchange**: Import/export data from DB2 and other IBM systems
+- **Binary Format**: Handle structured binary data files
+- **Database Integration**: Work with database import/export workflows
+
+**Best For:** Database migration, IBM DB2 integration, data import/export tools.
+
+**Note:** Specialized for IBM IXF file format handling.
+
+---
+
+
+## cl-libsvm-format
+
+**System Name:** `cl-libsvm-format`
+
+**Purpose:** Fast LibSVM data format reader for Common Lisp.
+
+**Why Use It:**
+- **Fast Parsing**: Efficient reader for LibSVM sparse data format
+- **Machine Learning**: Standard format for SVM training data
+- **Streaming Support**: Process large datasets with streaming interface
+- **Sparse Data**: Handles sparse feature vectors efficiently
+- **Multiple Lisps**: Works on SBCL, CCL, Allegro CL, ABCL
+
+**Best For:** Machine learning applications, SVM training, reading sparse matrix data.
+
+---
+
+
+## cl-sf3
+
+**System Name:** `cl-sf3`
+
+**Purpose:** Parser and creator for SF3 (Simple File Format Family) files.
+
+**Why Use It:**
+- **Multiple Formats**: Support for images, audio, 3D models, rich text, logs, archives
+- **Unified Interface**: Single API for all SF3 format types
+- **Format Detection**: Automatic file type detection with tell-sf3
+- **Binary Structures**: Built on binary-structures for efficiency
+- **Extensible**: Easy to add custom SF3 format support
+- **Memory and Stream**: Works with pathnames, streams, vectors, and foreign memory
+
+**Best For:** Game asset pipelines, multimedia applications, standardized file storage.
+
+**Note:** zlib License. Implements SF3 standard by Shirakumo.
+
+---
+
+
+## cl-pack
+
+**System Name:** `cl-pack`
+
+**Purpose:** Perl/PHP/Ruby/Python compatible pack/unpack functions for binary formats.
+
+**Why Use It:**
+- **Cross-Language**: Compatible with pack/unpack in Perl, PHP, Ruby, Python
+- **Binary Protocols**: Encode/decode binary format protocols
+- **Full Features**: Nearly complete Perl pack feature support
+- **Endian Safe**: Handles endianness correctly
+- **ASDF Integration**: Easy to integrate into systems
+- **Type Support**: Numbers, floats, strings, groups, templates
+
+**Best For:** Binary protocols, file formats, cross-language data exchange, C interop.
+
+**Note:** BSD-3-Clause. Developed on x86/Ubuntu/SBCL but should be portable.
+
+---
+
+
+## cl-rfc4251
+
+**System Name:** `cl-rfc4251`
+
+**Purpose:** RFC 4251 binary data encoding/decoding for SSH protocols.
+
+**Why Use It:**
+- **SSH Data Types**: byte, boolean, uint32, uint64, string, mpint
+- **Encode/Decode**: Generic functions for all RFC 4251 types
+- **Binary Protocols**: Support for SSH protocol data
+- **Name Lists**: Comma-separated name handling
+- **Big-Endian**: Proper network byte order
+
+**Best For:** SSH implementations, binary protocols, network programming.
+
+**Note:** Supports all data types from RFC 4251 Section 5 plus extensions.
+
+---
+
+
+## DartsCLMessagePack
+
+**System Name:** `darts.lib.messagepack`
+
+**Purpose:** Simple encoder/decoder for MsgPack binary format.
+
+**Why Use It:**
+- **MsgPack**: Implements MessagePack binary serialization
+- **All Opcodes**: Supports all MessagePack specification opcodes
+- **Low-level**: Application controls type representation
+- **No Guessing**: Refuses to guess object types
+- **Case-by-case**: Choose representation per value
+
+**Best For:** Binary serialization, data exchange, network protocols, efficient encoding.
+
+**Note:** Lower level than cl-messagepack. No Ext opcodes.
 
 ---
 

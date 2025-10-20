@@ -1,6 +1,6 @@
 # Foreign-Interface: GLib
 
-1 libraries
+2 libraries
 
 ---
 
@@ -21,6 +21,25 @@
 **Best For:** GTK application development, GObject-based applications, using GIO for application framework, accessing GLib utilities, and projects requiring the foundation libraries for GTK ecosystem.
 
 **Note:** MIT licensed. Requires cffi, iterate, bordeaux-threads, closer-mop, trivial-garbage, trivial-features. Documentation in GTK 4 API docs. Based on cl-gtk2 by Kalyanov Dmitry. Test with asdf:test-system.
+
+---
+
+
+## cl-glib
+
+**System Name:** `cl-glib`
+
+**Purpose:** GLib bindings for Common Lisp providing multi-threading and application support.
+
+**Why Use It:**
+- **GTK4 Dependency**: Required for cl-gtk4 applications
+- **GLib Integration**: Access to GLib main loop and utilities
+- **Multi-Threading**: GLib thread support for Common Lisp
+- **Object Introspection**: Uses GObject Introspection
+
+**Best For:** GTK4 applications, GLib-based programs, event-driven apps.
+
+**Note:** Requires GLib and GObject Introspection installed on system.
 
 ---
 

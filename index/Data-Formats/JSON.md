@@ -1,6 +1,6 @@
 # Data-Formats: JSON
 
-6 libraries
+7 libraries
 
 ---
 
@@ -119,6 +119,25 @@
 **Best For:** Applications requiring strict JSON compliance and safety.
 
 **Note:** Prioritizes correctness and safety over raw speed.
+
+---
+
+
+## cl-jsonl
+
+**System Name:** `cl-jsonl`
+
+**Purpose:** Lazy reading of JSONL (JSON Lines) files with line-by-line parsing.
+
+**Why Use It:**
+- **Lazy Loading**: Stream large JSONL files efficiently
+- **Memory Efficient**: Process one line at a time
+- **Generator-Based**: Uses gtwiwtg for lazy sequences
+- **Yason Integration**: Built on yason JSON library
+
+**Best For:** Processing large JSONL datasets, log file analysis, streaming JSON data.
+
+**Note:** MIT licensed. Version 0.1.0.
 
 ---
 

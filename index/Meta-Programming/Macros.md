@@ -1,6 +1,6 @@
 # Meta-Programming: Macros
 
-12 libraries
+18 libraries
 
 ---
 
@@ -235,6 +235,121 @@
 **Best For:** Functional programming, reducing boilerplate, iteration utilities.
 
 **Note:** By Scott Burson. GMap is extensible with custom arg/result types.
+
+---
+
+
+## cl-emacs-if
+
+**System Name:** `cl-emacs-if`
+
+**Purpose:** Emacs-style IF and WHILE statements for Common Lisp.
+
+**Why Use It:**
+- **Emacs-like Syntax**: Multiple body forms without progn
+- **IF with Multiple Forms**: Multiple consequent/alternative forms
+- **WHILE Loops**: Emacs-style while loops
+- **Familiar**: For Emacs Lisp programmers
+
+**Best For:** Emacs Lisp ports, alternative control flow syntax.
+
+**Note:** Shadow-import to avoid conflicts with CL:IF.
+
+---
+
+
+## Clith
+
+**System Name:** `clith`
+
+**Purpose:** Generic WITH macro for resource management and automatic cleanup.
+
+**Why Use It:**
+- **Unified Interface**: Single macro for all WITH-* operations
+- **Extensible**: Define custom WITH expansions via defwith
+- **Declarations**: Full support for Common Lisp declarations
+- **Macro Detection**: Detects and handles symbol-macros correctly
+
+**Best For:** Resource management, custom WITH-* macros, cleanup patterns, file handling.
+
+**Note:** Comprehensive replacement for individual WITH-* macros.
+
+---
+
+
+## clj-arrows
+
+**System Name:** `clj-arrows`
+
+**Purpose:** Clojure-compatible threading and arrow macros for Common Lisp.
+
+**Why Use It:**
+- **Full Compatibility**: Exact Clojure behavior for -> ->> as-> cond-> etc
+- **Diamond Wands**: -<> -<>> with multiple <> substitutions
+- **Documented**: Comprehensive docstrings with examples
+- **Multi-Implementation**: Tested on SBCL, ABCL, ACL, CCL
+
+**Best For:** Data pipeline transformation, functional composition, Clojure code porting.
+
+**Note:** Provides exact Clojure semantics, unlike some other arrow macro packages.
+
+---
+
+
+## cl-punch
+
+**System Name:** `cl-punch`
+
+**Purpose:** Scala-like anonymous lambda literals with concise syntax.
+
+**Why Use It:**
+- **Concise Syntax**: ^(* 2 _) instead of (lambda (x) (* 2 x))
+- **Underscore Args**: Each _ becomes a lambda argument
+- **Argument Reuse**: <_ reuses last argument
+- **Argument Reordering**: _! brings argument to top of list
+- **Reader Macro**: Enable via enable-punch-syntax
+- **Less Typing**: Reduce boilerplate in functional code
+
+**Best For:** Functional programming, quick lambdas, data transformation, REPL sessions.
+
+**Note:** MIT License. Simple reader macro for cleaner code.
+
+---
+
+## cl-with
+
+**System Name:** `cl-with`
+
+**Purpose:** WITH- macro collection for resource allocation and slot rebinding.
+
+**Why Use It:**
+- **Resource Management**: Automatic cleanup with WITH- macros
+- **Foreign Slots**: Work with CFFI foreign structures
+- **MOP Integration**: Uses closer-mop for slot access
+- **Ergonomic**: Simplifies common patterns
+
+**Best For:** Resource management, CFFI code, automatic cleanup patterns.
+
+**Note:** BSD 3-clause license. Version 0.0.1. Utility macro library.
+
+---
+
+
+## definer
+
+**System Name:** `definer`
+
+**Purpose:** Simple DEF macro to replace various def* forms.
+
+**Why Use It:**
+- **Unified Syntax**: Single def macro for definitions
+- **Extensible**: Can be extended for custom forms
+- **Elegant**: Simplifies definition syntax
+- **Less Typing**: Shorter than separate def* forms
+
+**Best For:** Code style, elegant syntax, reducing definition boilerplate.
+
+**Note:** By Marco Antoniotti. Simple hack adding elegance to CL.
 
 ---
 

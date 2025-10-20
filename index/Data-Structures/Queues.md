@@ -1,6 +1,6 @@
 # Data-Structures: Queues
 
-4 libraries
+5 libraries
 
 ---
 
@@ -81,6 +81,26 @@
 **Best For:** Multi-threaded applications, concurrent message passing, work queues.
 
 **Note:** Automatically selects best implementation for your Common Lisp.
+
+---
+
+
+## cl-speedy-queue
+
+**System Name:** `cl-speedy-queue`
+
+**Purpose:** Portable, non-consing, optimized queue implementation.
+
+**Why Use It:**
+- **Non-consing**: Minimizes memory allocation during queue operations
+- **High Performance**: Optimized for speed with fixed-size queues
+- **Simple API**: Standard queue operations (enqueue, dequeue, peek)
+- **Queue Inspection**: Check queue count, length, full and empty states
+- **Portable**: Works across Common Lisp implementations
+
+**Best For:** High-performance concurrent programming, channel implementations, task queues.
+
+**Note:** MIT License. Originally written for ChanL.
 
 ---
 

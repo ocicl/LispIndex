@@ -1,6 +1,6 @@
 # Terminal: Curses
 
-2 libraries
+3 libraries
 
 ---
 
@@ -41,6 +41,28 @@
 **Best For:** Terminal-based UIs, roguelike games, console applications, system administration tools, text-mode applications, and projects requiring ncurses-style terminal control.
 
 **Note:** Beta quality low-level interface (ASCII stable); alpha quality high-level interface. MIT-style license. See tutorial at turtleware.eu/posts/cl-charms-crash-course.html. Windows colors not fully supported. Multiple maintainers (Robert Smith, Mark Fedurin).
+
+---
+
+
+## croatoan
+
+**System Name:** `croatoan`
+
+**Purpose:** High-level Lisp CLOS bindings for the ncurses terminal library.
+
+**Why Use It:**
+- **Terminal UI**: Create full-featured terminal user interfaces
+- **CLOS Interface**: Object-oriented ncurses wrapper with high-level abstractions
+- **Rich Features**: Menus, forms, fields, textareas, dropdown menus, dialog boxes
+- **Gray Streams**: Terminal I/O via Gray streams protocol
+- **UTF-8 Support**: Full Unicode support for terminal applications
+- **Multi-Threading**: Thread support with queue system
+- **Mouse Support**: Handle mouse events in terminal
+
+**Best For:** Terminal applications, TUI development, CLI tools, system administration utilities.
+
+**Note:** MIT licensed. Comprehensive ncurses wrapper. Active development. Version 0.3.
 
 ---
 

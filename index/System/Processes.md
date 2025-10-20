@@ -1,6 +1,6 @@
 # System: Processes
 
-5 libraries
+6 libraries
 
 ---
 
@@ -100,6 +100,26 @@
 **Best For:** Shell scripting in Lisp, process management, SSH automation.
 
 **Note:** Synchronous only. Uses uiop:run-program. Better than shell scripts in many cases.
+
+---
+
+
+## cl-rashell
+
+**System Name:** `rashell`
+
+**Purpose:** Resilient shell programming library for Common Lisp with UNIX subprocess interaction.
+
+**Why Use It:**
+- **UNIX Integration**: Common patterns for UNIX utility interaction
+- **Error Handling**: Proper subprocess error reporting
+- **String/Line Results**: Flexible output handling
+- **Maintainable**: Designed for production-quality shell scripting
+- **Beta Quality**: Active development with documentation
+
+**Best For:** System administration, build scripts, UNIX tool integration, subprocess management.
+
+**Note:** MIT License. Currently SBCL-only. Documentation available in PDF, HTML, and INFO formats.
 
 ---
 

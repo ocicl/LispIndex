@@ -1,6 +1,6 @@
 # Data-Formats: CSV
 
-1 libraries
+6 libraries
 
 ---
 
@@ -21,6 +21,105 @@
 **Best For:** CSV file parsing and generation with standard compliance.
 
 **Note:** Handles the CSV "standard" chaos comprehensively.
+
+---
+
+
+## cl-ltsv
+
+**System Name:** `cl-ltsv`
+
+**Purpose:** LTSV (Labeled Tab-Separated Values) parser for Common Lisp.
+
+**Why Use It:**
+- **LTSV Format**: Parse and generate LTSV format (http://ltsv.org/)
+- **Log Processing**: Ideal for processing structured log files
+- **Simple API**: parse-line for single lines, with-ltsv-from-stream for streaming
+- **Bidirectional**: Both parsing and generation support
+- **Alist Format**: Returns data as association lists
+
+**Best For:** Log file processing, structured data exchange, web server log analysis.
+
+**Note:** Licensed under LLGPL.
+
+---
+
+
+## csv-validator
+
+**System Name:** `csv-validator`
+
+**Purpose:** Validates tabular CSV data using predefined validations similar to Python's Great Expectations.
+
+**Why Use It:**
+- **Data Validation**: Validate CSV data against schemas and rules
+- **Parallel Processing**: lparallel support for fast validation of large files
+- **Great Expectations Style**: Similar API to Python's data validation library
+- **Binary Generation**: Can build standalone validation tools
+- **Type Checking**: Validate data types, ranges, and constraints
+
+**Best For:** Data pipelines, ETL processes, data quality assurance, CSV data validation.
+
+**Note:** BSD-3 licensed. Depends on local-time, lparallel, parse-float. Version 1.0.0.
+
+---
+
+
+## dfio
+
+**System Name:** `dfio`
+
+**Purpose:** Data frame I/O library for reading and writing data frames.
+
+**Why Use It:**
+- **CSV Support**: Read and write CSV files to data frames
+- **R Data Files**: Read RData files
+- **HTTP Downloads**: Download data files via Dexador
+- **Lisp-Stat Integration**: Part of Lisp-Stat ecosystem
+- **Delimited Text**: Handle various delimited text formats
+
+**Best For:** Data science, statistical computing, CSV processing, data frames.
+
+**Note:** MS-PL License. By Steve Nunez. Part of Lisp-Stat project.
+
+---
+
+
+## CSV
+
+**System Name:** `csv`
+
+**Purpose:** Simple CSV file reading and writing library.
+
+**Why Use It:**
+- **Easy CSV**: Read and write CSV files
+- **Excel Compatible**: Handles MS Excel CSV format
+- **Simple API**: Straightforward functions for CSV operations
+- **Utility Functions**: High-level conveniences included
+
+**Best For:** Data import/export, spreadsheet integration, data processing, CSV parsing.
+
+**Note:** Simple CSV library with minimal dependencies.
+
+---
+
+
+## csv-parser
+
+**System Name:** `csv-parser`
+
+**Purpose:** CSV parsing and writing utilities with Excel compatibility.
+
+**Why Use It:**
+- **DOS Support**: Imports DOS formatted files without issues
+- **Empty Fields**: Handles empty trailing fields properly
+- **Test Suite**: Comes with comprehensive tests
+- **High-level API**: do-csv-file and map-csv-file macros
+- **CSV Writer**: Read and write CSV files
+
+**Best For:** Excel CSV files, DOS formatted files, data import/export, cross-platform CSV.
+
+**Note:** By Alain Picard. More robust than basic CSV readers.
 
 ---
 

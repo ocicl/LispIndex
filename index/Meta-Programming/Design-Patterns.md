@@ -1,6 +1,6 @@
 # Meta-Programming: Design-Patterns
 
-3 libraries
+5 libraries
 
 ---
 
@@ -55,6 +55,46 @@
 - **Architecture Pattern**: Implements service locator and provider patterns
 
 **Best For:** Large applications requiring dependency injection or service-oriented architecture.
+
+---
+
+
+## cl-singleton-mixin
+
+**System Name:** `cl-singleton-mixin`
+
+**Purpose:** Singleton pattern mixin class using metap.
+
+**Why Use It:**
+- **Singleton Pattern**: Easy singleton implementation via mixin
+- **CLOS Integration**: Works naturally with Common Lisp object system
+- **Inheritable**: Subclasses automatically get singleton behavior
+- **Metap-Based**: Uses metap for metaclass magic
+- **Simple API**: Just inherit from singleton-mixin
+
+**Best For:** Configuration objects, global state, resource managers, factories.
+
+**Note:** MIT License. Minimal and clean singleton implementation.
+
+---
+
+
+## com.clearly-useful.protocols
+
+**System Name:** `com.clearly-useful.protocols`
+
+**Purpose:** Simple Clojure-style protocols for Common Lisp.
+
+**Why Use It:**
+- **Protocol System**: Define and implement protocols like Clojure
+- **Extend-Type**: Implement multiple protocols for a type at once
+- **Compile-Time Checks**: Protocol requirement validation
+- **Minimal API**: Four symbols: defprotocol, extend-type, and two test functions
+- **Eponymous Methods**: Optional identity methods for protocol types
+
+**Best For:** Generic interfaces, type-based dispatch, extensible systems, protocol-oriented programming.
+
+**Note:** Inspired by Clojure. Single specialization on first parameter. Used by generic-collection-interface system.
 
 ---
 

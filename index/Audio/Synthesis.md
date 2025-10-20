@@ -1,6 +1,6 @@
 # Audio: Synthesis
 
-1 libraries
+3 libraries
 
 ---
 
@@ -21,6 +21,48 @@
 **Best For:** Audio synthesis, algorithmic composition, and live coding performances.
 
 **Note:** Experimental project - API may change.
+
+---
+
+
+## cl-patterns
+
+**System Name:** `cl-patterns`
+
+**Purpose:** Library for algorithmic music composition and live coding inspired by SuperCollider.
+
+**Why Use It:**
+- **SuperCollider-Inspired**: Familiar to SC users, improved design
+- **Multiple Backends**: SuperCollider, Incudine, ALSA MIDI support
+- **Extensive Patterns**: Large collection of pattern types
+- **Live Coding**: Real-time pattern modification
+- **Reflective**: Rich metadata and state access
+- **TidalCycles/Tracker**: Additional notation styles
+- **Emacs Integration**: Helper functions for workflow
+
+**Best For:** Algorithmic composition, live coding, generative music, sound design.
+
+**Note:** MIT License. Late alpha, actively developed, extensive documentation.
+
+---
+
+
+## common-tones
+
+**System Name:** `common-tones`
+
+**Purpose:** Fork of CLM-5 with modernized threading and FFI for sound synthesis and signal processing.
+
+**Why Use It:**
+- **Signal Processing**: Full mathematical and signal processing functions from CLM-5
+- **Modern Threading**: Rewritten to use bordeaux-threads for portability
+- **CFFI Interface**: Main FFI rewritten with CFFI instead of implementation-specific code
+- **ASDF3 Integration**: Modern build process works with ASDF3 and modern Lisp systems
+- **CLM Compatibility**: Drop-in replacement for CLM on supported implementations
+
+**Best For:** Computer music synthesis, audio signal processing, sound generation, DSP research.
+
+**Note:** Sound output is experimental. Mathematical/signal functions are stable. Unix/Linux/MacOS support (M1 not fully supported).
 
 ---
 

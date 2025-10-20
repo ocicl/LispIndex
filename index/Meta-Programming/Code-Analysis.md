@@ -1,6 +1,6 @@
 # Meta-Programming: Code-Analysis
 
-3 libraries
+7 libraries
 
 ---
 
@@ -60,6 +60,86 @@
 **Best For:** Writing macros, code analysis, metaprogramming.
 
 **Note:** Repository moved from GitHub to Codeberg in August 2025.
+
+---
+
+
+## cl-def-properties
+
+**System Name:** `cl-def-properties`
+
+**Purpose:** Library for collecting Common Lisp definition properties.
+
+**Why Use It:**
+- **Metadata Collection**: Gather properties from definitions
+- **Code Analysis**: Extract definition information
+- **Documentation**: Support for documentation generation
+- **Introspection**: Programmatic access to definition data
+
+**Best For:** Documentation tools, code analysis, IDE support.
+
+**Note:** MIT license. Minimal but useful utility.
+
+---
+
+
+## cl-naive-deprecation
+
+**System Name:** `cl-naive-deprecation`
+
+**Purpose:** Generic facility to mark operators as deprecated with compiler warnings.
+
+**Why Use It:**
+- **Deprecation Warnings**: Compile-time warnings for deprecated functions
+- **Source Tracking**: Records which files use deprecated operators
+- **Replacement Code**: Supply new code to replace deprecated operators
+- **Reporting**: Generate deprecation reports
+- **Types**: Mark operators as deprecated, removed, or replaced
+- **No Dependencies**: Pure Common Lisp implementation
+
+**Best For:** Library maintenance, API evolution, code refactoring.
+
+**Note:** MIT License.
+
+---
+
+
+## Concrete-Syntax-Tree
+
+**System Name:** `concrete-syntax-tree`
+
+**Purpose:** Concrete Syntax Tree data structure for Common Lisp code with source information.
+
+**Why Use It:**
+- **Source Information Preservation**: Attach source location data to s-expressions
+- **Macro Expansion Support**: Reconstruct CSTs after macro expansion preserving source info
+- **Lambda List Parsing**: Utilities for parsing lambda lists, declarations, and docstrings
+- **Identity Preservation**: Reuse parts of input CST when possible during reconstruction
+- **Client-Defined Source**: Flexible source information representation
+
+**Best For:** IDE development, code analysis tools, refactoring tools, advanced macro systems, compiler development.
+
+**Note:** Use with Eclector library for reading source code into CSTs. Extensive documentation included.
+
+---
+
+
+## Ecclesia
+
+**System Name:** `ecclesia`
+
+**Purpose:** Utilities for parsing and manipulating Common Lisp code.
+
+**Why Use It:**
+- **Code Analysis**: Parse CL source for inspection
+- **AST Utilities**: Work with abstract syntax trees
+- **Compiler Tools**: Building blocks for compilers
+- **Code Walking**: Traverse code structures programmatically
+- **Cleavir Heritage**: Formerly cleavir-code-utilities
+
+**Best For:** Compiler development, code analysis tools, refactoring utilities, linters.
+
+**Note:** Extracted from Cleavir compiler infrastructure. FreeBSD license.
 
 ---
 

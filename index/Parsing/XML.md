@@ -1,6 +1,6 @@
 # Parsing: XML
 
-6 libraries
+10 libraries
 
 ---
 
@@ -153,6 +153,86 @@
 **Best For:** XML processing, configuration files, data interchange formats.
 
 **Note:** MIT License by Goheeca.
+
+---
+
+
+## cl-xmlspam
+
+**System Name:** `cl-xmlspam`
+
+**Purpose:** Streaming XML reader for Common Lisp.
+
+**Why Use It:**
+- **Memory Efficient**: Stream large XML files without loading entirely into memory
+- **Pattern Matching**: Write code that mirrors XML structure
+- **Paradigm Shifting**: Mix pattern matching with normal Lisp control flow
+- **CXML Integration**: Full CXML power available when needed
+- **SAX Alternative**: Easier than raw SAX events or Klacks
+
+**Best For:** Processing large XML files, memory-constrained environments, XML parsing, data extraction.
+
+**Note:** Original by Roger Peppe. Functions in xspam package. Alternative to memory-intensive DOM parsing.
+
+---
+
+
+## cl-sxml
+
+**System Name:** `cl-sxml`
+
+**Purpose:** SXML implementation - S-expression representation of XML Infoset.
+
+**Why Use It:**
+- **SXML Format**: Oleg Kiselyov's SXML for XML as S-expressions
+- **CXML Integration**: SAX parsing via CXML
+- **Multiple Implementations**: Tested on SBCL, ACL, LispWorks, CCL, CLISP
+- **DOCTYPE Support**: Custom *DOCTYPE* annotation
+- **Package Control**: Configurable symbol interning
+
+**Best For:** XML processing, document transformation, XML parsing, web scraping.
+
+**Note:** S-expression approach to XML more natural for Lisp. Preserves all whitespace.
+
+---
+
+
+## cxml-rng
+
+**System Name:** `cxml-rng`
+
+**Purpose:** Relax NG schema validation for Closure XML.
+
+**Why Use It:**
+- **Schema Validation**: Validate XML with Relax NG schemas
+- **Compact Syntax**: Support for compact Relax NG syntax
+- **DTD Compatibility**: DTD compatibility features
+- **XSD Types**: XSD type library support
+- **CXML Integration**: Add-on for Closure XML
+
+**Best For:** XML validation, schema checking, document validation, XML processing.
+
+**Note:** X11 License. By David Lichteblau. Relax NG for CXML.
+
+---
+
+
+## cxml-stp
+
+**System Name:** `cxml-stp`
+
+**Purpose:** Data structure for well-formed XML documents, inspired by XOM.
+
+**Why Use It:**
+- **DOM Alternative**: Alternative to W3C DOM
+- **XOM-inspired**: Based on XOM design for Common Lisp
+- **Well-formed XML**: Data structure for XML documents
+- **CXML Add-on**: Integrates with Closure XML
+- **Lisp-friendly**: Designed for Common Lisp idioms
+
+**Best For:** XML processing, document manipulation, XML parsing, DOM alternative.
+
+**Note:** X11 License. By David Lichteblau. Alternative to DOM for CXML.
 
 ---
 

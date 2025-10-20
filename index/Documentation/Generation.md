@@ -1,6 +1,6 @@
 # Documentation: Generation
 
-9 libraries
+14 libraries
 
 ---
 
@@ -176,6 +176,106 @@
 **Best For:** Documentation generation, project websites, API docs.
 
 **Note:** HTML README generation tool.
+
+---
+
+
+## cl-typesetting
+
+**System Name:** `cl-typesetting`
+
+**Purpose:** Cross-platform typesetting library for professional document layout and PDF generation.
+
+**Why Use It:**
+- **Professional Typesetting**: Full-featured typesetting engine like TeX
+- **Programmable**: Written in Common Lisp for maximum extensibility
+- **Cross-platform**: Works on all CL implementations
+- **PDF Output**: Integrates with cl-pdf for document generation
+
+**Best For:** Document generation, book publishing, report creation, automated typesetting.
+
+**Note:** BSD-like license. Aims to be for typesetting what Emacs is for text editing.
+
+---
+
+
+## cl-utils
+
+**System Name:** `sb-texinfo`
+
+**Purpose:** Docstring extractor for SBCL creating Texinfo documentation from packages.
+
+**Why Use It:**
+- **Automatic Documentation**: Extracts docstrings from symbols
+- **Texinfo Format**: Integration with GNU documentation system
+- **SBCL Integration**: Uses sb-introspect for metadata
+- **Package-level**: Documents entire packages at once
+
+**Best For:** SBCL documentation generation, manual creation, API documentation.
+
+**Note:** Public domain. Part of SBCL ecosystem.
+
+---
+
+
+## doc
+
+**System Name:** `40ants-doc`
+
+**Purpose:** Documentation generator (fork of MGL-PAX).
+
+**Why Use It:**
+- **Lightweight Core**: Minimal dependencies in core system
+- **Multiple Backends**: Markdown, HTML themes
+- **In-Code Docs**: Define documentation in library code
+- **Modular Design**: Granular subsystems for different needs
+- **Sequential Processing**: Hackable documentation pipeline
+- **SLIME/SLY Integration**: Optional editor integration
+
+**Best For:** Documentation generation, API documentation, literate programming.
+
+**Note:** Fork of MGL-PAX with lighter core and modular design. By Alexander Artemenko.
+
+---
+
+
+## docs-builder
+
+**System Name:** `docs-builder`
+
+**Purpose:** Meta documentation builder for Common Lisp projects.
+
+**Why Use It:**
+- **Universal Builder**: Works with multiple doc generators
+- **CI Integration**: Designed for continuous integration pipelines
+- **GitHub Actions**: Used in build-docs GitHub action
+- **Multiple Systems**: Supports 40ants-doc, MGL-PAX, Geneva
+- **HTML Output**: Generates HTML documentation
+
+**Best For:** CI/CD documentation, automated doc building, multi-format docs.
+
+**Note:** Unlicense. By Alexander Artemenko. Universal doc builder for CI.
+
+---
+
+
+## declt
+
+**System Name:** `net.didierverna.declt`
+
+**Purpose:** Reference manual generator for Common Lisp libraries.
+
+**Why Use It:**
+- **Documentation**: Auto-generate reference manuals
+- **Introspection**: Load and introspect Lisp environment
+- **Texinfo**: Output in Texinfo format
+- **Complete**: Documents ASDF and programmatic components
+- **Cross-references**: Full cross-reference support
+- **Multiple Formats**: Info, HTML, PDF output
+
+**Best For:** Library documentation, reference manuals, API docs, project documentation.
+
+**Note:** Generates manuals by introspecting loaded systems. Since 2010.
 
 ---
 

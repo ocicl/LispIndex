@@ -1,6 +1,6 @@
 # File-System Libraries
 
-This category contains 8 subcategories with 11 total libraries.
+This category contains 8 subcategories with 15 total libraries.
 
 ## Subcategories
 
@@ -9,6 +9,6 @@ This category contains 8 subcategories with 11 total libraries.
 - [Metadata](Metadata.md) (1 library)
 - [Pathnames](Pathnames.md) (1 library)
 - [Search](Search.md) (2 libraries)
-- [Streams](Streams.md) (1 library)
-- [Utilities](Utilities.md) (1 library)
-- [Watchers](Watchers.md) (3 libraries)
+- [Streams](Streams.md) (3 libraries)
+- [Utilities](Utilities.md) (2 libraries)
+- [Watchers](Watchers.md) (4 libraries)

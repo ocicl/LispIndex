@@ -1,6 +1,6 @@
 # Database: Query-Builder
 
-3 libraries
+5 libraries
 
 ---
 
@@ -58,6 +58,50 @@
 **Best For:** Programmatic SQL generation, query builders, type-safe SQL.
 
 **Note:** Popular SQL DSL for Common Lisp database applications.
+
+---
+
+
+## cl-sparql
+
+**System Name:** `cl-sparql`
+
+**Purpose:** SPARQL query builder for Common Lisp.
+
+**Why Use It:**
+- **SPARQL DSL**: Embedded domain-specific language for SPARQL
+- **URI Syntax**: Special #u<prefix:name> reader macro for URIs
+- **Query Building**: Construct SPARQL queries using Lisp syntax
+- **Subquery Support**: Nested queries and complex patterns
+- **Prefix Management**: Define and reuse URI prefixes
+- **Parser Combinators**: Uses parser-combinators to parse Lisp lists
+
+**Best For:** Semantic web, RDF queries, knowledge graphs, linked data.
+
+**Note:** MIT License. Clever use of parser-combinators on Lisp lists.
+
+---
+
+
+
+
+## datafly
+
+**System Name:** `datafly`
+
+**Purpose:** Lightweight database library wrapping CL-DBI with SxQL.
+
+**Why Use It:**
+- **Lightweight**: Simple database access layer
+- **SxQL**: Uses SxQL for queries
+- **Model Definitions**: defmodel macro with inflation
+- **Associations**: :has-a and :has-many relationships
+- **Type Conversion**: Inflate functions for data types
+- **Struct/CLOS**: Return results as structures or objects
+
+**Best For:** Database access, ORM-lite, SQL generation, web apps, data mapping.
+
+**Note:** BSD License. By Eitaro Fukamachi. Wraps CL-DBI with convenience layer.
 
 ---
 

@@ -1,6 +1,6 @@
 # Web: Cloud
 
-3 libraries
+5 libraries
 
 ---
 
@@ -57,6 +57,48 @@
 - **S3 Presigning**: Generate time-limited S3 download URLs
 
 **Best For:** Applications needing low-level AWS request signing or S3 presigned URL generation.
+
+---
+
+
+## cl-ses4
+
+**System Name:** `cl-ses4`
+
+**Purpose:** Amazon SES client using Signature Version 4.
+
+**Why Use It:**
+- **AWS SES Integration**: Send emails via Amazon Simple Email Service
+- **Signature v4**: Modern AWS authentication (v3 deprecated)
+- **Raw Email Support**: Send both simple and raw MIME emails
+- **Standalone Binary**: Can be built as command-line tool
+- **PHP mail() Compatible**: Works as PHP sendmail replacement
+- **Region Support**: Multi-region SES endpoint configuration
+
+**Best For:** Transactional email, AWS integration, email sending infrastructure.
+
+**Note:** Public Domain (UNLICENSE). Requires AWS credentials.
+
+---
+
+
+## cl-s3
+
+**System Name:** `cl-s3`
+
+**Purpose:** Amazon S3 Web Service client interface for object storage.
+
+**Why Use It:**
+- **Full S3 API**: All API calls with all options
+- **REST Interface**: Uses S3 REST API
+- **Authentication**: Proper S3 authorization
+- **MD5 Validation**: Optional integrity checking
+- **Keep-alive**: Efficient connection handling via S-HTTP-CLIENT
+- **Portable**: Works across CL implementations via S-SYSDEPS
+
+**Best For:** Cloud storage, backups, static file hosting, distributed storage.
+
+**Note:** LLGPL. Written by Sven Van Caekenberghe. Documented public API.
 
 ---
 

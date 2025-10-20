@@ -1,6 +1,6 @@
 # Graphics: Color
 
-2 libraries
+4 libraries
 
 ---
 
@@ -41,6 +41,45 @@
 **Best For:** Graphics applications, UI toolkits, color calculations.
 
 **Note:** Common choice for color handling in Common Lisp graphics.
+
+---
+
+
+## cl-colors-ng
+
+**System Name:** `cl-colors-ng`
+
+**Purpose:** Simple color library for RGB, HSV, and HSL color spaces.
+
+**Why Use It:**
+- **Color Spaces**: RGB(A), HSV, HSL types and conversions
+- **Named Colors**: X11 and SVG color name databases
+- **Hex Conversion**: Parse and generate hex color codes
+- **Color Mixing**: Combine colors in different spaces
+
+**Best For:** Graphics programming, UI design, color manipulation.
+
+**Note:** Fork of cl-colors2 with improved functionality.
+
+---
+
+
+## colored
+
+**System Name:** `colored`
+
+**Purpose:** Color representation, conversion, and operation library.
+
+**Why Use It:**
+- **Color Models**: RGB, HSV, HSL, CMYK, and more color spaces
+- **Conversions**: Convert between different color representations
+- **Operations**: Mix, blend, and manipulate colors
+- **Standard API**: Consistent interface across color types
+- **Graphics Integration**: Foundation for graphics and UI work
+
+**Best For:** Graphics programming, UI development, image processing, color manipulation, data visualization.
+
+**Note:** Zlib license. Shinmera project. Repository moved to Codeberg in August 2025. Part of Alloy UI toolkit.
 
 ---
 

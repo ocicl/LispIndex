@@ -1,6 +1,6 @@
 # Compression: Compression
 
-2 libraries
+3 libraries
 
 ---
 
@@ -40,6 +40,26 @@
 **Best For:** Text compression, data compression, learning compression algorithms.
 
 **Note:** Very simple implementation. Returns huffman-coding object with bit-vector.
+
+---
+
+
+## deoxybyte-gzip
+
+**System Name:** `deoxybyte-gzip`
+
+**Purpose:** Gzip compression and decompression with Gray streams support.
+
+**Why Use It:**
+- **Gzip/Gunzip**: Compress and decompress gzip data
+- **Gray Streams**: Stream-based compression/decompression
+- **Zlib Bindings**: Built on zlib library
+- **RFC1952 Support**: Gzip data structure implementation
+- **Tunable Parameters**: Control compression levels and parameters
+
+**Best For:** File compression, gzip handling, streaming compression, data archival.
+
+**Note:** GPL v3. By Keith James. Fractionally slower than gzip but 3x slower than gunzip.
 
 ---
 

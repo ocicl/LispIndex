@@ -1,6 +1,6 @@
 # Web: Server
 
-3 libraries
+5 libraries
 
 ---
 
@@ -70,6 +70,45 @@
 **Best For:** Small web apps, SPAs, when you want pure Lisp, learning.
 
 **Note:** NOT for high performance - use woo or nginx for production.
+
+---
+
+
+## cl-yxorp
+
+**System Name:** `yxorp`
+
+**Purpose:** Reverse proxy server with WebSocket, HTTP, and HTTPS support.
+
+**Why Use It:**
+- **Protocol Support**: WebSocket, HTTP, HTTPS, HTTP-to-HTTPS redirect
+- **Programmable Config**: Configuration using real programming language (Lisp)
+- **Header Manipulation**: Modify HTTP headers and body with Lisp code
+- **Port Forwarding**: Flexible host and port forwarding rules
+- **Compression**: Built-in gzip/deflate with chipz and salza2
+
+**Best For:** Reverse proxying, load balancing, API gateways, SSL termination, request routing.
+
+**Note:** AGPL3. Name is "proxy" spelled backwards. Full programmatic control over HTTP processing.
+
+---
+
+
+## core
+
+**System Name:** `issr-core`
+
+**Purpose:** Core functionality for Interactive Server-Side-Rendered web pages with declarative and recursive programming.
+
+**Why Use It:**
+- **Server-Side Rendering**: Build interactive web pages with SSR
+- **Declarative Style**: Write web applications declaratively
+- **Recursive Programming**: Support for recursive component structures
+- **Reusable Core**: Foundation for various server modules
+
+**Best For:** Web application development, server-side rendering, interactive web interfaces.
+
+**Note:** LLGPL licensed. Depends on Plump, global-vars, str, tailrec.
 
 ---
 

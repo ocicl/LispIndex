@@ -1,6 +1,6 @@
 # AI Libraries
 
-This category contains 12 subcategories with 14 total libraries.
+This category contains 13 subcategories with 21 total libraries.
 
 ## Subcategories
 
@@ -13,6 +13,7 @@ This category contains 12 subcategories with 14 total libraries.
 - [Integration](Integration.md) (1 library)
 - [Knowledge-Representation](Knowledge-Representation.md) (1 library)
 - [LLM](LLM.md) (2 libraries)
-- [Machine-Learning](Machine-Learning.md) (2 libraries)
+- [Machine-Learning](Machine-Learning.md) (8 libraries)
+- [Neural-Networks](Neural-Networks.md) (1 library)
 - [Planning](Planning.md) (1 library)
 - [Vector-Databases](Vector-Databases.md) (1 library)

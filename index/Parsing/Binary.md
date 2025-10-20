@@ -1,6 +1,6 @@
 # Parsing: Binary
 
-3 libraries
+4 libraries
 
 ---
 
@@ -63,6 +63,26 @@
 **Best For:** Complex binary format parsing, file format implementations.
 
 **Note:** Repository moved to Codeberg (Shinmera migration).
+
+---
+
+
+## cl-riff
+
+**System Name:** `cl-riff`
+
+**Purpose:** Resource Interchange File Format (RIFF) file container parser.
+
+**Why Use It:**
+- **RIFF Files**: Parse WAV, AVI, and other RIFF formats
+- **Cross-platform**: Portable RIFF file processing
+- **Read/Write**: Both parsing and writing RIFF files
+- **Chunk Access**: Methods for chunk-id, chunk-data-size, chunk-data
+- **Multimedia**: Primary use for sound and video
+
+**Best For:** Audio file processing, multimedia applications, WAV file handling.
+
+**Note:** Written for cross-platform WAV processing. See also cl-wav.
 
 ---
 

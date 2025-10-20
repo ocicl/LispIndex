@@ -1,6 +1,6 @@
 # System: Scheduling
 
-2 libraries
+3 libraries
 
 ---
 
@@ -39,6 +39,26 @@
 **Best For:** Background job scheduling, periodic task execution, automation workflows.
 
 **Note:** MIT License by Petko Tsikov.
+
+---
+
+
+## cl-schedule
+
+**System Name:** `cl-schedule`
+
+**Purpose:** Cron-like scheduling library for Common Lisp.
+
+**Why Use It:**
+- **Cron Replacement**: More expressive than traditional cron managers
+- **Lisp Expressiveness**: Leverage full Lisp capabilities for scheduling
+- **Time Specifications**: Rich time-spec DSL for complex scheduling patterns
+- **Threaded Execution**: Built-in dispatcher and scheduler components
+- **Local Time Support**: Integration with local-time for time handling
+
+**Best For:** Task scheduling, periodic job execution, automated workflows.
+
+**Note:** MIT License. Subsumes traditional cron with Lisp's expressiveness.
 
 ---
 

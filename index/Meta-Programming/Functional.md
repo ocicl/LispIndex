@@ -1,6 +1,6 @@
 # Meta-Programming: Functional
 
-1 libraries
+2 libraries
 
 ---
 
@@ -21,6 +21,26 @@
 **Best For:** Functional programming, immutable data structures, persistent data.
 
 **Note:** By Zach Kost-Smith. Uses heuristics for undefined expanders.
+
+---
+
+
+## curly
+
+**System Name:** `curly`
+
+**Purpose:** Reader macros for easy function currying and composition.
+
+**Why Use It:**
+- **Square Brackets**: Currying syntax with [foo bar]
+- **Curly Braces**: Function composition with {foo bar}
+- **Blank Arguments**: Place arguments with * symbol
+- **Arc-inspired**: Inspired by Arc's currying syntax
+- **Literal Composition**: Compiler can optimize generated code
+
+**Best For:** Functional programming, point-free style, concise code, functional composition.
+
+**Note:** By Maciej Pasternacki. Enables Arc-style functional syntax.
 
 ---
 

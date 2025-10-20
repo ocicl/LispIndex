@@ -1,6 +1,6 @@
 # Text: String-Manipulation
 
-9 libraries
+7 libraries
 
 ---
 
@@ -58,27 +58,6 @@
 **Best For:** All string manipulation in Common Lisp projects.
 
 **Note:** De facto modern standard for string handling.
-
----
-
-
-## cl-change-case
-
-**System Name:** `cl-change-case`
-
-**Purpose:** Convert strings between camelCase, param-case, PascalCase, and more.
-
-**Why Use It:**
-- **Many Cases**: camelCase, PascalCase, snake_case, param-case, CONSTANT_CASE, etc.
-- **Unicode Support**: Uses cl-ppcre-unicode
-- **Simple Functions**: One function per case type
-- **Well-Tested**: Comprehensive test coverage with FiveAM
-- **MPL 2.0 License**: Mozilla Public License
-- **Clean API**: Straightforward case conversion
-
-**Best For:** String case conversions in APIs, code generators, data transformations.
-
-**Note:** Port of JavaScript's change-case library.
 
 ---
 
@@ -158,27 +137,6 @@
 **Best For:** Applications that concatenate many strings, building large strings incrementally, log aggregation, text processing.
 
 **Note:** BSD 3-clause license. Inspired by Java's StringBuilder. Can be more efficient than WITH-OUTPUT-TO-STRING for large concatenations.
-
----
-
-
-## cl-change-case
-
-**System Name:** `cl-change-case`
-
-**Purpose:** Convert strings between various naming conventions including camelCase, PascalCase, snake_case, and param-case.
-
-**Why Use It:**
-- **Multiple Formats**: Support for camelCase, PascalCase, snake_case, param-case, dot.case, path/case, CONSTANT_CASE, and more
-- **Bidirectional**: Convert between any supported case format
-- **Case Detection**: Predicates for testing string case (string-upper-case-p, string-lower-case-p)
-- **Character Operations**: Individual character case operations (char-invertcase, upper-case-first)
-- **Configurable**: Optional replacement character for no-case transformation
-- **Comprehensive**: Includes sentence-case, title-case, header-case, swap-case functions
-
-**Best For:** Code generators, API adapters requiring naming convention conversion, database-to-object mapping, configuration file processing, and any application interfacing between different naming conventions.
-
-**Note:** MPL-2.0 licensed. Port of JavaScript's blakeembrey/change-case. Author: Sebastian Christ. Version 0.2.0. Clean functional API with intuitive naming.
 
 ---
 

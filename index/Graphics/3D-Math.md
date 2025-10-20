@@ -1,6 +1,6 @@
 # Graphics: 3D-Math
 
-7 libraries
+8 libraries
 
 ---
 
@@ -146,6 +146,25 @@
 **Best For:** 3D graphics applications, game development mathematics, geometric computations, GTK 4 graphics programming, and applications requiring efficient 3D math primitives.
 
 **Note:** MIT licensed by Dieter Kaiser. Version 0.4.0. Requires cffi and iterate. Test with FiveAM framework. Comprehensive test coverage for all geometric types. Used with cl-cffi-gtk4.
+
+---
+
+
+## cl-veq
+
+**System Name:** `veq`
+
+**Purpose:** DSL and utilities for vector mathematics with code generation.
+
+**Why Use It:**
+- **Vector DSL**: Specialized syntax for vector operations
+- **SIMD Support**: Optional SIMD acceleration on SBCL
+- **Type Specialization**: Generates optimized code per vector size
+- **Ergonomic Macros**: Clean syntax for vector math
+
+**Best For:** Graphics programming, game development, scientific computing, simulations.
+
+**Note:** MIT license. Version 5.1.1. Advanced vector math library.
 
 ---
 

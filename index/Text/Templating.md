@@ -1,6 +1,6 @@
 # Text: Templating
 
-1 libraries
+2 libraries
 
 ---
 
@@ -18,6 +18,27 @@
 - **No Dependencies**: Standalone library
 
 **Best For:** Template-based text generation for any format.
+
+---
+
+
+## cl-template
+
+**System Name:** `cl-template`
+
+**Purpose:** Simple general-purpose template engine for Common Lisp.
+
+**Why Use It:**
+- **ERb-style**: Ruby ERb-inspired template syntax
+- **Pure Lisp**: Templates are just Lisp code with delimiters
+- **Output Agnostic**: Generate HTML, JSON, CSV, Markdown, or any text
+- **No Extra Syntax**: Unlike other engines, uses plain Common Lisp
+- **Compile-time**: Templates compile to functions
+- **Clean Templates**: Optional syntax sugar for readability
+
+**Best For:** Web development, HTML generation, text templating, report generation.
+
+**Note:** MIT License. Can generate any text format, not just HTML.
 
 ---
 

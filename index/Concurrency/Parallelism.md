@@ -1,6 +1,6 @@
 # Concurrency: Parallelism
 
-1 libraries
+2 libraries
 
 ---
 
@@ -25,6 +25,27 @@
 **Best For:** Parallel programming and concurrent task execution.
 
 **Note:** Very comprehensive parallel programming library.
+
+---
+
+
+## cl-parallel
+
+**System Name:** `cl-parallel`
+
+**Purpose:** API for easy parallelism based on bordeaux-threads.
+
+**Why Use It:**
+- **Futures**: Lazy evaluation with thread spawning
+- **Parallel Map**: par-map, par-map-chunked for list processing
+- **Parallel Predicates**: par-some, par-every, par-find-if
+- **Map-Reduce**: par-map-reduce for parallel reduction
+- **Read Macro**: #! for realizing futures
+- **Configurable**: Control max threads and sleep time
+
+**Best For:** CPU-bound computations, data processing, concurrent operations.
+
+**Note:** Standard license. Based on bordeaux-threads, tested on SBCL.
 
 ---
 

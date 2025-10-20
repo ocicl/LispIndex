@@ -1,6 +1,6 @@
 # Graphics: Images
 
-12 libraries
+15 libraries
 
 ---
 
@@ -237,6 +237,63 @@
 **Best For:** Image processing, web applications, graphics programs.
 
 **Note:** Pure Common Lisp JPEG implementation.
+
+---
+
+
+## cl-ktx
+
+**System Name:** `cl-ktx`
+
+**Purpose:** Implementation of the Khronos KTX image file format for GPU texture storage.
+
+**Why Use It:**
+- **GPU-Ready Format**: Images are pre-packed for direct upload to GPU via gl-tex-image-2d
+- **Binary Structures Backend**: Uses binary-structures library for efficient file I/O
+- **OpenGL Integration**: Direct enum integers for OpenGL functions
+- **Read/Write Support**: Both reading existing KTX files and writing new ones
+- **Mipmap Support**: Handles mipmaps for texture level-of-detail
+
+**Best For:** OpenGL/WebGL applications requiring efficient texture loading, game engines, 3D graphics applications.
+
+---
+
+
+## cl-tga
+
+**System Name:** `cl-tga`
+
+**Purpose:** TGA image file loader for OpenGL texture loading.
+
+**Why Use It:**
+- **TGA Loading**: Read Truevision TGA image files
+- **OpenGL Ready**: Designed for OpenGL texture loading
+- **BGR Format**: Preserves native BGR byte order
+- **Image Properties**: Access width, height, channels, BPP, data
+- **Simple API**: read-tga function returns image object
+
+**Best For:** OpenGL textures, game assets, image loading, graphics programming.
+
+**Note:** Non-RLE formats only currently. Returns data in BGR/BGRA format for direct GL use.
+
+---
+
+
+## cl-turbojpeg
+
+**System Name:** `cl-turbojpeg`
+
+**Purpose:** JPEG Turbo bindings for fast JPEG encoding/decoding.
+
+**Why Use It:**
+- **Fast JPEG**: Hardware-accelerated JPEG codec
+- **Turbo Library**: Bindings to libjpeg-turbo
+- **Encode/Decode**: Both reading and writing JPEG
+- **High Performance**: Much faster than standard libjpeg
+
+**Best For:** Image processing, photo applications, thumbnails, web images, games.
+
+**Note:** zlib license. By Shinmera. Up-to-date bindings to JPEG Turbo library.
 
 ---
 

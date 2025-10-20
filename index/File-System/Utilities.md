@@ -1,6 +1,6 @@
 # File-System: Utilities
 
-1 libraries
+2 libraries
 
 ---
 
@@ -19,6 +19,24 @@
 **Best For:** File system manipulation, path operations, file management.
 
 **Note:** Repository moved from GitHub to Codeberg in August 2025.
+
+---
+
+
+## copy-directory
+
+**System Name:** `copy-directory`
+
+**Purpose:** Copy a directory with all contents.
+
+**Why Use It:**
+- **Directory Operations**: Simple utility to recursively copy directories
+- **Cross-Platform**: Uses uiop, cl-fad, and which for portability
+- **File System Management**: Handle directory copying in build scripts
+
+**Best For:** Build systems, deployment scripts, file management utilities.
+
+**Note:** MIT licensed. Simple but essential file system utility.
 
 ---
 

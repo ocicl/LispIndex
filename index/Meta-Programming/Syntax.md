@@ -1,6 +1,6 @@
 # Meta-Programming: Syntax
 
-3 libraries
+4 libraries
 
 ---
 
@@ -67,6 +67,26 @@
 **Best For:** Transcribing mathematical formulas, scientific computing, readable math.
 
 **Note:** Makes screen formulas match paper formulas. Prevents transcription errors.
+
+---
+
+
+## cmu-infix
+
+**System Name:** `cmu-infix`
+
+**Purpose:** Write mathematical expressions using infix notation in Common Lisp.
+
+**Why Use It:**
+- **Readable Math**: Write math as #I(a + b) instead of (+ a b)
+- **Rich Operators**: Arithmetic, comparison, bitwise, array indexing
+- **Named Readtables**: Clean integration via named-readtables
+- **Original CMU Work**: Based on Mark Kantrowitz's 1993 library
+- **Modern Updates**: Modernized by Robert Smith for contemporary CL
+
+**Best For:** Mathematical code, scientific computing, formula-heavy code, porting math algorithms.
+
+**Note:** Uses #I reader macro. Stewardship by Rigetti Computing. Includes comprehensive examples and tests.
 
 ---
 

@@ -1,6 +1,6 @@
 # Testing: Frameworks
 
-11 libraries
+18 libraries
 
 ---
 
@@ -235,6 +235,141 @@
 **Best For:** Projects using annotation-based programming style and prove test framework, especially for organizing and marking test functions declaratively.
 
 **Note:** MIT license. Depends on cl-syntax, cl-syntax-annot, prove, and cl-fad. Minimal documentation - see API docs online.
+
+---
+
+
+## cl-confidence
+
+**System Name:** `cl-confidence`
+
+**Purpose:** Simple interactive test framework for Common Lisp.
+
+**Why Use It:**
+- **Simplicity**: Minimal bureaucracy and setup
+- **Interactive**: Designed for REPL-driven testing
+- **Explicit**: Clear functions and explicit decisions
+- **No Complications**: Straightforward test definition
+
+**Best For:** Unit testing, interactive development, TDD.
+
+**Note:** MIT license by Melusina.org.
+
+---
+
+
+## clite
+
+**System Name:** `clite`
+
+**Purpose:** Lightweight testing framework for Common Lisp.
+
+**Why Use It:**
+- **Minimal**: Simple and lightweight design
+- **Fast Setup**: Quick to get started with testing
+- **No Dependencies**: Minimal external requirements
+- **ISC Licensed**: Permissive open source license
+
+**Best For:** Small projects, quick testing needs, lightweight test suites.
+
+**Note:** ISC licensed. Version 1.0.0.
+
+---
+
+
+## cl-kaputt
+
+**System Name:** `kaputt`
+
+**Purpose:** Simple interactive test framework focused on extensibility and clarity.
+
+**Why Use It:**
+- **Simple**: Only three abstractions - testcase, assertion, protocol
+- **Clean Backtraces**: No framework artifacts in error backtraces
+- **Extensible**: Add problem-specific assertions easily
+- **Interactive**: Fits well with REPL-driven development
+
+**Best For:** Interactive testing, extensible test frameworks, clean error reporting.
+
+**Note:** Modern test framework emphasizing simplicity and extensibility.
+
+---
+
+
+## cl-naive-tests
+
+**System Name:** `cl-naive-tests`
+
+**Purpose:** Simple test framework with minimal learning curve.
+
+**Why Use It:**
+- **Simple API**: Not based on mainstream frameworks, easier to learn
+- **GitLab CI Integration**: Designed to work well with CI/CD pipelines
+- **Minimal Dependencies**: Only depends on cl-who
+- **Lightweight**: Straightforward testing without complexity
+- **HTML Reports**: Generate HTML test reports
+
+**Best For:** Testing applications, CI/CD pipelines, projects needing simple testing.
+
+**Note:** MIT License.
+
+---
+
+
+## clunit
+
+**System Name:** `clunit`
+
+**Purpose:** Feature-rich unit testing framework with hierarchical test suites.
+
+**Why Use It:**
+- **Multiple Inheritance**: Organize tests into hierarchies
+- **Composable Fixtures**: Suite-level setup and teardown
+- **Interactive Testing**: Access test environment during failures
+- **Visual Feedback**: Progress indicators during test runs
+
+**Best For:** Unit testing, test-driven development, regression testing.
+
+**Note:** BSD license. Version 0.2.3. Supports TAP output format.
+
+---
+
+
+## clunit2
+
+**System Name:** `clunit2`
+
+**Purpose:** Maintained fork of CLUnit with improvements and bug fixes.
+
+**Why Use It:**
+- **Active Maintenance**: Updated version of CLUnit
+- **Rich Features**: Multiple inheritance for test suites
+- **Flexible Reporting**: Default and TAP output formats
+- **Interactive**: Debug failed tests interactively
+
+**Best For:** Modern unit testing, CI/CD integration, test organization.
+
+**Note:** MIT license. Version 0.5.2. Preferred over original CLUnit.
+
+---
+
+
+## Eos
+
+**System Name:** `Eos`
+
+**Purpose:** DEPRECATED unit testing framework (fork of FiveAM).
+
+**Why Use It:**
+- **Historical**: For maintaining legacy codebases
+- **FiveAM-like**: Similar API to current FiveAM
+- **Not Recommended**: Use FiveAM instead for new projects
+- **Unmaintained**: No active development
+- **Migration Path**: Easy to switch to FiveAM
+
+**Best For:** Legacy code maintenance only - use FiveAM for new projects.
+
+**Note:** DEPRECATED - use FiveAM instead. MIT license.
 
 ---
 

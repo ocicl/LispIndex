@@ -1,6 +1,6 @@
 # Parsing: Grammar
 
-3 libraries
+4 libraries
 
 ---
 
@@ -57,6 +57,27 @@
 **Best For:** Natural language processing, grammar parsing, linguistics applications.
 
 **Note:** No explicit license mentioned in documentation.
+
+---
+
+
+## earley-parser
+
+**System Name:** `cl-earley-parser`
+
+**Purpose:** Natural language parser using Jay Earley's well-known algorithm.
+
+**Why Use It:**
+- **Earley Algorithm**: Classic parsing algorithm for context-free grammars
+- **Natural Language**: Designed specifically for natural language processing
+- **BNF Grammar**: Load grammar rules from BNF format files
+- **Lexicon Support**: Separate lexicon files for vocabulary
+- **Parse Trees**: Generate parse trees from successful parses
+- **Chart Parsing**: Full chart-based parsing with state tracking
+
+**Best For:** Natural language processing, computational linguistics, grammar parsing, language tools.
+
+**Note:** MIT license. By Oyvin Halfdan Thuv. Implements classic Earley parsing algorithm for NLP tasks.
 
 ---
 

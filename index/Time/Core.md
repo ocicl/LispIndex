@@ -1,6 +1,6 @@
 # Time: Core
 
-2 libraries
+3 libraries
 
 ---
 
@@ -41,6 +41,25 @@
 **Best For:** Simple date/time needs without full local-time complexity.
 
 **Note:** Lighter alternative to local-time for basic use cases.
+
+---
+
+
+## cl-trivial-clock
+
+**System Name:** `trivial-clock`
+
+**Purpose:** Accurate wall-clock time on multiple platforms.
+
+**Why Use It:**
+- **High Precision**: More accurate than get-universal-time
+- **Cross-platform**: Works across CL implementations
+- **Wall Clock**: Real wall-clock time measurement
+- **CFFI**: Platform-specific time APIs via CFFI
+
+**Best For:** Benchmarking, profiling, precise timing, performance measurement.
+
+**Note:** MIT License. Provides microsecond/nanosecond precision where available.
 
 ---
 

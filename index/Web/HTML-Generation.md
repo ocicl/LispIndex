@@ -1,6 +1,6 @@
 # Web: HTML-Generation
 
-4 libraries
+7 libraries
 
 ---
 
@@ -87,6 +87,65 @@
 **Best For:** HTML generation, server-side rendering, composable web page construction.
 
 **Note:** Assumes UTF-8 serving. Use :disable-html for mixing Lisp forms with HTML syntax.
+
+---
+
+
+## cl-durian
+
+**System Name:** `cl-durian`
+
+**Purpose:** Generate HTML from simple list structures.
+
+**Why Use It:**
+- **S-expression HTML**: Write HTML as Lisp lists
+- **Attributes**: Easy attribute specification
+- **Interpolation**: Use backtick for variable interpolation
+- **Raw Output**: Support for unescaped content
+
+**Best For:** Web development, HTML generation, templating.
+
+**Note:** Simple and lightweight HTML generation.
+
+---
+
+
+## cl-jsx
+
+**System Name:** `cl-jsx`
+
+**Purpose:** JSX syntax support for Common Lisp with CL-WHO backend.
+
+**Why Use It:**
+- **JSX Syntax**: Write HTML with #<tag></tag> syntax
+- **CL-WHO Backend**: Renders using CL-WHO
+- **Embedded Lisp**: Use {} for Lisp expressions in JSX
+- **Reader Macro**: Enable with jsx:enable-jsx-syntax
+
+**Best For:** Web templating, HTML generation, JSX-style markup in Lisp.
+
+**Note:** MIT licensed. Experimental JSX implementation for Common Lisp.
+
+---
+
+
+## cl-markup
+
+**System Name:** `cl-markup`
+
+**Purpose:** Modern markup generation library for Common Lisp.
+
+**Why Use It:**
+- **Fast Code Generation**: Compiles to efficient write-string sequences
+- **Multiple Formats**: HTML, XHTML, HTML5, XML with proper DOCTYPE output
+- **Safety**: Automatic HTML escaping (configurable)
+- **Stream Output**: Direct output to streams for efficiency
+- **Reader Macro**: Optional #M reader macro for cleaner syntax
+- **Compile-Time Optimization**: Markup expanded at compile time for performance
+
+**Best For:** Web applications, HTML generation, template systems, server-side rendering.
+
+**Note:** Licensed under LLGPL.
 
 ---
 

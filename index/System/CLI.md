@@ -1,6 +1,6 @@
 # System: CLI
 
-9 libraries
+13 libraries
 
 ---
 
@@ -172,6 +172,86 @@
 **Best For:** Command-line tools, script argument parsing, POSIX-style interfaces.
 
 **Note:** Public Domain by Gary Hollis.
+
+---
+
+
+## CLIFF
+
+**System Name:** `CLIFF`
+
+**Purpose:** Command Line Interface Framework for Functions with open-world configuration.
+
+**Why Use It:**
+- **Config Tower**: Merges config files, env vars, and CLI args
+- **12-Factor**: Built-in support for config best practices
+- **Subcommands**: Native subcommand and alias support
+- **Minimal Code**: Hook functions to I/O, CLIFF handles rest
+
+**Best For:** CLI applications, command-line tools, 12-factor apps.
+
+**Note:** Uses NRDL (JSON superset) for config. Supports Roswell integration.
+
+---
+
+
+## clingon
+
+**System Name:** `clingon`
+
+**Purpose:** Feature-rich command-line options parser with subcommands and completions.
+
+**Why Use It:**
+- **Subcommands**: Native hierarchical command support
+- **Shell Completions**: Bash and Zsh completion generation
+- **Rich Options**: String, integer, boolean, enum, list, counter types
+- **Environment Init**: Initialize options from env variables
+- **Auto Help**: Automatic help and version flags
+
+**Best For:** CLI applications, command-line tools, complex CLI interfaces.
+
+**Note:** BSD 2-Clause license. Extensible with custom option types.
+
+---
+
+
+
+## cl-just-getopt-parser
+
+**System Name:** `just-getopt-parser`
+
+**Purpose:** Unix getopt-style command-line argument parser for Common Lisp.
+
+**Why Use It:**
+- **Getopt Compatible**: Standard Unix option parsing
+- **Short and Long Options**: Support for -o and --option formats
+- **Optional Arguments**: Handle required and optional option arguments
+- **Error Handling**: Conditions for ambiguous, unknown, missing arguments
+
+**Best For:** Command-line applications, option parsing, Unix-style CLIs.
+
+**Note:** CC0 public domain. Pure parser with no additional framework.
+
+---
+
+
+## clon
+
+**System Name:** `clon`
+
+**Purpose:** Library for command-line options management in Common Lisp applications.
+
+**Why Use It:**
+- **Centralized Options**: Single point for command-line option specification
+- **Automatic Help**: Generate help strings automatically with theming support
+- **Flexible Retrieval**: Global or on-demand option value access
+- **Extensible**: Define custom option types
+- **User-Friendly**: Uniform syntax, abbreviation completion, short/long forms
+- **Environment Integration**: Support for defaults, fallbacks, environment variables
+
+**Best For:** Standalone applications, command-line tools, system utilities.
+
+**Note:** LRDE License. Feature-complete command-line parsing solution.
 
 ---
 

@@ -1,6 +1,6 @@
 # Text: Encodings
 
-4 libraries
+7 libraries
 
 ---
 
@@ -74,6 +74,62 @@
 **Best For:** Base64 encoding/decoding.
 
 **Note:** Essential for binary-to-text encoding.
+
+---
+
+
+## cl-scsu
+
+**System Name:** `cl-scsu`
+
+**Purpose:** Standard Compression Scheme for Unicode implementation.
+
+**Why Use It:**
+- **Unicode Compression**: Efficient compression of Unicode text
+- **SCSU Standard**: Implements Unicode Technical Report #6
+- **Bidirectional**: Both encoding and decoding support
+- **Japanese Support**: Optimized for CJK character compression
+- **Streaming API**: Process data incrementally with state objects
+
+**Best For:** Unicode text compression, multilingual data storage, bandwidth optimization.
+
+**Note:** MIT License. Effective for texts with repeated Unicode ranges.
+
+---
+
+
+## clonsigna
+
+**System Name:** `clonsigna`
+
+**Purpose:** Library for handling character encodings and conversions in SBCL.
+
+**Why Use It:**
+- **SBCL-Specific**: Optimized for SBCL implementation
+- **Encoding Support**: Handle various character encodings
+- **External Formats**: Work with flexi-streams external formats
+
+**Best For:** SBCL applications requiring encoding conversions, text processing.
+
+**Note:** SBCL only. Limited documentation, consult source code.
+
+---
+
+
+## cl-rfc2047
+
+**System Name:** `cl-rfc2047`
+
+**Purpose:** Email header encoding method implementation per RFC 2047.
+
+**Why Use It:**
+- **Email Headers**: Encode/decode email header values
+- **RFC 2047 Compliance**: Standard email header encoding
+- **International Text**: Handle non-ASCII in email headers
+
+**Best For:** Email processing, MIME handling, email clients, mail servers.
+
+**Note:** Originally by Christian Haselbach. API documentation available.
 
 ---
 

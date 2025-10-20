@@ -1,6 +1,6 @@
 # Web: Templating
 
-6 libraries
+9 libraries
 
 ---
 
@@ -124,6 +124,63 @@
 **Best For:** Web applications requiring server-side and client-side template rendering with shared template definitions.
 
 **Note:** Lisp-LGPL license. By Moskvitin Andrey. Includes escape handling and standard templates.
+
+---
+
+
+## cl-djula-svg
+
+**System Name:** `cl-djula-svg`
+
+**Purpose:** Process SVG files for use in Djula templates.
+
+**Why Use It:**
+- **SVG Processing**: Add/update SVG attributes automatically
+- **Djula Integration**: Prepare SVGs for Djula templates
+- **Attribute Management**: Set height, width, fill, class attributes
+- **File Operations**: Copy and process files between directories
+
+**Best For:** Caveman web apps, Djula templating, SVG asset management.
+
+**Note:** MIT license. Designed for Caveman framework.
+
+---
+
+
+## cl-djula-tailwind
+
+**System Name:** `cl-djula-tailwind`
+
+**Purpose:** Use TailwindCSS in Djula templates without Node.js tooling.
+
+**Why Use It:**
+- **TailwindCSS**: Generate Tailwind stylesheets from templates
+- **No Node.js**: Pure Lisp implementation
+- **Djula Integration**: Automatic stylesheet generation
+- **Simple Workflow**: No JavaScript build tools needed
+
+**Best For:** Caveman web apps, rapid prototyping, utility-first CSS.
+
+**Note:** MIT license. Eliminates JavaScript tooling for Tailwind.
+
+---
+
+
+## cl-haml
+
+**System Name:** `cl-haml`
+
+**Purpose:** Haml-like XHTML generator for Common Lisp.
+
+**Why Use It:**
+- **Concise Syntax**: Haml-style template syntax
+- **XHTML Generation**: Clean HTML output
+- **CL-WHO Integration**: Built on cl-who
+- **UTF-8 Support**: Proper encoding support
+
+**Best For:** Web development, template generation, HTML creation.
+
+**Note:** MIT license. Version 1.0.2. Haml-style indentation-based markup.
 
 ---
 

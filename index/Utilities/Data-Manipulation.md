@@ -1,6 +1,6 @@
 # Utilities: Data-Manipulation
 
-2 libraries
+3 libraries
 
 ---
 
@@ -42,6 +42,25 @@
 **Best For:** Complex data transformations, functional data processing.
 
 **Note:** Brings lens-like functional patterns to Common Lisp.
+
+---
+
+
+## cl-groupby
+
+**System Name:** `cl-groupby`
+
+**Purpose:** Scala-style groupBy functionality for efficient data grouping.
+
+**Why Use It:**
+- **Performance**: O(n) grouping vs quadratic naive approach
+- **Simple API**: Single higher-order function
+- **Comprehensive**: Group by any function
+- **Practical**: Solves real performance bottlenecks
+
+**Best For:** Data processing, collection manipulation, performance-critical grouping.
+
+**Note:** Standalone utility function. MIT license.
 
 ---
 

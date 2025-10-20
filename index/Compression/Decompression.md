@@ -1,6 +1,6 @@
 # Compression: Decompression
 
-2 libraries
+5 libraries
 
 ---
 
@@ -41,6 +41,66 @@
 **Best For:** Decompressing gzip/zlib/deflate data.
 
 **Note:** By Nathan Froyd. Version 0.8.
+
+---
+
+
+## cl-lzlib
+
+**System Name:** `lzlib`
+
+**Purpose:** LZMA compression/decompression using bindings to lzlib C library.
+
+**Why Use It:**
+- **LZMA Compression**: High compression ratio lzip format support
+- **Parallel Compression**: Multi-threaded compression for improved performance
+- **Streaming Interface**: Gray streams for compression/decompression
+- **Flexible API**: File, stream, and buffer operations
+- **Compression Levels**: 0-9 compression levels with customizable parameters
+- **Trailing Data Handling**: Options for handling archives with trailing data
+
+**Best For:** File compression, backup systems, data archival requiring high compression ratios.
+
+**Note:** Licensed under GPL-3. Requires lzlib C library.
+
+---
+
+
+## cl-lzma
+
+**System Name:** `cl-lzma`
+
+**Purpose:** CFFI wrapper around LZMA SDK for LZMA compression/decompression.
+
+**Why Use It:**
+- **LZMA Support**: Access to official LZMA SDK functionality
+- **Pre-Built Binaries**: Includes Windows, Linux, macOS binaries (x32/x64)
+- **No Pure Lisp Alternative**: Necessary due to LZMA SDK complexity and lack of documentation
+- **CFFI Integration**: Standard CFFI interface
+
+**Best For:** Applications requiring LZMA compression when cl-lzlib isn't suitable.
+
+**Note:** Based on official LZMA SDK from Igor Pavlov.
+
+---
+
+
+## Deflate
+
+**System Name:** `deflate`
+
+**Purpose:** Implementation of Deflate decompression with ZLIB and gzip support.
+
+**Why Use It:**
+- **Deflate**: RFC 1951 Deflate decompression
+- **ZLIB**: RFC 1950 wrapper support
+- **Gzip**: RFC 1952 gzip wrapper support
+- **Portable**: Works across ANSI CL implementations
+- **Optimized**: Fast on SBCL, CMU CL, Lispworks
+
+**Best For:** Compression, gzip files, zip archives, data decompression.
+
+**Note:** MIT License. By Peter Mai. Decompression only currently.
 
 ---
 

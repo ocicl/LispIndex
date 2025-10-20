@@ -1,6 +1,6 @@
 # Concurrency: Futures
 
-1 libraries
+2 libraries
 
 ---
 
@@ -18,6 +18,27 @@
 - **Well-Tested**: Originally part of cl-async
 
 **Best For:** Applications needing futures/promises without full async framework.
+
+---
+
+
+## eager-future2
+
+**System Name:** `eager-future2`
+
+**Purpose:** Parallel programming library providing futures/promises synchronization mechanism.
+
+**Why Use It:**
+- **Multiple Strategies**: Choose :lazy, :speculative, or :eager computation strategies
+- **Transparent Errors**: Conditions and restarts proxied across thread boundaries
+- **Automatic Cleanup**: Garbage-collected futures release thread resources automatically
+- **Composable Primitives**: PAND, POR, PLET, and other high-level parallel constructs
+- **Select Operations**: Wait for first-ready future from a set
+- **Force Mechanism**: Abort ongoing computation and install specific values
+
+**Best For:** Parallel computation, concurrent tasks, speculative execution, lazy evaluation with parallelism.
+
+**Note:** LGPL-3.0-or-later license. By Vladimir Sedach. Unifies parallel and lazy evaluation with excellent resource management.
 
 ---
 

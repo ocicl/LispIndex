@@ -1,22 +1,44 @@
 # Graphics: Visualization
 
-1 libraries
+2 libraries
 
 ---
 
-## cl-dot
+## cl-tulip-graph
 
-**System Name:** `cl-dot`
+**System Name:** `cl-tulip-graph`
 
-**Purpose:** Generate GraphViz dot format output from Lisp data.
+**Purpose:** Graph generator producing files for Tulip graph visualizer.
 
 **Why Use It:**
-- **GraphViz Integration**: Generate .dot files for graph visualization
-- **Arbitrary Data**: Convert any Lisp data to graphs
-- **Simple API**: Easy graph generation from Lisp structures
-- **Visualization**: Create diagrams and visualizations programmatically
+- **Graph Export**: Generate Tulip-format graph files
+- **Visualization**: Prepare graphs for Tulip visualizer
+- **Graph Data**: Create nodes and edges programmatically
+- **Format Support**: Tulip file format output
 
-**Best For:** Generating graph visualizations from program data structures.
+**Best For:** Graph visualization, network analysis, data visualization, graph research.
+
+**Note:** LLGPL license. By Eugene Zaikonnikov. Outputs graphs for Tulip visualization tool.
+
+---
+
+
+## cytoscape-clj
+
+**System Name:** `cytoscape-clj`
+
+**Purpose:** Jupyter widget for cytoscape.js graph visualization.
+
+**Why Use It:**
+- **Graph Visualization**: Interactive graphs in Jupyter
+- **Cytoscape.js**: Uses cytoscape.js library
+- **Common Lisp Jupyter**: For common-lisp-jupyter
+- **Nodes and Edges**: Create graph elements programmatically
+- **Layouts**: Multiple graph layout algorithms
+
+**Best For:** Jupyter notebooks, graph visualization, network analysis, data science.
+
+**Note:** Requires Jupyter Lab extension. For common-lisp-jupyter.
 
 ---
 

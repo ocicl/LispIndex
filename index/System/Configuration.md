@@ -1,6 +1,6 @@
 # System: Configuration
 
-4 libraries
+7 libraries
 
 ---
 
@@ -77,6 +77,67 @@
 **Best For:** Application configuration, environment management, deployment flexibility.
 
 **Note:** MIT License.
+
+---
+
+
+## configuration.options
+
+**System Name:** `configuration.options`
+
+**Purpose:** Hierarchical configuration schemata with multiple sources and change handling.
+
+**Why Use It:**
+- **Schema-Based Configuration**: Define hierarchical configuration structures
+- **Multiple Sources**: Integrate config files, environment variables, and commandline options
+- **Extensible Protocol**: Customize option sources and value handling
+- **Change Notifications**: Handle configuration value changes dynamically
+- **Type Safety**: Schema validation for configuration values
+
+**Best For:** Complex application configuration, multi-source config management, enterprise applications.
+
+**Note:** Comprehensive tutorial and documentation included. Extensible via protocols.
+
+---
+
+
+## dotenv
+
+**System Name:** `dotenv`
+
+**Purpose:** Parse and load dotenv (.env) files.
+
+**Why Use It:**
+- **Environment Variables**: Load variables from .env files
+- **Multiple Files**: Load multiple dotenv files
+- **Variable Access**: Query dotenv and process environment
+- **Default Values**: Support for default values
+- **Simple API**: Easy-to-use functions
+
+**Best For:** Configuration management, environment variables, 12-factor apps.
+
+**Note:** Standard dotenv file support for Common Lisp applications.
+
+---
+
+
+## defconfig
+
+**System Name:** `defconfig`
+
+**Purpose:** Customization and validation framework for places in Common Lisp.
+
+**Why Use It:**
+- **Validation**: Validate values before setting
+- **Coercion**: Automatic type coercion
+- **Atomic**: Atomic setv with rollback on error
+- **User Variables**: Protect user-exposed variables
+- **Restarts**: Helpful restarts on invalid values
+- **Documentation**: Well-documented configuration objects
+
+**Best For:** User settings, configuration, validated variables, user-exposed APIs.
+
+**Note:** Coexists with setf. Travis CI tested. By szos.
 
 ---
 

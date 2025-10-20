@@ -1,6 +1,6 @@
 # Web: Authentication
 
-2 libraries
+5 libraries
 
 ---
 
@@ -40,6 +40,64 @@
 **Best For:** API authentication, OAuth, microservices, secure token exchange.
 
 **Note:** JWT (RFC 7519) implementation.
+
+---
+
+
+## clath
+
+**System Name:** `clath`
+
+**Purpose:** Single sign-on middleware for Clack web applications.
+
+**Why Use It:**
+- **OAuth Support**: OAuth1.0a, OAuth2, and OpenID Connect
+- **Multiple Providers**: Google, Twitter, LinkedIn, StackExchange, Reddit, GitHub
+- **Clack Integration**: Drop-in middleware for Clack apps
+- **Session Management**: Automatic user session handling
+
+**Best For:** Web authentication, single sign-on, Clack web apps.
+
+**Note:** Apache License 2.0.
+
+---
+
+
+## cl-keycloak
+
+**System Name:** `cl-keycloak`
+
+**Purpose:** Connect with Keycloak OIDC (OpenID Connect) and request user information.
+
+**Why Use It:**
+- **Keycloak Integration**: Connect to Keycloak identity provider
+- **OIDC Support**: OpenID Connect authentication
+- **User Info**: Retrieve authenticated user information
+- **Identity Management**: Integrate with Keycloak IAM
+
+**Best For:** Web authentication, SSO integration, identity management with Keycloak.
+
+**Note:** GPLv3 licensed. Basic Keycloak OIDC client.
+
+---
+
+
+## cl-oauth
+
+**System Name:** `cl-oauth`
+
+**Purpose:** Implementation of OAuth 1.0a standard in Common Lisp.
+
+**Why Use It:**
+- **OAuth Protocol**: Implement OAuth 1.0a authentication
+- **Service Provider**: Server-side OAuth implementation
+- **Consumer Support**: Client-side OAuth for accessing protected resources
+- **Signature Methods**: HMAC-SHA1 signature support
+- **Token Management**: Request and access token handling
+
+**Best For:** OAuth-enabled web services, API authentication, third-party integrations.
+
+**Note:** LGPL License.
 
 ---
 

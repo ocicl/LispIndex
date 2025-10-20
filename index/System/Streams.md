@@ -1,6 +1,6 @@
 # System: Streams
 
-8 libraries
+9 libraries
 
 ---
 
@@ -165,6 +165,27 @@
 **Best For:** Functional programming approaches to I/O, applications requiring cleaner stream semantics, and projects valuing referential transparency.
 
 **Note:** BSD-3 licensed. Author: Thomas Bartscher. Version 0.0.1. Minimal documentation available.
+
+---
+
+
+## cl-stream
+
+**System Name:** `cl-stream`
+
+**Purpose:** Evented I/O stream library for any data type with non-blocking support.
+
+**Why Use It:**
+- **Generic Streams**: Work with any element type, not just characters/bytes
+- **Non-blocking I/O**: Configurable blocking behavior
+- **Unified API**: read/write for any element type
+- **Buffered Streams**: Built-in buffering support
+- **Gray Streams**: Compatible with Gray streams via stream-gray system
+- **Flexible**: Sequence and string stream abstractions
+
+**Best For:** Network I/O, custom stream types, non-blocking operations, protocol implementations.
+
+**Note:** Clean abstraction over Common Lisp streams with modern I/O patterns.
 
 ---
 

@@ -1,6 +1,6 @@
 # Development: Debugging
 
-5 libraries
+7 libraries
 
 ---
 
@@ -94,6 +94,44 @@
 **Best For:** Development debugging, troubleshooting, and temporary logging during code exploration.
 
 **Note:** MIT license. Version 0.2.0. By Satoshi Imai. Requires cl-syntax.
+
+---
+
+
+## cl-info
+
+**System Name:** `cl-info`
+
+**Purpose:** Common Lisp environment reporter for debugging and CI.
+
+**Why Use It:**
+- **Environment Info**: OS, Lisp, ASDF, distribution details
+- **System Reports**: Detailed system information
+- **CLI Tool**: Roswell script for command-line use
+- **CI Integration**: Perfect for CI/CD pipelines
+
+**Best For:** Debugging, CI/CD, environment reporting, crash reports.
+
+**Note:** Unlicense. Works as library or command-line tool.
+
+---
+
+
+## delta-debug
+
+**System Name:** `delta-debug`
+
+**Purpose:** Implementation of delta debugging algorithm.
+
+**Why Use It:**
+- **Automatic Minimization**: Minimize failing test cases automatically
+- **Delta Debugging**: Classic algorithm for test case reduction
+- **Command-Line Tool**: Includes executable delta utility
+- **Shell Integration**: Works with external test scripts
+
+**Best For:** Bug minimization, test case reduction, debugging, automated testing.
+
+**Note:** Public domain. By Eric Schulte. Implements Zeller's delta debugging.
 
 ---
 

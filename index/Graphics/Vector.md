@@ -1,6 +1,6 @@
 # Graphics: Vector
 
-5 libraries
+7 libraries
 
 ---
 
@@ -100,6 +100,47 @@
 **Best For:** Vector drawing, ink effects.
 
 **Note:** Repository moved to Codeberg in August 2025. Check Shinmera's projects page.
+
+---
+
+
+## cl-svg
+
+**System Name:** `cl-svg`
+
+**Purpose:** Produce Scalable Vector Graphics files with Common Lisp.
+
+**Why Use It:**
+- **SVG Generation**: Create SVG graphics programmatically
+- **Simple API**: Makes basic SVG creation easy
+- **Declarative**: Describe graphics with Lisp expressions
+- **File Output**: Generate SVG files directly
+- **Vector Graphics**: Resolution-independent graphics
+- **Web-ready**: SVG files work in browsers and graphics software
+
+**Best For:** Data visualization, chart generation, diagram creation, graphics programming.
+
+**Note:** Makes simple things easy, not a full XML/SVG library.
+
+---
+
+
+## cl-resvg
+
+**System Name:** `org.shirakumo.fraf.resvg`
+
+**Purpose:** Bindings to resvg Rust library for rendering SVG images to bitmaps.
+
+**Why Use It:**
+- **SVG Rendering**: Convert SVG to bitmap images
+- **Rust Backend**: Uses high-quality resvg renderer
+- **Image Queries**: Check viewbox, size, bounding box
+- **Scaling Support**: Render at different scales
+- **File/Buffer Input**: Load from files, strings, or memory
+
+**Best For:** SVG display, image conversion, graphics rendering, icon rendering.
+
+**Note:** Requires initialization and cleanup. Use with-image macro for convenience.
 
 ---
 

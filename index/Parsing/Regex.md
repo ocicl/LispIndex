@@ -1,6 +1,6 @@
 # Parsing: Regex
 
-1 libraries
+3 libraries
 
 ---
 
@@ -21,6 +21,44 @@
 **Best For:** Performance-critical regex, repeated matching, compiled patterns.
 
 **Note:** Faster than CL-PPCRE for repeated matches. Longer compile time.
+
+---
+
+
+## cl-irregsexp
+
+**System Name:** `cl-irregsexp`
+
+**Purpose:** Powerful text matching DSL alternative to regular expressions.
+
+**Why Use It:**
+- **No Regular Expressions**: More readable and powerful than regex patterns
+- **Pattern Composition**: Build complex patterns from simple components
+- **Type-Specialized**: Optimized for different string types
+- **Bind and Replace**: Extract and substitute matched patterns
+
+**Best For:** Text parsing, pattern matching, string manipulation without regex complexity.
+
+**Note:** Designed as a more maintainable alternative to traditional regular expressions.
+
+---
+
+
+## clj-re
+
+**System Name:** `clj-re`
+
+**Purpose:** Clojure-style regular expression functions wrapping cl-ppcre.
+
+**Why Use It:**
+- **Clojure Compatibility**: re-find, re-matches, re-seq, re-groups functions
+- **Pattern Literals**: Optional #"pattern" syntax via named-readtables
+- **String Support**: Accept strings as patterns for convenience
+- **Tested**: Works on SBCL and CLISP
+
+**Best For:** Regex operations for Clojure developers, pattern matching.
+
+**Note:** Wraps cl-ppcre with Clojure-compatible API.
 
 ---
 

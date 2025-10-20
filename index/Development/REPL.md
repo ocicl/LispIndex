@@ -1,6 +1,6 @@
 # Development: REPL
 
-3 libraries
+4 libraries
 
 ---
 
@@ -66,6 +66,25 @@
 **Best For:** Distributed Lisp systems, remote REPL access, cluster computing, multi-node debugging.
 
 **Note:** Signals SLIME-NETWORK-ERROR on network problems.
+
+---
+
+
+## conium
+
+**System Name:** `conium`
+
+**Purpose:** Swank server components for IDE integration.
+
+**Why Use It:**
+- **IDE Integration**: Core functionality for connecting Common Lisp to IDEs
+- **Source Path Parsing**: Parse and track source code locations
+- **Source File Caching**: Cache source files for efficient access
+- **Multi-Implementation**: Support for CMUCL, SCL, SBCL, CCL, CLISP
+
+**Best For:** IDE tool development, SLIME/Swank integration, development environment customization.
+
+**Note:** Low-level library for IDE integration. Implementation-specific features.
 
 ---
 

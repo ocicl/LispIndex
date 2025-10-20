@@ -1,6 +1,6 @@
 # System: Introspection
 
-3 libraries
+4 libraries
 
 ---
 
@@ -53,6 +53,26 @@
 - **Precompiled Libraries**: Includes precompiled libmonitors
 
 **Best For:** Applications needing to detect or change monitor resolutions.
+
+---
+
+
+## cl-mount-info
+
+**System Name:** `cl-mount-info`
+
+**Purpose:** Wrapper around getmntent(3) for mounted filesystem information on GNU/Linux.
+
+**Why Use It:**
+- **Filesystem Info**: Query mounted filesystem information
+- **Simple API**: Easy functions to get device, fstype, and mount options
+- **Mount Points**: Map mount points to devices and filesystem types
+- **System Integration**: Direct access to /etc/mtab data
+- **Low-Level Access**: Both high-level API and low-level CFFI wrappers
+
+**Best For:** System administration tools, disk usage monitors, filesystem utilities on Linux.
+
+**Note:** LLGPL License. Alpha stage, GNU/Linux only.
 
 ---
 
