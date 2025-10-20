@@ -1,24 +1,30 @@
 # Utilities Libraries
 
-This category contains 25 subcategories with 56 total libraries.
+This category contains 32 subcategories with 71 total libraries.
 
 ## Subcategories
 
+- [Accumulators](Accumulators.md) (1 library)
 - [Array-Operations](Array-Operations.md) (1 library)
-- [Caching](Caching.md) (5 libraries)
+- [Binary](Binary.md) (1 library)
+- [Bit-Manipulation](Bit-Manipulation.md) (3 libraries)
+- [Caching](Caching.md) (6 libraries)
+- [Checksums](Checksums.md) (1 library)
 - [Comparison](Comparison.md) (1 library)
-- [Data-Access](Data-Access.md) (6 libraries)
+- [Data-Access](Data-Access.md) (4 libraries)
 - [Data-Manipulation](Data-Manipulation.md) (2 libraries)
 - [Data-Structures](Data-Structures.md) (1 library)
 - [Diff](Diff.md) (1 library)
+- [Distributions](Distributions.md) (1 library)
 - [Equality](Equality.md) (1 library)
 - [General](General.md) (15 libraries)
-- [Hashing](Hashing.md) (1 library)
+- [Hash-Tables](Hash-Tables.md) (4 libraries)
+- [Hashing](Hashing.md) (2 libraries)
 - [Identifiers](Identifiers.md) (1 library)
 - [Iteration](Iteration.md) (1 library)
 - [Legacy](Legacy.md) (1 library)
-- [Logging](Logging.md) (3 libraries)
-- [Macros](Macros.md) (1 library)
+- [Logging](Logging.md) (4 libraries)
+- [Macros](Macros.md) (2 libraries)
 - [Numbers](Numbers.md) (1 library)
 - [Pattern-Matching](Pattern-Matching.md) (2 libraries)
 - [Printing](Printing.md) (2 libraries)
@@ -26,6 +32,7 @@ This category contains 25 subcategories with 56 total libraries.
 - [Syntax](Syntax.md) (1 library)
 - [Timeouts](Timeouts.md) (2 libraries)
 - [Types](Types.md) (2 libraries)
-- [Validation](Validation.md) (1 library)
+- [UUID](UUID.md) (1 library)
+- [Validation](Validation.md) (2 libraries)
 - [Versioning](Versioning.md) (1 library)
 - [Visualization](Visualization.md) (1 library)

@@ -1,6 +1,6 @@
 # Parsing: XML
 
-5 libraries
+6 libraries
 
 ---
 
@@ -135,6 +135,24 @@
 **Best For:** XML-RPC, WebDAV, BEEP protocols, embedded XML parsing, small XML documents.
 
 **Note:** BSD license. Parses entire document into memory. Parses 85/98 OASIS valid documents.
+
+---
+
+
+## cl-fxml
+
+**System Name:** `cl-fxml`
+
+**Purpose:** Finally eXtended Markup Language reader for Common Lisp.
+
+**Why Use It:**
+- **XML Reading**: Read and process XML with Lisp syntax
+- **Named Readtables**: Clean integration using readtable system
+- **Alexandria**: Built on solid utility library foundations
+
+**Best For:** XML processing, configuration files, data interchange formats.
+
+**Note:** MIT License by Goheeca.
 
 ---
 

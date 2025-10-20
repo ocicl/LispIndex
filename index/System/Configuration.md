@@ -1,6 +1,6 @@
 # System: Configuration
 
-2 libraries
+4 libraries
 
 ---
 
@@ -41,6 +41,42 @@
 **Best For:** Editor support, file metadata, configuration in source files.
 
 **Note:** Enables Emacs-style file-local variables in Common Lisp.
+
+---
+
+
+## cl-dotenv
+
+**System Name:** `cl-dotenv`
+
+**Purpose:** Load environment variables from .env files into Common Lisp environment.
+
+**Why Use It:**
+- **12-Factor Apps**: Implements configuration-in-environment pattern for modern applications
+- **Simple API**: Single function call to load .env files with automatic parsing
+- **Error Handling**: Restarts for malformed or duplicated entries during parsing
+
+**Best For:** Application configuration management, separating config from code, development environments.
+
+**Note:** MIT License. Tested with SBCL, Allegro, and ECL.
+
+---
+
+
+## cl-env
+
+**System Name:** `cl-env`
+
+**Purpose:** Load environment variables from .env files following 12-factor methodology.
+
+**Why Use It:**
+- **Configuration Pattern**: Separate configuration from code per 12-factor app principles
+- **Auto-Discovery**: Attempts to load .env from current directory by default
+- **Path Flexibility**: Specify custom .env file paths as needed
+
+**Best For:** Application configuration, environment management, deployment flexibility.
+
+**Note:** MIT License.
 
 ---
 

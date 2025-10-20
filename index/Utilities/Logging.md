@@ -1,6 +1,6 @@
 # Utilities: Logging
 
-3 libraries
+4 libraries
 
 ---
 
@@ -62,6 +62,24 @@
 **Best For:** Simple logging needs, applications where log4cl is too heavy.
 
 **Note:** Good alternative to log4cl for minimalist logging.
+
+---
+
+
+## cl-fluent-logger
+
+**System Name:** `cl-fluent-logger`
+
+**Purpose:** Structured logger for Fluentd log aggregation system.
+
+**Why Use It:**
+- **Structured Logging**: Send alist-based structured logs to Fluentd
+- **Level Support**: Log levels from trace to fatal with filtering
+- **Broadcasting**: Send to multiple loggers (Fluentd + console) simultaneously
+
+**Best For:** Log aggregation, distributed logging, observability, production monitoring.
+
+**Note:** BSD 3-Clause License.
 
 ---
 

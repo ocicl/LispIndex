@@ -1,6 +1,6 @@
 # Web: UI-Widgets
 
-1 libraries
+2 libraries
 
 ---
 
@@ -22,6 +22,26 @@
 **Best For:** Complex web applications requiring stateful UI components, admin panels, dashboards, or SPAs where you want server-side state management.
 
 **Note:** LLGPL license. Requires understanding of Caveman2 framework. Automatic JavaScript/CSS dependencies. See caveman2-widgets-bootstrap for Bootstrap integration.
+
+---
+
+
+## caveman2-widgets-bootstrap
+
+**System Name:** `caveman2-widgets-bootstrap`
+
+**Purpose:** Extension to caveman2-widgets supplying Bootstrap-styled widgets.
+
+**Why Use It:**
+- **Bootstrap Integration**: Widgets designed for Bootstrap framework
+- **Navigation Widget**: Fully redesigned Bootstrap-compatible navigation
+- **CDN Support**: Configurable CDN links for Bootstrap resources
+- **Fixed Navbar**: Support for fixed navigation bars
+- **Header Extension**: Easy customization through RENDER-WIDGET-HEADER method
+
+**Best For:** Caveman2 web applications using Bootstrap, rapid web UI development, Bootstrap-based prototypes.
+
+**Note:** LLGPL License. Requires caveman2-widgets base library. Bootstrap resources are <FILE> objects, not strings.
 
 ---
 

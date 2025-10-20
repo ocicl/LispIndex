@@ -1,6 +1,6 @@
 # System: Scheduling
 
-1 libraries
+2 libraries
 
 ---
 
@@ -21,6 +21,24 @@
 **Best For:** Scheduled tasks within Lisp applications.
 
 **Note:** Useful for background jobs, periodic tasks, maintenance.
+
+---
+
+
+## clerk
+
+**System Name:** `clerk`
+
+**Purpose:** A cron-like scheduler with sane DSL for Common Lisp.
+
+**Why Use It:**
+- **Job Scheduling**: Schedule recurring tasks like Unix cron
+- **Clean Syntax**: DSL for expressing time-based schedules
+- **Thread Support**: Built on bordeaux-threads for concurrency
+
+**Best For:** Background job scheduling, periodic task execution, automation workflows.
+
+**Note:** MIT License by Petko Tsikov.
 
 ---
 

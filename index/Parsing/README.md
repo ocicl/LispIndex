@@ -1,6 +1,6 @@
 # Parsing Libraries
 
-This category contains 19 subcategories with 43 total libraries.
+This category contains 21 subcategories with 54 total libraries.
 
 ## Subcategories
 
@@ -13,13 +13,15 @@ This category contains 19 subcategories with 43 total libraries.
 - [Data-Formats](Data-Formats.md) (1 library)
 - [Feeds](Feeds.md) (1 library)
 - [Generators](Generators.md) (2 libraries)
-- [Grammar](Grammar.md) (1 library)
-- [HTML](HTML.md) (6 libraries)
-- [JSON](JSON.md) (4 libraries)
+- [Grammar](Grammar.md) (3 libraries)
+- [HTML](HTML.md) (9 libraries)
+- [JSON](JSON.md) (6 libraries)
 - [Lexers](Lexers.md) (1 library)
-- [Markdown](Markdown.md) (3 libraries)
+- [Lexical-Analysis](Lexical-Analysis.md) (1 library)
+- [Markdown](Markdown.md) (4 libraries)
 - [Numbers](Numbers.md) (3 libraries)
 - [Packrat](Packrat.md) (3 libraries)
+- [RSS-Atom](RSS-Atom.md) (1 library)
 - [Regex](Regex.md) (1 library)
-- [XML](XML.md) (5 libraries)
+- [XML](XML.md) (6 libraries)
 - [YAML](YAML.md) (2 libraries)

@@ -1,6 +1,6 @@
 # Network: HTTP-Clients
 
-2 libraries
+3 libraries
 
 ---
 
@@ -46,6 +46,24 @@
 **Best For:** HTTP clients, REST APIs, web scraping, HTTP requests.
 
 **Note:** BETA quality. APIs may change. Travis CI/Coveralls. Faster than Drakma.
+
+---
+
+
+## cl-httpotion
+
+**System Name:** `cl-httpotion`
+
+**Purpose:** HTTP client library with clean, potion-like API.
+
+**Why Use It:**
+- **HTTP Requests**: Simple HTTP client operations
+- **Clean API**: Intuitive request/response interface
+- **Modern**: Support for modern HTTP features
+
+**Best For:** Web API clients, HTTP requests, REST API consumption.
+
+**Note:** HTTP client with ergonomic API design.
 
 ---
 

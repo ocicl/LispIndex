@@ -1,6 +1,6 @@
 # Testing: Property-Based
 
-3 libraries
+4 libraries
 
 ---
 
@@ -59,6 +59,24 @@
 **Best For:** Finding edge cases in algorithms, validating invariants, testing parsers, or complementing example-based tests with random exploration.
 
 **Note:** API may not be stable. Configure *num-trials*, *list-size*, *size* for test behavior. Destructive operations on test inputs may break shrinking. Supports custom generators.
+
+---
+
+
+## cl-fuzz
+
+**System Name:** `cl-fuzz`
+
+**Purpose:** Simple fuzz testing package for property-based testing.
+
+**Why Use It:**
+- **Random Testing**: Generate random test data and verify properties hold
+- **Test Assertions**: Built-in test-true and test-false assertion functions
+- **Configurable**: Specify test count and custom data generators
+
+**Best For:** Property-based testing, random testing, finding edge cases.
+
+**Note:** API documentation at ndantam.github.com/cl-fuzz.
 
 ---
 

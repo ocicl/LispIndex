@@ -1,6 +1,6 @@
 # Graphics: Images
 
-8 libraries
+12 libraries
 
 ---
 
@@ -165,6 +165,78 @@
 **Best For:** Image generation, graphics output, server-side image creation.
 
 **Note:** BSD-style license. By Zach Beane.
+
+---
+
+
+## cl-bmp
+
+**System Name:** `cl-bmp`
+
+**Purpose:** BMP image format reading and writing library for Common Lisp.
+
+**Why Use It:**
+- **BMP Format Support**: Read and write Windows BMP image files
+- **Shinmera Project**: Part of the Shinmera Common Lisp project ecosystem
+
+**Best For:** Applications requiring BMP image format support, image conversion utilities, and graphics applications dealing with Windows bitmap files.
+
+**Note:** Repository has moved to Codeberg in August 2025 due to Microsoft platform issues. GitHub repository no longer receives updates - submit issues and patches to shirakumo@tymoon.eu or Codeberg repository.
+
+---
+
+
+## cl-cffi-gdk-pixbuf
+
+**System Name:** `cl-cffi-gdk-pixbuf`
+
+**Purpose:** Lisp binding to the GdkPixbuf image loading and manipulation library.
+
+**Why Use It:**
+- **Image Format Support**: Load and manipulate various image formats through GdkPixbuf
+- **GTK Integration**: Automatically loaded by cl-cffi-gtk3 and cl-cffi-gtk4
+- **Standalone Usage**: Can be used independently from GTK libraries
+- **Modern Architecture**: Separated from monolithic cl-cffi-gtk for modularity
+
+**Best For:** Image loading in GTK applications, standalone image processing, supporting multiple image formats, and applications requiring GdkPixbuf's image manipulation capabilities.
+
+**Note:** Formerly part of cl-cffi-gtk library, now independent for flexible use. Loaded automatically by GTK 3 and GTK 4 bindings. Complements cl-cffi-gtk3/gtk4 ecosystem.
+
+---
+
+
+## cl-gd
+
+**System Name:** `cl-gd`
+
+**Purpose:** Common Lisp wrapper for GD graphics library.
+
+**Why Use It:**
+- **Image Generation**: Create and manipulate PNG, JPEG, GIF, WebP images
+- **Drawing Primitives**: Lines, shapes, text rendering with TrueType fonts
+- **Format Support**: Multiple image formats through GD's supporting libraries
+
+**Best For:** Image generation, charts, thumbnails, web graphics, captchas.
+
+**Note:** Installation requires libgd2-xpm-dev and supporting libraries.
+
+---
+
+
+## cl-jpeg
+
+**System Name:** `cl-jpeg`
+
+**Purpose:** JPEG image format library for Common Lisp.
+
+**Why Use It:**
+- **JPEG Support**: Read and write JPEG image files
+- **Pure Lisp**: No external C library dependencies
+- **Image Processing**: Basic JPEG operations
+
+**Best For:** Image processing, web applications, graphics programs.
+
+**Note:** Pure Common Lisp JPEG implementation.
 
 ---
 

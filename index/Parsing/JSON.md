@@ -1,6 +1,6 @@
 # Parsing: JSON
 
-4 libraries
+6 libraries
 
 ---
 
@@ -21,6 +21,23 @@
 **Best For:** Applications needing JSON encoding/decoding with flexibility for customization.
 
 **Note:** One of the most widely-used JSON libraries for CL.
+
+---
+
+
+## cl-json-pointer
+
+**System Name:** `cl-json-pointer`
+
+**Purpose:** JSON Pointer (RFC6901) implementation.
+
+**Why Use It:**
+- **JSON Pointer**: Navigate JSON structures with pointers
+- **Library Independent**: Works with multiple JSON libraries
+- **Wide Support**: Works with cl-json, jzon, shasht, jsown, jonathan, and more
+- **RFC6901**: Standards-compliant implementation
+
+**Best For:** Applications needing to reference specific values in JSON documents via pointers.
 
 ---
 
@@ -79,6 +96,24 @@
 **Best For:** JSON APIs, web services, configuration files, data interchange.
 
 **Note:** MIT license. Community maintained at sharplispers since 2020.
+
+---
+
+
+## cl-json-pointer
+
+**System Name:** `cl-json-pointer`
+
+**Purpose:** JSON Pointer (RFC 6901) implementation for referencing JSON document parts.
+
+**Why Use It:**
+- **JSON Navigation**: Reference specific parts of JSON documents
+- **Standard**: RFC 6901 compliant implementation
+- **Path Syntax**: Use simple string syntax to access nested values
+
+**Best For:** JSON APIs, configuration management, JSON document manipulation.
+
+**Note:** RFC 6901 JSON Pointer standard.
 
 ---
 

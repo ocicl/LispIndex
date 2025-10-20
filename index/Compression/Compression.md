@@ -14,6 +14,7 @@
 - **Compression**: Compress to zlib/deflate (chipz does decompression)
 - **Pure Common Lisp**: No external dependencies
 - **BSD License**: Permissive licensing
+- **By Zach Beane**: Well-known CL library author
 
 **Best For:** Creating compressed zlib/deflate data.
 

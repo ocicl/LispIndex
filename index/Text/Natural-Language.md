@@ -1,26 +1,8 @@
 # Text: Natural-Language
 
-2 libraries
+1 libraries
 
 ---
-
-## cl-inflector
-
-**System Name:** `cl-inflector`
-
-**Purpose:** Easily pluralize and singularize English and Portuguese words.
-
-**Why Use It:**
-- **Pluralization**: Convert words to plural form
-- **Singularization**: Convert words to singular form
-- **ActiveSupport Port**: Port of Ruby ActiveSupport Inflector
-- **Multiple Languages**: English and Portuguese support
-- **User Messages**: Great for generating grammatically correct user messages
-
-**Best For:** Applications displaying user-facing messages with correct pluralization.
-
----
-
 
 ## cl-langutils
 

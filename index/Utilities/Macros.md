@@ -1,6 +1,6 @@
 # Utilities: Macros
 
-1 libraries
+2 libraries
 
 ---
 
@@ -17,6 +17,27 @@
 - **Macro Writing**: Utilities specifically for writing macros
 
 **Best For:** Projects needing specific utilities for macro writing and package management.
+
+---
+
+
+## chain
+
+**System Name:** `chain`
+
+**Purpose:** Chaining/threading macros, one of them SETFing its first argument.
+
+**Why Use It:**
+- **Anaphoric Threading**: Thread values through transformations with <> placeholder
+- **Setf Support**: SET=> macro updates place with threaded result
+- **Early Exit**: Built-in BAIL and FINISH for short-circuiting
+- **Conditional Forms**: :REQ and :COND for conditional threading
+- **Lambda Support**: Direct lambda form support in chain
+- **Let Bindings**: Inline variable bindings with :LET
+
+**Best For:** Data transformation pipelines, functional programming style, reducing nested function calls, data processing workflows.
+
+**Note:** BSD-3 License. Migrated to Codeberg. Different from typical threading macros, uses explicit <> placeholder.
 
 ---
 

@@ -1,6 +1,6 @@
 # System: Build
 
-13 libraries
+14 libraries
 
 ---
 
@@ -248,6 +248,25 @@
 **Best For:** Projects with source files in various character encodings, international applications, legacy codebase integration, and cross-implementation compatibility for non-ASCII source code.
 
 **Note:** Requires ASDF 2.21 or later (2.20.18+). Author: Francois-Rene Rideau. Implementation support varies by Lisp implementation.
+
+---
+
+
+## bytecurry.asdf-ext
+
+**System Name:** `bytecurry.asdf-ext`
+
+**Purpose:** ASDF extensions for documentation operations.
+
+**Why Use It:**
+- **Doc Operation**: Adds doc-op operation to ASDF systems
+- **ATDOC Component**: Component for generating atdoc documentation
+- **Build Integration**: Integrate documentation generation into build process
+- **Automated Documentation**: Generate docs as part of system operations
+
+**Best For:** Projects requiring automated documentation generation, ASDF system extensions, documentation workflow automation.
+
+**Note:** Provides two packages: bytecurry.asdf-ext/doc-op and bytecurry.asdf-ext/atdoc.
 
 ---
 

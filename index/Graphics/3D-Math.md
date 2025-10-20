@@ -1,6 +1,6 @@
 # Graphics: 3D-Math
 
-6 libraries
+7 libraries
 
 ---
 
@@ -125,6 +125,27 @@
 **Best For:** Game development, 3D graphics, OpenGL/Vulkan applications.
 
 **Note:** MIT licensed. Opinionated design addressing precision issues in graphics chains.
+
+---
+
+
+## cl-cffi-graphene
+
+**System Name:** `cl-cffi-graphene`
+
+**Purpose:** Lisp binding to Graphene library for 3D graphics mathematics and geometric primitives.
+
+**Why Use It:**
+- **3D Mathematics**: Comprehensive support for points, vectors, matrices, quaternions, and Euler angles
+- **Geometric Primitives**: Box, plane, triangle, sphere, frustum, quad, and ray structures
+- **Rectangle Operations**: 2D and 3D rectangle manipulation with size support
+- **Transformation Support**: Matrix operations for 3D transformations
+- **Well Tested**: Complete test suite covering all geometric types
+- **GTK 4 Integration**: Supports modern GTK 4 graphics pipeline
+
+**Best For:** 3D graphics applications, game development mathematics, geometric computations, GTK 4 graphics programming, and applications requiring efficient 3D math primitives.
+
+**Note:** MIT licensed by Dieter Kaiser. Version 0.4.0. Requires cffi and iterate. Test with FiveAM framework. Comprehensive test coverage for all geometric types. Used with cl-cffi-gtk4.
 
 ---
 

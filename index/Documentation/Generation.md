@@ -1,6 +1,6 @@
 # Documentation: Generation
 
-6 libraries
+9 libraries
 
 ---
 
@@ -120,6 +120,62 @@
 **Best For:** Library authors needing API documentation, open source projects requiring maintainable documentation, generating reference manuals from source code, and documentation-driven development workflows.
 
 **Note:** Author: David Lichteblau. X11-style license. Dependencies: Closure XML, Split-sequence, Swank, Xuriella, Closer MOP, cl-ppcre. Includes SBCL-specific compiler note suppression.
+
+---
+
+
+## ccldoc
+
+**System Name:** `ccldoc`
+
+**Purpose:** Documentation system using S-expressions for markup and structure.
+
+**Why Use It:**
+- **S-expression Markup**: Document structure defined in Lisp syntax
+- **Macro Support**: Extensible with macros for custom syntax
+- **Multiple Output Formats**: Supports HTML and LaTeX output
+- **Embedded Expressions**: Simple syntax for embedding expressions in strings
+- **Cross References**: Built-in support for documentation cross-references
+
+**Best For:** Documenting Lisp projects, generating technical documentation, Clozure CL documentation, LaTeX document generation.
+
+**Note:** Used for official Clozure CL documentation. LaTeX converter requires xelatex. Stylesheet customization supported.
+
+---
+
+
+## cl-gendoc
+
+**System Name:** `cl-gendoc`
+
+**Purpose:** Simple component-based documentation generator for Common Lisp.
+
+**Why Use It:**
+- **Auto Documentation**: Generate docs from source code
+- **Markdown Output**: Uses 3bmd for markdown processing
+- **Component Based**: Modular documentation generation
+
+**Best For:** Library documentation, API reference generation, project documentation.
+
+**Note:** LLGPL/BSD by Ryan Pavlik.
+
+---
+
+
+## cl-html-readme
+
+**System Name:** `cl-html-readme`
+
+**Purpose:** Generate HTML README or documentation from sources.
+
+**Why Use It:**
+- **Documentation**: Auto-generate HTML documentation
+- **README Creation**: Convert docs to HTML format
+- **Publishing**: Create web-ready documentation
+
+**Best For:** Documentation generation, project websites, API docs.
+
+**Note:** HTML README generation tool.
 
 ---
 

@@ -1,6 +1,6 @@
 # Date-Time: Parsing
 
-2 libraries
+3 libraries
 
 ---
 
@@ -38,6 +38,24 @@
 **Best For:** Natural language interfaces, date parsing, time-relative queries, user-friendly date input.
 
 **Note:** Inspired by Tom Preston-Werner's Chronic. Uses LOCAL-TIME:TIMESTAMP. Current timezone only.
+
+---
+
+
+## cl-date-time-parser
+
+**System Name:** `cl-date-time-parser`
+
+**Purpose:** Parse date-time strings in multiple formats, returning universal-time.
+
+**Why Use It:**
+- **Multiple formats**: ISO8601, RFC3339, RFC822/2822/5322, W3CDTF, asctime, RFC850/1036
+- **Fraction support**: Returns both universal-time and fractional seconds
+- **Robust parsing**: Handles various date-time string representations
+
+**Best For:** Parsing timestamps from APIs, log files, HTTP headers, and user input.
+
+**Note:** MIT license. Version 0.1.03. By Takaya OCHIAI. Depends on local-time.
 
 ---
 

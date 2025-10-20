@@ -1,6 +1,6 @@
 # Concurrency: Events
 
-2 libraries
+3 libraries
 
 ---
 
@@ -42,6 +42,24 @@
 **Best For:** Event-driven architectures, decoupling components.
 
 **Note:** Used in Turtl for app-wide event communication.
+
+---
+
+
+## cl-events
+
+**System Name:** `cl-events`
+
+**Purpose:** Composable event system with multiple sink and executor types.
+
+**Why Use It:**
+- **Flexible Architecture**: Mix-and-match sinks (thread-safety) and executors (execution strategy)
+- **Threading Options**: Serial, threaded, pooled, or chained (async) execution
+- **Type Safety**: Predefined event types for common use cases
+
+**Best For:** Event-driven architectures, pub-sub patterns, reactive programming.
+
+**Note:** MIT License.
 
 ---
 

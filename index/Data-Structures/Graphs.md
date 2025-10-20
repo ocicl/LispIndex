@@ -1,6 +1,6 @@
 # Data-Structures: Graphs
 
-2 libraries
+3 libraries
 
 ---
 
@@ -41,5 +41,25 @@
 **Note:** By Eric Schulte. Docs at eschulte.github.com/graph.
 
 ---
+
+
+## cl-digraph
+
+**System Name:** `cl-digraph`
+
+**Purpose:** Simple directed graphs for Common Lisp.
+
+**Why Use It:**
+- **Graph operations**: Create and manipulate directed graphs
+- **No dependencies**: Pure Common Lisp implementation
+- **Simple API**: Straightforward graph manipulation functions
+
+**Best For:** Graph algorithms, dependency tracking, workflow modeling, and network analysis.
+
+**Note:** MIT/X11 license. Version 1.4.0. By Steve Losh. Documentation at docs.stevelosh.com/cl-digraph/.
+
+---
+
+
 
 

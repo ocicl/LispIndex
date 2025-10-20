@@ -1,6 +1,6 @@
 # Development: Debugging
 
-4 libraries
+5 libraries
 
 ---
 
@@ -76,6 +76,24 @@
 **Best For:** Debugging complex iterations, recursive functions, multi-threaded code, or scenarios requiring selective breakpoint activation based on execution flow.
 
 **Note:** Experimental project subject to changes. Not thread-safe per se (uses shared state). Use REPORT-BRAKES to view all tagged brake states.
+
+---
+
+
+## cl-debug-print
+
+**System Name:** `cl-debug-print`
+
+**Purpose:** Reader macro for convenient debug printing.
+
+**Why Use It:**
+- **Quick debugging**: Print expressions and their values inline
+- **Reader macro**: #> syntax for minimal code changes
+- **Development aid**: Easy to add and remove debug statements
+
+**Best For:** Development debugging, troubleshooting, and temporary logging during code exploration.
+
+**Note:** MIT license. Version 0.2.0. By Satoshi Imai. Requires cl-syntax.
 
 ---
 

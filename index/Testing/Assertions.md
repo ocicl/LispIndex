@@ -1,6 +1,6 @@
 # Testing: Assertions
 
-3 libraries
+4 libraries
 
 ---
 
@@ -62,6 +62,24 @@
 **Best For:** Runtime validation, defensive programming, contract enforcement, debugging.
 
 **Note:** Enhances standard `assert` with predicate-based checking.
+
+---
+
+
+## cl-hamcrest
+
+**System Name:** `cl-hamcrest`
+
+**Purpose:** Hamcrest-style matchers for testing and assertions.
+
+**Why Use It:**
+- **Expressive Tests**: Readable assertion syntax
+- **Composable Matchers**: Build complex assertions from simple ones
+- **Better Errors**: Clear failure messages
+
+**Best For:** Unit testing, test-driven development, assertion libraries.
+
+**Note:** Port of Hamcrest matcher framework to Common Lisp.
 
 ---
 

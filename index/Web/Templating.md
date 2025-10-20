@@ -1,6 +1,6 @@
 # Web: Templating
 
-5 libraries
+6 libraries
 
 ---
 
@@ -106,6 +106,24 @@
 **Best For:** Logic-free templating, web views, email templates.
 
 **Note:** Popular choice for Mustache templating in Common Lisp.
+
+---
+
+
+## cl-closure-template
+
+**System Name:** `closure-template`
+
+**Purpose:** Common Lisp implementation of Google Closure Templates for HTML/JS generation.
+
+**Why Use It:**
+- **Multi-backend**: Compile to Common Lisp, JavaScript, or Python
+- **Template syntax**: Clean separation of logic and presentation
+- **Type-safe**: Built-in expression parsing and validation
+
+**Best For:** Web applications requiring server-side and client-side template rendering with shared template definitions.
+
+**Note:** Lisp-LGPL license. By Moskvitin Andrey. Includes escape handling and standard templates.
 
 ---
 

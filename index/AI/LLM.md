@@ -1,6 +1,6 @@
 # AI: LLM
 
-1 libraries
+2 libraries
 
 ---
 
@@ -21,6 +21,24 @@
 **Best For:** LLM experimentation, learning about transformers, AI research in Lisp.
 
 **Note:** Requires binary-types and optionally LLA for BLAS acceleration.
+
+---
+
+
+## cl-completions
+
+**System Name:** `completions`
+
+**Purpose:** LLM completions library supporting multiple AI providers.
+
+**Why Use It:**
+- **Multi-provider**: Supports Ollama, OpenAI, and Anthropic APIs
+- **Tool functions**: Define LLM-callable functions with safety levels and validation
+- **Permission management**: Built-in approval workflows for sensitive operations
+
+**Best For:** Building AI-powered applications, chatbots, code generation, and function-calling LLM integrations.
+
+**Note:** MIT license. By Anthony Green. Includes advanced tool definition macro with hooks.
 
 ---
 

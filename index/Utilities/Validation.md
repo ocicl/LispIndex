@@ -1,6 +1,6 @@
 # Utilities: Validation
 
-1 libraries
+2 libraries
 
 ---
 
@@ -17,6 +17,24 @@
 - **Composable**: Build complex validators
 
 **Best For:** Input validation and data verification.
+
+---
+
+
+## cl-data-format-validation
+
+**System Name:** `data-format-validation`
+
+**Purpose:** Validation and conversion between user and internal data formats.
+
+**Why Use It:**
+- **Format validation**: Verify data conforms to expected formats
+- **Type conversion**: Convert between string and internal representations
+- **Parse utilities**: Number and time parsing with validation
+
+**Best For:** Form validation, API input sanitization, and data interchange layers.
+
+**Note:** GPL v3 license. Version 0.2.0. By Dr. John A.R. Williams. Uses cl-ppcre for pattern matching.
 
 ---
 

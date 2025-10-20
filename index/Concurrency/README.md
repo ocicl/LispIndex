@@ -1,14 +1,16 @@
 # Concurrency Libraries
 
-This category contains 14 subcategories with 19 total libraries.
+This category contains 16 subcategories with 23 total libraries.
 
 ## Subcategories
 
-- [Actors](Actors.md) (1 library)
+- [Actors](Actors.md) (2 libraries)
 - [Async-IO](Async-IO.md) (2 libraries)
 - [CSP](CSP.md) (1 library)
 - [Channels](Channels.md) (2 libraries)
-- [Events](Events.md) (2 libraries)
+- [Coroutines](Coroutines.md) (1 library)
+- [Event-Loops](Event-Loops.md) (1 library)
+- [Events](Events.md) (3 libraries)
 - [Futures](Futures.md) (1 library)
 - [Green-Threads](Green-Threads.md) (1 library)
 - [Message-Passing](Message-Passing.md) (1 library)

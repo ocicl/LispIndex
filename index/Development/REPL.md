@@ -39,7 +39,7 @@
 - **Trace Dialog**: Interactive trace debugging
 - **Multiple REPLs/Inspectors**: Support for multiple simultaneous sessions
 - **Modern UX**: Improved overall user experience over SLIME
-- **Named-Readtables**: Support for macrostep.el
+- **Named-Readtables**: Support for macrostep.el and quicklisp integration
 - **Annotation-Based Stepper**: Portable stepper in functional prototype stage
 
 **Best For:** Emacs-based Lisp development, interactive debugging, modern IDE experience.

@@ -1,6 +1,6 @@
 # Parsing: HTML
 
-6 libraries
+9 libraries
 
 ---
 
@@ -115,6 +115,60 @@
 **Best For:** HTML parsing, web scraping, HTML processing, browser integration.
 
 **Note:** MIT-style license. Originally by Gilbert Baumann. Docs at common-lisp.net/project/closure/closure-html/.
+
+---
+
+
+## cl-html5-parser
+
+**System Name:** `cl-html5-parser`
+
+**Purpose:** HTML5-compliant parser for Common Lisp.
+
+**Why Use It:**
+- **HTML5 Parsing**: Parse real-world HTML according to HTML5 spec
+- **Error Handling**: Handles malformed HTML gracefully
+- **Standards Compliant**: Follows WHATWG HTML5 parsing algorithm
+
+**Best For:** Web scraping, HTML processing, browser implementations.
+
+**Note:** HTML5 specification-compliant parser.
+
+---
+
+
+## cl-htmlprag
+
+**System Name:** `cl-htmlprag`
+
+**Purpose:** Pragmatic HTML parser and generator.
+
+**Why Use It:**
+- **Permissive Parsing**: Handle real-world messy HTML
+- **S-expressions**: Convert HTML to/from S-expressions
+- **Practical**: Focused on practical HTML processing
+
+**Best For:** Web scraping, HTML manipulation, quick HTML parsing.
+
+**Note:** Pragmatic approach to HTML parsing.
+
+---
+
+
+## cl-html-parse
+
+**System Name:** `cl-html-parse`
+
+**Purpose:** HTML parsing library for Common Lisp.
+
+**Why Use It:**
+- **HTML Parsing**: Convert HTML to tree structure
+- **DOM Access**: Navigate and query HTML documents
+- **Simple**: Straightforward HTML parsing
+
+**Best For:** Web scraping, HTML analysis, document processing.
+
+**Note:** Classic HTML parser implementation.
 
 ---
 

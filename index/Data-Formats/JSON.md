@@ -1,6 +1,6 @@
 # Data-Formats: JSON
 
-7 libraries
+6 libraries
 
 ---
 
@@ -17,23 +17,6 @@
 - **CL-JSON Extension**: Fills gaps in cl-json functionality
 
 **Best For:** Projects using cl-json that need these common helper functions.
-
----
-
-
-## cl-json-pointer
-
-**System Name:** `cl-json-pointer`
-
-**Purpose:** JSON Pointer (RFC6901) implementation.
-
-**Why Use It:**
-- **JSON Pointer**: Navigate JSON structures with pointers
-- **Library Independent**: Works with multiple JSON libraries
-- **Wide Support**: Works with cl-json, jzon, shasht, jsown, jonathan, and more
-- **RFC6901**: Standards-compliant implementation
-
-**Best For:** Applications needing to reference specific values in JSON documents via pointers.
 
 ---
 

@@ -1,6 +1,6 @@
 # Text: Formatting
 
-4 libraries
+5 libraries
 
 ---
 
@@ -79,6 +79,26 @@
 **Best For:** Applications generating dynamic format strings, i18n messages.
 
 **Note:** Alternative approach to writing raw FORMAT control strings.
+
+---
+
+
+## bobbin
+
+**System Name:** `bobbin`
+
+**Purpose:** Simple word-wrapping library for strings.
+
+**Why Use It:**
+- **Graceful Degradation**: Handles edge cases without errors
+- **Simplicity First**: Straightforward API for common wrapping needs
+- **Split-sequence Only**: Minimal dependencies make it lightweight
+- **Line Width Control**: Configurable width for wrapped text
+- **Natural Breaks**: Wraps at word boundaries when possible
+
+**Best For:** Terminal output formatting, text formatting for display, CLI applications, generating formatted reports.
+
+**Note:** MIT License. Not optimized for high performance, but reliable for typical use cases.
 
 ---
 

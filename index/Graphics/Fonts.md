@@ -1,6 +1,6 @@
 # Graphics: Fonts
 
-4 libraries
+6 libraries
 
 ---
 
@@ -32,6 +32,7 @@
 - **Glyph Outlines**: Access glyph outline data
 - **Pure Common Lisp**: No external dependencies
 - **BSD License**: Permissive licensing
+- **By Zach Beane**: Author of Vecto
 
 **Best For:** Reading TrueType font files for rendering or analysis.
 
@@ -77,6 +78,42 @@
 **Best For:** Game UIs, OpenGL text rendering, HiDPI displays.
 
 **Note:** Created by Tamamu. Requires :stencil :multisample display modes.
+
+---
+
+
+## cl-dejavu
+
+**System Name:** `cl-dejavu`
+
+**Purpose:** Repack of DejaVu fonts for Common Lisp.
+
+**Why Use It:**
+- **Font resources**: Access DejaVu font family in Lisp applications
+- **Complete family**: Sans, Serif, and Mono variants with styles
+- **Embedded fonts**: Bundle fonts directly in applications
+
+**Best For:** PDF generation, graphics applications, and programs needing embedded font resources.
+
+**Note:** CC0-1.0 license (fonts have separate license). By Daniel 'jackdaniel' Kochmański. Version 2.37 fonts.
+
+---
+
+
+## cl-freetype2
+
+**System Name:** `cl-freetype2`
+
+**Purpose:** CFFI wrapper for FreeType 2 font rendering library.
+
+**Why Use It:**
+- **Font Rendering**: Load and render TrueType, OpenType, and other font formats
+- **Simplified API**: Higher-level interface plus direct C structure access
+- **Size Control**: Set font sizes in points or pixels with DPI support
+
+**Best For:** Text rendering, graphics applications, font utilities, game engines.
+
+**Note:** No explicit license in README. Works on SBCL, CCL, CLISP.
 
 ---
 

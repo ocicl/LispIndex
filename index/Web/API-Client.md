@@ -1,6 +1,6 @@
 # Web: API-Client
 
-15 libraries
+14 libraries
 
 ---
 
@@ -71,24 +71,6 @@
 **Best For:** GitHub integration and automation.
 
 **Note:** Incomplete - only covers listing/creating repositories currently.
-
----
-
-
-## cl-kraken
-
-**System Name:** `cl-kraken`
-
-**Purpose:** API wrapper for the Kraken cryptocurrency exchange.
-
-**Why Use It:**
-- **Kraken Exchange**: Access Kraken's cryptocurrency exchange API
-- **Public Market Data**: Full public market data API
-- **Private User Data**: Some private user data API endpoints
-- **Portable**: Tested on SBCL, ABCL, CLISP, CCL, ECL
-- **Active Development**: Ongoing development and testing
-
-**Best For:** Cryptocurrency trading applications using Kraken.
 
 ---
 

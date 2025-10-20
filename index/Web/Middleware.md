@@ -1,6 +1,6 @@
 # Web: Middleware
 
-5 libraries
+6 libraries
 
 ---
 
@@ -92,6 +92,26 @@
 **Best For:** Building modular web applications with middleware.
 
 **Note:** Used with Clack for web applications.
+
+---
+
+
+## clack-static-asset-middleware
+
+**System Name:** `clack-static-asset-middleware`
+
+**Purpose:** Cache-busting static asset middleware for Clack web applications.
+
+**Why Use It:**
+- **Cache Busting**: Generates versioned filenames that force browsers to download updated assets
+- **Maximum Cache Headers**: Serves files with far-future expires headers for optimal caching
+- **Djula Integration**: Helper package provides template tags for asset paths and stylesheet links
+- **Customizable Functions**: Override cache-buster, unbuster, and filter functions
+- **Hash-Based Naming**: Default uses cryptographic hashes in filenames for reliable cache invalidation
+
+**Best For:** Production web applications needing efficient static asset delivery, CDN integration, and automatic browser cache invalidation when assets change.
+
+**Note:** MIT license. Not optimized for direct file serving - use behind nginx or CDN. Works with Clack/Hunchentoot. Includes Djula template helpers in separate system.
 
 ---
 

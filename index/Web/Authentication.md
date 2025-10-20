@@ -1,6 +1,6 @@
 # Web: Authentication
 
-1 libraries
+2 libraries
 
 ---
 
@@ -22,6 +22,24 @@
 **Best For:** Web app authentication, Clack applications, role-based access control.
 
 **Note:** Created by Fernando Borretti. Avoids weak hashing like SHA-256 alone.
+
+---
+
+
+## cl-jwt
+
+**System Name:** `cl-jwt`
+
+**Purpose:** JSON Web Token (JWT) encoding and decoding.
+
+**Why Use It:**
+- **JWT Support**: Create and validate JWTs for authentication
+- **Standard Algorithms**: HMAC, RSA, and ECDSA signing
+- **Claims**: Handle standard and custom JWT claims
+
+**Best For:** API authentication, OAuth, microservices, secure token exchange.
+
+**Note:** JWT (RFC 7519) implementation.
 
 ---
 

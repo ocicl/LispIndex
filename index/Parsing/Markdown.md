@@ -1,6 +1,6 @@
 # Parsing: Markdown
 
-3 libraries
+4 libraries
 
 ---
 
@@ -62,6 +62,24 @@
 **Best For:** Converting Markdown to HTML, documentation generation.
 
 **Note:** Good choice for Markdown processing in Lisp applications.
+
+---
+
+
+## cl-cmark
+
+**System Name:** `cmark`
+
+**Purpose:** Common Lisp bindings to libcmark, the CommonMark reference implementation.
+
+**Why Use It:**
+- **Standard Markdown**: Full CommonMark specification support
+- **Tree manipulation**: Parse, transform, and traverse Markdown documents
+- **Native performance**: Uses fast C library via CFFI
+
+**Best For:** Parsing and generating Markdown content, converting between formats, and manipulating document structure.
+
+**Note:** BSD-2-Clause license. By HiPhish. Requires libcmark library installed.
 
 ---
 

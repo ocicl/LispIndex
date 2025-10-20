@@ -17,8 +17,6 @@
 
 **Best For:** Date arithmetic and calendar calculations.
 
-**Note:** Maintained fork of Heiko Schröter's library.
-
 ---
 
 

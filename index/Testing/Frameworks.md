@@ -1,6 +1,6 @@
 # Testing: Frameworks
 
-10 libraries
+11 libraries
 
 ---
 
@@ -121,6 +121,7 @@
 - **Fork of Stefil**: Maintained continuation of Stefil
 - **Simple API**: `deftest`, `is` macros
 - **Package Tests**: `run-package-tests` convenience
+- **QuickLisp Ready**: Easy installation
 - **Clear Output**: Readable test results
 - **Active Maintenance**: Unlike abandoned Stefil
 
@@ -215,6 +216,25 @@
 **Best For:** Exploratory testing, TDD workflows, integration tests with complex setup/teardown, or when you need fine-grained control over test execution order.
 
 **Note:** Work in progress. Tests return t/nil for pass/fail enabling programmatic use. *ignore-errors* controls debugger invocation. Supports custom defix macros for cleanup.
+
+---
+
+
+## cl-annot-prove
+
+**System Name:** `cl-annot-prove`
+
+**Purpose:** Annotation syntax test library combining cl-syntax-annot with prove testing framework.
+
+**Why Use It:**
+- **Declarative Tests**: Use annotation syntax to mark test functions
+- **Prove Integration**: Integrates annotation system with prove test framework
+- **File Operations**: Built-in cl-fad support for filesystem testing
+- **Type Checking**: Includes trivial-types for type validation in tests
+
+**Best For:** Projects using annotation-based programming style and prove test framework, especially for organizing and marking test functions declaratively.
+
+**Note:** MIT license. Depends on cl-syntax, cl-syntax-annot, prove, and cl-fad. Minimal documentation - see API docs online.
 
 ---
 

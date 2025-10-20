@@ -1,6 +1,6 @@
 # Text: Encoding
 
-2 libraries
+3 libraries
 
 ---
 
@@ -41,6 +41,24 @@
 **Best For:** Character encoding/decoding, internationalization, charset conversion, text processing.
 
 **Note:** Uses OpenMCL-adapted algorithms. Compatible with various data type combinations.
+
+---
+
+
+## cl-iconv
+
+**System Name:** `cl-iconv`
+
+**Purpose:** Common Lisp bindings for iconv character encoding conversion.
+
+**Why Use It:**
+- **Encoding Conversion**: Convert between character encodings
+- **Many Formats**: Support for hundreds of encodings
+- **System Integration**: Use system iconv library
+
+**Best For:** Text processing, encoding conversion, legacy data handling.
+
+**Note:** CFFI bindings to libiconv.
 
 ---
 

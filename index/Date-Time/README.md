@@ -1,7 +1,8 @@
 # Date-Time Libraries
 
-This category contains 1 subcategories with 2 total libraries.
+This category contains 2 subcategories with 4 total libraries.
 
 ## Subcategories
 
-- [Parsing](Parsing.md) (2 libraries)
+- [Chinese-Calendar](Chinese-Calendar.md) (1 library)
+- [Parsing](Parsing.md) (3 libraries)

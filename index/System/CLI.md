@@ -1,6 +1,6 @@
 # System: CLI
 
-6 libraries
+9 libraries
 
 ---
 
@@ -113,6 +113,65 @@
 **Best For:** CLI applications, executable generation, argument parsing, script writing.
 
 **Note:** Under-documented. See tthsum, workout-timer for simple examples, xcvb for complex use.
+
+---
+
+
+## cl-cli
+
+**System Name:** `cl-cli`
+
+**Purpose:** Simple, modern command-line argument parser supporting sub-commands and options.
+
+**Why Use It:**
+- **Modern CLI Design**: Full support for program options, sub-commands, sub-command options, and remaining arguments
+- **Declarative Options**: Define options similar to defparameter/defvar with automatic binding
+- **Sub-Command System**: defcommand macro for defining hierarchical command structures
+- **Flexible Arguments**: Switches (no arguments) and parameterized options with multiple arguments
+- **Environment Binding**: with-environment macro for clean variable scope management
+- **Help Generation**: Built-in help function with prog-name, version, prolog, and epilog support
+
+**Best For:** CLI tools with sub-commands (like git/docker), system administration utilities, build tools, command-line applications requiring structured argument parsing, and projects needing git-style interfaces.
+
+**Note:** WTFPL licensed by Sébastien Gross. Simple API with parse-cli, with-environment, run-command, and help functions. Supports type conversion for options. Returns multiple values suitable for progv binding.
+
+---
+
+
+
+
+## cl-cli-parser
+
+**System Name:** `cli-parser`
+
+**Purpose:** Command-line argument parser supporting getopt-style options.
+
+**Why Use It:**
+- **Familiar**: Parses options in the same form as getopt
+- **Lightweight**: Simple focused functionality
+- **Standard**: Follows common CLI argument conventions
+
+**Best For:** Command-line tools requiring argument parsing, flag handling, and option validation.
+
+**Note:** Copyright 2005 Denis Bueno. Version 0.1.
+
+---
+
+
+## cl-getopt
+
+**System Name:** `cl-getopt`
+
+**Purpose:** CFFI wrapper to libc getopt_long function.
+
+**Why Use It:**
+- **Command Line**: Parse command-line options like C programs
+- **Standard Interface**: Compatible with GNU getopt_long
+- **POSIX Compliant**: Standard option parsing semantics
+
+**Best For:** Command-line tools, script argument parsing, POSIX-style interfaces.
+
+**Note:** Public Domain by Gary Hollis.
 
 ---
 

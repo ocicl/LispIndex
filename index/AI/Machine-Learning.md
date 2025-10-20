@@ -1,6 +1,6 @@
 # AI: Machine-Learning
 
-1 libraries
+2 libraries
 
 ---
 
@@ -20,5 +20,24 @@
 **Best For:** Machine learning and data science projects in Common Lisp.
 
 ---
+
+
+## cl-libsvm
+
+**System Name:** `cl-libsvm`
+
+**Purpose:** Common Lisp wrapper for LIBSVM support vector machine library.
+
+**Why Use It:**
+- **Machine Learning**: SVM classification and regression
+- **Training**: Train SVM models on datasets
+- **Prediction**: Make predictions with trained models
+
+**Best For:** Machine learning, classification, pattern recognition.
+
+**Note:** Interface to LIBSVM library.
+
+---
+
 
 

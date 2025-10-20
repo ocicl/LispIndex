@@ -223,6 +223,7 @@
 - **Modular**: Organized into subsystems (binding, conditions, control-flow, types, iter, etc.)
 - **Bundle Package**: serapeum/bundle reexports Alexandria + Serapeum for convenience
 - **Well Documented**: Credits borrowed ideas, extensive docstrings
+- **Good Citizen**: Avoids duplicating functionality from other libraries
 - **Broader Scope**: Draws from other Lisps and functional languages, less conservative than Alexandria
 
 **Best For:** Projects needing utilities beyond Alexandria, modular utility adoption, portable code.

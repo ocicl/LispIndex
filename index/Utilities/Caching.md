@@ -1,6 +1,6 @@
 # Utilities: Caching
 
-5 libraries
+6 libraries
 
 ---
 
@@ -104,6 +104,26 @@
 **Best For:** Web services, CDN nodes, database query caching, API response caching, or any application requiring configurable cache strategies with thread safety.
 
 **Note:** MIT license. Data provider and cleanup functions run unlocked for performance. Cache size doesn't include items pending release or being fetched. Extensive documentation included.
+
+---
+
+
+## clache
+
+**System Name:** `clache`
+
+**Purpose:** General-purpose caching library with hash-table-like interface.
+
+**Why Use It:**
+- **Simple API**: Similar to hash-table operations (getcache, setcache, remcache, clrcache)
+- **Expiration Support**: Per-cache expiration times or persistent caches with nil expiration
+- **Flexible Storage**: Abstract storage layer supports different backend implementations
+- **File Storage**: Built-in file-store implementation for persistent caching
+- **Annotation Support**: with-cache macro and cache annotation for declarative caching
+
+**Best For:** Web applications needing response caching, expensive computation results, API response caching, and session storage.
+
+**Note:** License unspecified. Works on Allegro CL, SBCL, CMUCL, CCL, ECL, and CLISP. Storage values may be type-limited depending on backend.
 
 ---
 

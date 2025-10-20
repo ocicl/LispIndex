@@ -1,6 +1,6 @@
 # Data-Structures: Trees
 
-8 libraries
+10 libraries
 
 ---
 
@@ -159,6 +159,45 @@
 **Best For:** Text prediction, autocomplete, spell correction, natural language processing, or applications requiring probabilistic suffix analysis.
 
 **Note:** All functions are destructive for efficiency with large datasets. Non-destructive versions planned. Removal and set operations not yet implemented. Bit trie support planned.
+
+---
+
+
+## cl-bplustree
+
+**System Name:** `cl-bplustree`
+
+**Purpose:** In-memory B+ tree data structure implementation providing ordered key-value storage with efficient range queries.
+
+**Why Use It:**
+- **Sorted Storage**: All data stored in sorted leaves with pointer connections for efficient traversal
+- **Range Queries**: Fast range retrieval operations via search-range function
+- **Custom Key Functions**: Specify key extractor and comparison functions for any data type
+- **High Fan-Out**: Configurable tree order allows many pointers per node for shallow, efficient trees
+- **Traversal Support**: Efficient in-order traversal with traverse and traverse-with-keys functions
+- **Next/Previous Search**: Navigate through sorted keys with search-next and search-prev operations
+
+**Best For:** In-memory sorted collections, range-based queries, maintaining ordered datasets, implementing sorted sets or maps, and scenarios requiring both point lookups and range scans.
+
+**Note:** No external dependencies. Key/value store mode available by providing explicit keys. Numeric keys use default comparison; custom comparers needed for strings or other types.
+
+---
+
+
+## cl-flat-tree
+
+**System Name:** `flat-tree`
+
+**Purpose:** A flat-tree implementation for representing binary trees as arrays.
+
+**Why Use It:**
+- **Memory Efficient**: Represent trees in flat array structure
+- **Binary Trees**: Efficient navigation of binary tree structures
+- **Index Calculations**: Convert between tree positions and array indices
+
+**Best For:** Merkle trees, binary heap implementations, tree-based data structures.
+
+**Note:** MIT License by noffle.
 
 ---
 

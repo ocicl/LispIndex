@@ -191,6 +191,7 @@
 - **MOP Extension**: Extends CLOS generic functions
 - **Research-Based**: Based on published paper
 - **Closer-MOP**: Portable across implementations
+- **QuickLisp**: Available in QuickLisp
 
 **Best For:** Advanced method dispatch, predicate-based selection, CLOS extension.
 

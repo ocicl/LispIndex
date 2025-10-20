@@ -1,6 +1,6 @@
 # System: Streams
 
-4 libraries
+8 libraries
 
 ---
 
@@ -85,6 +85,86 @@
 **Best For:** Custom stream implementations, stream-based I/O, cross-implementation stream code.
 
 **Note:** Gray streams not in ANSI CL but most popular implementations support it.
+
+---
+
+
+## bitio
+
+**System Name:** `bitio`
+
+**Purpose:** Library for processing octet streams as bit streams with arbitrary bit-endianness.
+
+**Why Use It:**
+- **Bit-level Reading**: Read individual bits or arbitrary bit counts from streams
+- **Flexible Endianness**: Support for both big-endian and little-endian bit ordering
+- **Integer Reading**: Read multi-byte integers with configurable bit and byte endianness
+- **Stream Wrapping**: Wraps any octet stream including FAST-IO
+- **Binary Format Parsing**: Ideal for parsing complex binary formats like FLAC
+
+**Best For:** Binary file format parsing, protocol implementation, media codec development, embedded systems communication.
+
+**Note:** Read-only currently, write support not yet implemented. Works with any (unsigned-byte 8) stream.
+
+---
+
+
+## changed-stream
+
+**System Name:** `changed-stream`
+
+**Purpose:** Apply changes to a stream without modifying the underlying stream.
+
+**Why Use It:**
+- **Non-destructive Edits**: Modify stream content without changing source
+- **Composable Changes**: Stack multiple changed-streams for complex transformations
+- **Efficient Read-sequence**: Optimized implementation for bulk reads
+- **Full Stream Support**: Supports read-char, peek-char, file-position
+- **Insert/Delete/Replace**: Flexible modification operations
+- **Stream Extension**: Can extend or shrink effective stream length
+
+**Best For:** Stream preprocessing, text transformation, testing stream readers, virtual file modifications.
+
+**Note:** LGPL2 License. Source stream must be at position 0. Read-only, no write operations supported.
+
+---
+
+
+## circular-streams
+
+**System Name:** `circular-streams`
+
+**Purpose:** Circularly readable streams that automatically reset to beginning after reaching EOF.
+
+**Why Use It:**
+- **Automatic Reset**: Stream position resets to 0 when EOF is reached, enabling continuous reading
+- **Gray Streams Implementation**: Uses portable trivial-gray-streams for compatibility
+- **Simple Wrapper**: Easy to wrap any existing stream with circular behavior
+- **Read-Sequence Support**: Works with both read-char and read-sequence operations
+- **Fast I/O**: Built on fast-io library for efficient stream operations
+
+**Best For:** Processing repeating data patterns, testing with finite datasets that need to cycle, and applications requiring continuous data streams without manual repositioning.
+
+**Note:** LLGPL license. Originally written for Clack. Only works with octet streams that support read-byte. Depends on fast-io and trivial-gray-streams.
+
+---
+
+
+
+## cl-bus
+
+**System Name:** `cl-bus`
+
+**Purpose:** Almost referentially transparent interface for stream operations.
+
+**Why Use It:**
+- **Referential Transparency**: Provides more functional approach to stream handling
+- **Stream Abstraction**: Clean interface layer over Common Lisp streams
+- **BSD Licensed**: Permissive BSD-3 license for free use
+
+**Best For:** Functional programming approaches to I/O, applications requiring cleaner stream semantics, and projects valuing referential transparency.
+
+**Note:** BSD-3 licensed. Author: Thomas Bartscher. Version 0.0.1. Minimal documentation available.
 
 ---
 

@@ -1,6 +1,6 @@
 # Text: Unicode
 
-1 libraries
+2 libraries
 
 ---
 
@@ -20,6 +20,24 @@
 **Best For:** Unicode text normalization, internationalization, text comparison, standards compliance.
 
 **Note:** Fork of Takeru Ohta's 2010 work. Future RFC 8264/7564 support planned.
+
+---
+
+
+## cl-emoji
+
+**System Name:** `cl-emoji`
+
+**Purpose:** Provides Unicode emoji characters with multiple access methods.
+
+**Why Use It:**
+- **Emoji 5.0 Support**: Unicode 10.0 emoji including newer additions
+- **Multiple Access**: By codepoint, name, annotation, or Slack-style alpha codes
+- **Searchable**: Query by group, subgroup, or annotation with apropos functions
+
+**Best For:** Chat applications, social media tools, text processing with emoji.
+
+**Note:** MIT License (src), Unicode License (data).
 
 ---
 

@@ -1,6 +1,6 @@
 # Testing: Mocking
 
-2 libraries
+3 libraries
 
 ---
 
@@ -40,6 +40,26 @@
 **Best For:** Unit testing, test isolation, behavior verification.
 
 **Note:** Formerly cl-mock. Useful for isolating units under test.
+
+---
+
+
+## bytecurry.mocks
+
+**System Name:** `bytecurry.mocks`
+
+**Purpose:** Small library for using mock functions and methods in unit tests.
+
+**Why Use It:**
+- **Framework Agnostic**: Works with any testing framework
+- **No Dependencies**: Completely standalone implementation
+- **Dynamic Scope Mocking**: WITH-MOCKED-FUNCTIONS provides dynamic function replacement
+- **Method Mocking**: WITH-ADDED-METHODS for temporary generic method definitions
+- **Scoped Cleanup**: Automatic restoration of original definitions
+
+**Best For:** Unit testing, test isolation, mocking dependencies, behavioral testing.
+
+**Note:** Cannot mock functions in locked packages. Compiler may inline function calls, bypassing mocks.
 
 ---
 
