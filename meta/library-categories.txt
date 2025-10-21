@@ -1780,6 +1780,7 @@ timer-wheel|Utilities|Timing
 tmpdir|File-System|Utilities
 toot|Web|Social-Media
 tooter|Web|Social-Media
+tuition|Terminal|UI
 translate-client|Web|API-Client
 trees|Data-Structures|Trees
 trestrul|Data-Structures|Lists

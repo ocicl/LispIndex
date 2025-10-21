@@ -1,7 +1,7 @@
 # LispIndex
 > A structured index of Common Lisp systems, packages, and code examples — organized for LLM-assisted discovery.
 
-This catalog contains 1910 libraries organized into 46 categories with focused subcategories.
+This catalog contains 1911 libraries organized into 46 categories with focused subcategories.
 
 ## Quick Navigation
 
@@ -584,13 +584,13 @@ Browse by category, then drill down to specific subcategories:
 - [Virtualization](index/System/Virtualization.md) - 1 library
 - [Window-Managers](index/System/Window-Managers.md) - 1 library
 
-### [Terminal](index/Terminal/README.md) (22 libraries)
+### [Terminal](index/Terminal/README.md) (23 libraries)
 
 - [Curses](index/Terminal/Curses.md) - 2 libraries
 - [Formatting](index/Terminal/Formatting.md) - 4 libraries
 - [Graphics](index/Terminal/Graphics.md) - 2 libraries
 - [Input](index/Terminal/Input.md) - 2 libraries
-- [UI](index/Terminal/UI.md) - 12 libraries
+- [UI](index/Terminal/UI.md) - 13 libraries
 
 ### [Testing](index/Testing/README.md) (47 libraries)
 

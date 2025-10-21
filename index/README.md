@@ -583,13 +583,13 @@ Browse by category, then drill down to specific subcategories:
 - [Virtualization](System/Virtualization.md) - 1 library
 - [Window-Managers](System/Window-Managers.md) - 1 library
 
-### [Terminal](Terminal/README.md) (22 libraries)
+### [Terminal](Terminal/README.md) (23 libraries)
 
 - [Curses](Terminal/Curses.md) - 2 libraries
 - [Formatting](Terminal/Formatting.md) - 4 libraries
 - [Graphics](Terminal/Graphics.md) - 2 libraries
 - [Input](Terminal/Input.md) - 2 libraries
-- [UI](Terminal/UI.md) - 12 libraries
+- [UI](Terminal/UI.md) - 13 libraries
 
 ### [Testing](Testing/README.md) (47 libraries)
 

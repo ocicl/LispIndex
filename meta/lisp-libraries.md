@@ -32665,6 +32665,33 @@ This document catalogs Common Lisp libraries available in the `ocicl` directory 
 
 ---
 
+## tuition
+
+**System Name:** `tuition`
+
+**Purpose:** Modern TUI framework based on The Elm Architecture (TEA) / Bubble Tea pattern.
+
+**Why Use It:**
+- **TEA Architecture**: Model-View-Update pattern with CLOS integration for clean, functional UI code
+- **Message-Driven**: Type-safe message handling via generic methods and CLOS specialization
+- **Concurrent Commands**: Non-blocking I/O, timers, and background work without blocking the UI
+- **Rich Styling**: Bold, italic, underline, 256-color and true-color support with composable style objects
+- **Layout Helpers**: Horizontal/vertical joins, placement, alignment, and responsive layouts
+- **Borders**: Multiple border styles (rounded, thick, double, ASCII, markdown) for panels and dialogs
+- **Reflow**: Text wrapping, truncation, ellipsizing, and indentation utilities
+- **Mouse Support**: Full mouse input with press, release, drag, move, and scroll events
+- **Components**: Built-in spinner, progress bar, list, table, and text input widgets
+- **Zones**: Named mouse regions for stable hover/click interactions and hit testing
+- **Pure Rendering**: View functions return strings for easy testing and composition
+- **Terminal Control**: Raw mode, alternate screen buffer, cursor management, and proper cleanup
+- **Restartable**: Recovery restarts for terminal setup failures
+
+**Best For:** Building modern, responsive terminal applications with clean architecture. Perfect for kubectl-style TUIs, file managers, system dashboards, interactive CLI tools, and any application requiring rich terminal UIs with clean separation of concerns.
+
+**Note:** Inspired by Bubble Tea, Lip Gloss, and the Charmbracelet ecosystem. Uses bordeaux-threads and trivial-channels. MIT license. Created by Anthony Green.
+
+---
+
 ## translate-client
 
 **System Name:** `translate-client`
