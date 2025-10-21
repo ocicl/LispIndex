@@ -532,6 +532,7 @@ cl-locale|Text|I18N
 cl-locatives|Meta-Programming|References
 cl-logic|Algorithms|Boolean-Algebra
 cl-log|Utilities|Logging
+cl-llog|Utilities|Logging
 cl-ltsv|Data-Formats|CSV
 cl-lzlib|Compression|Decompression
 cl-lzma|Compression|Decompression

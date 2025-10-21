@@ -1,6 +1,6 @@
 # Utilities: Logging
 
-10 libraries
+11 libraries
 
 ---
 
@@ -99,6 +99,28 @@
 **Best For:** Adding logging capabilities to applications and libraries.
 
 **Note:** Licensed under Public Domain. Author: Nick Levine.
+
+---
+
+
+## cl-llog
+
+**System Name:** `llog`
+
+**Purpose:** High-performance structured logging framework for Common Lisp.
+
+**Why Use It:**
+- **Dual API**: Ergonomic sugared API and zero-allocation typed API
+- **Structured Logging**: First-class support for key-value fields with type preservation
+- **Multiple Encoders**: JSON, S-expressions, colored console output, and pattern layouts
+- **High Performance**: Buffer pool with 92% allocation reduction in typed API
+- **Async Logging**: Background worker threads for non-blocking I/O
+- **Rich Features**: Contextual logging, sampling, rate limiting, hooks, and hierarchical loggers
+- **Condition System Integration**: Automatic backtrace capture and condition chain logging
+
+**Best For:** Production applications requiring high-performance, structured logging with rich diagnostic capabilities.
+
+**Note:** Licensed under MIT. Author: Anthony Green.
 
 ---
 

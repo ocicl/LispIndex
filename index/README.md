@@ -651,7 +651,7 @@ Browse by category, then drill down to specific subcategories:
 - [Intervals](Time/Intervals.md) - 1 library
 - [Parsing](Time/Parsing.md) - 4 libraries
 
-### [Utilities](Utilities/README.md) (126 libraries)
+### [Utilities](Utilities/README.md) (127 libraries)
 
 - [Accumulators](Utilities/Accumulators.md) - 1 library
 - [Array-Operations](Utilities/Array-Operations.md) - 1 library
@@ -674,7 +674,7 @@ Browse by category, then drill down to specific subcategories:
 - [Identifiers](Utilities/Identifiers.md) - 5 libraries
 - [Iteration](Utilities/Iteration.md) - 1 library
 - [Legacy](Utilities/Legacy.md) - 1 library
-- [Logging](Utilities/Logging.md) - 10 libraries
+- [Logging](Utilities/Logging.md) - 11 libraries
 - [Macros](Utilities/Macros.md) - 3 libraries
 - [Numbers](Utilities/Numbers.md) - 1 library
 - [Printing](Utilities/Printing.md) - 2 libraries

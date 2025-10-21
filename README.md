@@ -1,7 +1,7 @@
 # LispIndex
 > A structured index of Common Lisp systems, packages, and code examples — organized for LLM-assisted discovery.
 
-This catalog contains 1911 libraries organized into 46 categories with focused subcategories.
+This catalog contains 1912 libraries organized into 46 categories with focused subcategories.
 
 ## Quick Navigation
 
@@ -652,7 +652,7 @@ Browse by category, then drill down to specific subcategories:
 - [Intervals](index/Time/Intervals.md) - 1 library
 - [Parsing](index/Time/Parsing.md) - 4 libraries
 
-### [Utilities](index/Utilities/README.md) (126 libraries)
+### [Utilities](index/Utilities/README.md) (127 libraries)
 
 - [Accumulators](index/Utilities/Accumulators.md) - 1 library
 - [Array-Operations](index/Utilities/Array-Operations.md) - 1 library
@@ -675,7 +675,7 @@ Browse by category, then drill down to specific subcategories:
 - [Identifiers](index/Utilities/Identifiers.md) - 5 libraries
 - [Iteration](index/Utilities/Iteration.md) - 1 library
 - [Legacy](index/Utilities/Legacy.md) - 1 library
-- [Logging](index/Utilities/Logging.md) - 10 libraries
+- [Logging](index/Utilities/Logging.md) - 11 libraries
 - [Macros](index/Utilities/Macros.md) - 3 libraries
 - [Numbers](index/Utilities/Numbers.md) - 1 library
 - [Printing](index/Utilities/Printing.md) - 2 libraries

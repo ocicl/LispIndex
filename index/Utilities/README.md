@@ -1,6 +1,6 @@
 # Utilities Libraries
 
-This category contains 38 subcategories with 126 total libraries.
+This category contains 38 subcategories with 127 total libraries.
 
 ## Subcategories
 
@@ -25,7 +25,7 @@ This category contains 38 subcategories with 126 total libraries.
 - [Identifiers](Identifiers.md) (5 libraries)
 - [Iteration](Iteration.md) (1 library)
 - [Legacy](Legacy.md) (1 library)
-- [Logging](Logging.md) (10 libraries)
+- [Logging](Logging.md) (11 libraries)
 - [Macros](Macros.md) (3 libraries)
 - [Numbers](Numbers.md) (1 library)
 - [Printing](Printing.md) (2 libraries)
