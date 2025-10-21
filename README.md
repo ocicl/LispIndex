@@ -780,10 +780,4 @@ To find libraries efficiently:
 
 **Example:** Need HTTP client? → index/Web/README.md → index/Web/HTTP-Client.md → see specific libraries
 
-## Contributing
 
-See [TODO.md](TODO.md) for current work items.
-
-## Source
-
-Generated from library descriptions and ASDF system definitions using [regenerate.lisp](regenerate.lisp).
