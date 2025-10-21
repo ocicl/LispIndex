@@ -6124,6 +6124,25 @@ This document catalogs Common Lisp libraries available in the `ocicl` directory 
 
 ---
 
+## webview
+
+**System Name:** `webview`
+
+**Purpose:** Common Lisp bindings to webview for creating GUI windows with web content.
+
+**Why Use It:**
+- **Lightweight GUI**: Create GUI applications using HTML/CSS/JavaScript
+- **Native Webview**: Uses platform's native webview (WebKit on macOS/Linux, Edge on Windows)
+- **Simple API**: Minimal interface for creating and managing webview windows
+- **Cross-Platform**: Works across major desktop platforms
+- **No Browser Bundle**: Uses system webview, keeping application size small
+
+**Best For:** Creating desktop applications with web-based UIs without embedding a full browser.
+
+**Note:** Requires CFFI. Uses system webview for native integration.
+
+---
+
 ## metabang-bind
 
 **System Name:** `metabang-bind`
@@ -8632,6 +8651,24 @@ This document catalogs Common Lisp libraries available in the `ocicl` directory 
 
 ---
 
+## f-string
+
+**System Name:** `com.dieggsy.f-string`
+
+**Purpose:** Tiny string interpolation library for Common Lisp, inspired by Python's f-strings.
+
+**Why Use It:**
+- **Simple Syntax**: Python-style string interpolation with `{variable}` syntax
+- **Format Support**: Inline format directives for formatted interpolation
+- **Minimal**: Around 120 lines of code with no dependencies
+- **Lightweight**: Focused solely on string interpolation
+
+**Best For:** Projects needing simple string interpolation without the full feature set of cl-interpol.
+
+**Note:** Licensed under MIT. Author: Diego A. Mundo.
+
+---
+
 ## fsvd
 
 **System Name:** `fsvd`
@@ -9772,6 +9809,25 @@ This document catalogs Common Lisp libraries available in the `ocicl` directory 
 **Best For:** Livecoding, game development, interactive demos, creative coding.
 
 **Note:** Call update-repl-link in main loop to handle REPL requests while code runs.
+
+---
+
+## live-cells-cl
+
+**System Name:** `live-cells`
+
+**Purpose:** Reactive programming library for Common Lisp, ported from Live Cells for Dart.
+
+**Why Use It:**
+- **Reactive Cells**: Reactive containers that automatically update when dependencies change
+- **Computed Cells**: Define cells using expressions that reference other cells
+- **Observer Pattern**: Watch cell changes with the LIVE macro
+- **Declarative**: Express dynamic relationships between data declaratively
+- **Automatic Updates**: No manual dependency tracking needed
+
+**Best For:** Reactive UI programming, data flow applications, and managing complex state dependencies.
+
+**Note:** Licensed under MIT. Author: Alexander Gutev. Beta software subject to changes.
 
 ---
 

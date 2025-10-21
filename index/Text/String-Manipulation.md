@@ -1,6 +1,6 @@
 # Text: String-Manipulation
 
-5 libraries
+6 libraries
 
 ---
 
@@ -40,6 +40,25 @@
 **Best For:** All string manipulation in Common Lisp projects.
 
 **Note:** De facto modern standard for string handling.
+
+---
+
+
+## f-string
+
+**System Name:** `com.dieggsy.f-string`
+
+**Purpose:** Tiny string interpolation library for Common Lisp, inspired by Python's f-strings.
+
+**Why Use It:**
+- **Simple Syntax**: Python-style string interpolation with `{variable}` syntax
+- **Format Support**: Inline format directives for formatted interpolation
+- **Minimal**: Around 120 lines of code with no dependencies
+- **Lightweight**: Focused solely on string interpolation
+
+**Best For:** Projects needing simple string interpolation without the full feature set of cl-interpol.
+
+**Note:** Licensed under MIT. Author: Diego A. Mundo.
 
 ---
 

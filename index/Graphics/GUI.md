@@ -1,8 +1,28 @@
 # Graphics: GUI
 
-18 libraries
+19 libraries
 
 ---
+
+## webview
+
+**System Name:** `webview`
+
+**Purpose:** Common Lisp bindings to webview for creating GUI windows with web content.
+
+**Why Use It:**
+- **Lightweight GUI**: Create GUI applications using HTML/CSS/JavaScript
+- **Native Webview**: Uses platform's native webview (WebKit on macOS/Linux, Edge on Windows)
+- **Simple API**: Minimal interface for creating and managing webview windows
+- **Cross-Platform**: Works across major desktop platforms
+- **No Browser Bundle**: Uses system webview, keeping application size small
+
+**Best For:** Creating desktop applications with web-based UIs without embedding a full browser.
+
+**Note:** Requires CFFI. Uses system webview for native integration.
+
+---
+
 
 ## cl-cffi-gtk
 

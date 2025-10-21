@@ -310,7 +310,7 @@ Browse by category, then drill down to specific subcategories:
 - [LiDAR](Geospatial/LiDAR.md) - 1 library
 - [WKB](Geospatial/WKB.md) - 1 library
 
-### [Graphics](Graphics/README.md) (144 libraries)
+### [Graphics](Graphics/README.md) (145 libraries)
 
 - [2D-Graphics](Graphics/2D-Graphics.md) - 4 libraries
 - [3D](Graphics/3D.md) - 5 libraries
@@ -326,7 +326,7 @@ Browse by category, then drill down to specific subcategories:
 - [Diagrams](Graphics/Diagrams.md) - 2 libraries
 - [Dialogs](Graphics/Dialogs.md) - 1 library
 - [Fonts](Graphics/Fonts.md) - 10 libraries
-- [GUI](Graphics/GUI.md) - 18 libraries
+- [GUI](Graphics/GUI.md) - 19 libraries
 - [Generation](Graphics/Generation.md) - 2 libraries
 - [Generative-Art](Graphics/Generative-Art.md) - 2 libraries
 - [Geometry](Graphics/Geometry.md) - 3 libraries
@@ -390,7 +390,7 @@ Browse by category, then drill down to specific subcategories:
 - [General](Math/General.md) - 1 library
 - [Linear-Algebra](Math/Linear-Algebra.md) - 1 library
 
-### [Meta-Programming](Meta-Programming/README.md) (189 libraries)
+### [Meta-Programming](Meta-Programming/README.md) (190 libraries)
 
 - [AOP](Meta-Programming/AOP.md) - 1 library
 - [Annotations](Meta-Programming/Annotations.md) - 2 libraries
@@ -417,7 +417,7 @@ Browse by category, then drill down to specific subcategories:
 - [Pattern-Matching](Meta-Programming/Pattern-Matching.md) - 7 libraries
 - [Performance](Meta-Programming/Performance.md) - 1 library
 - [Quasiquote](Meta-Programming/Quasiquote.md) - 3 libraries
-- [Reactive](Meta-Programming/Reactive.md) - 1 library
+- [Reactive](Meta-Programming/Reactive.md) - 2 libraries
 - [Reader-Macros](Meta-Programming/Reader-Macros.md) - 22 libraries
 - [References](Meta-Programming/References.md) - 1 library
 - [Reflection](Meta-Programming/Reflection.md) - 2 libraries
@@ -607,7 +607,7 @@ Browse by category, then drill down to specific subcategories:
 - [Test-Data](Testing/Test-Data.md) - 1 library
 - [Utilities](Testing/Utilities.md) - 2 libraries
 
-### [Text](Text/README.md) (83 libraries)
+### [Text](Text/README.md) (84 libraries)
 
 - [CJK](Text/CJK.md) - 1 library
 - [Case-Conversion](Text/Case-Conversion.md) - 4 libraries
@@ -636,7 +636,7 @@ Browse by category, then drill down to specific subcategories:
 - [Spell-Checking](Text/Spell-Checking.md) - 1 library
 - [Streams](Text/Streams.md) - 1 library
 - [String-Literals](Text/String-Literals.md) - 2 libraries
-- [String-Manipulation](Text/String-Manipulation.md) - 5 libraries
+- [String-Manipulation](Text/String-Manipulation.md) - 6 libraries
 - [Templating](Text/Templating.md) - 3 libraries
 - [Terminal](Text/Terminal.md) - 2 libraries
 - [Unicode](Text/Unicode.md) - 4 libraries

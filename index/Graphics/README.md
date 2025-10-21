@@ -1,6 +1,6 @@
 # Graphics Libraries
 
-This category contains 35 subcategories with 144 total libraries.
+This category contains 35 subcategories with 145 total libraries.
 
 ## Subcategories
 
@@ -18,7 +18,7 @@ This category contains 35 subcategories with 144 total libraries.
 - [Diagrams](Diagrams.md) (2 libraries)
 - [Dialogs](Dialogs.md) (1 library)
 - [Fonts](Fonts.md) (10 libraries)
-- [GUI](GUI.md) (18 libraries)
+- [GUI](GUI.md) (19 libraries)
 - [Generation](Generation.md) (2 libraries)
 - [Generative-Art](Generative-Art.md) (2 libraries)
 - [Geometry](Geometry.md) (3 libraries)

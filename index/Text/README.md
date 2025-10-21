@@ -1,6 +1,6 @@
 # Text Libraries
 
-This category contains 31 subcategories with 83 total libraries.
+This category contains 31 subcategories with 84 total libraries.
 
 ## Subcategories
 
@@ -31,7 +31,7 @@ This category contains 31 subcategories with 83 total libraries.
 - [Spell-Checking](Spell-Checking.md) (1 library)
 - [Streams](Streams.md) (1 library)
 - [String-Literals](String-Literals.md) (2 libraries)
-- [String-Manipulation](String-Manipulation.md) (5 libraries)
+- [String-Manipulation](String-Manipulation.md) (6 libraries)
 - [Templating](Templating.md) (3 libraries)
 - [Terminal](Terminal.md) (2 libraries)
 - [Unicode](Unicode.md) (4 libraries)

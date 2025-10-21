@@ -1,8 +1,28 @@
 # Meta-Programming: Reactive
 
-1 libraries
+2 libraries
 
 ---
+
+## live-cells-cl
+
+**System Name:** `live-cells`
+
+**Purpose:** Reactive programming library for Common Lisp, ported from Live Cells for Dart.
+
+**Why Use It:**
+- **Reactive Cells**: Reactive containers that automatically update when dependencies change
+- **Computed Cells**: Define cells using expressions that reference other cells
+- **Observer Pattern**: Watch cell changes with the LIVE macro
+- **Declarative**: Express dynamic relationships between data declaratively
+- **Automatic Updates**: No manual dependency tracking needed
+
+**Best For:** Reactive UI programming, data flow applications, and managing complex state dependencies.
+
+**Note:** Licensed under MIT. Author: Alexander Gutev. Beta software subject to changes.
+
+---
+
 
 ## cells
 

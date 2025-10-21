@@ -1,7 +1,7 @@
 # LispIndex
 > A structured index of Common Lisp systems, packages, and code examples — organized for LLM-assisted discovery.
 
-This catalog contains 1912 libraries organized into 46 categories with focused subcategories.
+This catalog contains 1915 libraries organized into 46 categories with focused subcategories.
 
 ## Quick Navigation
 
@@ -311,7 +311,7 @@ Browse by category, then drill down to specific subcategories:
 - [LiDAR](index/Geospatial/LiDAR.md) - 1 library
 - [WKB](index/Geospatial/WKB.md) - 1 library
 
-### [Graphics](index/Graphics/README.md) (144 libraries)
+### [Graphics](index/Graphics/README.md) (145 libraries)
 
 - [2D-Graphics](index/Graphics/2D-Graphics.md) - 4 libraries
 - [3D](index/Graphics/3D.md) - 5 libraries
@@ -327,7 +327,7 @@ Browse by category, then drill down to specific subcategories:
 - [Diagrams](index/Graphics/Diagrams.md) - 2 libraries
 - [Dialogs](index/Graphics/Dialogs.md) - 1 library
 - [Fonts](index/Graphics/Fonts.md) - 10 libraries
-- [GUI](index/Graphics/GUI.md) - 18 libraries
+- [GUI](index/Graphics/GUI.md) - 19 libraries
 - [Generation](index/Graphics/Generation.md) - 2 libraries
 - [Generative-Art](index/Graphics/Generative-Art.md) - 2 libraries
 - [Geometry](index/Graphics/Geometry.md) - 3 libraries
@@ -391,7 +391,7 @@ Browse by category, then drill down to specific subcategories:
 - [General](index/Math/General.md) - 1 library
 - [Linear-Algebra](index/Math/Linear-Algebra.md) - 1 library
 
-### [Meta-Programming](index/Meta-Programming/README.md) (189 libraries)
+### [Meta-Programming](index/Meta-Programming/README.md) (190 libraries)
 
 - [AOP](index/Meta-Programming/AOP.md) - 1 library
 - [Annotations](index/Meta-Programming/Annotations.md) - 2 libraries
@@ -418,7 +418,7 @@ Browse by category, then drill down to specific subcategories:
 - [Pattern-Matching](index/Meta-Programming/Pattern-Matching.md) - 7 libraries
 - [Performance](index/Meta-Programming/Performance.md) - 1 library
 - [Quasiquote](index/Meta-Programming/Quasiquote.md) - 3 libraries
-- [Reactive](index/Meta-Programming/Reactive.md) - 1 library
+- [Reactive](index/Meta-Programming/Reactive.md) - 2 libraries
 - [Reader-Macros](index/Meta-Programming/Reader-Macros.md) - 22 libraries
 - [References](index/Meta-Programming/References.md) - 1 library
 - [Reflection](index/Meta-Programming/Reflection.md) - 2 libraries
@@ -608,7 +608,7 @@ Browse by category, then drill down to specific subcategories:
 - [Test-Data](index/Testing/Test-Data.md) - 1 library
 - [Utilities](index/Testing/Utilities.md) - 2 libraries
 
-### [Text](index/Text/README.md) (83 libraries)
+### [Text](index/Text/README.md) (84 libraries)
 
 - [CJK](index/Text/CJK.md) - 1 library
 - [Case-Conversion](index/Text/Case-Conversion.md) - 4 libraries
@@ -637,7 +637,7 @@ Browse by category, then drill down to specific subcategories:
 - [Spell-Checking](index/Text/Spell-Checking.md) - 1 library
 - [Streams](index/Text/Streams.md) - 1 library
 - [String-Literals](index/Text/String-Literals.md) - 2 libraries
-- [String-Manipulation](index/Text/String-Manipulation.md) - 5 libraries
+- [String-Manipulation](index/Text/String-Manipulation.md) - 6 libraries
 - [Templating](index/Text/Templating.md) - 3 libraries
 - [Terminal](index/Text/Terminal.md) - 2 libraries
 - [Unicode](index/Text/Unicode.md) - 4 libraries

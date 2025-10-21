@@ -1098,6 +1098,7 @@ froute|Web|Routing
 frpc|Networking|RPC
 fset|Data-Structures|Functional
 fsocket|Networking|Sockets
+f-string|Text|String-Manipulation
 fsvd|Numeric|Linear-Algebra
 fs-watcher|File-System|Watchers
 functional-trees|Data-Structures|Functional
@@ -1352,6 +1353,7 @@ listopia|Data-Structures|Lists
 literate-lisp|Documentation|Literate-Programming
 litterae|Documentation|Generation
 livesupport|Development|Live-Coding
+live-cells-cl|Meta-Programming|Reactive
 llama|AI|LLM
 lla|Numeric|Linear-Algebra
 lmdb|Database|Key-Value
@@ -1710,6 +1712,7 @@ vecto|Graphics|Vector
 vgplot|Graphics|Plotting
 vom|Utilities|Logging
 websocket-driver|Networking|WebSockets
+webview|Graphics|GUI
 woo|Web|Server
 xmls|Parsing|XML
 yason|Data-Formats|JSON
