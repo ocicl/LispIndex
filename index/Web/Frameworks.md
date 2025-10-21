@@ -1,8 +1,30 @@
 # Web: Frameworks
 
-11 libraries
+13 libraries
 
 ---
+
+## clack
+
+**System Name:** `clack`
+
+**Purpose:** Web application environment for Common Lisp (WSGI/Rack inspired).
+
+**Why Use It:**
+- **WSGI-Style**: Python WSGI / Ruby Rack inspired
+- **Server Abstraction**: Works with Hunchentoot, Woo, and others
+- **Middleware**: Rich middleware ecosystem (via Lack)
+- **clackup**: Command-line interface via Roswell
+- **Standard Framework**: De facto standard web framework
+- **Simple Apps**: Simple lambda-based app definition
+- **Well-Documented**: Good documentation and tutorials
+
+**Best For:** Building web applications with middleware.
+
+**Note:** Built on top of Lack for middleware support.
+
+---
+
 
 ## caveman
 
@@ -63,6 +85,25 @@
 **Best For:** REST API development, web services, OpenAPI-first development.
 
 **Note:** BSD licensed. Built on Ningle, Lack, and Hunchentoot.
+
+---
+
+
+## core
+
+**System Name:** `issr-core`
+
+**Purpose:** Core functionality for Interactive Server-Side-Rendered web pages with declarative and recursive programming.
+
+**Why Use It:**
+- **Server-Side Rendering**: Build interactive web pages with SSR
+- **Declarative Style**: Write web applications declaratively
+- **Recursive Programming**: Support for recursive component structures
+- **Reusable Core**: Foundation for various server modules
+
+**Best For:** Web application development, server-side rendering, interactive web interfaces.
+
+**Note:** LLGPL licensed. Depends on Plump, global-vars, str, tailrec.
 
 ---
 

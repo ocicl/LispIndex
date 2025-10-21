@@ -1,6 +1,6 @@
 # Web Libraries
 
-This category contains 60 subcategories with 237 total libraries.
+This category contains 58 subcategories with 235 total libraries.
 
 ## Subcategories
 
@@ -28,14 +28,13 @@ This category contains 60 subcategories with 237 total libraries.
 - [Encoding](Encoding.md) (2 libraries)
 - [File-Uploads](File-Uploads.md) (2 libraries)
 - [Forms](Forms.md) (2 libraries)
-- [Frameworks](Frameworks.md) (11 libraries)
+- [Frameworks](Frameworks.md) (13 libraries)
 - [Frontend](Frontend.md) (1 library)
 - [GUI](GUI.md) (1 library)
 - [Google-APIs](Google-APIs.md) (1 library)
 - [HTML](HTML.md) (1 library)
 - [HTML-Generation](HTML-Generation.md) (13 libraries)
 - [HTTP-Client](HTTP-Client.md) (8 libraries)
-- [HTTP-Clients](HTTP-Clients.md) (1 library)
 - [JavaScript-Integration](JavaScript-Integration.md) (2 libraries)
 - [MIME](MIME.md) (3 libraries)
 - [Middleware](Middleware.md) (10 libraries)
@@ -45,12 +44,11 @@ This category contains 60 subcategories with 237 total libraries.
 - [Parsing](Parsing.md) (1 library)
 - [Payment-Processing](Payment-Processing.md) (3 libraries)
 - [Proxy](Proxy.md) (1 library)
-- [Reactive-UI](Reactive-UI.md) (2 libraries)
+- [Reactive-UI](Reactive-UI.md) (1 library)
 - [Routing](Routing.md) (6 libraries)
 - [Scraping](Scraping.md) (1 library)
-- [Server](Server.md) (6 libraries)
+- [Server](Server.md) (5 libraries)
 - [Server-Utilities](Server-Utilities.md) (7 libraries)
-- [Servers](Servers.md) (1 library)
 - [Social-Media](Social-Media.md) (5 libraries)
 - [Source-Maps](Source-Maps.md) (1 library)
 - [Static-Site-Generation](Static-Site-Generation.md) (4 libraries)

@@ -1,6 +1,6 @@
 # Networking: Protocols
 
-8 libraries
+7 libraries
 
 ---
 
@@ -17,28 +17,6 @@
 - **Multiple Implementations**: Works on SBCL, CCL, ECL
 
 **Best For:** Gopher protocol applications (retro internet, simple content serving).
-
----
-
-
-## fast-http
-
-**System Name:** `fast-http`
-
-**Purpose:** Fast HTTP request/response protocol parser.
-
-**Why Use It:**
-- **Fast**: High-performance HTTP parsing
-- **Both Directions**: Parses requests and responses
-- **Keep-Alive**: Handles persistent streams
-- **Chunked Encoding**: Decodes chunked transfer encoding
-- **Low-Level APIs**: Zero-allocation parsing APIs
-- **Streaming**: Always streaming, no buffering option
-- **Structure Classes**: Fast structure-based design
-
-**Best For:** High-performance HTTP parsing for servers and clients.
-
-**Note:** Similar to http-parse but faster with some API differences.
 
 ---
 

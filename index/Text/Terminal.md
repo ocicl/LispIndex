@@ -1,27 +1,8 @@
 # Text: Terminal
 
-3 libraries
+2 libraries
 
 ---
-
-## cl-ansi-text
-
-**System Name:** `cl-ansi-text`
-
-**Purpose:** Colorize terminal output with ANSI escape codes.
-
-**Why Use It:**
-- **Simple Colors**: Basic 8-color support with keyword symbols
-- **24-bit Color**: Full RGB color support via CL-COLORS2
-- **HSV Support**: HSV color model support
-- **Hex Colors**: CSS-style hex color strings
-- **Color Operations**: Blending and color manipulation via CL-COLORS2
-- **Easy API**: Simple `with-color` macro
-
-**Best For:** Applications needing flexible terminal colorization with multiple color models.
-
----
-
 
 ## ansi-escape
 

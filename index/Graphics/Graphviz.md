@@ -1,6 +1,6 @@
 # Graphics: Graphviz
 
-2 libraries
+1 libraries
 
 ---
 
@@ -17,24 +17,6 @@
 - **Visualization**: Create diagrams and visualizations programmatically
 
 **Best For:** Generating graph visualizations from program data structures.
-
----
-
-
-## cl-dot
-
-**System Name:** `cl-dot`
-
-**Purpose:** Generate GraphViz dot output from arbitrary Lisp data.
-
-**Why Use It:**
-- **GraphViz Integration**: Easily generate dot files for graph visualization
-- **Arbitrary Data**: Works with any Lisp data structures
-- **Small Package**: Lightweight, focused on dot generation
-
-**Best For:** Graph visualization, data structure visualization, GraphViz workflow.
-
-**Note:** See docs/ directory for documentation.
 
 ---
 

@@ -1,6 +1,6 @@
 # Audio: Metadata
 
-5 libraries
+6 libraries
 
 ---
 
@@ -60,6 +60,25 @@
 **Best For:** Audio applications, music libraries, metadata extraction.
 
 **Note:** Requires libFLAC 1.4+.
+
+---
+
+
+## cue-parser
+
+**System Name:** `cue-parser`
+
+**Purpose:** A library for parsing audio CUE files.
+
+**Why Use It:**
+- **CUE Sheet Parsing**: Parse CD/audio cue sheet files
+- **PEG Parser**: Built on ESRAP parser combinator library
+- **Helper Functions**: Utilities for working with parsed cue data
+- **Encoding Support**: Handles various text encodings via flexi-streams
+
+**Best For:** Audio applications that need to parse CD/audio cue sheets.
+
+**Note:** Licensed under 2-clause BSD. Author: Vasily Postnicov.
 
 ---
 

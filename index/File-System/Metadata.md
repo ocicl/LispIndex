@@ -1,8 +1,26 @@
 # File-System: Metadata
 
-1 libraries
+2 libraries
 
 ---
+
+## file-types
+
+**System Name:** `file-types`
+
+**Purpose:** Classify file types hierarchically with MIME type support.
+
+**Why Use It:**
+- **Hierarchical**: Classify files in a hierarchy
+- **MIME Types**: Associate and query MIME types
+- **Simple Scheme**: Easy classification system
+
+**Best For:** Applications needing file type classification.
+
+**Note:** See manual at http://mr.gy/software/file-types/
+
+---
+
 
 ## file-attributes
 

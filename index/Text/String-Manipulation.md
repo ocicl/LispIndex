@@ -4,6 +4,24 @@
 
 ---
 
+## cl-interpol
+
+**System Name:** `cl-interpol`
+
+**Purpose:** String interpolation for Common Lisp (like Perl/shell scripts).
+
+**Why Use It:**
+- **String Interpolation**: Embed Lisp expressions in strings
+- **Perl-like Syntax**: Familiar to Perl/shell script users
+- **Special Characters**: Easy insertion of special Unicode characters
+- **Named Readtable**: Uses named readtable `:interpol-syntax`
+- **Variable Expansion**: Expand variables with `${var}` syntax
+
+**Best For:** String processing and template generation with embedded expressions.
+
+---
+
+
 ## cl-str (str)
 
 **System Name:** `str` (nickname for `cl-str`)
@@ -22,27 +40,6 @@
 **Best For:** All string manipulation in Common Lisp projects.
 
 **Note:** De facto modern standard for string handling.
-
----
-
-
-## cl-change-case
-
-**System Name:** `cl-change-case`
-
-**Purpose:** Convert strings between camelCase, param-case, PascalCase, and more.
-
-**Why Use It:**
-- **Many Cases**: camelCase, PascalCase, snake_case, param-case, CONSTANT_CASE, etc.
-- **Unicode Support**: Uses cl-ppcre-unicode
-- **Simple Functions**: One function per case type
-- **Well-Tested**: Comprehensive test coverage with FiveAM
-- **MPL 2.0 License**: Mozilla Public License
-- **Clean API**: Straightforward case conversion
-
-**Best For:** String case conversions in APIs, code generators, data transformations.
-
-**Note:** Port of JavaScript's change-case library.
 
 ---
 

@@ -1,13 +1,12 @@
 # Meta-Programming Libraries
 
-This category contains 37 subcategories with 189 total libraries.
+This category contains 36 subcategories with 189 total libraries.
 
 ## Subcategories
 
 - [AOP](AOP.md) (1 library)
 - [Annotations](Annotations.md) (2 libraries)
-- [Binding](Binding.md) (1 library)
-- [CLOS](CLOS.md) (32 libraries)
+- [CLOS](CLOS.md) (31 libraries)
 - [Code-Analysis](Code-Analysis.md) (10 libraries)
 - [Code-Walking](Code-Walking.md) (1 library)
 - [Continuations](Continuations.md) (3 libraries)
@@ -26,8 +25,8 @@ This category contains 37 subcategories with 189 total libraries.
 - [MOP](MOP.md) (2 libraries)
 - [Macros](Macros.md) (38 libraries)
 - [Namespaces](Namespaces.md) (3 libraries)
-- [Optimization](Optimization.md) (3 libraries)
-- [Pattern-Matching](Pattern-Matching.md) (6 libraries)
+- [Optimization](Optimization.md) (4 libraries)
+- [Pattern-Matching](Pattern-Matching.md) (7 libraries)
 - [Performance](Performance.md) (1 library)
 - [Quasiquote](Quasiquote.md) (3 libraries)
 - [Reactive](Reactive.md) (1 library)

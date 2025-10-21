@@ -1,6 +1,6 @@
 # Graphics: GUI
 
-19 libraries
+18 libraries
 
 ---
 
@@ -149,25 +149,6 @@
 **Best For:** Remote applications, networked GUIs, distributed systems.
 
 **Note:** Part of ltk project. By Peter Herth. LGPL license.
-
----
-
-
-## mcclim
-
-**System Name:** `clim`
-
-**Purpose:** McCLIM - implementation of Common Lisp Interface Manager (CLIM II).
-
-**Why Use It:**
-- **CLIM Standard**: Full CLIM II specification implementation
-- **Presentation Model**: Powerful semantic UI model
-- **Cross-Platform**: Works on multiple Lisp implementations
-- **Rich Features**: Formatted output, graphics, windowing, commands
-
-**Best For:** Professional GUI applications, complex user interfaces, Lisp GUIs.
-
-**Note:** LGPL license. Portable high-level UI toolkit.
 
 ---
 

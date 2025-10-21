@@ -1,4 +1,4 @@
-# Network: IRC
+# Networking: IRC
 
 1 libraries
 

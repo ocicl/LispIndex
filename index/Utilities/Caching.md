@@ -1,6 +1,6 @@
 # Utilities: Caching
 
-8 libraries
+7 libraries
 
 ---
 
@@ -142,26 +142,6 @@
 **Best For:** Caching expensive computations, limiting memory usage, memoization.
 
 **Note:** By Yukari Hafner. zlib license.
-
----
-
-
-## defmemo
-
-**System Name:** `defmemo`
-
-**Purpose:** Memoizing defun.
-
-**Why Use It:**
-- **Automatic Memoization**: Cache function results automatically
-- **Performance**: Speed up repeated function calls with same arguments
-- **Garbage Collection**: Weak references via trivial-garbage
-- **Simple API**: Drop-in replacement for defun
-- **Alexandria Integration**: Built on solid utilities
-
-**Best For:** Optimizing pure functions with expensive computations.
-
-**Note:** Licensed under Unlicense (Public Domain). Author: Orivej Desh.
 
 ---
 

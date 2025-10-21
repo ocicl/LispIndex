@@ -1,11 +1,11 @@
 # Text Libraries
 
-This category contains 31 subcategories with 85 total libraries.
+This category contains 31 subcategories with 83 total libraries.
 
 ## Subcategories
 
 - [CJK](CJK.md) (1 library)
-- [Case-Conversion](Case-Conversion.md) (3 libraries)
+- [Case-Conversion](Case-Conversion.md) (4 libraries)
 - [Completion](Completion.md) (1 library)
 - [Diff](Diff.md) (2 libraries)
 - [Encoding](Encoding.md) (1 library)
@@ -14,7 +14,7 @@ This category contains 31 subcategories with 85 total libraries.
 - [Formatting](Formatting.md) (11 libraries)
 - [Generation](Generation.md) (2 libraries)
 - [HTML](HTML.md) (1 library)
-- [I18N](I18N.md) (9 libraries)
+- [I18N](I18N.md) (8 libraries)
 - [Japanese](Japanese.md) (1 library)
 - [L10N](L10N.md) (1 library)
 - [MIME](MIME.md) (1 library)
@@ -32,6 +32,6 @@ This category contains 31 subcategories with 85 total libraries.
 - [Streams](Streams.md) (1 library)
 - [String-Literals](String-Literals.md) (2 libraries)
 - [String-Manipulation](String-Manipulation.md) (5 libraries)
-- [Templating](Templating.md) (4 libraries)
-- [Terminal](Terminal.md) (3 libraries)
+- [Templating](Templating.md) (3 libraries)
+- [Terminal](Terminal.md) (2 libraries)
 - [Unicode](Unicode.md) (4 libraries)

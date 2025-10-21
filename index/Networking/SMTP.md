@@ -1,4 +1,4 @@
-# Network: SMTP
+# Networking: SMTP
 
 1 libraries
 

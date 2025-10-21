@@ -1,22 +1,20 @@
 # Parsing Libraries
 
-This category contains 29 subcategories with 92 total libraries.
+This category contains 27 subcategories with 87 total libraries.
 
 ## Subcategories
 
 - [Binary](Binary.md) (6 libraries)
 - [CSS](CSS.md) (2 libraries)
-- [CSV](CSV.md) (1 library)
 - [Combinators](Combinators.md) (5 libraries)
 - [Configuration](Configuration.md) (5 libraries)
 - [DOM](DOM.md) (1 library)
-- [Data-Formats](Data-Formats.md) (2 libraries)
+- [Data-Formats](Data-Formats.md) (1 library)
 - [Documentation](Documentation.md) (1 library)
 - [Feeds](Feeds.md) (1 library)
 - [Generators](Generators.md) (2 libraries)
 - [Grammar](Grammar.md) (8 libraries)
 - [HTML](HTML.md) (10 libraries)
-- [JSON](JSON.md) (3 libraries)
 - [JavaScript](JavaScript.md) (2 libraries)
 - [Lexers](Lexers.md) (3 libraries)
 - [Lexical-Analysis](Lexical-Analysis.md) (1 library)

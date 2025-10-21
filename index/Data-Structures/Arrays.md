@@ -1,8 +1,27 @@
 # Data-Structures: Arrays
 
-8 libraries
+9 libraries
 
 ---
+
+## abstract-arrays
+
+**System Name:** `abstract-arrays`
+
+**Purpose:** Provides an abstract array protocol with a metaclass and unified array operations.
+
+**Why Use It:**
+- **Custom Array Types**: Create array-like classes with custom storage and behavior
+- **Unified Interface**: Standard array operations (`aref`, `array-dimensions`, etc.) work on custom types
+- **CLOS Integration**: Uses metaclass `abstract-array-class` for extensibility
+- **Storage Abstraction**: Separate logical array interface from underlying storage representation
+
+**Best For:** Implementing custom array types (e.g., GPU arrays, memory-mapped arrays, sparse arrays) with standard array interface.
+
+**Note:** Beta status - API may change.
+
+---
+
 
 ## array-operations
 

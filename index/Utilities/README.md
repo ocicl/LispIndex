@@ -1,6 +1,6 @@
 # Utilities Libraries
 
-This category contains 39 subcategories with 128 total libraries.
+This category contains 38 subcategories with 126 total libraries.
 
 ## Subcategories
 
@@ -8,7 +8,7 @@ This category contains 39 subcategories with 128 total libraries.
 - [Array-Operations](Array-Operations.md) (1 library)
 - [Binary](Binary.md) (2 libraries)
 - [Bit-Manipulation](Bit-Manipulation.md) (3 libraries)
-- [Caching](Caching.md) (8 libraries)
+- [Caching](Caching.md) (7 libraries)
 - [Checksums](Checksums.md) (1 library)
 - [Comparison](Comparison.md) (2 libraries)
 - [Counting](Counting.md) (1 library)
@@ -28,7 +28,6 @@ This category contains 39 subcategories with 128 total libraries.
 - [Logging](Logging.md) (10 libraries)
 - [Macros](Macros.md) (3 libraries)
 - [Numbers](Numbers.md) (1 library)
-- [Pattern-Matching](Pattern-Matching.md) (1 library)
 - [Printing](Printing.md) (2 libraries)
 - [Progress](Progress.md) (1 library)
 - [Resource-Management](Resource-Management.md) (1 library)

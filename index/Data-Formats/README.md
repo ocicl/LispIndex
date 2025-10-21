@@ -1,14 +1,15 @@
 # Data-Formats Libraries
 
-This category contains 12 subcategories with 47 total libraries.
+This category contains 13 subcategories with 52 total libraries.
 
 ## Subcategories
 
 - [BSON](BSON.md) (1 library)
+- [Bencode](Bencode.md) (1 library)
 - [Binary](Binary.md) (12 libraries)
-- [CSV](CSV.md) (6 libraries)
+- [CSV](CSV.md) (7 libraries)
 - [EPUB](EPUB.md) (1 library)
-- [JSON](JSON.md) (16 libraries)
+- [JSON](JSON.md) (19 libraries)
 - [KDL](KDL.md) (1 library)
 - [Loaders](Loaders.md) (1 library)
 - [MessagePack](MessagePack.md) (2 libraries)

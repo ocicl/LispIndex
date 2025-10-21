@@ -1,7 +1,7 @@
 # LispIndex
-> A structured index of Common Lisp systems, packages, and code examples — organized for semantic search and LLM-assisted discovery.
+> A structured index of Common Lisp systems, packages, and code examples — organized for LLM-assisted discovery.
 
-This catalog is organized into 48 categories with focused subcategories.
+This catalog contains 1910 libraries organized into 47 categories with focused subcategories.
 
 ## Quick Navigation
 
@@ -49,7 +49,7 @@ Browse by category, then drill down to specific subcategories:
 - [String-Similarity](index/Algorithms/String-Similarity.md) - 3 libraries
 - [Unification](index/Algorithms/Unification.md) - 1 library
 
-### [Audio](index/Audio/README.md) (36 libraries)
+### [Audio](index/Audio/README.md) (37 libraries)
 
 - [Applications](index/Audio/Applications.md) - 2 libraries
 - [Bindings](index/Audio/Bindings.md) - 3 libraries
@@ -59,7 +59,7 @@ Browse by category, then drill down to specific subcategories:
 - [Decoders](index/Audio/Decoders.md) - 2 libraries
 - [Formats](index/Audio/Formats.md) - 3 libraries
 - [MIDI](index/Audio/MIDI.md) - 1 library
-- [Metadata](index/Audio/Metadata.md) - 5 libraries
+- [Metadata](index/Audio/Metadata.md) - 6 libraries
 - [Notation](index/Audio/Notation.md) - 3 libraries
 - [Output](index/Audio/Output.md) - 1 library
 - [Playback](index/Audio/Playback.md) - 2 libraries
@@ -91,8 +91,8 @@ Browse by category, then drill down to specific subcategories:
 ### [Concurrency](index/Concurrency/README.md) (43 libraries)
 
 - [Actors](index/Concurrency/Actors.md) - 5 libraries
-- [CSP](index/Concurrency/CSP.md) - 2 libraries
-- [Channels](index/Concurrency/Channels.md) - 1 library
+- [CSP](index/Concurrency/CSP.md) - 1 library
+- [Channels](index/Concurrency/Channels.md) - 2 libraries
 - [Coroutines](index/Concurrency/Coroutines.md) - 1 library
 - [Distributed-Computing](index/Concurrency/Distributed-Computing.md) - 4 libraries
 - [Event-Loop](index/Concurrency/Event-Loop.md) - 3 libraries
@@ -128,13 +128,14 @@ Browse by category, then drill down to specific subcategories:
 - [RNG](index/Cryptography/RNG.md) - 1 library
 - [Utilities](index/Cryptography/Utilities.md) - 2 libraries
 
-### [Data-Formats](index/Data-Formats/README.md) (47 libraries)
+### [Data-Formats](index/Data-Formats/README.md) (52 libraries)
 
 - [BSON](index/Data-Formats/BSON.md) - 1 library
+- [Bencode](index/Data-Formats/Bencode.md) - 1 library
 - [Binary](index/Data-Formats/Binary.md) - 12 libraries
-- [CSV](index/Data-Formats/CSV.md) - 6 libraries
+- [CSV](index/Data-Formats/CSV.md) - 7 libraries
 - [EPUB](index/Data-Formats/EPUB.md) - 1 library
-- [JSON](index/Data-Formats/JSON.md) - 16 libraries
+- [JSON](index/Data-Formats/JSON.md) - 19 libraries
 - [KDL](index/Data-Formats/KDL.md) - 1 library
 - [Loaders](index/Data-Formats/Loaders.md) - 1 library
 - [MessagePack](index/Data-Formats/MessagePack.md) - 2 libraries
@@ -147,9 +148,9 @@ Browse by category, then drill down to specific subcategories:
 
 - [Epidemiology](index/Data-Science/Epidemiology.md) - 1 library
 
-### [Data-Structures](index/Data-Structures/README.md) (92 libraries)
+### [Data-Structures](index/Data-Structures/README.md) (93 libraries)
 
-- [Arrays](index/Data-Structures/Arrays.md) - 8 libraries
+- [Arrays](index/Data-Structures/Arrays.md) - 9 libraries
 - [Binary-Decision-Diagrams](index/Data-Structures/Binary-Decision-Diagrams.md) - 1 library
 - [Buffers](index/Data-Structures/Buffers.md) - 1 library
 - [Data-Frames](index/Data-Structures/Data-Frames.md) - 3 libraries
@@ -197,10 +198,11 @@ Browse by category, then drill down to specific subcategories:
 - [Search](index/Database/Search.md) - 2 libraries
 - [Time-Series](index/Database/Time-Series.md) - 1 library
 
-### [Date-Time](index/Date-Time/README.md) (2 libraries)
+### [Date-Time](index/Date-Time/README.md) (3 libraries)
 
 - [Chinese-Calendar](index/Date-Time/Chinese-Calendar.md) - 1 library
 - [Parsing](index/Date-Time/Parsing.md) - 1 library
+- [Utilities](index/Date-Time/Utilities.md) - 1 library
 
 ### [Development](index/Development/README.md) (41 libraries)
 
@@ -252,13 +254,14 @@ Browse by category, then drill down to specific subcategories:
 - [Base58](index/Encoding/Base58.md) - 1 library
 - [Base64](index/Encoding/Base64.md) - 1 library
 
-### [File-System](index/File-System/README.md) (23 libraries)
+### [File-System](index/File-System/README.md) (26 libraries)
 
 - [Abstraction](index/File-System/Abstraction.md) - 1 library
+- [FUSE](index/File-System/FUSE.md) - 1 library
 - [Locking](index/File-System/Locking.md) - 1 library
-- [Metadata](index/File-System/Metadata.md) - 1 library
+- [Metadata](index/File-System/Metadata.md) - 2 libraries
 - [OLE](index/File-System/OLE.md) - 1 library
-- [Pathnames](index/File-System/Pathnames.md) - 5 libraries
+- [Pathnames](index/File-System/Pathnames.md) - 6 libraries
 - [Search](index/File-System/Search.md) - 2 libraries
 - [Streams](index/File-System/Streams.md) - 3 libraries
 - [Utilities](index/File-System/Utilities.md) - 5 libraries
@@ -315,7 +318,7 @@ Browse by category, then drill down to specific subcategories:
 - [LiDAR](index/Geospatial/LiDAR.md) - 1 library
 - [WKB](index/Geospatial/WKB.md) - 1 library
 
-### [Graphics](index/Graphics/README.md) (145 libraries)
+### [Graphics](index/Graphics/README.md) (144 libraries)
 
 - [2D-Graphics](index/Graphics/2D-Graphics.md) - 4 libraries
 - [3D](index/Graphics/3D.md) - 5 libraries
@@ -332,10 +335,11 @@ Browse by category, then drill down to specific subcategories:
 - [Diagrams](index/Graphics/Diagrams.md) - 2 libraries
 - [Dialogs](index/Graphics/Dialogs.md) - 1 library
 - [Fonts](index/Graphics/Fonts.md) - 10 libraries
-- [GUI](index/Graphics/GUI.md) - 19 libraries
+- [GUI](index/Graphics/GUI.md) - 18 libraries
 - [Generation](index/Graphics/Generation.md) - 2 libraries
 - [Generative-Art](index/Graphics/Generative-Art.md) - 2 libraries
 - [Geometry](index/Graphics/Geometry.md) - 3 libraries
+- [Graphviz](index/Graphics/Graphviz.md) - 1 library
 - [Images](index/Graphics/Images.md) - 21 libraries
 - [Low-Level](index/Graphics/Low-Level.md) - 2 libraries
 - [Noise](index/Graphics/Noise.md) - 1 library
@@ -350,7 +354,7 @@ Browse by category, then drill down to specific subcategories:
 - [Themes](index/Graphics/Themes.md) - 1 library
 - [UI](index/Graphics/UI.md) - 7 libraries
 - [Vector](index/Graphics/Vector.md) - 6 libraries
-- [Visualization](index/Graphics/Visualization.md) - 3 libraries
+- [Visualization](index/Graphics/Visualization.md) - 2 libraries
 - [Windowing](index/Graphics/Windowing.md) - 5 libraries
 - [X11](index/Graphics/X11.md) - 1 library
 
@@ -400,8 +404,7 @@ Browse by category, then drill down to specific subcategories:
 
 - [AOP](index/Meta-Programming/AOP.md) - 1 library
 - [Annotations](index/Meta-Programming/Annotations.md) - 2 libraries
-- [Binding](index/Meta-Programming/Binding.md) - 1 library
-- [CLOS](index/Meta-Programming/CLOS.md) - 32 libraries
+- [CLOS](index/Meta-Programming/CLOS.md) - 31 libraries
 - [Code-Analysis](index/Meta-Programming/Code-Analysis.md) - 10 libraries
 - [Code-Walking](index/Meta-Programming/Code-Walking.md) - 1 library
 - [Continuations](index/Meta-Programming/Continuations.md) - 3 libraries
@@ -420,8 +423,8 @@ Browse by category, then drill down to specific subcategories:
 - [MOP](index/Meta-Programming/MOP.md) - 2 libraries
 - [Macros](index/Meta-Programming/Macros.md) - 38 libraries
 - [Namespaces](index/Meta-Programming/Namespaces.md) - 3 libraries
-- [Optimization](index/Meta-Programming/Optimization.md) - 3 libraries
-- [Pattern-Matching](index/Meta-Programming/Pattern-Matching.md) - 6 libraries
+- [Optimization](index/Meta-Programming/Optimization.md) - 4 libraries
+- [Pattern-Matching](index/Meta-Programming/Pattern-Matching.md) - 7 libraries
 - [Performance](index/Meta-Programming/Performance.md) - 1 library
 - [Quasiquote](index/Meta-Programming/Quasiquote.md) - 3 libraries
 - [Reactive](index/Meta-Programming/Reactive.md) - 1 library
@@ -436,37 +439,29 @@ Browse by category, then drill down to specific subcategories:
 - [Utilities](index/Meta-Programming/Utilities.md) - 1 library
 - [Variables](index/Meta-Programming/Variables.md) - 1 library
 
-### [Network](index/Network/README.md) (16 libraries)
-
-- [Caching](index/Network/Caching.md) - 1 library
-- [FTP](index/Network/FTP.md) - 1 library
-- [HTTP-Clients](index/Network/HTTP-Clients.md) - 1 library
-- [HTTP-Parsing](index/Network/HTTP-Parsing.md) - 1 library
-- [HTTP2](index/Network/HTTP2.md) - 3 libraries
-- [IRC](index/Network/IRC.md) - 1 library
-- [Job-Queue](index/Network/Job-Queue.md) - 1 library
-- [Queue-Services](index/Network/Queue-Services.md) - 2 libraries
-- [RPC](index/Network/RPC.md) - 2 libraries
-- [SMTP](index/Network/SMTP.md) - 1 library
-- [SSL-TLS](index/Network/SSL-TLS.md) - 1 library
-- [Sockets](index/Network/Sockets.md) - 1 library
-
-### [Networking](index/Networking/README.md) (46 libraries)
+### [Networking](index/Networking/README.md) (60 libraries)
 
 - [BitTorrent](index/Networking/BitTorrent.md) - 1 library
+- [Caching](index/Networking/Caching.md) - 1 library
 - [DNS](index/Networking/DNS.md) - 3 libraries
 - [Email](index/Networking/Email.md) - 1 library
 - [Erlang](index/Networking/Erlang.md) - 1 library
-- [FTP](index/Networking/FTP.md) - 1 library
+- [FTP](index/Networking/FTP.md) - 2 libraries
 - [Geolocation](index/Networking/Geolocation.md) - 1 library
-- [HTTP-Clients](index/Networking/HTTP-Clients.md) - 1 library
+- [HTTP-Client](index/Networking/HTTP-Client.md) - 2 libraries
+- [HTTP-Parsing](index/Networking/HTTP-Parsing.md) - 2 libraries
+- [HTTP2](index/Networking/HTTP2.md) - 3 libraries
 - [IO](index/Networking/IO.md) - 2 libraries
+- [IRC](index/Networking/IRC.md) - 1 library
+- [Job-Queue](index/Networking/Job-Queue.md) - 1 library
 - [LDAP](index/Networking/LDAP.md) - 1 library
 - [Message-Queue](index/Networking/Message-Queue.md) - 5 libraries
-- [Pooling](index/Networking/Pooling.md) - 2 libraries
-- [Protocols](index/Networking/Protocols.md) - 8 libraries
-- [RPC](index/Networking/RPC.md) - 5 libraries
-- [Sockets](index/Networking/Sockets.md) - 1 library
+- [Protocols](index/Networking/Protocols.md) - 7 libraries
+- [Queue-Services](index/Networking/Queue-Services.md) - 2 libraries
+- [RPC](index/Networking/RPC.md) - 7 libraries
+- [SMTP](index/Networking/SMTP.md) - 1 library
+- [SSL-TLS](index/Networking/SSL-TLS.md) - 1 library
+- [Sockets](index/Networking/Sockets.md) - 2 libraries
 - [TLS](index/Networking/TLS.md) - 2 libraries
 - [Utilities](index/Networking/Utilities.md) - 6 libraries
 - [WHOIS](index/Networking/WHOIS.md) - 1 library
@@ -498,21 +493,19 @@ Browse by category, then drill down to specific subcategories:
 - [Statistics](index/Numeric/Statistics.md) - 9 libraries
 - [Tuples](index/Numeric/Tuples.md) - 1 library
 
-### [Parsing](index/Parsing/README.md) (92 libraries)
+### [Parsing](index/Parsing/README.md) (87 libraries)
 
 - [Binary](index/Parsing/Binary.md) - 6 libraries
 - [CSS](index/Parsing/CSS.md) - 2 libraries
-- [CSV](index/Parsing/CSV.md) - 1 library
 - [Combinators](index/Parsing/Combinators.md) - 5 libraries
 - [Configuration](index/Parsing/Configuration.md) - 5 libraries
 - [DOM](index/Parsing/DOM.md) - 1 library
-- [Data-Formats](index/Parsing/Data-Formats.md) - 2 libraries
+- [Data-Formats](index/Parsing/Data-Formats.md) - 1 library
 - [Documentation](index/Parsing/Documentation.md) - 1 library
 - [Feeds](index/Parsing/Feeds.md) - 1 library
 - [Generators](index/Parsing/Generators.md) - 2 libraries
 - [Grammar](index/Parsing/Grammar.md) - 8 libraries
 - [HTML](index/Parsing/HTML.md) - 10 libraries
-- [JSON](index/Parsing/JSON.md) - 3 libraries
 - [JavaScript](index/Parsing/JavaScript.md) - 2 libraries
 - [Lexers](index/Parsing/Lexers.md) - 3 libraries
 - [Lexical-Analysis](index/Parsing/Lexical-Analysis.md) - 1 library
@@ -535,9 +528,8 @@ Browse by category, then drill down to specific subcategories:
 - [Authentication](index/Security/Authentication.md) - 1 library
 - [Password-Generation](index/Security/Password-Generation.md) - 1 library
 
-### [Serialization](index/Serialization/README.md) (6 libraries)
+### [Serialization](index/Serialization/README.md) (5 libraries)
 
-- [Bencode](index/Serialization/Bencode.md) - 1 library
 - [Binary](index/Serialization/Binary.md) - 3 libraries
 - [Erlang](index/Serialization/Erlang.md) - 1 library
 - [Persistence](index/Serialization/Persistence.md) - 1 library
@@ -546,7 +538,7 @@ Browse by category, then drill down to specific subcategories:
 
 - [Twitter](index/Social-Media/Twitter.md) - 1 library
 
-### [System](index/System/README.md) (194 libraries)
+### [System](index/System/README.md) (193 libraries)
 
 - [Binary-Analysis](index/System/Binary-Analysis.md) - 2 libraries
 - [Build](index/System/Build.md) - 29 libraries
@@ -565,7 +557,7 @@ Browse by category, then drill down to specific subcategories:
 - [Editor](index/System/Editor.md) - 5 libraries
 - [Editor-Integration](index/System/Editor-Integration.md) - 1 library
 - [Error-Reporting](index/System/Error-Reporting.md) - 1 library
-- [Filesystem](index/System/Filesystem.md) - 4 libraries
+- [Filesystem](index/System/Filesystem.md) - 1 library
 - [General](index/System/General.md) - 1 library
 - [Hardware](index/System/Hardware.md) - 4 libraries
 - [Hooks](index/System/Hooks.md) - 2 libraries
@@ -590,7 +582,7 @@ Browse by category, then drill down to specific subcategories:
 - [Printing](index/System/Printing.md) - 1 library
 - [Processes](index/System/Processes.md) - 9 libraries
 - [Project-Generation](index/System/Project-Generation.md) - 1 library
-- [Resource-Management](index/System/Resource-Management.md) - 2 libraries
+- [Resource-Management](index/System/Resource-Management.md) - 4 libraries
 - [Sandboxing](index/System/Sandboxing.md) - 2 libraries
 - [Scheduling](index/System/Scheduling.md) - 3 libraries
 - [Shell-Integration](index/System/Shell-Integration.md) - 1 library
@@ -602,12 +594,13 @@ Browse by category, then drill down to specific subcategories:
 - [Virtualization](index/System/Virtualization.md) - 1 library
 - [Window-Managers](index/System/Window-Managers.md) - 1 library
 
-### [Terminal](index/Terminal/README.md) (21 libraries)
+### [Terminal](index/Terminal/README.md) (22 libraries)
 
-- [Formatting](index/Terminal/Formatting.md) - 3 libraries
+- [Curses](index/Terminal/Curses.md) - 2 libraries
+- [Formatting](index/Terminal/Formatting.md) - 4 libraries
 - [Graphics](index/Terminal/Graphics.md) - 2 libraries
 - [Input](index/Terminal/Input.md) - 2 libraries
-- [UI](index/Terminal/UI.md) - 14 libraries
+- [UI](index/Terminal/UI.md) - 12 libraries
 
 ### [Testing](index/Testing/README.md) (47 libraries)
 
@@ -625,10 +618,10 @@ Browse by category, then drill down to specific subcategories:
 - [Test-Data](index/Testing/Test-Data.md) - 1 library
 - [Utilities](index/Testing/Utilities.md) - 2 libraries
 
-### [Text](index/Text/README.md) (85 libraries)
+### [Text](index/Text/README.md) (83 libraries)
 
 - [CJK](index/Text/CJK.md) - 1 library
-- [Case-Conversion](index/Text/Case-Conversion.md) - 3 libraries
+- [Case-Conversion](index/Text/Case-Conversion.md) - 4 libraries
 - [Completion](index/Text/Completion.md) - 1 library
 - [Diff](index/Text/Diff.md) - 2 libraries
 - [Encoding](index/Text/Encoding.md) - 1 library
@@ -637,7 +630,7 @@ Browse by category, then drill down to specific subcategories:
 - [Formatting](index/Text/Formatting.md) - 11 libraries
 - [Generation](index/Text/Generation.md) - 2 libraries
 - [HTML](index/Text/HTML.md) - 1 library
-- [I18N](index/Text/I18N.md) - 9 libraries
+- [I18N](index/Text/I18N.md) - 8 libraries
 - [Japanese](index/Text/Japanese.md) - 1 library
 - [L10N](index/Text/L10N.md) - 1 library
 - [MIME](index/Text/MIME.md) - 1 library
@@ -655,8 +648,8 @@ Browse by category, then drill down to specific subcategories:
 - [Streams](index/Text/Streams.md) - 1 library
 - [String-Literals](index/Text/String-Literals.md) - 2 libraries
 - [String-Manipulation](index/Text/String-Manipulation.md) - 5 libraries
-- [Templating](index/Text/Templating.md) - 4 libraries
-- [Terminal](index/Text/Terminal.md) - 3 libraries
+- [Templating](index/Text/Templating.md) - 3 libraries
+- [Terminal](index/Text/Terminal.md) - 2 libraries
 - [Unicode](index/Text/Unicode.md) - 4 libraries
 
 ### [Time](index/Time/README.md) (17 libraries)
@@ -669,13 +662,13 @@ Browse by category, then drill down to specific subcategories:
 - [Intervals](index/Time/Intervals.md) - 1 library
 - [Parsing](index/Time/Parsing.md) - 3 libraries
 
-### [Utilities](index/Utilities/README.md) (128 libraries)
+### [Utilities](index/Utilities/README.md) (126 libraries)
 
 - [Accumulators](index/Utilities/Accumulators.md) - 1 library
 - [Array-Operations](index/Utilities/Array-Operations.md) - 1 library
 - [Binary](index/Utilities/Binary.md) - 2 libraries
 - [Bit-Manipulation](index/Utilities/Bit-Manipulation.md) - 3 libraries
-- [Caching](index/Utilities/Caching.md) - 8 libraries
+- [Caching](index/Utilities/Caching.md) - 7 libraries
 - [Checksums](index/Utilities/Checksums.md) - 1 library
 - [Comparison](index/Utilities/Comparison.md) - 2 libraries
 - [Counting](index/Utilities/Counting.md) - 1 library
@@ -695,7 +688,6 @@ Browse by category, then drill down to specific subcategories:
 - [Logging](index/Utilities/Logging.md) - 10 libraries
 - [Macros](index/Utilities/Macros.md) - 3 libraries
 - [Numbers](index/Utilities/Numbers.md) - 1 library
-- [Pattern-Matching](index/Utilities/Pattern-Matching.md) - 1 library
 - [Printing](index/Utilities/Printing.md) - 2 libraries
 - [Progress](index/Utilities/Progress.md) - 1 library
 - [Resource-Management](index/Utilities/Resource-Management.md) - 1 library
@@ -715,7 +707,7 @@ Browse by category, then drill down to specific subcategories:
 
 - [Git](index/Version-Control/Git.md) - 1 library
 
-### [Web](index/Web/README.md) (237 libraries)
+### [Web](index/Web/README.md) (235 libraries)
 
 - [AJAX](index/Web/AJAX.md) - 1 library
 - [API-Client](index/Web/API-Client.md) - 40 libraries
@@ -741,14 +733,13 @@ Browse by category, then drill down to specific subcategories:
 - [Encoding](index/Web/Encoding.md) - 2 libraries
 - [File-Uploads](index/Web/File-Uploads.md) - 2 libraries
 - [Forms](index/Web/Forms.md) - 2 libraries
-- [Frameworks](index/Web/Frameworks.md) - 11 libraries
+- [Frameworks](index/Web/Frameworks.md) - 13 libraries
 - [Frontend](index/Web/Frontend.md) - 1 library
 - [GUI](index/Web/GUI.md) - 1 library
 - [Google-APIs](index/Web/Google-APIs.md) - 1 library
 - [HTML](index/Web/HTML.md) - 1 library
 - [HTML-Generation](index/Web/HTML-Generation.md) - 13 libraries
 - [HTTP-Client](index/Web/HTTP-Client.md) - 8 libraries
-- [HTTP-Clients](index/Web/HTTP-Clients.md) - 1 library
 - [JavaScript-Integration](index/Web/JavaScript-Integration.md) - 2 libraries
 - [MIME](index/Web/MIME.md) - 3 libraries
 - [Middleware](index/Web/Middleware.md) - 10 libraries
@@ -758,12 +749,11 @@ Browse by category, then drill down to specific subcategories:
 - [Parsing](index/Web/Parsing.md) - 1 library
 - [Payment-Processing](index/Web/Payment-Processing.md) - 3 libraries
 - [Proxy](index/Web/Proxy.md) - 1 library
-- [Reactive-UI](index/Web/Reactive-UI.md) - 2 libraries
+- [Reactive-UI](index/Web/Reactive-UI.md) - 1 library
 - [Routing](index/Web/Routing.md) - 6 libraries
 - [Scraping](index/Web/Scraping.md) - 1 library
-- [Server](index/Web/Server.md) - 6 libraries
+- [Server](index/Web/Server.md) - 5 libraries
 - [Server-Utilities](index/Web/Server-Utilities.md) - 7 libraries
-- [Servers](index/Web/Servers.md) - 1 library
 - [Social-Media](index/Web/Social-Media.md) - 5 libraries
 - [Source-Maps](index/Web/Source-Maps.md) - 1 library
 - [Static-Site-Generation](index/Web/Static-Site-Generation.md) - 4 libraries
@@ -778,6 +768,7 @@ Browse by category, then drill down to specific subcategories:
 - [Weather-APIs](index/Web/Weather-APIs.md) - 1 library
 - [WebSockets](index/Web/WebSockets.md) - 1 library
 
+
 ## Usage for LLMs
 
 To find libraries efficiently:
@@ -789,4 +780,10 @@ To find libraries efficiently:
 
 **Example:** Need HTTP client? → index/Web/README.md → index/Web/HTTP-Client.md → see specific libraries
 
+## Contributing
 
+See [TODO.md](TODO.md) for current work items.
+
+## Source
+
+Generated from library descriptions and ASDF system definitions using [regenerate.lisp](regenerate.lisp).

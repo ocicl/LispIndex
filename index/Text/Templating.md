@@ -1,26 +1,8 @@
 # Text: Templating
 
-4 libraries
+3 libraries
 
 ---
-
-## cl-interpol
-
-**System Name:** `cl-interpol`
-
-**Purpose:** String interpolation for Common Lisp (like Perl/shell scripts).
-
-**Why Use It:**
-- **String Interpolation**: Embed Lisp expressions in strings
-- **Perl-like Syntax**: Familiar to Perl/shell script users
-- **Special Characters**: Easy insertion of special Unicode characters
-- **Named Readtable**: Uses named readtable `:interpol-syntax`
-- **Variable Expansion**: Expand variables with `${var}` syntax
-
-**Best For:** String processing and template generation with embedded expressions.
-
----
-
 
 ## cl-template
 

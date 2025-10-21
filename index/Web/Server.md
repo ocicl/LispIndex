@@ -1,6 +1,6 @@
 # Web: Server
 
-6 libraries
+5 libraries
 
 ---
 
@@ -90,25 +90,6 @@
 **Best For:** Reverse proxying, load balancing, API gateways, SSL termination, request routing.
 
 **Note:** AGPL3. Name is "proxy" spelled backwards. Full programmatic control over HTTP processing.
-
----
-
-
-## core
-
-**System Name:** `issr-core`
-
-**Purpose:** Core functionality for Interactive Server-Side-Rendered web pages with declarative and recursive programming.
-
-**Why Use It:**
-- **Server-Side Rendering**: Build interactive web pages with SSR
-- **Declarative Style**: Write web applications declaratively
-- **Recursive Programming**: Support for recursive component structures
-- **Reusable Core**: Foundation for various server modules
-
-**Best For:** Web application development, server-side rendering, interactive web interfaces.
-
-**Note:** LLGPL licensed. Depends on Plump, global-vars, str, tailrec.
 
 ---
 

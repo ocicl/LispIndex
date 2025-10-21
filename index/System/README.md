@@ -1,6 +1,6 @@
 # System Libraries
 
-This category contains 53 subcategories with 194 total libraries.
+This category contains 53 subcategories with 193 total libraries.
 
 ## Subcategories
 
@@ -21,7 +21,7 @@ This category contains 53 subcategories with 194 total libraries.
 - [Editor](Editor.md) (5 libraries)
 - [Editor-Integration](Editor-Integration.md) (1 library)
 - [Error-Reporting](Error-Reporting.md) (1 library)
-- [Filesystem](Filesystem.md) (4 libraries)
+- [Filesystem](Filesystem.md) (1 library)
 - [General](General.md) (1 library)
 - [Hardware](Hardware.md) (4 libraries)
 - [Hooks](Hooks.md) (2 libraries)
@@ -46,7 +46,7 @@ This category contains 53 subcategories with 194 total libraries.
 - [Printing](Printing.md) (1 library)
 - [Processes](Processes.md) (9 libraries)
 - [Project-Generation](Project-Generation.md) (1 library)
-- [Resource-Management](Resource-Management.md) (2 libraries)
+- [Resource-Management](Resource-Management.md) (4 libraries)
 - [Sandboxing](Sandboxing.md) (2 libraries)
 - [Scheduling](Scheduling.md) (3 libraries)
 - [Shell-Integration](Shell-Integration.md) (1 library)

@@ -1,8 +1,30 @@
-# Network: HTTP-Parsing
+# Networking: HTTP-Parsing
 
-1 libraries
+2 libraries
 
 ---
+
+## fast-http
+
+**System Name:** `fast-http`
+
+**Purpose:** Fast HTTP request/response protocol parser.
+
+**Why Use It:**
+- **Fast**: High-performance HTTP parsing
+- **Both Directions**: Parses requests and responses
+- **Keep-Alive**: Handles persistent streams
+- **Chunked Encoding**: Decodes chunked transfer encoding
+- **Low-Level APIs**: Zero-allocation parsing APIs
+- **Streaming**: Always streaming, no buffering option
+- **Structure Classes**: Fast structure-based design
+
+**Best For:** High-performance HTTP parsing for servers and clients.
+
+**Note:** Similar to http-parse but faster with some API differences.
+
+---
+
 
 ## http-parse
 

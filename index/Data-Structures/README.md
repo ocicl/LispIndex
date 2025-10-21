@@ -1,10 +1,10 @@
 # Data-Structures Libraries
 
-This category contains 21 subcategories with 92 total libraries.
+This category contains 21 subcategories with 93 total libraries.
 
 ## Subcategories
 
-- [Arrays](Arrays.md) (8 libraries)
+- [Arrays](Arrays.md) (9 libraries)
 - [Binary-Decision-Diagrams](Binary-Decision-Diagrams.md) (1 library)
 - [Buffers](Buffers.md) (1 library)
 - [Data-Frames](Data-Frames.md) (3 libraries)

@@ -5,8 +5,8 @@ This category contains 20 subcategories with 43 total libraries.
 ## Subcategories
 
 - [Actors](Actors.md) (5 libraries)
-- [CSP](CSP.md) (2 libraries)
-- [Channels](Channels.md) (1 library)
+- [CSP](CSP.md) (1 library)
+- [Channels](Channels.md) (2 libraries)
 - [Coroutines](Coroutines.md) (1 library)
 - [Distributed-Computing](Distributed-Computing.md) (4 libraries)
 - [Event-Loop](Event-Loop.md) (3 libraries)

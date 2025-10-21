@@ -1,8 +1,30 @@
 # File-System: Pathnames
 
-5 libraries
+6 libraries
 
 ---
+
+## cl-fad
+
+**System Name:** `cl-fad`
+
+**Purpose:** Portable pathname library for file and directory operations.
+
+**Why Use It:**
+- **Portable Pathnames**: Consistent pathname handling
+- **Directory Operations**: Walk, copy, delete directories
+- **File Operations**: Copy, delete, list files
+- **Wildcards**: Portable wildcard support
+- **Testing**: Comes with test suite
+- **Documentation**: Well-documented
+- **ASDF**: Easy installation
+
+**Best For:** Portable file and directory manipulation.
+
+**Note:** Essential for cross-platform filesystem operations.
+
+---
+
 
 ## pathname-utils
 
