@@ -291,7 +291,7 @@ cl-cmark|Parsing|Markdown
 cl-cognito|Cloud|AWS
 cl-coinpayments|Finance|Cryptocurrency
 cl-collider|Audio|Synthesis
-cl-colors2|Graphics|Colors
+cl-colors2|Graphics|Color
 cl-colors|Graphics|Color
 cl-colors-ng|Graphics|Color
 cl-completions|AI|LLM
@@ -602,7 +602,7 @@ clog-terminal|Terminal|UI
 clog|Web|GUI
 cl-ohm|Database|NoSQL-Client
 clohost|Networking|WHOIS
-cl-oju|Graphics|OpenGL-Utilities
+cl-oju|Graphics|OpenGL
 cl-olefs|File-System|OLE
 cl-one-time-passwords|Cryptography|OTP
 cl-online-learning|AI|Machine-Learning
@@ -1132,7 +1132,7 @@ glass|Cryptography|Authentication
 glaw|Game-Dev|Frameworks
 glfw|Graphics|Windowing
 glisph|Graphics|Fonts
-glkit|Graphics|OpenGL-Utilities
+glkit|Graphics|OpenGL
 global-vars|Meta-Programming|Variables
 glop|Graphics|Windowing
 glsl-metadata|Graphics|Shaders
@@ -1884,7 +1884,7 @@ vector|Data-Structures|Arrays
 verbose|Utilities|Logging
 vernacular|Meta-Programming|Reader-Macros
 vertex|Graphics|3D
-vivid-colors|Graphics|Colors
+vivid-colors|Graphics|Color
 vivid-diff|Utilities|Diff
 whereiseveryone.command-line-args|System|CLI
 which|System|OS-Interface

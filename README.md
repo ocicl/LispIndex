@@ -320,8 +320,7 @@ Browse by category, then drill down to specific subcategories:
 - [Abstraction](index/Graphics/Abstraction.md) - 1 library
 - [Animation](index/Graphics/Animation.md) - 1 library
 - [Chemistry](index/Graphics/Chemistry.md) - 1 library
-- [Color](index/Graphics/Color.md) - 4 libraries
-- [Colors](index/Graphics/Colors.md) - 2 libraries
+- [Color](index/Graphics/Color.md) - 6 libraries
 - [Computational-Geometry](index/Graphics/Computational-Geometry.md) - 1 library
 - [Curves](index/Graphics/Curves.md) - 3 libraries
 - [Desktop-Apps](index/Graphics/Desktop-Apps.md) - 1 library
@@ -336,8 +335,7 @@ Browse by category, then drill down to specific subcategories:
 - [Images](index/Graphics/Images.md) - 21 libraries
 - [Low-Level](index/Graphics/Low-Level.md) - 2 libraries
 - [Noise](index/Graphics/Noise.md) - 1 library
-- [OpenGL](index/Graphics/OpenGL.md) - 2 libraries
-- [OpenGL-Utilities](index/Graphics/OpenGL-Utilities.md) - 2 libraries
+- [OpenGL](index/Graphics/OpenGL.md) - 4 libraries
 - [Plotting](index/Graphics/Plotting.md) - 6 libraries
 - [Procedural-Generation](index/Graphics/Procedural-Generation.md) - 1 library
 - [Shaders](index/Graphics/Shaders.md) - 6 libraries

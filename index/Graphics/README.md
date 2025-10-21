@@ -1,6 +1,6 @@
 # Graphics Libraries
 
-This category contains 37 subcategories with 144 total libraries.
+This category contains 35 subcategories with 144 total libraries.
 
 ## Subcategories
 
@@ -11,8 +11,7 @@ This category contains 37 subcategories with 144 total libraries.
 - [Abstraction](Abstraction.md) (1 library)
 - [Animation](Animation.md) (1 library)
 - [Chemistry](Chemistry.md) (1 library)
-- [Color](Color.md) (4 libraries)
-- [Colors](Colors.md) (2 libraries)
+- [Color](Color.md) (6 libraries)
 - [Computational-Geometry](Computational-Geometry.md) (1 library)
 - [Curves](Curves.md) (3 libraries)
 - [Desktop-Apps](Desktop-Apps.md) (1 library)
@@ -27,8 +26,7 @@ This category contains 37 subcategories with 144 total libraries.
 - [Images](Images.md) (21 libraries)
 - [Low-Level](Low-Level.md) (2 libraries)
 - [Noise](Noise.md) (1 library)
-- [OpenGL](OpenGL.md) (2 libraries)
-- [OpenGL-Utilities](OpenGL-Utilities.md) (2 libraries)
+- [OpenGL](OpenGL.md) (4 libraries)
 - [Plotting](Plotting.md) (6 libraries)
 - [Procedural-Generation](Procedural-Generation.md) (1 library)
 - [Shaders](Shaders.md) (6 libraries)
