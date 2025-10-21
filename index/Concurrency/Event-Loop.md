@@ -1,6 +1,6 @@
 # Concurrency: Event-Loop
 
-3 libraries
+4 libraries
 
 ---
 
@@ -21,6 +21,24 @@
 **Best For:** High-performance async applications requiring non-blocking IO.
 
 **Note:** Requires libuv v1.x (not v0.10.x).
+
+---
+
+
+## cl-libevent2
+
+**System Name:** `cl-libevent2`
+
+**Purpose:** Common Lisp bindings for libevent2 event notification library.
+
+**Why Use It:**
+- **Event Loop**: Efficient event-driven programming
+- **Network I/O**: High-performance network applications
+- **Cross-Platform**: Portable event notification
+
+**Best For:** Network servers, event-driven applications, async I/O.
+
+**Note:** CFFI bindings to libevent2.
 
 ---
 

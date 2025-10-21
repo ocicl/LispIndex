@@ -1,7 +1,7 @@
 # LispIndex
 > A structured index of Common Lisp systems, packages, and code examples — organized for LLM-assisted discovery.
 
-This catalog contains 1910 libraries organized into 47 categories with focused subcategories.
+This catalog contains 1910 libraries organized into 46 categories with focused subcategories.
 
 ## Quick Navigation
 
@@ -95,8 +95,7 @@ Browse by category, then drill down to specific subcategories:
 - [Channels](index/Concurrency/Channels.md) - 2 libraries
 - [Coroutines](index/Concurrency/Coroutines.md) - 1 library
 - [Distributed-Computing](index/Concurrency/Distributed-Computing.md) - 4 libraries
-- [Event-Loop](index/Concurrency/Event-Loop.md) - 3 libraries
-- [Event-Loops](index/Concurrency/Event-Loops.md) - 1 library
+- [Event-Loop](index/Concurrency/Event-Loop.md) - 4 libraries
 - [Events](index/Concurrency/Events.md) - 4 libraries
 - [Futures](index/Concurrency/Futures.md) - 2 libraries
 - [Green-Threads](index/Concurrency/Green-Threads.md) - 1 library
@@ -197,12 +196,6 @@ Browse by category, then drill down to specific subcategories:
 - [SQLite](index/Database/SQLite.md) - 1 library
 - [Search](index/Database/Search.md) - 2 libraries
 - [Time-Series](index/Database/Time-Series.md) - 1 library
-
-### [Date-Time](index/Date-Time/README.md) (3 libraries)
-
-- [Chinese-Calendar](index/Date-Time/Chinese-Calendar.md) - 1 library
-- [Parsing](index/Date-Time/Parsing.md) - 1 library
-- [Utilities](index/Date-Time/Utilities.md) - 1 library
 
 ### [Development](index/Development/README.md) (41 libraries)
 
@@ -439,7 +432,7 @@ Browse by category, then drill down to specific subcategories:
 - [Utilities](index/Meta-Programming/Utilities.md) - 1 library
 - [Variables](index/Meta-Programming/Variables.md) - 1 library
 
-### [Networking](index/Networking/README.md) (60 libraries)
+### [Networking](index/Networking/README.md) (58 libraries)
 
 - [BitTorrent](index/Networking/BitTorrent.md) - 1 library
 - [Caching](index/Networking/Caching.md) - 1 library
@@ -448,7 +441,6 @@ Browse by category, then drill down to specific subcategories:
 - [Erlang](index/Networking/Erlang.md) - 1 library
 - [FTP](index/Networking/FTP.md) - 2 libraries
 - [Geolocation](index/Networking/Geolocation.md) - 1 library
-- [HTTP-Client](index/Networking/HTTP-Client.md) - 2 libraries
 - [HTTP-Parsing](index/Networking/HTTP-Parsing.md) - 2 libraries
 - [HTTP2](index/Networking/HTTP2.md) - 3 libraries
 - [IO](index/Networking/IO.md) - 2 libraries
@@ -652,15 +644,15 @@ Browse by category, then drill down to specific subcategories:
 - [Terminal](index/Text/Terminal.md) - 2 libraries
 - [Unicode](index/Text/Unicode.md) - 4 libraries
 
-### [Time](index/Time/README.md) (17 libraries)
+### [Time](index/Time/README.md) (20 libraries)
 
 - [Calculations](index/Time/Calculations.md) - 2 libraries
-- [Calendars](index/Time/Calendars.md) - 3 libraries
-- [Core](index/Time/Core.md) - 4 libraries
+- [Calendars](index/Time/Calendars.md) - 4 libraries
+- [Core](index/Time/Core.md) - 5 libraries
 - [Duration](index/Time/Duration.md) - 1 library
 - [Formatting](index/Time/Formatting.md) - 3 libraries
 - [Intervals](index/Time/Intervals.md) - 1 library
-- [Parsing](index/Time/Parsing.md) - 3 libraries
+- [Parsing](index/Time/Parsing.md) - 4 libraries
 
 ### [Utilities](index/Utilities/README.md) (126 libraries)
 
@@ -707,7 +699,7 @@ Browse by category, then drill down to specific subcategories:
 
 - [Git](index/Version-Control/Git.md) - 1 library
 
-### [Web](index/Web/README.md) (235 libraries)
+### [Web](index/Web/README.md) (237 libraries)
 
 - [AJAX](index/Web/AJAX.md) - 1 library
 - [API-Client](index/Web/API-Client.md) - 40 libraries
@@ -739,7 +731,7 @@ Browse by category, then drill down to specific subcategories:
 - [Google-APIs](index/Web/Google-APIs.md) - 1 library
 - [HTML](index/Web/HTML.md) - 1 library
 - [HTML-Generation](index/Web/HTML-Generation.md) - 13 libraries
-- [HTTP-Client](index/Web/HTTP-Client.md) - 8 libraries
+- [HTTP-Client](index/Web/HTTP-Client.md) - 10 libraries
 - [JavaScript-Integration](index/Web/JavaScript-Integration.md) - 2 libraries
 - [MIME](index/Web/MIME.md) - 3 libraries
 - [Middleware](index/Web/Middleware.md) - 10 libraries
@@ -779,5 +771,4 @@ To find libraries efficiently:
 4. Read only that subcategory file
 
 **Example:** Need HTTP client? → index/Web/README.md → index/Web/HTTP-Client.md → see specific libraries
-
 

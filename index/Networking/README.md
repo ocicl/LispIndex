@@ -1,6 +1,6 @@
 # Networking Libraries
 
-This category contains 25 subcategories with 60 total libraries.
+This category contains 24 subcategories with 58 total libraries.
 
 ## Subcategories
 
@@ -11,7 +11,6 @@ This category contains 25 subcategories with 60 total libraries.
 - [Erlang](Erlang.md) (1 library)
 - [FTP](FTP.md) (2 libraries)
 - [Geolocation](Geolocation.md) (1 library)
-- [HTTP-Client](HTTP-Client.md) (2 libraries)
 - [HTTP-Parsing](HTTP-Parsing.md) (2 libraries)
 - [HTTP2](HTTP2.md) (3 libraries)
 - [IO](IO.md) (2 libraries)

@@ -121,10 +121,10 @@
                     (car subcat) category (car subcat) (cdr subcat)
                     (if (= 1 (cdr subcat)) "library" "libraries")))
           (terpri out)))
-      (format out "~%## Usage for LLMs~%~%To find libraries efficiently:~%~%1. Start here - scan category names~%2. Click relevant category README~%3. Choose specific subcategory~%4. Read only that subcategory file~%~%**Example:** Need HTTP client? → index/Web/README.md → index/Web/HTTP-Client.md → see specific libraries~%~%## Contributing~%~%See [TODO.md](TODO.md) for current work items.~%~%## Source~%~%Generated from library descriptions and ASDF system definitions using [regenerate.lisp](regenerate.lisp).~%"))))
+      (format out "~%## Usage for LLMs~%~%To find libraries efficiently:~%~%1. Start here - scan category names~%2. Click relevant category README~%3. Choose specific subcategory~%4. Read only that subcategory file~%~%**Example:** Need HTTP client? → index/Web/README.md → index/Web/HTTP-Client.md → see specific libraries~%~%"))))
 
-(let* ((mapping (read-category-mapping #P"library-categories.txt"))
-       (cat-subcat-libs (parse-library-content #P"lisp-libraries.md" mapping))
+(let* ((mapping (read-category-mapping #P"meta/library-categories.txt"))
+       (cat-subcat-libs (parse-library-content #P"meta/lisp-libraries.md" mapping))
        (stats (get-stats cat-subcat-libs))
        (total-libs (hash-table-count mapping)))
   (format t "Processing ~A libraries...~%~%" total-libs)

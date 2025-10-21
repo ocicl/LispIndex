@@ -63,7 +63,7 @@ arnesi|Utilities|Legacy
 array-operations|Data-Structures|Arrays
 array-utils|Data-Structures|Arrays
 ArriVAL|AI|Planning
-arrival|Date-Time|Utilities
+arrival|Time|Core
 arrow-macros|Meta-Programming|Macros
 arrows|Meta-Programming|Macros
 ascii-strings|Text|String-Manipulation
@@ -319,7 +319,7 @@ cl-cxx|Foreign-Interface|C++
 cl-darksky|Web|Weather-APIs
 cl-data-format-validation|Utilities|Validation
 cl-data-structures|Data-Structures|General
-cl-date-time-parser|Date-Time|Parsing
+cl-date-time-parser|Time|Parsing
 cl-db3|Database|Legacy-Formats
 cl-dbi-connection-pool|Database|Connection-Pooling
 cl-dbi|Database|DBI
@@ -394,7 +394,7 @@ cl-fuse|File-System|FUSE
 cl-fuzz|Testing|Property-Based
 cl-fxml|Parsing|XML
 cl-gamepad|Input|Gamepads
-cl-ganzhi|Date-Time|Chinese-Calendar
+cl-ganzhi|Time|Calendars
 cl-gap-buffer|Data-Structures|Text-Buffers
 cl-gbm|Graphics|Low-Level
 cl-gcrypt|Cryptography|Library-Bindings
@@ -449,7 +449,7 @@ cl-html-parse|Parsing|HTML
 cl-htmlprag|Parsing|HTML
 cl-html-readme|Documentation|Generation
 cl-http2-protocol|Networking|HTTP2
-cl-httpotion|Networking|HTTP-Client
+cl-httpotion|Web|HTTP-Client
 cl-httpsqs|Networking|Message-Queue
 cl-hue|Web|API-Client
 cl-i18n|Text|I18N
@@ -520,7 +520,7 @@ cl-lexer|Parsing|Lexical-Analysis
 cl-lex|Parsing|Lexers
 cl-liballegro|Game-Dev|Allegro
 cl-liballegro-nuklear|Graphics|UI
-cl-libevent2|Concurrency|Event-Loops
+cl-libevent2|Concurrency|Event-Loop
 cl-lib-helper|System|Organization
 cl-libre-translate|Web|API-Client
 cl-libsvm|AI|Machine-Learning
@@ -1889,7 +1889,7 @@ vivid-diff|Utilities|Diff
 whereiseveryone.command-line-args|System|CLI
 which|System|OS-Interface
 wild-package-inferred-system|System|Build
-winhttp|Networking|HTTP-Client
+winhttp|Web|HTTP-Client
 with-cached-reader-conditionals|Meta-Programming|Reader-Macros
 with-output-to-stream|System|Streams
 with-user-abort|System|Condition-System

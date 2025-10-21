@@ -1,6 +1,6 @@
 # Web Libraries
 
-This category contains 58 subcategories with 235 total libraries.
+This category contains 58 subcategories with 237 total libraries.
 
 ## Subcategories
 
@@ -34,7 +34,7 @@ This category contains 58 subcategories with 235 total libraries.
 - [Google-APIs](Google-APIs.md) (1 library)
 - [HTML](HTML.md) (1 library)
 - [HTML-Generation](HTML-Generation.md) (13 libraries)
-- [HTTP-Client](HTTP-Client.md) (8 libraries)
+- [HTTP-Client](HTTP-Client.md) (10 libraries)
 - [JavaScript-Integration](JavaScript-Integration.md) (2 libraries)
 - [MIME](MIME.md) (3 libraries)
 - [Middleware](Middleware.md) (10 libraries)

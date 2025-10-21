@@ -1,6 +1,6 @@
 # Common Lisp Libraries - Hierarchical Catalog
 
-This catalog is organized into 47 categories with focused subcategories.
+This catalog is organized into 46 categories with focused subcategories.
 
 ## Quick Navigation
 
@@ -94,8 +94,7 @@ Browse by category, then drill down to specific subcategories:
 - [Channels](Concurrency/Channels.md) - 2 libraries
 - [Coroutines](Concurrency/Coroutines.md) - 1 library
 - [Distributed-Computing](Concurrency/Distributed-Computing.md) - 4 libraries
-- [Event-Loop](Concurrency/Event-Loop.md) - 3 libraries
-- [Event-Loops](Concurrency/Event-Loops.md) - 1 library
+- [Event-Loop](Concurrency/Event-Loop.md) - 4 libraries
 - [Events](Concurrency/Events.md) - 4 libraries
 - [Futures](Concurrency/Futures.md) - 2 libraries
 - [Green-Threads](Concurrency/Green-Threads.md) - 1 library
@@ -196,12 +195,6 @@ Browse by category, then drill down to specific subcategories:
 - [SQLite](Database/SQLite.md) - 1 library
 - [Search](Database/Search.md) - 2 libraries
 - [Time-Series](Database/Time-Series.md) - 1 library
-
-### [Date-Time](Date-Time/README.md) (3 libraries)
-
-- [Chinese-Calendar](Date-Time/Chinese-Calendar.md) - 1 library
-- [Parsing](Date-Time/Parsing.md) - 1 library
-- [Utilities](Date-Time/Utilities.md) - 1 library
 
 ### [Development](Development/README.md) (41 libraries)
 
@@ -438,7 +431,7 @@ Browse by category, then drill down to specific subcategories:
 - [Utilities](Meta-Programming/Utilities.md) - 1 library
 - [Variables](Meta-Programming/Variables.md) - 1 library
 
-### [Networking](Networking/README.md) (60 libraries)
+### [Networking](Networking/README.md) (58 libraries)
 
 - [BitTorrent](Networking/BitTorrent.md) - 1 library
 - [Caching](Networking/Caching.md) - 1 library
@@ -447,7 +440,6 @@ Browse by category, then drill down to specific subcategories:
 - [Erlang](Networking/Erlang.md) - 1 library
 - [FTP](Networking/FTP.md) - 2 libraries
 - [Geolocation](Networking/Geolocation.md) - 1 library
-- [HTTP-Client](Networking/HTTP-Client.md) - 2 libraries
 - [HTTP-Parsing](Networking/HTTP-Parsing.md) - 2 libraries
 - [HTTP2](Networking/HTTP2.md) - 3 libraries
 - [IO](Networking/IO.md) - 2 libraries
@@ -651,15 +643,15 @@ Browse by category, then drill down to specific subcategories:
 - [Terminal](Text/Terminal.md) - 2 libraries
 - [Unicode](Text/Unicode.md) - 4 libraries
 
-### [Time](Time/README.md) (17 libraries)
+### [Time](Time/README.md) (20 libraries)
 
 - [Calculations](Time/Calculations.md) - 2 libraries
-- [Calendars](Time/Calendars.md) - 3 libraries
-- [Core](Time/Core.md) - 4 libraries
+- [Calendars](Time/Calendars.md) - 4 libraries
+- [Core](Time/Core.md) - 5 libraries
 - [Duration](Time/Duration.md) - 1 library
 - [Formatting](Time/Formatting.md) - 3 libraries
 - [Intervals](Time/Intervals.md) - 1 library
-- [Parsing](Time/Parsing.md) - 3 libraries
+- [Parsing](Time/Parsing.md) - 4 libraries
 
 ### [Utilities](Utilities/README.md) (126 libraries)
 
@@ -706,7 +698,7 @@ Browse by category, then drill down to specific subcategories:
 
 - [Git](Version-Control/Git.md) - 1 library
 
-### [Web](Web/README.md) (235 libraries)
+### [Web](Web/README.md) (237 libraries)
 
 - [AJAX](Web/AJAX.md) - 1 library
 - [API-Client](Web/API-Client.md) - 40 libraries
@@ -738,7 +730,7 @@ Browse by category, then drill down to specific subcategories:
 - [Google-APIs](Web/Google-APIs.md) - 1 library
 - [HTML](Web/HTML.md) - 1 library
 - [HTML-Generation](Web/HTML-Generation.md) - 13 libraries
-- [HTTP-Client](Web/HTTP-Client.md) - 8 libraries
+- [HTTP-Client](Web/HTTP-Client.md) - 10 libraries
 - [JavaScript-Integration](Web/JavaScript-Integration.md) - 2 libraries
 - [MIME](Web/MIME.md) - 3 libraries
 - [Middleware](Web/Middleware.md) - 10 libraries

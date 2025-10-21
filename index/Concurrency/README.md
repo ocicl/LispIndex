@@ -1,6 +1,6 @@
 # Concurrency Libraries
 
-This category contains 20 subcategories with 43 total libraries.
+This category contains 19 subcategories with 43 total libraries.
 
 ## Subcategories
 
@@ -9,8 +9,7 @@ This category contains 20 subcategories with 43 total libraries.
 - [Channels](Channels.md) (2 libraries)
 - [Coroutines](Coroutines.md) (1 library)
 - [Distributed-Computing](Distributed-Computing.md) (4 libraries)
-- [Event-Loop](Event-Loop.md) (3 libraries)
-- [Event-Loops](Event-Loops.md) (1 library)
+- [Event-Loop](Event-Loop.md) (4 libraries)
 - [Events](Events.md) (4 libraries)
 - [Futures](Futures.md) (2 libraries)
 - [Green-Threads](Green-Threads.md) (1 library)
